@@ -527,7 +527,6 @@ for packetIndex,dataPacket in enumerate(cap):
         if 'TCP' in dataPacket:
             try:
                 if (len(dataPacket.tcp.payload) > 0): 
-                    f.write(f"|-|**Start of Packet #{packetIndex}**|\n")
                     print(f"[{packetIndex+1}]", end='\t')
                     if (dataPacket.tcp.port == clientPort):
                         PrintBold("CLIENT")
@@ -541,6 +540,7 @@ for packetIndex,dataPacket in enumerate(cap):
                     hex_payload = dataPacket.tcp.payload.replace(':', '')
                     # Convert hex string to byte array
                     packet = bytes.fromhex(hex_payload)
+                    f.write(f"|-|-|**Start of Packet #{packetIndex}** [Size: {len(packet)}]|\n")
                     ReadPacket()
                     # Wait a bit
                     #input()
