@@ -4,19 +4,21 @@ import pyshark
 import struct
 from enum import Enum
 from pathlib import Path
+import pyshark
+import traceback
 
 packet = None
 i = 0
 faulty = False
 
-capturePath = 'example/capture.pcapng'
+capturePath = 'example/gameplay.pcapng'
 f = open(Path(capturePath).stem + ".md", "w")
 f.write(f"| Sender | Packet | Data |\n")
 f.write(f"| --- | --- | --- |\n")
 
-class Sender(Enum):
-    Server = 0
-    Client = 1
+server = "SERVER"
+
+sender = server
 
 class Packet(Enum):
     KeepAlive = 0x00
@@ -180,6 +182,7 @@ def PrintBold(text, end='\n'):
 
 def ReadPacket():
     global i
+    global sender
     while(i < len(packet)):
         # Store the PacketId
         packetId = packet[i]
@@ -190,12 +193,12 @@ def ReadPacket():
         if packetId in Packet._value2member_map_:
             packetEnum = Packet._value2member_map_[packetId]
             print(f"\t{packetEnum.name} (0x{packetEnum.value:02X})")
-            f.write(f"| {origin.name} | {packetEnum.name} (0x{packetEnum.value:02X}) | ")
+            f.write(f"| {sender} | {packetEnum.name} (0x{packetEnum.value:02X}) | ")
             match(packetEnum):
                 case Packet.KeepAlive:
                     pass
                 case Packet.LoginRequest:
-                    if (origin == Sender.Client):
+                    if (sender != server):
                         PrintInteger("Protocol")
                         PrintString16("Username")
                         PrintLong("Seed")
@@ -206,7 +209,7 @@ def ReadPacket():
                         PrintLong("Seed")
                         PrintByte("Dimension")
                 case Packet.Handshake:
-                    if (origin == Sender.Client):
+                    if (sender != server):
                         PrintString16("Username")
                     else:
                         PrintString16("Connection Hash")
@@ -244,7 +247,7 @@ def ReadPacket():
                     PrintFloat("Pitch")
                     PrintBoolean("OnGround")
                 case Packet.PlayerPositionLook:
-                    if (origin == Sender.Client):
+                    if (sender != server):
                         PrintDouble("x")
                         PrintDouble("y")
                         PrintDouble("stance")
@@ -382,6 +385,29 @@ def ReadPacket():
                     PrintByte("Status")
                 case Packet.EntityMetadata:
                     PrintInteger("EID")
+                    latestByte = ReadByte()
+                    while(latestByte != 127):
+                        selector = latestByte >> 5
+                        match(selector):
+                            case 0:
+                                PrintByte("Byte")
+                            case 1:
+                                PrintShort("Shrt")
+                            case 2:
+                                PrintInteger("Int")
+                            case 3:
+                                PrintFloat("Flt")
+                            case 4:
+                                PrintString16("Str")
+                            case 5:
+                                PrintShort("Item")
+                                PrintByte("Amount")
+                                PrintShort("Damage")
+                            case 6:
+                                PrintInteger("Int1")
+                                PrintInteger("Int2")
+                                PrintInteger("Int3")
+                        latestByte = ReadByte()
                     # TODO: implement mob metadata stream
                 case Packet.PreChunk:
                     PrintInteger("x")
@@ -509,9 +535,6 @@ def ReadPacket():
     else:
         i = 0
 
-import pyshark
-
-clientPort = "54862"
 serverPort = "25565"
 
 cap = pyshark.FileCapture(capturePath)
@@ -526,24 +549,27 @@ for packetIndex,dataPacket in enumerate(cap):
         # You can also print the TCP or UDP payload (this will exclude Ethernet header)
         if 'TCP' in dataPacket:
             try:
-                if (len(dataPacket.tcp.payload) > 0): 
-                    print(f"[{packetIndex+1}]", end='\t')
-                    if (dataPacket.tcp.port == clientPort):
-                        PrintBold("CLIENT")
-                        origin = Sender.Client
-                    elif (dataPacket.tcp.port == serverPort):
-                        PrintBold("SERVER")
-                        origin = Sender.Server
-                    else:
-                        print(f"{dataPacket.tcp.port}: ")
-                        origin = Sender.Client
-                    hex_payload = dataPacket.tcp.payload.replace(':', '')
-                    # Convert hex string to byte array
-                    packet = bytes.fromhex(hex_payload)
-                    f.write(f"|-|-|**Start of Packet #{packetIndex}** [Size: {len(packet)}]|\n")
-                    ReadPacket()
-                    # Wait a bit
-                    #input()
-            except:
+                if hasattr(dataPacket, "tcp") and hasattr(dataPacket.tcp, "payload") and dataPacket.tcp.payload:
+                    if (len(dataPacket.tcp.payload) > 0): 
+                        if (dataPacket.tcp.port == serverPort):
+                            PrintBold(f"{server} ({serverPort})")
+                            sender = server
+                        else:
+                            PrintBold(f"CLIENT ({dataPacket.tcp.port})")
+                            sender = dataPacket.tcp.port
+                        hex_payload = dataPacket.tcp.payload.replace(':', '')
+                        # Convert hex string to byte array
+                        packet = bytes.fromhex(hex_payload)
+                        #packet = list(byte_packet)
+                        #print(dataPacket.tcp.payload)
+                        #print(packet)
+                        print(f"[{packetIndex+1}]", end='\t')
+                        f.write(f"|-|-|**Start of Packet #{packetIndex+1}** [Size: {len(packet)}]|\n")
+                        ReadPacket()
+                        # Wait a bit
+                        #input()
+            except Exception as e:
+                print(f"Exception occurred: {e}")
+                traceback.print_exc()
                 pass
 f.close()
