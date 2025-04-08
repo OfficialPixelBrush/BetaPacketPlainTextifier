@@ -1,5 +1,5 @@
 # Packet Plaintext-ifier
-import base64
+import argparse
 import pyshark
 import struct
 from enum import Enum
@@ -7,12 +7,40 @@ from pathlib import Path
 import pyshark
 import traceback
 
+parser = argparse.ArgumentParser(
+                    prog='BetaPacketPlainTextifier',
+                    description='A simple python script to simplify the decoding and reading of TCP Data sent by a Minecraft Beta 1.7.3 Server.'
+                    )
+
+# Input Filename
+parser.add_argument('-i', '--input', help='Input Capture File (.pcapng)')
+# Output Filename
+parser.add_argument('-o', '--output', help='Output Markdown File (.md)')
+# Output to the CLI
+parser.add_argument('-v', '--verbose',
+                    action='store_true',
+                    help="Print what the script is up to to the terminal")
+# Output errors
+parser.add_argument('-e', '--errors',
+                    action='store_true',
+                    help="Print Exceptions instead of ignoring them")
+
+args = parser.parse_args()
+
 packet = None
 i = 0
 faulty = False
 
 capturePath = 'example/gameplay.pcapng'
-f = open(Path(capturePath).stem + ".md", "w")
+
+if (args.input is not None):
+    capturePath = args.input
+
+outputPath = Path(capturePath).stem + ".md"
+if (args.output is not None):
+    outputPath = args.output
+
+f = open(outputPath, "w")
 f.write(f"| Sender | Packet | Data |\n")
 f.write(f"| --- | --- | --- |\n")
 
@@ -174,25 +202,34 @@ def PrintInventory():
             PrintByte("Damage")
 
 def PrintProperty(name, t, content):
-    print(f"\t`--({t}) {name}: {content}")
+    if (args.verbose):
+        print(f"\t`--({t}) {name}: {content}")
     f.write(f"{name}={content}; ")
 
 def PrintBold(text, end='\n'):
-    print(f"\033[1m{text}\033[0m",end=end)
+    if (args.verbose):
+        print(f"\033[1m{text}\033[0m",end=end)
 
 def ReadPacket():
     global i
     global sender
     while(i < len(packet)):
         # Store the PacketId
-        packetId = packet[i]
+        if (i > len(packet) or i < 0):
+            break
+        try:
+            packetId = packet[i]
+        except:
+            # ignore
+            print('',end="")
 
         # Move to actual Data
         i += 1
 
         if packetId in Packet._value2member_map_:
             packetEnum = Packet._value2member_map_[packetId]
-            print(f"\t{packetEnum.name} (0x{packetEnum.value:02X})")
+            if (args.verbose):
+                print(f"\t{packetEnum.name} (0x{packetEnum.value:02X})")
             f.write(f"| {sender} | {packetEnum.name} (0x{packetEnum.value:02X}) | ")
             match(packetEnum):
                 case Packet.KeepAlive:
@@ -527,11 +564,13 @@ def ReadPacket():
                     pass
             f.write(f"|\n")
         else:
-            print(f"UNHANDLED (0x{packetId:02X}), FOLLOWING BYTES MAY BE DESYNCED")
-            f.write(f"| {origin.name} | UNEXPECTED | 0x{packetId:02X} | \n")
+            if (args.verbose):
+                print(f"UNHANDLED (0x{packetId:02X}), FOLLOWING BYTES MAY BE DESYNCED")
+            f.write(f"| {sender} | UNEXPECTED | 0x{packetId:02X} | \n")
     if (i > len(packet)):
         i = i%len(packet)
-        print(f"--- Packet exceeds bounds, continuing in next packet at 0x{i:04X} ---")
+        if (args.verbose):
+            print(f"--- Packet exceeds bounds, continuing in next packet at 0x{i:04X} ---")
     else:
         i = 0
 
@@ -552,10 +591,12 @@ for packetIndex,dataPacket in enumerate(cap):
                 if hasattr(dataPacket, "tcp") and hasattr(dataPacket.tcp, "payload") and dataPacket.tcp.payload:
                     if (len(dataPacket.tcp.payload) > 0): 
                         if (dataPacket.tcp.port == serverPort):
-                            PrintBold(f"{server} ({serverPort})")
+                            if (args.verbose):
+                                PrintBold(f"{server} ({serverPort})")
                             sender = server
                         else:
-                            PrintBold(f"CLIENT ({dataPacket.tcp.port})")
+                            if (args.verbose):
+                                PrintBold(f"CLIENT ({dataPacket.tcp.port})")
                             sender = dataPacket.tcp.port
                         hex_payload = dataPacket.tcp.payload.replace(':', '')
                         # Convert hex string to byte array
@@ -563,13 +604,15 @@ for packetIndex,dataPacket in enumerate(cap):
                         #packet = list(byte_packet)
                         #print(dataPacket.tcp.payload)
                         #print(packet)
-                        print(f"[{packetIndex+1}]", end='\t')
+                        if (args.verbose):
+                            print(f"[{packetIndex+1}]", end='\t')
                         f.write(f"|-|-|**Start of Packet #{packetIndex+1}** [Size: {len(packet)}]|\n")
                         ReadPacket()
                         # Wait a bit
                         #input()
             except Exception as e:
-                print(f"Exception occurred: {e}")
-                traceback.print_exc()
+                if (args.errors):
+                    print(f"Exception occurred: {e}")
+                    traceback.print_exc()
                 pass
 f.close()

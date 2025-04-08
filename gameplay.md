@@ -65,83 +65,101 @@
 | SERVER | Disconnect (0xFF) | Message=""; |
 | SERVER | Disconnect (0xFF) | |-|-|**Start of Packet #12** [Size: 42]|
 |-|-|**Start of Packet #14** [Size: 2684]|
-|-|-|**Start of Packet #16** [Size: 42]|
-| 40490 | KeepAlive (0x00) | |
+| SERVER | UNEXPECTED | 0x7F | 
+| SERVER | PlayerBlockPlacement (0x0F) | x=2663; y=120; z=-1662149171; Face=145; Item=-9162; |
+| SERVER | HoldingChange (0x10) | Slot=-31479; |
+| SERVER | UNEXPECTED | 0xB3 | 
+| SERVER | UNEXPECTED | 0xCA | 
+| SERVER | UNEXPECTED | 0x2C | 
+| SERVER | UNEXPECTED | 0x79 | 
+| SERVER | UNEXPECTED | 0x8A | 
+| SERVER | UNEXPECTED | 0x1A | 
+| SERVER | UNEXPECTED | 0x5E | 
+| SERVER | BlockAction (0x36) | x=96940261; y=12; z=344544240; Meta #1=209; Meta #2=87; |
+| SERVER | UNEXPECTED | 0xA5 | 
+| SERVER | UNEXPECTED | 0xE0 | 
+| SERVER | UNEXPECTED | 0x93 | 
+| SERVER | UNEXPECTED | 0xEF | 
+| SERVER | UNEXPECTED | 0x4E | 
+| SERVER | UNEXPECTED | 0xC1 | 
+| SERVER | UseEntity (0x07) | EID (Sender)=669002343; EID (Target)=577052915; Left-Click=103; |
+| SERVER | UNEXPECTED | 0x48 | 
+| SERVER | UNEXPECTED | 0xE2 | 
+| SERVER | UNEXPECTED | 0xA7 | 
+| SERVER | StanceUpdate (0x1B) | ?=5.1028744997946547e-36; ?=-5.549694818279827e-14; ?=-2.1070458866630656e+16; ?=7.152947887334449e-07; ?=9; ?=98; |
+| SERVER | Thunderbolt (0x47) | EID=1305720422; ?=175; x=-1167131206; y=-285916299; z=1485662618; |
+| SERVER | HoldingChange (0x10) | Slot=-20335; |
+| SERVER | UNEXPECTED | 0x93 | 
+| SERVER | EntityStatus (0x26) | EID=-540967134; Status=249; |
+| SERVER | UNEXPECTED | 0x41 | 
+| SERVER | BlockAction (0x36) | x=-1157876351; y=79; z=243245508; Meta #1=70; Meta #2=163; |
+| SERVER | UNEXPECTED | 0xEB | 
+| SERVER | OpenWindow (0x64) | Window=9; Inventory=52; |-|-|**Start of Packet #16** [Size: 42]|
 |-|-|**Start of Packet #18** [Size: 42]|
+| 40490 | UNEXPECTED | 0xDB | 
+| 40490 | UNEXPECTED | 0x97 | 
+| 40490 | UNEXPECTED | 0x8D | 
+| 40490 | KeepAlive (0x00) | |
 |-|-|**Start of Packet #20** [Size: 2477]|
+| SERVER | Chunk (0x33) | x=32; y=0; x=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2459; Compressed Data=(Not included); |
 |-|-|**Start of Packet #22** [Size: 42]|
+| 40490 | PlayerPositionLook (0x0D) | x=20.50608675927705; y=70.76636799395752; stance=72.38636799872589; z=-9.043591388595463; Yaw=121.96266174316406; Pitch=27.898998260498047; OnGround=0; |
 |-|-|**Start of Packet #23** [Size: 2778]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
+| SERVER | PlayerPositionLook (0x0D) | x=20.50608675927705; stance=72.62000000476837; y=71.0; z=-9.043591388595463; Yaw=121.06265258789062; Pitch=27.448999404907227; OnGround=0; |
+| SERVER | Chunk (0x33) | x=32; y=0; x=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2718; Compressed Data=(Not included); |
 |-|-|**Start of Packet #25** [Size: 42]|
-| 40490 | EntityTeleport (0x22) | EID=374447176; x=-818265354; y=1397375467; |-|-|**Start of Packet #26** [Size: 9]|
+| 40490 | PlayerPositionLook (0x0D) | x=20.50608675927705; y=70.53584062504456; stance=72.15584062981293; z=-9.043591388595463; Yaw=123.16267395019531; Pitch=29.39899444580078; OnGround=0; |
+|-|-|**Start of Packet #26** [Size: 9]|
+| SERVER | TimeUpdate (0x04) | Time=240358; |
 |-|-|**Start of Packet #28** [Size: 84]|
-| 40490 | UpdateHealth (0x08) | Health=-26816; |
+| 40490 | PlayerPositionLook (0x0D) | x=20.50608675927705; y=70.23152379758702; stance=71.85152380235539; z=-9.043591388595463; Yaw=123.46267700195312; Pitch=29.698993682861328; OnGround=0; |
+| 40490 | PlayerPositionLook (0x0D) | x=20.50608675927705; y=71.0; stance=72.62000000476837; z=-9.043591388595463; Yaw=121.06265258789062; Pitch=27.448999404907227; OnGround=0; |
 |-|-|**Start of Packet #30** [Size: 42]|
+| 40490 | PlayerPositionLook (0x0D) | x=20.50608675927705; y=71.0; stance=72.62000000476837; z=-9.043591388595463; Yaw=121.06265258789062; Pitch=27.448999404907227; OnGround=0; |
 |-|-|**Start of Packet #32** [Size: 2883]|
+| SERVER | Chunk (0x33) | x=16; y=0; x=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2865; Compressed Data=(Not included); |
 |-|-|**Start of Packet #34** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #35** [Size: 2296]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | PlayerBlockPlacement (0x0F) | x=2131689472; y=8; z=-428303123; Face=157; Item=19858; Amount=220; Damage=-18926; |
+| SERVER | Chunk (0x33) | x=0; y=0; x=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2278; Compressed Data=(Not included); |
 |-|-|**Start of Packet #37** [Size: 10]|
+| 40490 | PlayerLook (0x0C) | Yaw=118.66263580322266; Pitch=25.949003219604492; OnGround=1; |
 |-|-|**Start of Packet #38** [Size: 2411]|
-| SERVER | Disconnect (0xFF) | Message=""; |
-| SERVER | PlayerBlockPlacement (0x0F) | x=2131689472; y=9; z=1501076717; Face=157; Item=23474; Amount=164; Damage=-18926; |
+| SERVER | Chunk (0x33) | x=0; y=0; x=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2393; Compressed Data=(Not included); |
 |-|-|**Start of Packet #40** [Size: 10]|
+| 40490 | PlayerLook (0x0C) | Yaw=114.01263427734375; Pitch=23.999006271362305; OnGround=1; |
 |-|-|**Start of Packet #41** [Size: 2984]|
-| SERVER | Disconnect (0xFF) | Message=""; |
-| SERVER | PlayerBlockPlacement (0x0F) | x=2131689472; y=11; z=-1770480403; Face=93; Item=-17522; |
+| SERVER | Chunk (0x33) | x=0; y=0; x=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2966; Compressed Data=(Not included); |
 |-|-|**Start of Packet #43** [Size: 10]|
+| 40490 | PlayerLook (0x0C) | Yaw=112.21263122558594; Pitch=23.39900779724121; OnGround=1; |
 |-|-|**Start of Packet #44** [Size: 2848]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | Disconnect (0xFF) | Message=""; |
+| SERVER | Chunk (0x33) | x=16; y=0; x=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2830; Compressed Data=(Not included); |
 |-|-|**Start of Packet #46** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #47** [Size: 2593]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | EntityLook (0x20) | EID=65535; Yaw=255; Pitch=224; |
-| SERVER | PlayerBlockPlacement (0x0F) | x=2131689472; y=10; z=259562733; Face=157; Item=-16999; |
+| SERVER | Chunk (0x33) | x=32; y=0; x=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2575; Compressed Data=(Not included); |
 |-|-|**Start of Packet #49** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #50** [Size: 2566]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
+| SERVER | Chunk (0x33) | x=48; y=0; x=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2548; Compressed Data=(Not included); |
 |-|-|**Start of Packet #52** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #53** [Size: 2091]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
+| SERVER | Chunk (0x33) | x=48; y=0; x=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2073; Compressed Data=(Not included); |
 |-|-|**Start of Packet #55** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #56** [Size: 2804]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
+| SERVER | Chunk (0x33) | x=48; y=0; x=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2786; Compressed Data=(Not included); |
 |-|-|**Start of Packet #58** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #59** [Size: 2699]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
+| SERVER | Chunk (0x33) | x=48; y=0; x=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2681; Compressed Data=(Not included); |
 |-|-|**Start of Packet #61** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #62** [Size: 2771]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | EntityLook (0x20) | EID=0; Yaw=0; Pitch=16; |
-| SERVER | PlayerBlockPlacement (0x0F) | x=2131689472; y=10; z=-1049060115; Face=157; Item=19858; Amount=219; Damage=13840; |
+| SERVER | Chunk (0x33) | x=32; y=0; x=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2753; Compressed Data=(Not included); |
 |-|-|**Start of Packet #64** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #65** [Size: 2805]|
 | SERVER | Chunk (0x33) | x=16; y=0; x=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2787; Compressed Data=(Not included); |
 |-|-|**Start of Packet #67** [Size: 2]|
@@ -207,14 +225,23 @@
 | SERVER | Chunk (0x33) | x=64; y=0; x=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2927; Compressed Data=(Not included); |
 |-|-|**Start of Packet #115** [Size: 2]|
 |-|-|**Start of Packet #116** [Size: 2927]|
+| SERVER | UNEXPECTED | 0x78 | 
+| SERVER | UNEXPECTED | 0x9C | 
+| SERVER | UNEXPECTED | 0xED | 
+| SERVER | UNEXPECTED | 0x9C | 
+| SERVER | UNEXPECTED | 0x4D | 
+| SERVER | UNEXPECTED | 0x92 | 
+| SERVER | UNEXPECTED | 0xE4 | 
+| SERVER | UNEXPECTED | 0xB6 | 
+| SERVER | UseBed (0x11) | EID=-2062968988; In Bed=90; x=-775531387; y=79; z=-536322719; |
+| SERVER | CollectItem (0x16) | EID (Collected)=1929407393; EID (Collector)=-1657286127; |
+| SERVER | MultiBlockChange (0x34) | x=1202761376; z=-1646805374; Array size=-20768; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
 |-|-|**Start of Packet #118** [Size: 2]|
-| 40490 | LoginRequest (0x01) | |-|-|**Start of Packet #119** [Size: 2658]|
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | KeepAlive (0x00) | |
-| SERVER | EntityLook (0x20) | EID=259985152; Yaw=0; Pitch=10; |
+| 40490 | Player (0x0A) | OnGround=1; |
+|-|-|**Start of Packet #119** [Size: 2658]|
+| SERVER | Chunk (0x33) | x=48; y=0; x=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2640; Compressed Data=(Not included); |
 |-|-|**Start of Packet #121** [Size: 2]|
+| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #122** [Size: 2832]|
 | SERVER | Chunk (0x33) | x=32; y=0; x=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2814; Compressed Data=(Not included); |
 |-|-|**Start of Packet #124** [Size: 2]|
@@ -235,23 +262,95 @@
 | SERVER | Chunk (0x33) | x=-32; y=0; x=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3152; Compressed Data=(Not included); |
 | SERVER | Chunk (0x33) | x=-32; y=0; x=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3601; Compressed Data=(Not included); |
 |-|-|**Start of Packet #138** [Size: 3601]|
-|-|-|**Start of Packet #140** [Size: 2]|
+| SERVER | UNEXPECTED | 0xDA | 
+| SERVER | UNEXPECTED | 0xAE | 
+| SERVER | UNEXPECTED | 0xFC | 
+| SERVER | UNEXPECTED | 0x96 | 
+| SERVER | UNEXPECTED | 0xFD | 
+| SERVER | UpdateSign (0x82) | x=-492879920; y=-6153; z=598896020; Line 1=""; |-|-|**Start of Packet #140** [Size: 2]|
 |-|-|**Start of Packet #142** [Size: 2]|
-| 40490 | Player (0x0A) | OnGround=1; |
-|-|-|**Start of Packet #144** [Size: 2422]|
-| SERVER | Chunk (0x33) | x=-32; y=0; x=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2386; Compressed Data=(Not included); |
-| SERVER | Chunk (0x33) | x=-32; y=0; x=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2908; Compressed Data=(Not included); |
-|-|-|**Start of Packet #149** [Size: 2]|
+| 40490 | LoginRequest (0x01) | |-|-|**Start of Packet #144** [Size: 2422]|
+| SERVER | KeepAlive (0x00) | |
+| SERVER | KeepAlive (0x00) | |
+| SERVER | KeepAlive (0x00) | |
+| SERVER | KeepAlive (0x00) | |
+| SERVER | KeepAlive (0x00) | |
+| SERVER | PlayerBlockPlacement (0x0F) | x=2131689472; y=9; z=1383636205; Face=157; Item=-8819; |
+| SERVER | UNEXPECTED | 0xDC | 
+| SERVER | BlockAction (0x36) | x=344270187; y=147; z=-922330773; Meta #1=96; Meta #2=192; |
+| SERVER | UNEXPECTED | 0x80 | 
+| SERVER | UNEXPECTED | 0xDF | 
+| SERVER | UNEXPECTED | 0xF2 | 
+| SERVER | HoldingChange (0x10) | Slot=8399; |
+| SERVER | UNEXPECTED | 0x7E | 
+| SERVER | UpdateHealth (0x08) | Health=-11711; |
+| SERVER | Entity (0x1E) | EID=-595567800; |
+| SERVER | PlayerPosition (0x0B) | x=2.629873166986107e+201; y=-2.626614768838119e+89; stance=-2.634131649835638e-184; z=2.2444601971237203e+247; OnGround=222; |
+| SERVER | UNEXPECTED | 0x5C | 
+| SERVER | UNEXPECTED | 0x7D | 
+| SERVER | UNEXPECTED | 0x24 | 
+| SERVER | UNEXPECTED | 0x45 | 
+| SERVER | UNEXPECTED | 0xF2 | 
+| SERVER | UNEXPECTED | 0x5C | 
+| SERVER | UNEXPECTED | 0x52 | 
+| SERVER | EntityVelocity (0x1C) | EID=-109823331; x Velocity=-9647; y Velocity=-4130; z Velocity=-19114; |
+| SERVER | Soundeffect (0x3D) | Sound=1572141483; x=-291313165; y=99; z=-747315829; Data=642590595; |
+| SERVER | UNEXPECTED | 0xEF | 
+| SERVER | UNEXPECTED | 0xD4 | 
+| SERVER | PlayerDigging (0x0E) | Status=127; x=767619705; y=226; z=-1082485308; Face=111; |
+| SERVER | UNEXPECTED | 0xFD | 
+| SERVER | EntityEquipment (0x05) | EID=-1865065317; Slot=-7227; Item=-27361; Damage=24320; |
+| SERVER | UNEXPECTED | 0xB3 | 
+| SERVER | UNEXPECTED | 0xFA | 
+| SERVER | UNEXPECTED | 0x9D | 
+| SERVER | UNEXPECTED | 0x59 | 
+| SERVER | UNEXPECTED | 0xA9 | 
+| SERVER | EntityMetadata (0x28) | EID=-839063550; Str=""; Int1=-1041446943; Int2=-18876207; Int3=-714119556; Item=-5548; Amount=231; Damage=29552; Byte=158; Shrt=-279; Byte=187; Int1=-1527095413; Int2=-802877568; Int3=1811364699; Flt=-2.8690181426163745e+19; Int=1246797599; Int=1401108467; Str=""; Int=25106815; Item=700; Amount=12; Damage=8048; Byte=62; |-|-|**Start of Packet #149** [Size: 2]|
 |-|-|**Start of Packet #150** [Size: 2908]|
+| SERVER | UNEXPECTED | 0x78 | 
+| SERVER | UNEXPECTED | 0x9C | 
+| SERVER | UNEXPECTED | 0xED | 
+| SERVER | UNEXPECTED | 0x5C | 
+| SERVER | UNEXPECTED | 0x5D | 
+| SERVER | UNEXPECTED | 0x8E | 
+| SERVER | UNEXPECTED | 0xDB | 
+| SERVER | BlockAction (0x36) | x=269921206; y=194; z=-1569657850; Meta #1=232; Meta #2=115; |
+| SERVER | UNEXPECTED | 0x8B | 
+| SERVER | UNEXPECTED | 0x9C | 
+| SERVER | UNEXPECTED | 0xA2 | 
+| SERVER | UNEXPECTED | 0x40 | 
+| SERVER | UNEXPECTED | 0x4F | 
+| SERVER | UNEXPECTED | 0x90 | 
+| SERVER | UNEXPECTED | 0xDB | 
+| SERVER | UNEXPECTED | 0xF5 | 
+| SERVER | BlockChange (0x35) | x=-1211563534; y=176; z=130548409; Type=64; Meta=130; |
+| SERVER | UNEXPECTED | 0x9E | 
+| SERVER | UNEXPECTED | 0xA0 | 
+| SERVER | UNEXPECTED | 0xAD | 
+| SERVER | UNEXPECTED | 0x25 | 
+| SERVER | UNEXPECTED | 0xEB | 
+| SERVER | UNEXPECTED | 0x87 | 
+| SERVER | UNEXPECTED | 0x3F | 
+| SERVER | Chunk (0x33) | x=-460841111; y=18155; x=-115436963; sizeX=123; sizeY=71; sizeZ=223; Compressed Size=214294839; Compressed Data=(Not included); |
 |-|-|**Start of Packet #152** [Size: 15]|
-| 46204 | KeepAlive (0x00) | |
-| 46204 | SpawnPosition (0x06) | x=4391009; y=7143525; z=7471201; |
 |-|-|**Start of Packet #154** [Size: 2]|
-| 40490 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #155** [Size: 2579]|
-| SERVER | Chunk (0x33) | x=-32; y=0; x=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2561; Compressed Data=(Not included); |
-|-|-|**Start of Packet #157** [Size: 2]|
-| 40490 | Player (0x0A) | OnGround=1; |
+| SERVER | Disconnect (0xFF) | Message=""; |
+| SERVER | UNEXPECTED | 0xE0 | 
+| SERVER | KeepAlive (0x00) | |
+| SERVER | KeepAlive (0x00) | |
+| SERVER | Disconnect (0xFF) | Message=""; |
+| SERVER | UNEXPECTED | 0xE0 | 
+| SERVER | PlayerBlockPlacement (0x0F) | x=2131689472; y=10; z=24681709; Face=157; Item=19854; Amount=220; Damage=13840; |
+| SERVER | UNEXPECTED | 0x85 | 
+| SERVER | Thunderbolt (0x47) | EID=-784191264; ?=182; x=-1139171185; y=-500446090; z=1314922519; |
+| SERVER | UNEXPECTED | 0xCD | 
+| SERVER | BlockAction (0x36) | x=-1211560558; y=214; z=2140220554; Meta #1=100; Meta #2=215; |
+| SERVER | UNEXPECTED | 0xA3 | 
+| SERVER | UNEXPECTED | 0x98 | 
+| SERVER | UNEXPECTED | 0xB6 | 
+| SERVER | UNEXPECTED | 0xDF | 
+| SERVER | ChatMessage (0x03) | |-|-|**Start of Packet #157** [Size: 2]|
 |-|-|**Start of Packet #158** [Size: 5]|
 | SERVER | Handshake (0x02) | Connection Hash="-"; |
 |-|-|**Start of Packet #160** [Size: 1810]|
