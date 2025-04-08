@@ -10,14 +10,18 @@ cd BetaPacketPlainTextifier
 ```
 
 # Capturing
+If you're on Linux, you *may* need to run Wireshark with `sudo` to capture Localhost.
 ```bash
 sudo wireshark
 ```
-Reading via the Loopback Device, `Loopback:lo`, and using
+
+If your server is running locally, you need to read the data going through the Loopback Device, `Loopback:lo`. Use the following string to filter the packets.
 ```
 ip.addr ==  127.0.0.1 && tcp.port eq 25565
 ```
-as the filter seems to work quite well.
+This makes it so only packets going through the loopback device (`127.0.0.1`) are included, alongside any coming into or going out of port `25565`.
+
+Change these if you're either running your server externally or if you're hosting it on a different port.
 
 # Setup
 Some Linux Distributions will prevent you from installing dependencies such as `pyshark` directly via `pip`.
@@ -37,7 +41,7 @@ pip install -r requirements.txt
 ```
 
 # Running
-Running this script should be as easy as running the script.
+The script can be run as is.
 ```bash
 python3 ./BetaPacketPlainTextifier.py
 ```
