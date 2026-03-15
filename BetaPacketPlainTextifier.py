@@ -1,17 +1,20 @@
 # Packet Plaintext-ifier
 import argparse
-import pyshark
 import struct
 from enum import Enum
 from pathlib import Path
-import pyshark
 import traceback
 
 parser = argparse.ArgumentParser(
                     prog='BetaPacketPlainTextifier',
                     description='A simple python script to simplify the decoding and reading of TCP Data sent by a Minecraft Beta 1.7.3 Server.'
                     )
-
+# Target Port
+parser.add_argument('-sip', '--source', help='Source IP Address to extract data from')
+# Target Port
+parser.add_argument('-dip', '--destination', help='Destination IP Address to extract data from')
+# Target Port
+parser.add_argument('-p', '--port', help='Port to extract data from')
 # Input Filename
 parser.add_argument('-i', '--input', help='Input Capture File (.pcapng)')
 # Output Filename
@@ -32,6 +35,18 @@ i = 0
 faulty = False
 
 capturePath = 'example/gameplay.pcapng'
+source_ip_address = '127.0.0.1'
+destination_ip_address = '127.0.0.1'
+server_port = '25565'
+
+if (args.source is not None):
+    source_ip_address = args.source
+
+if (args.destination is not None):
+    destination_ip_address = args.destination
+
+if (args.port is not None):
+    server_port = args.port
 
 if (args.input is not None):
     capturePath = args.input
@@ -56,26 +71,26 @@ class Packet(Enum):
     TimeUpdate = 0x04
     EntityEquipment = 0x05
     SpawnPosition = 0x06
-    UseEntity = 0x07
-    UpdateHealth = 0x08
+    ClickEntity = 0x07
+    SetHealth = 0x08
     Respawn = 0x09
     Player = 0x0A
     PlayerPosition = 0x0B
     PlayerLook = 0x0C
     PlayerPositionLook = 0x0D
-    PlayerDigging = 0x0E
-    PlayerBlockPlacement = 0x0F
-    HoldingChange = 0x10
+    Mine = 0x0E
+    Place = 0x0F
+    ActiveSlot = 0x10
     UseBed = 0x11
-    Animation = 0x12
+    PlayerAction = 0x12
     EntityAction = 0x13
-    NamedEntitySpawn = 0x14
-    PickupSpawn = 0x15
+    SpawnPlayerEntity = 0x14
+    SpawnItemEntity = 0x15
     CollectItem = 0x16
-    AddObjectVehicle = 0x17
-    MobSpawn = 0x18
-    EntityPainting = 0x19
-    StanceUpdate = 0x1B
+    SpawnObjectEntity = 0x17
+    SpawnMobEntity = 0x18
+    SpawnPaintingEntity = 0x19
+    PlayerMovement = 0x1B
     EntityVelocity = 0x1C
     DestroyEntity = 0x1D
     Entity = 0x1E
@@ -84,27 +99,27 @@ class Packet(Enum):
     EntityLookRelativeMove = 0x21
     EntityTeleport = 0x22
     EntityStatus = 0x26
-    AttachEntity = 0x27
+    MountEntity = 0x27
     EntityMetadata = 0x28
     PreChunk = 0x32
     Chunk = 0x33
-    MultiBlockChange = 0x34
-    BlockChange = 0x35
+    MultiBlockUpdate = 0x34
+    BlockUpdate = 0x35
     BlockAction = 0x36
     Explosion = 0x3C
-    Soundeffect = 0x3D
-    NewInvalidState = 0x46
-    Thunderbolt = 0x47
-    OpenWindow = 0x64
-    CloseWindow = 0x65
-    WindowClick = 0x66
-    SetSlot = 0x67
-    WindowItems = 0x68
-    UpdateProgressBar = 0x69
-    Transaction = 0x6A
+    Effect = 0x3D
+    GameState = 0x46
+    LightningBolt = 0x47
+    OpenInventory = 0x64
+    CloseInventory = 0x65
+    ClickInventorySlot = 0x66
+    SetInventorySlot = 0x67
+    InventoryContents = 0x68
+    FurnaceProgress = 0x69
+    InventoryTransaction = 0x6A
     UpdateSign = 0x82
-    MapData = 0x83
-    IncrementStatistic = 0xC8
+    ItemData = 0x83
+    Statistic = 0xC8
     Disconnect = 0xFF
 
 def ReadByte():
@@ -202,6 +217,8 @@ def PrintInventory():
             PrintByte("Damage")
 
 def PrintProperty(name, t, content):
+    if isinstance(content, float):
+        content = f"{content:.2f}"
     if (args.verbose):
         print(f"\t`--({t}) {name}: {content}")
     f.write(f"{name}={content}; ")
@@ -263,11 +280,11 @@ def ReadPacket():
                     PrintInteger("x")
                     PrintInteger("y")
                     PrintInteger("z")
-                case Packet.UseEntity:
+                case Packet.ClickEntity:
                     PrintInteger("EID (Sender)")
                     PrintInteger("EID (Target)")
                     PrintBoolean("Left-Click")
-                case Packet.UpdateHealth:
+                case Packet.SetHealth:
                     PrintShort("Health")
                 case Packet.Respawn:
                     PrintByte("Dimension")
@@ -276,7 +293,7 @@ def ReadPacket():
                 case Packet.PlayerPosition:
                     PrintDouble("x")
                     PrintDouble("y")
-                    PrintDouble("stance")
+                    PrintDouble("cameraY")
                     PrintDouble("z")
                     PrintBoolean("OnGround")
                 case Packet.PlayerLook:
@@ -287,26 +304,26 @@ def ReadPacket():
                     if (sender != server):
                         PrintDouble("x")
                         PrintDouble("y")
-                        PrintDouble("stance")
+                        PrintDouble("cameraY")
                         PrintDouble("z")
                         PrintFloat("Yaw")
                         PrintFloat("Pitch")
                         PrintBoolean("OnGround")
                     else:
                         PrintDouble("x")
-                        PrintDouble("stance")
+                        PrintDouble("cameraY")
                         PrintDouble("y")
                         PrintDouble("z")
                         PrintFloat("Yaw")
                         PrintFloat("Pitch")
                         PrintBoolean("OnGround")
-                case Packet.PlayerDigging:
+                case Packet.Mine:
                     PrintByte("Status")
                     PrintInteger("x")
                     PrintByte("y")
                     PrintInteger("z")
                     PrintByte("Face")
-                case Packet.PlayerBlockPlacement:
+                case Packet.Place:
                     PrintInteger("x")
                     PrintByte("y")
                     PrintInteger("z")
@@ -315,7 +332,7 @@ def ReadPacket():
                     if (item > -1):
                         PrintByte("Amount")
                         PrintShort("Damage")
-                case Packet.HoldingChange:
+                case Packet.ActiveSlot:
                     PrintShort("Slot")
                 case Packet.UseBed:
                     PrintInteger("EID")
@@ -323,13 +340,13 @@ def ReadPacket():
                     PrintInteger("x")
                     PrintByte("y")
                     PrintInteger("z")
-                case Packet.Animation:
+                case Packet.PlayerAction:
                     PrintInteger("EID")
-                    PrintByte("Animation")
+                    PrintByte("PlayerAction")
                 case Packet.EntityAction:
                     PrintInteger("EID")
                     PrintByte("Action")
-                case Packet.NamedEntitySpawn:
+                case Packet.SpawnPlayerEntity:
                     PrintInteger("EID")
                     PrintString16("Username")
                     PrintInteger("x")
@@ -338,7 +355,7 @@ def ReadPacket():
                     PrintByte("Yaw")
                     PrintByte("Pitch")
                     PrintShort("Held Item")
-                case Packet.PickupSpawn:
+                case Packet.SpawnItemEntity:
                     PrintInteger("EID")
                     PrintShort("Item")
                     PrintByte("Amount")
@@ -352,7 +369,7 @@ def ReadPacket():
                 case Packet.CollectItem:
                     PrintInteger("EID (Collected)")
                     PrintInteger("EID (Collector)")
-                case Packet.AddObjectVehicle:
+                case Packet.SpawnObjectEntity:
                     PrintInteger("EID")
                     PrintByte("Type")
                     PrintInteger("x")
@@ -362,7 +379,7 @@ def ReadPacket():
                     PrintShort("x?")
                     PrintShort("y?")
                     PrintShort("z?")
-                case Packet.MobSpawn:
+                case Packet.SpawnMobEntity:
                     PrintInteger("EID")
                     PrintByte("Type")
                     PrintInteger("x")
@@ -371,20 +388,20 @@ def ReadPacket():
                     PrintByte("Yaw")
                     PrintByte("Pitch")
                     # TODO: implement mob metadata stream
-                case Packet.EntityPainting:
+                case Packet.SpawnPaintingEntity:
                     PrintInteger("EID")
                     PrintString16("Title")
                     PrintInteger("x")
                     PrintInteger("y")
                     PrintInteger("z")
                     PrintInteger("Face")
-                case Packet.StanceUpdate:
-                    PrintFloat("?")
-                    PrintFloat("?")
-                    PrintFloat("?")
-                    PrintFloat("?")
-                    PrintBoolean("?")
-                    PrintBoolean("?")
+                case Packet.PlayerMovement:
+                    PrintFloat("StrafeDir")
+                    PrintFloat("ForwardDir")
+                    PrintFloat("Pitch")
+                    PrintFloat("Yaw")
+                    PrintBoolean("Jumping")
+                    PrintBoolean("Sneakin")
                 case Packet.EntityVelocity:
                     PrintInteger("EID")
                     PrintShort("x Velocity")
@@ -460,7 +477,7 @@ def ReadPacket():
                     size = PrintInteger("Compressed Size")
                     PrintProperty("Compressed Data","Byte[]","(Not included)")
                     i+=size
-                case Packet.MultiBlockChange:
+                case Packet.MultiBlockUpdate:
                     PrintInteger("x")
                     PrintInteger("z")
                     size = PrintShort("Array size")
@@ -470,7 +487,7 @@ def ReadPacket():
                     i+=size
                     PrintProperty("Metadata","Byte[]","(Not included)")
                     i+=size
-                case Packet.BlockChange:
+                case Packet.BlockUpdate:
                     PrintInteger("x")
                     PrintByte("y")
                     PrintInteger("z")
@@ -490,30 +507,30 @@ def ReadPacket():
                     # This one is documented poorly
                     count = PrintInteger("Count")
                     i+= count*3
-                case Packet.Soundeffect:
+                case Packet.Effect:
                     PrintInteger("Sound")
                     PrintInteger("x")
                     PrintByte("y")
                     PrintInteger("z")
                     PrintInteger("Data")
-                case Packet.NewInvalidState:
+                case Packet.GameState:
                     # Apparently responsible for giving
                     # you the reason why you can't sleep.
                     PrintByte("Reason")
-                case Packet.Thunderbolt:
+                case Packet.LightningBolt:
                     PrintInteger("EID")
                     PrintBoolean("?")
                     PrintInteger("x")
                     PrintInteger("y")
                     PrintInteger("z")
-                case Packet.OpenWindow:
+                case Packet.OpenInventory:
                     PrintByte("Window")
                     PrintByte("Inventory")
                     PrintString8("Title")
                     PrintByte("# of Slots")
-                case Packet.CloseWindow:
+                case Packet.CloseInventory:
                     PrintByte("Window")
-                case Packet.WindowClick:
+                case Packet.ClickInventorySlot:
                     PrintByte("Window")
                     PrintShort("Slot")
                     PrintByte("Right-click")
@@ -523,21 +540,21 @@ def ReadPacket():
                     if (item > -1):
                         PrintShort("Amount")
                         PrintShort("Damage")
-                case Packet.SetSlot:
+                case Packet.SetInventorySlot:
                     PrintByte("Window")
                     slot = PrintShort("Slot")
                     itemId = PrintShort(f"[{slot}] Item")
                     if (itemId > -1):
                         PrintByte("Amount")
                         PrintShort("Damage")
-                case Packet.WindowItems:
+                case Packet.InventoryContents:
                     PrintByte("Window")
                     PrintInventory()
-                case Packet.UpdateProgressBar:
+                case Packet.FurnaceProgress:
                     PrintByte("Window")
                     PrintShort("Bar")
                     PrintShort("Progress")
-                case Packet.Transaction:
+                case Packet.InventoryTransaction:
                     PrintByte("Window")
                     PrintShort("Action number")
                     PrintBoolean("Accepted")
@@ -549,13 +566,13 @@ def ReadPacket():
                     PrintString16("Line 2")
                     PrintString16("Line 3")
                     PrintString16("Line 4")
-                case Packet.MapData:
+                case Packet.ItemData:
                     PrintShort("?")
                     PrintShort("?")
                     length = PrintByte("Length")
                     # TODO: Handle this weird text?
                     i+=length
-                case Packet.IncrementStatistic:
+                case Packet.Statistic:
                     PrintInteger("Statistic")
                     PrintByte("Amount")
                 case Packet.Disconnect:
@@ -574,13 +591,17 @@ def ReadPacket():
     else:
         i = 0
 
-serverPort = "25565"
+import asyncio
+import pyshark
 
-cap = pyshark.FileCapture(capturePath)
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
+
+cap = pyshark.FileCapture(capturePath, eventloop=loop)
 
 # Iterate over the packets and filter for packets with source/destination IP 127.0.0.1
 for packetIndex,dataPacket in enumerate(cap):
-    if 'IP' in dataPacket and (dataPacket.ip.src == '127.0.0.1' or dataPacket.ip.dst == '127.0.0.1'):
+    if 'IP' in dataPacket and (dataPacket.ip.src == source_ip_address or dataPacket.ip.dst == destination_ip_address):
         # Print the data excluding the Ethernet header, which is part of layer 2
         # In PyShark, Ethernet headers are usually available as 'eth'
         #if hasattr(packet, 'ip'):
@@ -590,9 +611,9 @@ for packetIndex,dataPacket in enumerate(cap):
             try:
                 if hasattr(dataPacket, "tcp") and hasattr(dataPacket.tcp, "payload") and dataPacket.tcp.payload:
                     if (len(dataPacket.tcp.payload) > 0): 
-                        if (dataPacket.tcp.port == serverPort):
+                        if (dataPacket.tcp.port == server_port):
                             if (args.verbose):
-                                PrintBold(f"{server} ({serverPort})")
+                                PrintBold(f"{server} ({server_port})")
                             sender = server
                         else:
                             if (args.verbose):

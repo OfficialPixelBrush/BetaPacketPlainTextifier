@@ -236,24 +236,39 @@
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #194** [Size: 20]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
-| SERVER | BlockChange (0x35) | x=56; y=62; z=-25; Type=79; Meta=0; |
+| SERVER | BlockUpdate (0x35) | x=56; y=62; z=-25; Type=79; Meta=0; |
 |-|-|**Start of Packet #195** [Size: 12]|
-| SERVER | BlockChange (0x35) | x=56; y=62; z=-25; Type=79; Meta=0; |
+| SERVER | BlockUpdate (0x35) | x=56; y=62; z=-25; Type=79; Meta=0; |
 |-|-|**Start of Packet #196** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #197** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #198** [Size: 4]|
 | 37870 | LoginRequest (0x01) | |-|-|**Start of Packet #199** [Size: 1]|
 |-|-|**Start of Packet #201** [Size: 4]|
 | 57343 | EntityLookRelativeMove (0x21) | |-|-|**Start of Packet #203** [Size: 33]|
+| 57343 | UNEXPECTED | 0x8F | 
+| 57343 | UNEXPECTED | 0xDE | 
+| 57343 | Place (0x0F) | x=1310720; y=0; z=-1739782656; Face=0; Item=0; Amount=0; Damage=4668; |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | UNEXPECTED | 0xC1 | 
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | UNEXPECTED | 0xF9 | 
+| 57343 | UNEXPECTED | 0xD7 | 
 |-|-|**Start of Packet #204** [Size: 4]|
-|-|-|**Start of Packet #206** [Size: 797]|
+| 57343 | DestroyEntity (0x1D) | |-|-|**Start of Packet #206** [Size: 797]|
+| 57343 | UNEXPECTED | 0xAC | 
+| 57343 | UNEXPECTED | 0xDE | 
+| 57343 | Place (0x0F) | x=1049344; y=0; z=-1739782656; Face=0; Item=0; Amount=0; Damage=4668; |
 | 57343 | KeepAlive (0x00) | |
 | 57343 | KeepAlive (0x00) | |
-| 57343 | KeepAlive (0x00) | |
-|-|-|**Start of Packet #209** [Size: 4]|
+| 57343 | LoginRequest (0x01) | Protocol=152; |-|-|**Start of Packet #209** [Size: 4]|
 |-|-|**Start of Packet #211** [Size: 13]|
 | 57343 | KeepAlive (0x00) | |
 | 57343 | KeepAlive (0x00) | |
@@ -282,7 +297,7 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #225** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #226** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #227** [Size: 18]|
@@ -291,19 +306,19 @@
 |-|-|**Start of Packet #228** [Size: 10]|
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; Byte=0; |
 |-|-|**Start of Packet #229** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #230** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #231** [Size: 27]|
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
-| SERVER | MultiBlockChange (0x34) | x=3; z=-2; Array size=2; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
+| SERVER | MultiBlockUpdate (0x34) | x=3; z=-2; Array size=2; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
 |-|-|**Start of Packet #232** [Size: 35]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
-| SERVER | MultiBlockChange (0x34) | x=3; z=-2; Array size=2; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
+| SERVER | MultiBlockUpdate (0x34) | x=3; z=-2; Array size=2; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #233** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #234** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #235** [Size: 8]|
@@ -319,14 +334,14 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #242** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #243** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #244** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #246** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #247** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #249** [Size: 8]|
@@ -342,7 +357,7 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #255** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #256** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #258** [Size: 8]|
@@ -352,7 +367,7 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #260** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #261** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #262** [Size: 8]|
@@ -368,14 +383,14 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #269** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #270** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #271** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #272** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #274** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #276** [Size: 17]|
@@ -393,7 +408,7 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #282** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #283** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #285** [Size: 8]|
@@ -403,7 +418,7 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #287** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #288** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #289** [Size: 8]|
@@ -423,7 +438,7 @@
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #300** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #302** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #304** [Size: 8]|
@@ -432,14 +447,14 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #306** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #307** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #308** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #310** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #311** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #313** [Size: 8]|
@@ -447,7 +462,7 @@
 |-|-|**Start of Packet #314** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #315** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #316** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #317** [Size: 8]|
@@ -455,7 +470,7 @@
 |-|-|**Start of Packet #318** [Size: 8]|
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #319** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61488000443205; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #320** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #321** [Size: 16]|
@@ -464,20 +479,20 @@
 |-|-|**Start of Packet #322** [Size: 8]|
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #323** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61795200454071; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #324** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #325** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #326** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61918080464238; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #328** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #330** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #332** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #334** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #335** [Size: 8]|
@@ -511,19 +526,19 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #355** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #357** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #359** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #361** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #363** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #364** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #366** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61488000443205; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #367** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #370** [Size: 17]|
@@ -534,32 +549,32 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #372** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61795200454071; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #374** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #375** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #377** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61918080464238; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #378** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #380** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #382** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61967232471216; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #384** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #385** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #386** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61986893274297; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #388** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #390** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #392** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #394** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #395** [Size: 8]|
@@ -581,14 +596,14 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #406** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #407** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #409** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #411** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #413** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #414** [Size: 8]|
@@ -604,13 +619,13 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #421** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #422** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #423** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #425** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #426** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #428** [Size: 8]|
@@ -620,7 +635,7 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #430** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #431** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #432** [Size: 8]|
@@ -631,10 +646,10 @@
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #437** [Size: 20]|
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
-| SERVER | BlockChange (0x35) | x=-2; y=63; z=-62; Type=79; Meta=0; |
+| SERVER | BlockUpdate (0x35) | x=-2; y=63; z=-62; Type=79; Meta=0; |
 |-|-|**Start of Packet #438** [Size: 28]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
-| SERVER | BlockChange (0x35) | x=-2; y=63; z=-62; Type=79; Meta=0; |
+| SERVER | BlockUpdate (0x35) | x=-2; y=63; z=-62; Type=79; Meta=0; |
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #439** [Size: 2]|
 | 43872 | Player (0x0A) | OnGround=1; |
@@ -665,10 +680,10 @@
 |-|-|**Start of Packet #460** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #461** [Size: 20]|
-| SERVER | BlockChange (0x35) | x=-3; y=63; z=-62; Type=9; Meta=0; |
+| SERVER | BlockUpdate (0x35) | x=-3; y=63; z=-62; Type=9; Meta=0; |
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #462** [Size: 12]|
-| SERVER | BlockChange (0x35) | x=-3; y=63; z=-62; Type=9; Meta=0; |
+| SERVER | BlockUpdate (0x35) | x=-3; y=63; z=-62; Type=9; Meta=0; |
 |-|-|**Start of Packet #463** [Size: 2]|
 | 43872 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #464** [Size: 2]|
@@ -680,13 +695,13 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #467** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #468** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #469** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #470** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #472** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #474** [Size: 16]|
@@ -695,26 +710,26 @@
 |-|-|**Start of Packet #475** [Size: 8]|
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #476** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61488000443205; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #477** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #478** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #479** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61795200454071; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #481** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #483** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #485** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61918080464238; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #487** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #488** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #490** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #491** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #493** [Size: 8]|
@@ -754,20 +769,20 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #518** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #520** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #522** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #524** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #526** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #527** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #529** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #530** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #532** [Size: 8]|
@@ -804,13 +819,13 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #552** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #554** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #555** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #557** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #558** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #561** [Size: 17]|
@@ -821,14 +836,14 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #563** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61488000443205; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #565** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #566** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #568** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #569** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #571** [Size: 8]|
@@ -850,13 +865,13 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #583** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #584** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #585** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #586** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #588** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #590** [Size: 8]|
@@ -865,14 +880,14 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #592** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61488000443205; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #593** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #594** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #596** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #597** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #599** [Size: 8]|
@@ -894,22 +909,22 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #611** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #612** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #613** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #614** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #616** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #618** [Size: 20]|
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
-| SERVER | BlockChange (0x35) | x=57; y=63; z=-52; Type=79; Meta=0; |
+| SERVER | BlockUpdate (0x35) | x=57; y=63; z=-52; Type=79; Meta=0; |
 |-|-|**Start of Packet #619** [Size: 28]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
-| SERVER | BlockChange (0x35) | x=57; y=63; z=-52; Type=79; Meta=0; |
+| SERVER | BlockUpdate (0x35) | x=57; y=63; z=-52; Type=79; Meta=0; |
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #620** [Size: 2]|
 | 43872 | Player (0x0A) | OnGround=1; |
@@ -928,13 +943,13 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #629** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #630** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #631** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #633** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #634** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #636** [Size: 8]|
@@ -944,16 +959,16 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #638** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #639** [Size: 4]|
 | 57343 | LoginRequest (0x01) | |-|-|**Start of Packet #641** [Size: 1]|
 |-|-|**Start of Packet #643** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #644** [Size: 27]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
-| SERVER | MultiBlockChange (0x34) | x=3; z=-4; Array size=2; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
+| SERVER | MultiBlockUpdate (0x34) | x=3; z=-4; Array size=2; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
 |-|-|**Start of Packet #645** [Size: 19]|
-| SERVER | MultiBlockChange (0x34) | x=3; z=-4; Array size=2; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
+| SERVER | MultiBlockUpdate (0x34) | x=3; z=-4; Array size=2; Coordinates=(Not included); Type=(Not included); Metadata=(Not included); |
 |-|-|**Start of Packet #646** [Size: 2]|
 | 43872 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #647** [Size: 2]|
@@ -965,14 +980,14 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #650** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #651** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #652** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #653** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #655** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #657** [Size: 17]|
@@ -990,7 +1005,7 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #663** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #664** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #666** [Size: 8]|
@@ -1000,7 +1015,7 @@
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=2; |
 |-|-|**Start of Packet #668** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=1; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.53999999910593; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.54; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #669** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #670** [Size: 8]|
@@ -1028,13 +1043,13 @@
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #686** [Size: 40]|
 | 43872 | EntityAction (0x13) | EID=6; Action=2; |
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.58800000324845; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.59; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #688** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #689** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #690** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6072000041604; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #692** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #694** [Size: 16]|
@@ -1043,73 +1058,73 @@
 |-|-|**Start of Packet #695** [Size: 8]|
 | SERVER | EntityMetadata (0x28) | EID=6; Byte=0; |
 |-|-|**Start of Packet #696** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61488000443205; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.61; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #697** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #698** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #700** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61795200454071; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #701** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #703** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #705** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61918080464238; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #707** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #708** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #710** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61967232471216; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #711** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #713** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #715** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61986893274297; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #717** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #718** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #719** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61994757595676; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #721** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #723** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #725** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.619979033243; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #727** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #728** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #729** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61999161615768; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #731** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #733** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #735** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.6199966493241; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #737** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #738** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #740** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61999866259066; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #741** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #743** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #745** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61999946789729; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #747** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #748** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #750** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61999979001993; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #751** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #754** [Size: 9]|
@@ -1118,56 +1133,51 @@
 | SERVER | TimeUpdate (0x04) | Time=231198; |
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #756** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61999991886898; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #758** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #759** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #760** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61999997040861; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #762** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #764** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #766** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61999999102447; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #768** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #769** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #771** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.61999999927082; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #772** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #774** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #776** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000256934; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #778** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #779** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #780** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000388876; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #782** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #784** [Size: 4]|
 | 37870 | LoginRequest (0x01) | |-|-|**Start of Packet #785** [Size: 1]|
 |-|-|**Start of Packet #787** [Size: 4]|
 | 57343 | UseBed (0x11) | |-|-|**Start of Packet #789** [Size: 17]|
-|-|-|**Start of Packet #791** [Size: 4]|
+| 57343 | UNEXPECTED | 0x51 | 
+| 57343 | UNEXPECTED | 0xDA | 
+| 57343 | UseBed (0x11) | EID=262144; In Bed=0; x=50331648; |-|-|**Start of Packet #791** [Size: 4]|
 |-|-|**Start of Packet #793** [Size: 25]|
-| 57343 | KeepAlive (0x00) | |
-| 57343 | KeepAlive (0x00) | |
-| 57343 | KeepAlive (0x00) | |
-|-|-|**Start of Packet #795** [Size: 4]|
+| 57343 | LoginRequest (0x01) | Protocol=80; |-|-|**Start of Packet #795** [Size: 4]|
 |-|-|**Start of Packet #797** [Size: 25]|
-| 57343 | KeepAlive (0x00) | |
-| 57343 | KeepAlive (0x00) | |
-| 57343 | KeepAlive (0x00) | |
-|-|-|**Start of Packet #799** [Size: 4]|
+| 57343 | Handshake (0x02) | |-|-|**Start of Packet #799** [Size: 4]|
 |-|-|**Start of Packet #801** [Size: 13]|
-| 57343 | KeepAlive (0x00) | |
 | 57343 | KeepAlive (0x00) | |
 | 57343 | KeepAlive (0x00) | |
 | 57343 | KeepAlive (0x00) | |
@@ -1181,67 +1191,67 @@
 |-|-|**Start of Packet #803** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #805** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000441653; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #807** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #808** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #809** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000462763; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #811** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #813** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #815** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000471208; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #817** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #818** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #820** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000474585; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #821** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #823** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #825** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000475936; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #827** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #828** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #829** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000476476; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #831** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #833** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #835** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000476694; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #837** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #838** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #840** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000476779; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #841** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #843** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #845** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000476814; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #847** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #848** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=7; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #850** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000476829; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #851** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #853** [Size: 8]|
 | SERVER | EntityRelativeMove (0x1F) | EID=6; dX=0; dY=0; dZ=0; |
 |-|-|**Start of Packet #855** [Size: 34]|
-| 43872 | PlayerPosition (0x0B) | x=13.305773629900703; y=72.0; stance=73.62000000476833; z=-14.062330071969075; OnGround=1; |
+| 43872 | PlayerPosition (0x0B) | x=13.31; y=72.00; cameraY=73.62; z=-14.06; OnGround=1; |
 |-|-|**Start of Packet #857** [Size: 2]|
 | 43888 | Player (0x0A) | OnGround=1; |
 |-|-|**Start of Packet #858** [Size: 8]|
@@ -1322,12 +1332,27 @@
 | 37870 | LoginRequest (0x01) | |-|-|**Start of Packet #933** [Size: 1]|
 |-|-|**Start of Packet #935** [Size: 4]|
 | 57343 | EntityLookRelativeMove (0x21) | |-|-|**Start of Packet #937** [Size: 33]|
+| 57343 | UNEXPECTED | 0x8F | 
+| 57343 | UNEXPECTED | 0xDE | 
+| 57343 | Place (0x0F) | x=1310720; y=0; z=-1739782656; Face=0; Item=0; Amount=0; Damage=14649; |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | UNEXPECTED | 0xC1 | 
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | KeepAlive (0x00) | |
+| 57343 | UNEXPECTED | 0xF9 | 
+| 57343 | UNEXPECTED | 0xD7 | 
 |-|-|**Start of Packet #939** [Size: 4]|
-|-|-|**Start of Packet #941** [Size: 797]|
+| 57343 | DestroyEntity (0x1D) | |-|-|**Start of Packet #941** [Size: 797]|
+| 57343 | UNEXPECTED | 0xAC | 
+| 57343 | UNEXPECTED | 0xDE | 
+| 57343 | Place (0x0F) | x=1049344; y=0; z=-1739782656; Face=0; Item=0; Amount=0; Damage=14649; |
 | 57343 | KeepAlive (0x00) | |
 | 57343 | KeepAlive (0x00) | |
-| 57343 | KeepAlive (0x00) | |
-|-|-|**Start of Packet #943** [Size: 4]|
+| 57343 | LoginRequest (0x01) | Protocol=152; |-|-|**Start of Packet #943** [Size: 4]|
 |-|-|**Start of Packet #945** [Size: 13]|
 | 57343 | KeepAlive (0x00) | |
 | 57343 | KeepAlive (0x00) | |
