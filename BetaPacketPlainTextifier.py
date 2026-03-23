@@ -340,10 +340,12 @@ class PacketParser:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
-                self.print_property('Flag?', 'Integer', self.read_integer())
-                self.print_property('x?', 'Short', self.read_short())
-                self.print_property('y?', 'Short', self.read_short())
-                self.print_property('z?', 'Short', self.read_short())
+                owner_eid = self.read_integer()
+                self.print_property('Owner EID', 'Integer', owner_eid)
+                if (owner_eid > 0):
+                    self.print_property('x velocity', 'Short', self.read_short())
+                    self.print_property('y velocity', 'Short', self.read_short())
+                    self.print_property('z velocity', 'Short', self.read_short())
             case Packet.SpawnMobEntity:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Type', 'Byte', self.read_byte())
