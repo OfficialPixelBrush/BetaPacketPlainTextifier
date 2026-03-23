@@ -1,5 +1,2 @@
-appdirs==1.4.4
-lxml==5.3.2
-packaging==24.2
+Markdown==3.10.2
 pyshark==0.6
-termcolor==3.0.1
