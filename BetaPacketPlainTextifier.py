@@ -405,29 +405,7 @@ class PacketParser:
                 self.print_property('Status', 'Byte', self.read_byte())
             case Packet.EntityMetadata:
                 self.print_property('EID', 'Integer', self.read_integer())
-                latest_byte = self.read_byte()
-                while latest_byte != 127:
-                    selector = latest_byte >> 5
-                    match selector:
-                        case 0:
-                            self.print_property('Byte', 'Byte', self.read_byte())
-                        case 1:
-                            self.print_property('Shrt', 'Short', self.read_short())
-                        case 2:
-                            self.print_property('Int', 'Integer', self.read_integer())
-                        case 3:
-                            self.print_property('Flt', 'Float', self.read_float())
-                        case 4:
-                            self.print_string16('Str')
-                        case 5:
-                            self.print_property('Item', 'Short', self.read_short())
-                            self.print_property('Amount', 'Byte', self.read_byte())
-                            self.print_property('Damage', 'Short', self.read_short())
-                        case 6:
-                            self.print_property('Int1', 'Integer', self.read_integer())
-                            self.print_property('Int2', 'Integer', self.read_integer())
-                            self.print_property('Int3', 'Integer', self.read_integer())
-                    latest_byte = self.read_byte()
+                self.read_mob_metadata()
             case Packet.PreChunk:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
