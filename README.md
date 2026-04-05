@@ -23,6 +23,8 @@ This makes it so only packets going through the loopback device (`127.0.0.1`) ar
 
 Change these if you're either running your server externally or if you're hosting it on a different port.
 
+Then to export, select `File > Export Specified Packets`. Ensure The Packet range is `All Packets` and `Displayed`. Save the `.pcapng` wherever you want, probably close to BPPT.
+
 # Setup
 Some Linux Distributions will prevent you from installing dependencies such as `pyshark` directly via `pip`.
 As a result, you may need to create a `venv`.
