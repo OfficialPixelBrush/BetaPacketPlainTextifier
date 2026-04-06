@@ -47,61 +47,61 @@ server = 'SERVER'
 
 class Packet(Enum):
     KeepAlive = 0x00
-    LoginRequest = 0x01
-    Handshake = 0x02
+    Login = 0x01
+    PreLogin = 0x02
     ChatMessage = 0x03
-    TimeUpdate = 0x04
-    EntityEquipment = 0x05
-    SpawnPosition = 0x06
-    ClickEntity = 0x07
+    SetTime = 0x04
+    SetEquipment = 0x05
+    SetSpawnPosition = 0x06
+    InteractWithEntity = 0x07
     SetHealth = 0x08
     Respawn = 0x09
-    Player = 0x0A
+    PlayerMovement = 0x0A
     PlayerPosition = 0x0B
-    PlayerLook = 0x0C
-    PlayerPositionLook = 0x0D
-    Mine = 0x0E
-    Place = 0x0F
-    ActiveSlot = 0x10
-    UseBed = 0x11
-    PlayerAction = 0x12
-    EntityAction = 0x13
-    SpawnPlayerEntity = 0x14
-    SpawnItemEntity = 0x15
+    PlayerRotation = 0x0C
+    PlayerPositionAndRotation = 0x0D
+    MineBlock = 0x0E
+    PlaceBlock = 0x0F
+    SetHotbarSlot = 0x10
+    InteractWithBlock = 0x11
+    Animation = 0x12
+    PlayerAction = 0x13
+    SpawnPlayer = 0x14
+    SpawnItem = 0x15
     CollectItem = 0x16
-    SpawnObjectEntity = 0x17
-    SpawnMobEntity = 0x18
-    SpawnPaintingEntity = 0x19
-    PlayerMovement = 0x1B
+    SpawnObject = 0x17
+    SpawnMob = 0x18
+    SpawnPainting = 0x19
+    PlayerInput = 0x1B
     EntityVelocity = 0x1C
-    DestroyEntity = 0x1D
-    Entity = 0x1E
-    EntityRelativeMove = 0x1F
-    EntityLook = 0x20
-    EntityLookRelativeMove = 0x21
-    EntityTeleport = 0x22
-    EntityStatus = 0x26
-    MountEntity = 0x27
+    DespawnEntity = 0x1D
+    EntityMovement = 0x1E
+    EntityPosition = 0x1F
+    EntityRotation = 0x20
+    EntityPositionAndRotation = 0x21
+    TeleportEntity = 0x22
+    EntityEvent = 0x26
+    AddPassenger = 0x27
     EntityMetadata = 0x28
-    PreChunk = 0x32
+    SetChunkVisibility = 0x32
     Chunk = 0x33
-    MultiBlockUpdate = 0x34
-    BlockUpdate = 0x35
-    BlockAction = 0x36
+    SetMutlipleBlocks = 0x34
+    SetBlock = 0x35
+    BlockEvent = 0x36
     Explosion = 0x3C
-    Effect = 0x3D
-    GameState = 0x46
+    WorldEvent = 0x3D
+    GameEvent = 0x46
     LightningBolt = 0x47
-    OpenInventory = 0x64
-    CloseInventory = 0x65
-    ClickInventorySlot = 0x66
-    SetInventorySlot = 0x67
-    InventoryContents = 0x68
-    FurnaceProgress = 0x69
-    InventoryTransaction = 0x6A
+    OpenContainer = 0x64
+    CloseContainer = 0x65
+    ClickSlot = 0x66
+    SetSlot = 0x67
+    FillContainer = 0x68
+    ContainerData = 0x69
+    ContainerTransaction = 0x6A
     UpdateSign = 0x82
     ItemData = 0x83
-    Statistic = 0xC8
+    IncrementStatistic = 0xC8
     Disconnect = 0xFF
 
 
@@ -225,7 +225,7 @@ class PacketParser:
         match packet_enum:
             case Packet.KeepAlive:
                 pass
-            case Packet.LoginRequest:
+            case Packet.Login:
                 if self.sender != server:
                     self.print_property('Protocol', 'Integer', self.read_integer())
                     self.print_string16('Username')
@@ -236,25 +236,25 @@ class PacketParser:
                     self.print_string16('Unknown')
                     self.print_property('Seed', 'Long', self.read_long())
                     self.print_property('Dimension', 'Byte', self.read_byte())
-            case Packet.Handshake:
+            case Packet.PreLogin:
                 if self.sender != server:
                     self.print_string16('Username')
                 else:
                     self.print_string16('Connection Hash')
             case Packet.ChatMessage:
                 self.print_string16('Message')
-            case Packet.TimeUpdate:
+            case Packet.SetTime:
                 self.print_property('Time', 'Long', self.read_long())
-            case Packet.EntityEquipment:
+            case Packet.SetEquipment:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Slot', 'Short', self.read_short())
                 self.print_property('Item', 'Short', self.read_short())
                 self.print_property('Damage', 'Short', self.read_short())
-            case Packet.SpawnPosition:
+            case Packet.SetSpawnPosition:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
-            case Packet.ClickEntity:
+            case Packet.InteractWithEntity:
                 self.print_property('EID (Sender)', 'Integer', self.read_integer())
                 self.print_property('EID (Target)', 'Integer', self.read_integer())
                 self.print_property('Left-Click', 'Boolean', self.read_byte())
@@ -262,7 +262,7 @@ class PacketParser:
                 self.print_property('Health', 'Short', self.read_short())
             case Packet.Respawn:
                 self.print_property('Dimension', 'Byte', self.read_byte())
-            case Packet.Player:
+            case Packet.PlayerMovement:
                 self.print_property('OnGround', 'Boolean', self.read_byte())
             case Packet.PlayerPosition:
                 self.print_property('x', 'Double', self.read_double())
@@ -270,11 +270,11 @@ class PacketParser:
                 self.print_property('cameraY', 'Double', self.read_double())
                 self.print_property('z', 'Double', self.read_double())
                 self.print_property('OnGround', 'Boolean', self.read_byte())
-            case Packet.PlayerLook:
+            case Packet.PlayerRotation:
                 self.print_property('Yaw', 'Float', self.read_float())
                 self.print_property('Pitch', 'Float', self.read_float())
                 self.print_property('OnGround', 'Boolean', self.read_byte())
-            case Packet.PlayerPositionLook:
+            case Packet.PlayerPositionAndRotation:
                 self.print_property('x', 'Double', self.read_double())
                 self.print_property('y', 'Double', self.read_double())
                 self.print_property('cameraY', 'Double', self.read_double())
@@ -282,13 +282,13 @@ class PacketParser:
                 self.print_property('Yaw', 'Float', self.read_float())
                 self.print_property('Pitch', 'Float', self.read_float())
                 self.print_property('OnGround', 'Boolean', self.read_byte())
-            case Packet.Mine:
+            case Packet.MineBlock:
                 self.print_property('Status', 'Byte', self.read_byte())
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Byte', self.read_byte())
                 self.print_property('z', 'Integer', self.read_integer())
                 self.print_property('Face', 'Byte', self.read_byte())
-            case Packet.Place:
+            case Packet.PlaceBlock:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Byte', self.read_byte())
                 self.print_property('z', 'Integer', self.read_integer())
@@ -297,21 +297,21 @@ class PacketParser:
                 if item_id > -1:
                     self.print_property('Amount', 'Byte', self.read_byte())
                     self.print_property('Damage', 'Short', self.read_short())
-            case Packet.ActiveSlot:
+            case Packet.SetHotbarSlot:
                 self.print_property('Slot', 'Short', self.read_short())
-            case Packet.UseBed:
+            case Packet.InteractWithBlock:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('In Bed', 'Byte', self.read_byte())
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Byte', self.read_byte())
                 self.print_property('z', 'Integer', self.read_integer())
+            case Packet.Animation:
+                self.print_property('EID', 'Integer', self.read_integer())
+                self.print_property('Animation', 'Byte', self.read_byte())
             case Packet.PlayerAction:
                 self.print_property('EID', 'Integer', self.read_integer())
-                self.print_property('PlayerAction', 'Byte', self.read_byte())
-            case Packet.EntityAction:
-                self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Action', 'Byte', self.read_byte())
-            case Packet.SpawnPlayerEntity:
+            case Packet.SpawnPlayer:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_string16('Username')
                 self.print_property('x', 'Integer', self.read_integer())
@@ -320,7 +320,7 @@ class PacketParser:
                 self.print_property('Yaw', 'Byte', self.read_byte())
                 self.print_property('Pitch', 'Byte', self.read_byte())
                 self.print_property('Held Item', 'Short', self.read_short())
-            case Packet.SpawnItemEntity:
+            case Packet.SpawnItem:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Item', 'Short', self.read_short())
                 self.print_property('Amount', 'Byte', self.read_byte())
@@ -334,7 +334,7 @@ class PacketParser:
             case Packet.CollectItem:
                 self.print_property('EID (Collected)', 'Integer', self.read_integer())
                 self.print_property('EID (Collector)', 'Integer', self.read_integer())
-            case Packet.SpawnObjectEntity:
+            case Packet.SpawnObject:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Type', 'Byte', self.read_byte())
                 self.print_property('x', 'Integer', self.read_integer())
@@ -346,7 +346,7 @@ class PacketParser:
                     self.print_property('x velocity', 'Short', self.read_short())
                     self.print_property('y velocity', 'Short', self.read_short())
                     self.print_property('z velocity', 'Short', self.read_short())
-            case Packet.SpawnMobEntity:
+            case Packet.SpawnMob:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Type', 'Byte', self.read_byte())
                 self.print_property('x', 'Integer', self.read_integer())
@@ -356,14 +356,14 @@ class PacketParser:
                 self.print_property('Pitch', 'Byte', self.read_byte())
                 self.read_mob_metadata()
                 #self.print_property('Metadata', 'Multi', self.read_mob_metadata())
-            case Packet.SpawnPaintingEntity:
+            case Packet.SpawnPainting:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_string16('Title')
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
                 self.print_property('Face', 'Integer', self.read_integer())
-            case Packet.PlayerMovement:
+            case Packet.PlayerInput:
                 self.print_property('StrafeDir', 'Float', self.read_float())
                 self.print_property('ForwardDir', 'Float', self.read_float())
                 self.print_property('Pitch', 'Float', self.read_float())
@@ -375,40 +375,40 @@ class PacketParser:
                 self.print_property('x Velocity', 'Short', self.read_short())
                 self.print_property('y Velocity', 'Short', self.read_short())
                 self.print_property('z Velocity', 'Short', self.read_short())
-            case Packet.DestroyEntity:
+            case Packet.DespawnEntity:
                 self.print_property('EID', 'Integer', self.read_integer())
-            case Packet.Entity:
+            case Packet.EntityMovement:
                 self.print_property('EID', 'Integer', self.read_integer())
-            case Packet.EntityRelativeMove:
-                self.print_property('EID', 'Integer', self.read_integer())
-                self.print_property('dX', 'Byte', self.read_byte())
-                self.print_property('dY', 'Byte', self.read_byte())
-                self.print_property('dZ', 'Byte', self.read_byte())
-            case Packet.EntityLook:
-                self.print_property('EID', 'Integer', self.read_integer())
-                self.print_property('Yaw', 'Byte', self.read_byte())
-                self.print_property('Pitch', 'Byte', self.read_byte())
-            case Packet.EntityLookRelativeMove:
+            case Packet.EntityPosition:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('dX', 'Byte', self.read_byte())
                 self.print_property('dY', 'Byte', self.read_byte())
                 self.print_property('dZ', 'Byte', self.read_byte())
+            case Packet.EntityRotation:
+                self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Yaw', 'Byte', self.read_byte())
                 self.print_property('Pitch', 'Byte', self.read_byte())
-            case Packet.EntityTeleport:
+            case Packet.EntityPositionAndRotation:
+                self.print_property('EID', 'Integer', self.read_integer())
+                self.print_property('dX', 'Byte', self.read_byte())
+                self.print_property('dY', 'Byte', self.read_byte())
+                self.print_property('dZ', 'Byte', self.read_byte())
+                self.print_property('Yaw', 'Byte', self.read_byte())
+                self.print_property('Pitch', 'Byte', self.read_byte())
+            case Packet.TeleportEntity:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
                 self.print_property('Yaw', 'Byte', self.read_byte())
                 self.print_property('Pitch', 'Byte', self.read_byte())
-            case Packet.EntityStatus:
+            case Packet.EntityEvent:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Status', 'Byte', self.read_byte())
             case Packet.EntityMetadata:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.read_mob_metadata()
-            case Packet.PreChunk:
+            case Packet.SetChunkVisibility:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
                 self.print_property('Mode', 'Boolean', self.read_byte())
@@ -424,20 +424,20 @@ class PacketParser:
                 #self.print_property('Compressed Data', 'Byte[]', '(Not included)')
                 for _ in range(size):
                     self.read_byte()
-            case Packet.MultiBlockUpdate:
+            case Packet.SetMutlipleBlocks:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
                 size = self.read_short()
                 self.print_property('Array size', 'Short', size)
                 self.read_multi_block_update(size)
                 #self.print_property('MB Info', 'Short[], Byte[], Byte[]', self.read_multi_block_update(size))
-            case Packet.BlockUpdate:
+            case Packet.SetBlock:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Byte', self.read_byte())
                 self.print_property('z', 'Integer', self.read_integer())
                 self.print_property('Type', 'Byte', self.read_byte())
                 self.print_property('Meta', 'Byte', self.read_byte())
-            case Packet.BlockAction:
+            case Packet.BlockEvent:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Byte', self.read_byte())
                 self.print_property('z', 'Integer', self.read_integer())
@@ -451,13 +451,13 @@ class PacketParser:
                 count = self.read_integer()
                 self.print_property('Count', 'Integer', count)
                 self.i += count * 3
-            case Packet.Effect:
+            case Packet.WorldEvent:
                 self.print_property('Sound', 'Integer', self.read_integer())
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Byte', self.read_byte())
                 self.print_property('z', 'Integer', self.read_integer())
                 self.print_property('Data', 'Integer', self.read_integer())
-            case Packet.GameState:
+            case Packet.GameEvent:
                 self.print_property('Reason', 'Byte', self.read_byte())
             case Packet.LightningBolt:
                 self.print_property('EID', 'Integer', self.read_integer())
@@ -465,14 +465,14 @@ class PacketParser:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
-            case Packet.OpenInventory:
+            case Packet.OpenContainer:
                 self.print_property('Window', 'Byte', self.read_byte())
                 self.print_property('Inventory', 'Byte', self.read_byte())
                 self.print_string8('Title')
                 self.print_property('# of Slots', 'Byte', self.read_byte())
-            case Packet.CloseInventory:
+            case Packet.CloseContainer:
                 self.print_property('Window', 'Byte', self.read_byte())
-            case Packet.ClickInventorySlot:
+            case Packet.ClickSlot:
                 self.print_property('Window', 'Byte', self.read_byte())
                 self.print_property('Slot', 'Short', self.read_short())
                 self.print_property('Right-click', 'Byte', self.read_byte())
@@ -482,21 +482,21 @@ class PacketParser:
                 if item_id > -1:
                     self.print_property('Amount', 'Short', self.read_short())
                     self.print_property('Damage', 'Short', self.read_short())
-            case Packet.SetInventorySlot:
+            case Packet.SetSlot:
                 self.print_property('Window', 'Byte', self.read_byte())
                 slot = self.read_short(); self.print_property('Slot', 'Short', slot)
                 item_id = self.read_short(); self.print_property(f'[{slot}] Item', 'Short', item_id)
                 if item_id > -1:
                     self.print_property('Amount', 'Byte', self.read_byte())
                     self.print_property('Damage', 'Short', self.read_short())
-            case Packet.InventoryContents:
+            case Packet.FillContainer:
                 self.print_property('Window', 'Byte', self.read_byte())
                 self.print_inventory()
-            case Packet.FurnaceProgress:
+            case Packet.ContainerData:
                 self.print_property('Window', 'Byte', self.read_byte())
                 self.print_property('Bar', 'Short', self.read_short())
                 self.print_property('Progress', 'Short', self.read_short())
-            case Packet.InventoryTransaction:
+            case Packet.ContainerTransaction:
                 self.print_property('Window', 'Byte', self.read_byte())
                 self.print_property('Action number', 'Short', self.read_short())
                 self.print_property('Accepted', 'Boolean', self.read_byte())
@@ -513,8 +513,8 @@ class PacketParser:
                 self.print_property('?', 'Short', self.read_short())
                 length = self.read_byte(); self.print_property('Length', 'Byte', length)
                 self.i += length
-            case Packet.Statistic:
-                self.print_property('Statistic', 'Integer', self.read_integer())
+            case Packet.IncrementStatistic:
+                self.print_property('IncrementStatistic', 'Integer', self.read_integer())
                 self.print_property('Amount', 'Byte', self.read_byte())
             case Packet.Disconnect:
                 self.print_string16('Message')
