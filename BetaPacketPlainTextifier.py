@@ -14,6 +14,7 @@ parser.add_argument('-sip', '--source', help='Source IP Address to extract data 
 parser.add_argument('-dip', '--destination', help='Destination IP Address to extract data from')
 parser.add_argument('-p', '--port', help='Port to extract data from')
 parser.add_argument('-i', '--input', help='Input Capture File (.pcapng)')
+parser.add_argument('-t', '--trigger', help='Packet ID to trigger on (e.g. "0x0A" or "PlayerPosition")')
 parser.add_argument('-o', '--output', help='Output Markdown File (.md)')
 parser.add_argument('-v', '--verbose', action='store_true', help='Print what the script is up to to the terminal')
 parser.add_argument('-e', '--errors', action='store_true', help='Print Exceptions instead of ignoring them')
@@ -35,9 +36,20 @@ if args.port is not None:
 if args.input is not None:
     capturePath = args.input
 
+# TODO: Maybe have the default path fall back to where the .pcapng file is?
 outputPath = Path(capturePath).stem + ".md"
 if args.output is not None:
     outputPath = args.output
+
+# Determines if data should be printed based on if the trigger packet has been seen yet.
+# If no trigger is set, this will always be true.
+trigger_packet_id = None
+triggered = True
+if args.trigger is not None:
+    triggered = False
+    trigger_packet_id = args.trigger
+    if trigger_packet_id.lower().startswith('0x'):
+        trigger_packet_id = int(trigger_packet_id, 16)
 
 f = open(outputPath, 'w', encoding='utf-8')
 f.write('| Sender | Packet | Data |\n')
@@ -107,6 +119,14 @@ class Packet(Enum):
 
 class ParseError(Exception):
     pass
+
+if args.trigger is not None and not isinstance(trigger_packet_id, int):
+    trigger_lower_map = {name.lower(): member.value for name, member in Packet.__members__.items()}
+    trigger_lookup = trigger_packet_id.lower()
+    if trigger_lookup in trigger_lower_map:
+        trigger_packet_id = trigger_lower_map[trigger_lookup]
+    else:
+        raise ValueError(f'Unknown trigger packet id: {args.trigger}')
 
 
 class PacketParser:
@@ -214,13 +234,13 @@ class PacketParser:
 
     def parse_one_packet(self):
         packet_id = self.read_byte()
+        
         if packet_id not in Packet._value2member_map_:
             self.out = [f'0x{packet_id:02X}']
             return packet_id
 
         packet_enum = Packet._value2member_map_[packet_id]
-        if args.verbose:
-            print(f'	{packet_enum.name} (0x{packet_enum.value:02X})')
+        self.packet_id = packet_id
 
         match packet_enum:
             case Packet.KeepAlive:
@@ -405,6 +425,9 @@ class PacketParser:
             case Packet.EntityEvent:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.print_property('Status', 'Byte', self.read_byte())
+            case Packet.AddPassenger:
+                self.print_property('EID (passenger)', 'Integer', self.read_integer())
+                self.print_property('EID (vehicle)', 'Integer', self.read_integer())
             case Packet.EntityMetadata:
                 self.print_property('EID', 'Integer', self.read_integer())
                 self.read_mob_metadata()
@@ -524,19 +547,32 @@ class PacketParser:
         return packet_enum
 
 
-def process_buffer(buffer, sender):
+def process_buffer(buffer, sender, tcp_header_line=None):
+    global triggered
     off = 0
+    header_written = False
     while off < len(buffer):
         parser = PacketParser(buffer[off:], sender)
         try:
             packet_enum = parser.parse_one_packet()
             payload_string = ''.join(parser.out)
-            if isinstance(packet_enum, Packet):
-                f.write(f'| {sender} | {packet_enum.name} (0x{packet_enum.value:02X}) | {payload_string} |\n')
-            else:
-                f.write(f'| {sender} | UNEXPECTED | 0x{packet_enum:02X} |\n')
-            if args.verbose and isinstance(packet_enum, Packet):
-                print(f'	Parsed {packet_enum.name}')
+            packet_id = parser.packet_id
+            is_trigger_packet = trigger_packet_id is not None and packet_id == trigger_packet_id
+            if not triggered and is_trigger_packet:
+                triggered = True
+
+            if triggered:
+                if tcp_header_line and not header_written:
+                    f.write(tcp_header_line)
+                    header_written = True
+                if isinstance(packet_enum, Packet):
+                    f.write(f'| {sender} | {packet_enum.name} (0x{packet_enum.value:02X}) | {payload_string} |\n')
+                    if args.verbose:
+                        print(f'\tParsed {packet_enum.name}')
+                else:
+                    f.write(f'| {sender} | UNEXPECTED | 0x{packet_id:02X} |\n')
+                    if args.verbose:
+                        print(f'\tParsed UNEXPECTED 0x{packet_id:02X}')
             off += parser.i
         except ParseError:
             break
@@ -598,10 +634,12 @@ for packetIndex, dataPacket in enumerate(cap):
                 print(f'CLIENT ({dataPacket.tcp.port})')
             sender_label = f'CLIENT:{dataPacket.tcp.port}'
 
-        if (args.tcp_header):
-            f.write(f'|-|-|**Start of TCP segment #{packetIndex + 1}** [Size: {len(payload)}]|\n')
+        if args.tcp_header:
+            tcp_header_line = f'|-|-|**Start of TCP segment #{packetIndex + 1}** [Size: {len(payload)}]|\n'
+        else:
+            tcp_header_line = None
 
-        remainder = process_buffer(stream_buffer, sender_label)
+        remainder = process_buffer(stream_buffer, sender_label, tcp_header_line)
         stream_buffers[stream_key] = bytearray(remainder)
 
     except Exception as e:
