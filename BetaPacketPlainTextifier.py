@@ -12,11 +12,13 @@ parser = argparse.ArgumentParser(
                     )
 parser.add_argument('-sip', '--source', help='Source IP Address to extract data from')
 parser.add_argument('-dip', '--destination', help='Destination IP Address to extract data from')
+parser.add_argument('-noip', '--noip', action='store_true', help='Disable IP filter')
 parser.add_argument('-p', '--port', help='Port to extract data from')
 parser.add_argument('-i', '--input', help='Input Capture File (.pcapng)')
 parser.add_argument('-t', '--trigger', help='Packet ID to trigger on (e.g. "0x0A" or "PlayerPosition")')
 parser.add_argument('-o', '--output', help='Output Markdown File (.md)')
 parser.add_argument('-v', '--verbose', action='store_true', help='Print what the script is up to to the terminal')
+parser.add_argument('-c', '--container', action='store_true', help='Print container contents')
 parser.add_argument('-e', '--errors', action='store_true', help='Print Exceptions instead of ignoring them')
 parser.add_argument('-th', '--tcp_header', help='Print TCP Header')
 parser.add_argument('-html', '--html', action='store_true', help='Export as .html file')
@@ -26,6 +28,8 @@ capturePath = 'example/gameplay.pcapng'
 source_ip_address = '127.0.0.1'
 destination_ip_address = '127.0.0.1'
 server_port = '25565'
+no_ip = False
+container_contents = False
 
 if args.source is not None:
     source_ip_address = args.source
@@ -35,6 +39,10 @@ if args.port is not None:
     server_port = args.port
 if args.input is not None:
     capturePath = args.input
+if args.noip is not None:
+    no_ip = args.noip
+if args.container is not None:
+    container_contents = args.container
 
 # TODO: Maybe have the default path fall back to where the .pcapng file is?
 outputPath = Path(capturePath).stem + ".md"
@@ -197,6 +205,9 @@ class PacketParser:
             self.read_byte() # block meta
         return 'MB Info'
 
+    def print_text(self, text):
+        self.out.append(f'{text}; ')
+
     def print_property(self, name, t, content):
         if isinstance(content, float):
             content = f'{content:.2f}'
@@ -225,12 +236,18 @@ class PacketParser:
     def print_inventory(self):
         count = self.read_short()
         self.print_property('Count', 'Short', count)
+        if (not container_contents):
+            self.print_text("(Contents omitted)")
         for slot in range(count):
             item_id = self.read_short()
-            #self.print_property(f'[{slot}] Item', 'Short', item_id)
             if item_id != -1:
                 amount = self.read_byte(); #self.print_property('Amount', 'Byte', amount)
                 damage = self.read_byte(); #self.print_property('Damage', 'Byte', damage)
+                if (container_contents):
+                    self.print_property(f'[{slot}] Item', 'Item', (item_id, amount, damage))
+            else:
+                if (container_contents):
+                    self.print_property(f'[{slot}] Item', 'Short', item_id)
 
     def parse_one_packet(self):
         packet_id = self.read_byte()
@@ -434,7 +451,10 @@ class PacketParser:
             case Packet.SetChunkVisibility:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
-                self.print_property('Mode', 'Boolean', self.read_byte())
+                if (self.read_byte()):
+                    self.print_text('(Load)')
+                else:
+                    self.print_text('(Unload)')
             case Packet.Chunk:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('y', 'Short', self.read_short())
@@ -598,7 +618,7 @@ stream_buffers = {}
 for packetIndex, dataPacket in enumerate(cap):
     if 'IP' not in dataPacket:
         continue
-    if dataPacket.ip.src != source_ip_address and dataPacket.ip.dst != destination_ip_address:
+    if not no_ip and (dataPacket.ip.src != source_ip_address and dataPacket.ip.dst != destination_ip_address):
         continue
 
     if 'TCP' not in dataPacket:
