@@ -20,7 +20,7 @@ parser.add_argument('-o', '--output', help='Output Markdown File (.md)')
 parser.add_argument('-v', '--verbose', action='store_true', help='Print what the script is up to to the terminal')
 parser.add_argument('-c', '--container', action='store_true', help='Print container contents')
 parser.add_argument('-e', '--errors', action='store_true', help='Print Exceptions instead of ignoring them')
-parser.add_argument('-th', '--tcp_header', help='Print TCP Header')
+parser.add_argument('-th', '--tcp_header', action='store_true', help='Print TCP Header')
 parser.add_argument('-html', '--html', action='store_true', help='Export as .html file')
 args = parser.parse_args()
 
