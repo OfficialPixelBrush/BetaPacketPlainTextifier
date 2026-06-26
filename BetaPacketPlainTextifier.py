@@ -22,6 +22,7 @@ parser.add_argument('-c', '--container', action='store_true', help='Print contai
 parser.add_argument('-e', '--errors', action='store_true', help='Print Exceptions instead of ignoring them')
 parser.add_argument('-th', '--tcp_header', action='store_true', help='Print TCP Header')
 parser.add_argument('-html', '--html', action='store_true', help='Export as .html file')
+parser.add_argument('-ts', '--timestamp', action='store_true', help='Add packet timestamp column')
 args = parser.parse_args()
 
 capturePath = 'example/gameplay.pcapng'
@@ -60,8 +61,12 @@ if args.trigger is not None:
         trigger_packet_id = int(trigger_packet_id, 16)
 
 f = open(outputPath, 'w', encoding='utf-8')
-f.write('| Sender | Packet | Data |\n')
-f.write('| --- | --- | --- |\n')
+if args.timestamp:
+    f.write('| Timestamp | Sender | Packet | Data |\n')
+    f.write('| --- | --- | --- | --- |\n')
+else:
+    f.write('| Sender | Packet | Data |\n')
+    f.write('| --- | --- | --- |\n')
 
 server = 'SERVER'
 
@@ -523,7 +528,7 @@ class PacketParser:
                 self.print_property('Shift', 'Boolean', self.read_byte())
                 item_id = self.read_short(); self.print_property('Item', 'Short', item_id)
                 if item_id > -1:
-                    self.print_property('Amount', 'Short', self.read_short())
+                    self.print_property('Amount', 'Short', self.read_byte())
                     self.print_property('Damage', 'Short', self.read_short())
             case Packet.SetSlot:
                 self.print_property('Window', 'Byte', self.read_byte())
@@ -567,7 +572,7 @@ class PacketParser:
         return packet_enum
 
 
-def process_buffer(buffer, sender, tcp_header_line=None):
+def process_buffer(buffer, sender, tcp_header_line=None, timestamp=None):
     global triggered
     off = 0
     header_written = False
@@ -586,11 +591,11 @@ def process_buffer(buffer, sender, tcp_header_line=None):
                     f.write(tcp_header_line)
                     header_written = True
                 if isinstance(packet_enum, Packet):
-                    f.write(f'| {sender} | {packet_enum.name} (0x{packet_enum.value:02X}) | {payload_string} |\n')
+                    f.write(f'| {timestamp} | {sender} | {packet_enum.name} (0x{packet_enum.value:02X}) | {payload_string} |\n') if args.timestamp else f.write(f'| {sender} | {packet_enum.name} (0x{packet_enum.value:02X}) | {payload_string} |\n')
                     if args.verbose:
                         print(f'\tParsed {packet_enum.name}')
                 else:
-                    f.write(f'| {sender} | UNEXPECTED | 0x{packet_id:02X} |\n')
+                    f.write(f'| {timestamp} | {sender} | UNEXPECTED | 0x{packet_id:02X} |\n') if args.timestamp else f.write(f'| {sender} | UNEXPECTED | 0x{packet_id:02X} |\n')
                     if args.verbose:
                         print(f'\tParsed UNEXPECTED 0x{packet_id:02X}')
             off += parser.i
@@ -659,7 +664,9 @@ for packetIndex, dataPacket in enumerate(cap):
         else:
             tcp_header_line = None
 
-        remainder = process_buffer(stream_buffer, sender_label, tcp_header_line)
+        timestamp = dataPacket.sniff_time.isoformat()
+
+        remainder = process_buffer(stream_buffer, sender_label, tcp_header_line, timestamp)
         stream_buffers[stream_key] = bytearray(remainder)
 
     except Exception as e:

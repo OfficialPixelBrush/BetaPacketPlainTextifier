@@ -6,58 +6,58 @@
 | SERVER | Login (0x01) | EID=6; Unknown=""; Seed=4700869286537174060; Dimension=0;  |
 | SERVER | SetSpawnPosition (0x06) | x=0; y=64; z=0;  |
 | SERVER | SetTime (0x04) | Time=240352;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=-4; Mode=1;  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=-4; (Load);  |
 | SERVER | PlayerPositionAndRotation (0x0D) | x=20.51; y=72.62; cameraY=71.00; z=-9.04; Yaw=103.21; Pitch=26.40; OnGround=0;  |
 | SERVER | SetTime (0x04) | Time=240352;  |
-| SERVER | FillContainer (0x68) | Window=0; Count=45;  |
+| SERVER | FillContainer (0x68) | Window=0; Count=45; (Contents omitted);  |
 | CLIENT:40490 | PlayerPositionAndRotation (0x0D) | x=20.51; y=71.00; cameraY=72.62; z=-9.04; Yaw=103.21; Pitch=26.40; OnGround=0;  |
 | CLIENT:40490 | PlayerPositionAndRotation (0x0D) | x=20.51; y=71.00; cameraY=72.62; z=-9.04; Yaw=119.11; Pitch=27.45; OnGround=0;  |
 | CLIENT:40490 | PlayerPositionAndRotation (0x0D) | x=20.51; y=70.92; cameraY=72.54; z=-9.04; Yaw=121.06; Pitch=27.45; OnGround=0;  |
@@ -118,58 +118,58 @@
 | SERVER | SetEquipment (0x05) | EID=6; Slot=2; Item=-1; Damage=0;  |
 | SERVER | SetEquipment (0x05) | EID=6; Slot=3; Item=-1; Damage=0;  |
 | SERVER | SetEquipment (0x05) | EID=6; Slot=4; Item=-1; Damage=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=-3; Mode=1;  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=-3; (Load);  |
 | SERVER | PlayerPositionAndRotation (0x0D) | x=8.50; y=75.24; cameraY=73.62; z=8.50; Yaw=0.00; Pitch=0.00; OnGround=0;  |
 | SERVER | SetTime (0x04) | Time=240402;  |
-| SERVER | FillContainer (0x68) | Window=0; Count=45;  |
+| SERVER | FillContainer (0x68) | Window=0; Count=45; (Contents omitted);  |
 | SERVER | SetSlot (0x67) | Window=255; Slot=-1; [-1] Item=-1;  |
 | CLIENT:46204 | PlayerPositionAndRotation (0x0D) | x=8.50; y=73.62; cameraY=75.24; z=8.50; Yaw=0.00; Pitch=0.00; OnGround=0;  |
 | CLIENT:40490 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -433,20 +433,20 @@
 | CLIENT:40490 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:46204 | PlayerPositionAndRotation (0x0D) | x=12.59; y=72.00; cameraY=73.62; z=-1.43; Yaw=-134.85; Pitch=15.90; OnGround=1;  |
 | CLIENT:40490 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=3; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-2; z=3; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-1; z=3; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=0; z=3; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=1; z=3; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=2; z=3; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=3; z=3; Mode=0;  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=3; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-2; z=3; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=-1; z=3; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=0; z=3; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=1; z=3; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=2; z=3; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=3; z=3; (Unload);  |
 | SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
 | CLIENT:46204 | PlayerPosition (0x0B) | x=12.66; y=72.00; cameraY=73.62; z=-1.62; OnGround=1;  |
 | CLIENT:40490 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -556,20 +556,20 @@
 | CLIENT:40490 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:46204 | PlayerPositionAndRotation (0x0D) | x=18.11; y=71.00; cameraY=72.62; z=-7.58; Yaw=-135.90; Pitch=20.55; OnGround=1;  |
 | CLIENT:40490 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=-4; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=-3; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=-2; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=-1; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=0; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=1; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=-3; z=2; Mode=0;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=-4; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=-3; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=-2; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=-1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=0; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=1; Mode=1;  |
-| SERVER | SetChunkVisibility (0x32) | x=4; z=2; Mode=1;  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=-4; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=-3; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=-2; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=-1; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=0; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=1; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=-3; z=2; (Unload);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=-4; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=-3; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=-2; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=-1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=0; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=1; (Load);  |
+| SERVER | SetChunkVisibility (0x32) | x=4; z=2; (Load);  |
 | SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
 | CLIENT:46204 | PlayerPositionAndRotation (0x0D) | x=18.25; y=71.00; cameraY=72.62; z=-7.73; Yaw=-137.25; Pitch=22.20; OnGround=1;  |
 | CLIENT:40490 | PlayerMovement (0x0A) | OnGround=1;  |

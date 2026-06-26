@@ -13,8 +13,6 @@
 | SERVER | EntityPosition (0x1F) | EID=1534; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=1541; dX=0; dY=0; dZ=0;  |
 | SERVER | PlayerPositionAndRotation (0x0D) | x=55.21; y=78.61; cameraY=76.99; z=-48.37; Yaw=-167.55; Pitch=7.35; OnGround=0;  |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
 | CLIENT:52443 | PlayerPosition (0x0B) | x=55.21; y=76.53; cameraY=78.15; z=-48.37; OnGround=0;  |
 | SERVER | EntityPosition (0x1F) | EID=1533; dX=0; dY=0; dZ=0;  |
 | CLIENT:52436 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -456,8 +454,6 @@
 | CLIENT:52443 | PlayerPosition (0x0B) | x=55.21; y=76.99; cameraY=78.61; z=-48.37; OnGround=0;  |
 | SERVER | EntityPosition (0x1F) | EID=1535; dX=0; dY=0; dZ=0;  |
 | CLIENT:52443 | PlayerPosition (0x0B) | x=55.21; y=76.91; cameraY=78.53; z=-48.37; OnGround=0;  |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
 | CLIENT:52443 | PlayerPosition (0x0B) | x=55.21; y=76.76; cameraY=78.38; z=-48.37; OnGround=0;  |
 | SERVER | PlayerPositionAndRotation (0x0D) | x=55.21; y=78.61; cameraY=76.99; z=-48.37; Yaw=-167.55; Pitch=7.35; OnGround=0;  |
 | CLIENT:52443 | PlayerPosition (0x0B) | x=55.21; y=76.53; cameraY=78.15; z=-48.37; OnGround=0;  |
@@ -465,15 +461,3 @@
 | CLIENT:52443 | PlayerPositionAndRotation (0x0D) | x=55.21; y=76.99; cameraY=78.61; z=-48.37; Yaw=-167.55; Pitch=7.35; OnGround=0;  |
 | CLIENT:52443 | PlayerPosition (0x0B) | x=55.21; y=76.99; cameraY=78.61; z=-48.37; OnGround=0;  |
 | CLIENT:52443 | Disconnect (0xFF) | Message="Quitting";  |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |
-| CLIENT:52145 | UNEXPECTED | 0x4D |

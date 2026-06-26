@@ -1,5 +1,1475 @@
 | Sender | Packet | Data |
 | --- | --- | --- |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=253; dY=0; dZ=243; Yaw=87; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=111; y=2; z=-151; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=79; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=211; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=248; dY=249; dZ=250; Yaw=107; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=245; dY=0; dZ=253; Yaw=80; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=187; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=242; dY=0; dZ=4;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=251; dY=234; dZ=248;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=7; dY=15; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=0; dY=0; dZ=0; Yaw=184; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=5; dY=4; dZ=4;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=0; dY=0; dZ=0; Yaw=134; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=1; dY=13; dZ=254; Yaw=157; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=39; dX=0; dY=0; dZ=0; Yaw=176; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=33; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=1; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=251;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-30; y Velocity=-119; z Velocity=-501;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=3; dY=0; dZ=255;  |
+| SERVER | SetBlock (0x35) | x=220; y=9; z=9; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=2;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=6; dY=249; dZ=18;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=0; y Velocity=-215; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=251; dY=0; dZ=253;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=254; dY=0; dZ=2;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=245; dY=0; dZ=250; Yaw=71; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=174; y=5; z=-160; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=0; dY=0; dZ=0; Yaw=46; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=247; dY=255; dZ=245;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=243; dY=0; dZ=251;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=242; dY=0; dZ=4; Yaw=34; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=248; dY=249; dZ=245; Yaw=92; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=73; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=8; dY=253; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=32; dX=0; dY=0; dZ=0; Yaw=210; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=6; dY=7; dZ=3;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=1; dY=0; dZ=0; Yaw=197; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=255; dY=0; dZ=247; Yaw=125; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=0; dY=0; dZ=0; Yaw=2; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=4; dY=24; dZ=254; Yaw=221; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=39; dX=0; dY=0; dZ=0; Yaw=184; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-186; y Velocity=-42; z Velocity=358;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=253; Yaw=115; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=-275; y Velocity=-69; z Velocity=-109;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=197; y=10; z=-152; Type=11; Meta=0;  |
+| SERVER | SetBlock (0x35) | x=191; y=3; z=-149; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=39;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=0; y Velocity=-485; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=4; dY=2; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=408; y Velocity=-443; z Velocity=1229;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=6; dY=0; dZ=18;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=297; y Velocity=340; z Velocity=796;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=253; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=-230; y Velocity=22; z Velocity=-134;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=252; dY=1; dZ=254;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-78; y Velocity=-26; z Velocity=67;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=246; dY=0; dZ=246; Yaw=115; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=182; y=2; z=-152; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=0; dY=0; dZ=0; Yaw=173; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=253; dY=0; dZ=252; Yaw=115; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=242; dY=0; dZ=252;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=165; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=245; dY=0; dZ=9;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=245; dY=0; dZ=246;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=12; dY=252; dZ=2;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=32; dX=0; dY=0; dZ=0; Yaw=200; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=6; dY=4; dZ=3;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=207; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=255; dY=248; dZ=244;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=0; dY=0; dZ=0; Yaw=13; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=5; dY=0; dZ=1; Yaw=7; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=146; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=-22; y Velocity=1; z Velocity=-125;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=3; Yaw=91; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-15; y Velocity=-63; z Velocity=-266;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=11; z=-10; Array size=3;  |
+| SERVER | SetBlock (0x35) | x=210; y=8; z=66; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=312; y Velocity=144; z Velocity=-103;  |
+| SERVER | SetBlock (0x35) | x=111; y=4; z=-151; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=3; dY=255; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=298; y Velocity=-323; z Velocity=896;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=5; dY=0; dZ=13;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=241; y Velocity=275; z Velocity=645;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=254; dY=0; dZ=254;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=251; dY=0; dZ=244; Yaw=96; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=-2; y=9; z=-160; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=71; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=0; dY=0; dZ=0; Yaw=182; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=0; dY=0; dZ=0; Yaw=34; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=203; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=248; dY=0; dZ=251; Yaw=75; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=242; dY=0; dZ=252;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=153; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=252; dY=0; dZ=3;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=252; dY=0; dZ=253;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=83; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=14; dY=0; dZ=2;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=0; dY=0; dZ=0; Yaw=192; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=8; dY=244; dZ=4; Yaw=224; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=0; dY=232; dZ=246;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=0; dY=0; dZ=0; Yaw=21; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=3; dY=234; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=5; Yaw=74; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=182; y=2; z=-155; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=2; dY=255; dZ=255;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=48; y Velocity=-6; z Velocity=47;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=217; y Velocity=-235; z Velocity=653;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=3; dY=0; dZ=10;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=0; y Velocity=-383; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=254; dY=0; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=244; dY=0; dZ=249; Yaw=74; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=157; y=5; z=-153; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=243; dY=0; dZ=250; Yaw=96; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=244; dY=0; dZ=248; Yaw=93; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=144; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=255; dY=0; dZ=253; Yaw=113; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=15; dY=0; dZ=1; Yaw=192; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=32; dX=0; dY=0; dZ=0; Yaw=188; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=6; dY=253; dZ=4;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=219; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=255; dY=0; dZ=241;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=254; dZ=8;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=135; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=4; Yaw=61; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=-3; y=7; z=-160; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=0; y Velocity=-485; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=4; dY=2; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=158; y Velocity=-171; z Velocity=476;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=2; dY=0; dZ=4;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=216; y Velocity=248; z Velocity=580;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=254; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=-89; y Velocity=8; z Velocity=-52;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=0; dY=0; dZ=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=245; dY=0; dZ=249; Yaw=112; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=115; y=3; z=-153; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=62; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=0; dY=0; dZ=0; Yaw=194; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=0; dY=0; dZ=0; Yaw=26; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=249; dY=0; dZ=245; Yaw=117; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=244; dY=0; dZ=249; Yaw=82; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=44; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=255; dY=0; dZ=245; Yaw=128; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=14; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=5; dY=4; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=255; dY=0; dZ=241;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=0; dY=24; dZ=9; Yaw=249; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=20; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-186; y Velocity=-42; z Velocity=554;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=6; Yaw=21; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=195; y=2; z=-145; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=312; y Velocity=144; z Velocity=-103;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=3; dY=255; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=2; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=156; y Velocity=-232; z Velocity=599;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=255; dY=0; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=250; dY=0; dZ=243;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=11; z=-10; Array size=3;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=184; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=249; dY=0; dZ=245; Yaw=75; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=243; dY=0; dZ=250;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=132; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=53; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=0; dY=0; dZ=242;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=253; Yaw=134; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=13; dY=24; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=6; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=5; dY=6; dZ=4; Yaw=214; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=0; dY=0; dZ=241;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=10;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=143; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-1434; y Velocity=-350; z Velocity=1108;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=14; Yaw=12; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-170; y Velocity=40; z Velocity=-169;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=9158;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=2; dY=255; dZ=255;  |
+| SERVER | SetBlock (0x35) | x=116; y=2; z=-156; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=1;  |
+| SERVER | SetBlock (0x35) | x=161; y=2; z=-148; Type=11; Meta=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=-220; y Velocity=-51; z Velocity=-150;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=254; dY=0; dZ=255; Yaw=14; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=253; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=255; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=253; dY=0; dZ=242; Yaw=125; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=196; y=10; z=-157; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=172; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=245; dY=0; dZ=2; Yaw=11; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=245; dY=0; dZ=246; Yaw=99; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=5; dY=0; dZ=0; Yaw=200; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=253; dY=0; dZ=243; Yaw=85; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=255;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=91; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=10; dY=15; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=13; dY=0; dZ=254;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=6; dY=4; dZ=4;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=227; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=0; dY=241; dZ=245; Yaw=106; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=2; dY=251; dZ=12; Yaw=227; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=10; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-1161; y Velocity=-284; z Velocity=573;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=10;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=0; dY=0; dZ=0; Yaw=115; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=171; y=3; z=-159; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=3; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=72; y=8; z=-146; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=254; dY=0; dZ=254; Yaw=34; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=254; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=0; dY=255; dZ=0; Yaw=44; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=255; dY=0; dZ=242;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=0; dY=0; dZ=0; Yaw=202; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=163; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=0; dY=0; dZ=12; Yaw=243; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=246; dY=0; dZ=246; Yaw=108; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=120; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=7; dY=0; dZ=8; Yaw=6; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=244; dY=0; dZ=249; Yaw=74; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=253; Yaw=115; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=101; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=12; dY=253; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=14; dY=0; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=6; dY=244; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=252; dY=239; dZ=245; Yaw=89; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=0; dY=0; dZ=0; Yaw=31; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=7; dY=0; dZ=13; Yaw=236; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=152; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=-285; y Velocity=15; z Velocity=-1574;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-847; y Velocity=-207; z Velocity=418;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=8;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=214; y=5; z=103; Type=11; Meta=0;  |
+| SERVER | SetBlock (0x35) | x=188; y=4; z=-150; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=3; dY=1; dZ=254;  |
+| SERVER | SetBlock (0x35) | x=194; y=3; z=-147; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=-104; y Velocity=0; z Velocity=95;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=254; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=404; y Velocity=-599; z Velocity=1548;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=253; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=0; dZ=0; Yaw=15; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=24; dZ=243;  |
+| SERVER | SetBlock (0x35) | x=72; y=8; z=-147; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=185; y=5; z=-155; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=155; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=4; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=253; dY=0; dZ=243;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=101; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=61; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=255; dY=0; dZ=13;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=252; dY=0; dZ=255;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=249; dY=0; dZ=246; Yaw=103; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=114; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=13; dY=252; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=15; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=7; dY=249; dZ=4; Yaw=228; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=246; dY=0; dZ=247;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=6; dY=241; dZ=10;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-617; y Velocity=-151; z Velocity=305;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=5;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-1136; y Velocity=270; z Velocity=-1126;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=248; dY=3; dZ=0; Yaw=94; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=0; y Velocity=61; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=8; dY=2; dZ=254;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=255; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=253; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=0; dZ=0; Yaw=249; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=15; dZ=246;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=51; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=2; dY=0; dZ=8; Yaw=6; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=4; dY=0; dZ=14; Yaw=251; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=246; dY=0; dZ=250; Yaw=45; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=86; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=255; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=247; dY=0; dZ=246; Yaw=88; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=122; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=16; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=14; dY=0; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=5; dY=1; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=246; dY=0; dZ=249;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=0; dY=0; dZ=0; Yaw=40; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=6; dY=239; dZ=11; Yaw=220; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=26; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=254; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-450; y Velocity=-110; z Velocity=222;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=5;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-1022; y Velocity=243; z Velocity=-1013;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=245; dY=3; dZ=0; Yaw=78; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=-1487; y Velocity=-374; z Velocity=-589;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=6; dY=0; dZ=254;  |
+| SERVER | SetBlock (0x35) | x=208; y=9; z=65; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=255; dY=0; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=327; y Velocity=-485; z Velocity=1253;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=0; dZ=0; Yaw=234; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-1210; y Velocity=-413; z Velocity=1046;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=255; dY=253; dZ=244;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=250; dY=0; dZ=12; Yaw=28; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=0; dY=0; dZ=2; Yaw=0; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=145; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=0; dZ=14;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=249; dY=0; dZ=8; Yaw=5; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=76; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=255; dY=0; dZ=14; Yaw=240; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=0; dY=0; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=245; dY=0; dZ=247;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=12; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=14; dY=0; dZ=255;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=0; dY=0; dZ=0; Yaw=181; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=5; dY=5; dZ=4;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=253; dY=0; dZ=254;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=11; dY=0; dZ=10;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=34; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=-207; y Velocity=11; z Velocity=-1147;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=2; Yaw=25; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-745; y Velocity=177; z Velocity=-739;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=247; dY=3; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=-1338; y Velocity=-336; z Velocity=-530;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=1367; y Velocity=632; z Velocity=-450;  |
+| SERVER | SetBlock (0x35) | x=222; y=9; z=61; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=0; dY=250; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=83; y=8; z=-152; Type=11; Meta=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=1142; y Velocity=-158; z Velocity=1120;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=117; y Velocity=52; z Velocity=79;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=255; dY=0; dZ=1; Yaw=21; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=238; y Velocity=-353; z Velocity=914;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=0; dY=0; dZ=0; Yaw=222; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=242; dY=0; dZ=13;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=252; dZ=246;  |
+| SERVER | SetBlock (0x35) | x=214; y=7; z=30; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=64; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=246; dY=0; dZ=9; Yaw=42; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=12;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=2; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=253; dY=0; dZ=14;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=68; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=5; dY=32; dZ=9; Yaw=219; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=246; dY=0; dZ=246; Yaw=102; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=133; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=3; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=15; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=0; dY=0; dZ=0; Yaw=167; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=4; dY=7; dZ=6;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=251; dY=0; dZ=1; Yaw=44; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=9; dY=0; dZ=11; Yaw=233; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=-151; y Velocity=8; z Velocity=-836;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-265; y Velocity=-65; z Velocity=131;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-543; y Velocity=129; z Velocity=-538;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=250; dY=2; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=-975; y Velocity=-245; z Velocity=-386;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-1122; y Velocity=-552; z Velocity=-316;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=87; dX=10; dY=4; dZ=252; Yaw=194; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=5; dY=0; dZ=9; Yaw=237; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=2; dY=0; dZ=0; Yaw=5; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=174; y Velocity=-257; z Velocity=666;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=0; dZ=0; Yaw=214; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=241; dY=0; dZ=12;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=9178;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=10; z=-10; Array size=2;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=252;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=74; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=244; dY=0; dZ=8; Yaw=27; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=1; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=255; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=6; dY=8; dZ=8;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=247; dY=0; dZ=245; Yaw=89; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=148; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=14; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=1; dY=0; dZ=247; Yaw=103; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=3; dY=7; dZ=3;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=251; dY=0; dZ=9; Yaw=236; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=8; dY=0; dZ=12; Yaw=218; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=160; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=618; y Velocity=240; z Velocity=-46;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=0; dZ=0; Yaw=101; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=0; Yaw=34; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-396; y Velocity=94; z Velocity=-392;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=253; dY=1; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=-711; y Velocity=-178; z Velocity=-281;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-818; y Velocity=-403; z Velocity=-230;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=87; dX=244; dY=250; dZ=253; Yaw=22; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=14; dY=0; dZ=0; Yaw=210; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=1; dY=1; dZ=0; Yaw=248; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=126; y Velocity=-187; z Velocity=485;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-828; y Velocity=-466; z Velocity=-821;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=244; dY=0; dZ=5;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=85; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=246; dY=0; dZ=10;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=12;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=135; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=1; dY=0; dZ=15;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=255; dY=0; dZ=15;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=80; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=6; dY=241; dZ=9; Yaw=231; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=253; dY=0; dZ=248; Yaw=138; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=245; dY=0; dZ=247;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=32; dX=14; dY=0; dZ=2; Yaw=214; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=245; dY=0; dZ=251; Yaw=58; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=2; dY=247; dZ=2;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=9; dY=0; dZ=8; Yaw=206; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=0; dY=0; dZ=0; Yaw=48; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=11; dY=0; dZ=9;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=450; y Velocity=175; z Velocity=-33;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=4; dY=3; dZ=0; Yaw=82; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=255; dY=255; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=-518; y Velocity=-130; z Velocity=-205;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=196; y=10; z=-155; Type=11; Meta=0;  |
+| SERVER | SetBlock (0x35) | x=156; y=6; z=-153; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-596; y Velocity=-293; z Velocity=-168;  |
+| SERVER | SetBlock (0x35) | x=86; y=10; z=-153; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=87; dX=247; dY=252; dZ=254; Yaw=61; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=832; y Velocity=-115; z Velocity=816;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=12; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=1327; y Velocity=597; z Velocity=893;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=11; dY=5; dZ=0; Yaw=226; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=1599; y Velocity=-236; z Velocity=-6;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=7; dY=255; dZ=255; Yaw=203; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-603; y Velocity=-340; z Velocity=-598;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=94; dX=247; dY=0; dZ=247; Yaw=83; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=0; dY=0; dZ=0; Yaw=133; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=173; y=28; z=-54; Type=10; Meta=6;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=246; dY=0; dZ=10; Yaw=40; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=3;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=253; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=255; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=8; dY=231; dZ=9;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=7; dY=0; dZ=247; Yaw=172; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=246; dY=0; dZ=249;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=140; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=32; dX=14; dY=0; dZ=5; Yaw=206; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=243; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=1; dY=251; dZ=1; Yaw=239; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=13; dY=0; dZ=6;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=9; dY=0; dZ=11; Yaw=231; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=149; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=21; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=2; dZ=0; Yaw=41; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-233; y Velocity=55; z Velocity=-231;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=406; y Velocity=-187; z Velocity=-10;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=0; dY=0; dZ=0; Yaw=64; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=215; y=10; z=31; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-434; y Velocity=-214; z Velocity=-122;  |
+| SERVER | SetBlock (0x35) | x=220; y=9; z=20; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=87; dX=250; dY=254; dZ=254; Yaw=71; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=155; y=8; z=-154; Type=11; Meta=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=607; y Velocity=-84; z Velocity=595;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=0; y Velocity=-41; z Velocity=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=16; dY=7; dZ=0; Yaw=209; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=67; y Velocity=-99; z Velocity=258;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=-1585; y Velocity=223; z Velocity=213;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=6; dY=255; dZ=1; Yaw=214; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-440; y Velocity=-248; z Velocity=-436;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=94; dX=249; dY=0; dZ=249; Yaw=92; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=11; z=-10; Array size=2;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=69; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=244; dY=0; dZ=8;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=246; dZ=10;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=15;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=32; dZ=11; Yaw=239; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=10; dY=0; dZ=246; Yaw=156; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=253; dY=0; dZ=254; Yaw=103; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=13; dY=0; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=241; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=14; dY=0; dZ=3;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=9; dY=253; dZ=12;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=11; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=239; y Velocity=93; z Velocity=-17;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=1; dZ=0; Yaw=12; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-1434; y Velocity=-350; z Velocity=708;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=0; dY=1; dZ=0; Yaw=87; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=2; dY=0; dZ=0; Yaw=29; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=251; dY=0; dZ=254;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=442; y Velocity=-61; z Velocity=433;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=1272; y Velocity=-197; z Velocity=-246;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=6; dY=252; dZ=255; Yaw=197; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=237; dY=2; dZ=3; Yaw=33; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-320; y Velocity=-180; z Velocity=-318;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=251; dY=0; dZ=252;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=57; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=246; dY=0; dZ=11; Yaw=25; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=126; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=246; dZ=11;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=255; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=2; dY=8; dZ=11;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=8; dY=0; dZ=244; Yaw=145; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=0; Yaw=111; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=131; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=1; dY=0; dZ=1; Yaw=213; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=9; dY=0; dZ=3;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=243; dY=0; dZ=4; Yaw=39; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=1; dY=2; dZ=0; Yaw=248; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=13; dY=13; dZ=4; Yaw=219; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=4; dY=234; dZ=6;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=141; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=1; dZ=0; Yaw=246; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=0; Yaw=42; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=1; dY=254; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=216; y Velocity=-99; z Velocity=-5;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=2; dY=0; dZ=0; Yaw=4; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=189; y=2; z=-148; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-211; y Velocity=1; z Velocity=-113;  |
+| SERVER | SetBlock (0x35) | x=79; y=9; z=-151; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=253; dY=0; dZ=255;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=322; y Velocity=-44; z Velocity=316;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=927; y Velocity=-144; z Velocity=-179;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=14; dY=254; dZ=254; Yaw=187; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=-220; y Velocity=-15; z Velocity=95;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=90; dX=255; dY=0; dZ=0; Yaw=0; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=-1155; y Velocity=163; z Velocity=155;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=239; dY=3; dZ=2; Yaw=52; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=253; dY=0; dZ=252;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=49; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=246; dY=0; dZ=10; Yaw=39; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=0; dY=0; dZ=0; Yaw=238; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=1; dY=247; dZ=12;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=74; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=3; dY=248; dZ=11;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=6; dY=0; dZ=243;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=0; Yaw=120; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=5; dY=0; dZ=10; Yaw=253; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=1; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=243; dY=0; dZ=7; Yaw=48; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=0; dY=4; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=9; dY=24; dZ=4;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=3; dY=249; dZ=4;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=0; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=1; dZ=0; Yaw=231; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-1045; y Velocity=-255; z Velocity=516;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=0; dY=0; dZ=0; Yaw=241; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=253; dY=0; dZ=255;  |
+| SERVER | SetBlock (0x35) | x=167; y=5; z=-158; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=676; y Velocity=-105; z Velocity=-130;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=10; dY=255; dZ=254;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=90; dX=254; dY=0; dZ=0; Yaw=13; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=-936; y Velocity=132; z Velocity=126;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=247; dY=255; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-170; y Velocity=-96; z Velocity=-169;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=253; dY=0; dZ=254;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=0; dY=0; dZ=0; Yaw=144; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=221; y=9; z=104; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=249; dY=0; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=138; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=0; dZ=16;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=0; dY=0; dZ=1; Yaw=16; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=72; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=85; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=1; dY=0; dZ=6; Yaw=214; Pitch=253;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=8; dY=0; dZ=244; Yaw=162; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=0; Yaw=130; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=1; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=243; dY=0; dZ=5;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=0; dY=4; dZ=0; Yaw=12; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=8; dY=0; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=1; dZ=0; Yaw=219; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-267; y Velocity=-353; z Velocity=-807;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=253; Yaw=56; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=0; dY=0; dZ=0; Yaw=227; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=-16; y=8; z=-160; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=9198;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=87; dX=255; dY=0; dZ=255; Yaw=79; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=-154; y Velocity=59; z Velocity=-183;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=0; dY=0; dZ=255; Yaw=243; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=492; y Velocity=-76; z Velocity=-95;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=7; dY=255; dZ=254;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=90; dX=253; dY=0; dZ=0; Yaw=22; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=0; y Velocity=-522; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=246; dY=2; dZ=2;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=254; dY=0; dZ=254;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=0; dY=0; dZ=0; Yaw=152; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=213; y=6; z=105; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=0; dY=0; dZ=0; Yaw=39; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=255; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=4; dY=0; dZ=254; Yaw=184; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=0; dZ=15;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=93; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=1; dY=0; dZ=1; Yaw=193; Pitch=253;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=10; dY=0; dZ=246; Yaw=150; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=0; Yaw=144; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=0; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=244; dY=0; dZ=5;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=0; dY=1; dZ=0; Yaw=24; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=6; dY=251; dZ=4;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=131; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=0; dZ=0; Yaw=211; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-195; y Velocity=-257; z Velocity=-588;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=249; Yaw=107; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=0; dY=0; dZ=0; Yaw=217; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=184; y=7; z=-160; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=254; dY=0; dZ=255;  |
+| SERVER | SetBlock (0x35) | x=64; y=69; z=102; Type=81; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=254; dY=0; dZ=0; Yaw=18; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=6; dY=255; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=253; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=223; y Velocity=-171; z Velocity=-511;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=255; dY=254; dZ=252; Yaw=39; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=254;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=220; y=10; z=25; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=254; dY=0; dZ=0; Yaw=55; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=13; dY=0; dZ=255; Yaw=192; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=0; dZ=14;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=251; dY=0; dZ=2; Yaw=59; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=0; dZ=0; Yaw=172; Pitch=253;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=8; dY=0; dZ=244;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=0; Yaw=159; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=0; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=254; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=0; dY=239; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=2; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=0; dY=0; dZ=0; Yaw=248; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-142; y Velocity=-187; z Velocity=-428;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=250; Yaw=120; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=1; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=255; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=255; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=116; y=6; z=-154; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=255; dY=1; dZ=0; Yaw=40; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=261; y Velocity=-40; z Velocity=-50;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=3; dY=255; dZ=255;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=-1468; y Velocity=-103; z Velocity=636;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=90; dX=244; dY=0; dZ=0; Yaw=42; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=2; dY=254; dZ=251; Yaw=66; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=255;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=0; dY=0; dZ=0; Yaw=161; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=210; y=3; z=37; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=244; dY=0; dZ=3;  |
+| SERVER | SetBlock (0x35) | x=184; y=8; z=-159; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=255; dY=0; dZ=10; Yaw=245; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=14; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=0; dZ=15;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=249; dY=0; dZ=255; Yaw=76; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=0; dZ=0; Yaw=150; Pitch=253;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=0; dY=24; dZ=246; Yaw=167; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=5; dY=0; dZ=0; Yaw=205; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=123; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=0; dY=0; dZ=15;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=34; dX=0; dY=255; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=239; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=0; dZ=0; Yaw=200; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=253;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=0; dY=0; dZ=0; Yaw=205; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=255; dY=0; dZ=255;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=255; dY=0; dZ=0; Yaw=56; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=3; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=-1321; y Velocity=-93; z Velocity=572;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=90; dX=238; dY=0; dZ=5; Yaw=50; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=118; y Velocity=-91; z Velocity=-271;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=2; dY=255; dZ=251; Yaw=53; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-48; y Velocity=-27; z Velocity=-47;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=74; y=9; z=-145; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=242; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=5; dY=0; dZ=11; Yaw=225; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=15; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=0; dZ=15;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=83; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=0; dZ=0; Yaw=137; Pitch=253;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=2; dY=15; dZ=249;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=7; dY=0; dZ=9; Yaw=8; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=107; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=0; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=0; dY=3; dZ=0; Yaw=2; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=0; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=249; dY=0; dZ=251; Yaw=114; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=253;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=0; y Velocity=-594; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=198; y=10; z=-158; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=-43; y Velocity=16; z Velocity=-51;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=255; dY=0; dZ=0; Yaw=67; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=3; dY=255; dZ=255;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=-963; y Velocity=-68; z Velocity=417;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=242; dY=0; dZ=7;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=255; dZ=254; Yaw=9; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=0; dY=0; dZ=255;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=4; dX=0; dY=0; dZ=0; Yaw=145; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=242; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=6; dX=8; dY=0; dZ=12; Yaw=235; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=14; dY=0; dZ=252; Yaw=177; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=252; dY=0; dZ=12; Yaw=42; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=5; dY=249; dZ=249;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=254; dY=0; dZ=14;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=96; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=3; dY=0; dZ=13; Yaw=213; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=32; dX=3; dY=0; dZ=4; Yaw=246; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=0; dY=6; dZ=0; Yaw=247; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=13; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=0; dY=0; dZ=0; Yaw=210; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=252; dY=0; dZ=243; Yaw=123; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=254; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=253;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=-1136; y Velocity=270; z Velocity=-1126;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=249; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=255; dY=0; dZ=255;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=0; dY=1; dZ=0; Yaw=76; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=2; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=-702; y Velocity=-49; z Velocity=304;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=245; dY=0; dZ=4;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=255; dZ=253; Yaw=232; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | Chunk (0x33) | x=168; y=26; z=-55; sizeX=5; sizeY=13; sizeZ=4; Compressed Size=215;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=241; dY=0; dZ=1; Yaw=63; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=208; y=5; z=35; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=7; dY=0; dZ=13;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=13; dY=0; dZ=252;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=244; dY=0; dZ=7; Yaw=52; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=94; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=7; dY=227; dZ=249; Yaw=158; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=254; dY=0; dZ=14;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=12; dY=0; dZ=3; Yaw=186; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=2; dY=0; dZ=13;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=34; dX=0; dY=3; dZ=0; Yaw=239; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=22; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=1; dY=0; dZ=2; Yaw=230; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=253; dY=0; dZ=242; Yaw=103; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=0; dY=0; dZ=0; Yaw=246; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=0; dZ=253;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=0; y Velocity=-388; z Velocity=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=249; dY=1; dZ=0; Yaw=77; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=1599; y Velocity=-738; z Velocity=-39;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=11; dY=0; dZ=0; Yaw=195; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=3; dY=0; dZ=255;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=-511; y Velocity=-36; z Velocity=221;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=249; dY=0; dZ=3;  |
+| SERVER | EntityVelocity (0x1C) | EID=93; x Velocity=46; y Velocity=-35; z Velocity=-105;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=0; dZ=255; Yaw=208; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=0; dY=0; dZ=255;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=34;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=242; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=6; dY=0; dZ=10;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=2; dY=0; dZ=1; Yaw=208; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=14; dY=0; dZ=251;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=248; dY=0; dZ=3;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=108; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=8; dY=21; dZ=248;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=254; dY=0; dZ=14;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=107; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=11; dY=0; dZ=7; Yaw=243; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=32; dX=1; dY=0; dZ=14; Yaw=254; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=2; dY=32; dZ=7; Yaw=4; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=249; dY=0; dZ=244; Yaw=111; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=0; dY=0; dZ=0; Yaw=6; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=117; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=0; y Velocity=-645; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=2; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-329; y Velocity=73; z Velocity=-7;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=0; dZ=1; Yaw=106; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=889; y Velocity=366; z Velocity=753;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=6; dY=255; dZ=3; Yaw=24; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=939; y Velocity=369; z Velocity=1091;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=18; dY=0; dZ=255;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=9218;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=255; dY=0; dZ=255;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=0; dY=0; dZ=0; Yaw=87; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=-200; y Velocity=-98; z Velocity=-81;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=1; dY=255; dZ=0; Yaw=213; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=250; dY=0; dZ=3;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=0; dY=255; dZ=255; Yaw=191; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=255;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=241; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=1; dY=0; dZ=3;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=11; dY=0; dZ=254; Yaw=171; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=14; dY=0; dZ=253;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=255; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=0; dY=0; dZ=0; Yaw=68; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=117; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=0; dZ=0; Yaw=152; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=8; dY=15; dZ=248; Yaw=170; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=254; dY=0; dZ=14;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=88; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=8; dY=0; dZ=11; Yaw=209; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=15;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=0; dY=0; dZ=0; Yaw=40; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=33; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=1; dY=8; dZ=9;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=254; dY=0; dZ=251;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=0; dY=0; dZ=0; Yaw=14; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=109; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-1599; y Velocity=358; z Velocity=-34;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=3; dZ=2; Yaw=52; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=5; dY=253; dZ=2; Yaw=0; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=685; y Velocity=269; z Velocity=795;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=8; dY=4; dZ=10; Yaw=216; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=112; y=4; z=-150; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=255; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=-1480; y Velocity=-726; z Velocity=-606;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=253; dY=255; dZ=255; Yaw=246; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=90; x Velocity=-272; y Velocity=-19; z Velocity=117;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=252; dY=0; dZ=2;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=0; dZ=255; Yaw=178; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=5; dX=242; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=13; dY=0; dZ=251;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=14; dY=0; dZ=252; Yaw=163; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=0; dY=0; dZ=0; Yaw=42; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=0; dY=0; dZ=0; Yaw=76; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=11; dX=0; dY=0; dZ=0; Yaw=64; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=129; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=0; dZ=0; Yaw=162; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=9; dY=249; dZ=248;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=255; dY=0; dZ=5;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=74; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=13; dY=0; dZ=6;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=1; dY=0; dZ=14;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=0; dY=0; dZ=0; Yaw=31; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=1; dY=241; dZ=9; Yaw=219; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=0; dY=0; dZ=0; Yaw=24; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=5; dY=0; dZ=2; Yaw=200; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=63; dX=0; dY=0; dZ=0; Yaw=192; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-1295; y Velocity=290; z Velocity=-28;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=4; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=0; y Velocity=-365; z Velocity=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=11; dY=3; dZ=6; Yaw=239; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=499; y Velocity=196; z Velocity=579;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=5; dY=2; dZ=8; Yaw=227; Pitch=0;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-352.76; Pitch=27.45; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=219; y=7; z=16; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-352.61; Pitch=28.05; OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-1409; y Velocity=7; z Velocity=-756;  |
+| SERVER | SetBlock (0x35) | x=190; y=5; z=-150; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=244; dY=0; dZ=249;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=-1331; y Velocity=220; z Velocity=886;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=239; dY=0; dZ=254; Yaw=41; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=253; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=0; dY=0; dZ=255; Yaw=169; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=0; dY=0; dZ=255;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-352.91; Pitch=30.75; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=195; y=2; z=-149; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=242; dY=0; dZ=255; Yaw=85; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=13; dY=0; dZ=251; Yaw=179; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=11; dY=0; dZ=247;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=10; dX=0; dY=0; dZ=0; Yaw=85; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=139; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=0; dZ=0; Yaw=170; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=13; dY=0; dZ=248; Yaw=180; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=64; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=9; dY=0; dZ=10; Yaw=243; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=5;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=17; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=36; dX=4; dY=231; dZ=1; Yaw=191; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=100; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=9; dY=0; dZ=252; Yaw=136; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=255; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-944; y Velocity=211; z Velocity=-20;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=3; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=6; dY=1; dZ=2; Yaw=223; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=557; y Velocity=238; z Velocity=-3;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=3; dY=3; dZ=5;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-354.26; Pitch=35.85; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=217; y=8; z=59; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-355.76; Pitch=43.65; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=239; dY=0; dZ=247;  |
+| SERVER | SetBlock (0x35) | x=67; y=70; z=109; Type=81; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=88; dX=255; dY=1; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=-1198; y Velocity=198; z Velocity=798;  |
+| SERVER | EntityPosition (0x1F) | EID=89; dX=240; dY=3; dZ=11;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=254; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=0; dY=255; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=255; dY=0; dZ=0;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-357.26; Pitch=46.20; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=247; dY=0; dZ=246; Yaw=115; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=14; dY=0; dZ=252;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=4; dY=0; dZ=253;  |
+| SERVER | EntityPosition (0x1F) | EID=9; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=14; dY=0; dZ=251;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=0; Yaw=248; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=5; dY=13; dZ=13; Yaw=224; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=33; dX=0; dY=0; dZ=0; Yaw=20; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=3; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=12; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=0; dY=0; dZ=0; Yaw=32; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=41; dX=1; dY=0; dZ=243; Yaw=118; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=0; y Velocity=-183; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=0; y Velocity=-459; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=3; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=5; dY=0; dZ=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=406; y Velocity=173; z Velocity=-2;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=4; dY=2; dZ=255; Yaw=219; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=223; y=9; z=10; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-1268; y Velocity=6; z Velocity=-680;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-10; Array size=3;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=239; dY=0; dZ=247;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=0; dY=0; dZ=0; Yaw=59; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=-208; y Velocity=377; z Velocity=-1028;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=246; dY=3; dZ=255; Yaw=59; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=254; dY=0; dZ=1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=93; dX=1; dY=0; dZ=255; Yaw=157; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=-1135; y Velocity=-640; z Velocity=-1126;  |
+| SERVER | EntityPosition (0x1F) | EID=94; dX=251; dY=0; dZ=251;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-357.86; Pitch=45.60; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=248; dY=0; dZ=245; Yaw=78; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=11; dY=0; dZ=5; Yaw=247; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=8; dX=1; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=0; dY=0; dZ=0; Yaw=30; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=13; dX=0; dY=0; dZ=0; Yaw=149; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=0; dZ=0; Yaw=180; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=13; dY=0; dZ=252; Yaw=162; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=28; dX=0; dY=0; dZ=0; Yaw=52; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=6; dY=24; dZ=7; Yaw=204; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=32; dX=0; dY=0; dZ=0; Yaw=246; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=249; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=14; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=0; dY=0; dZ=0; Yaw=121; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=109; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=254; dY=0; dZ=242;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=942; y Velocity=366; z Velocity=-70;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=254; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-557; y Velocity=125; z Velocity=-12;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=78; dX=0; dY=255; dZ=1; Yaw=60; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=310; y Velocity=127; z Velocity=262;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=79; dX=5; dY=255; dZ=1; Yaw=211; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=1; dY=0; dZ=255;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-357.86; Pitch=45.00; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=222; y=10; z=101; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerRotation (0x0C) | Yaw=-357.86; Pitch=44.85; OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-925; y Velocity=4; z Velocity=-496;  |
+| SERVER | SetBlock (0x35) | x=112; y=3; z=-153; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=242; dY=0; dZ=249;  |
+| SERVER | SetBlock (0x35) | x=187; y=3; z=-153; Type=11; Meta=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=88; x Velocity=1277; y Velocity=-287; z Velocity=-963;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=1; dY=0; dZ=0; Yaw=19; Pitch=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=89; x Velocity=-152; y Velocity=275; z Velocity=-750;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=254; dY=4; dZ=245; Yaw=104; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=253; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=0; dY=0; dZ=255;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=764; y Velocity=-213; z Velocity=-1405;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=94; dX=250; dY=0; dZ=241; Yaw=62; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=210; y=6; z=127; Type=11; Meta=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=251; dY=0; dZ=245; Yaw=142; Pitch=0;  |
+| SERVER | SetBlock (0x35) | x=211; y=9; z=111; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=7; dX=255; dY=0; dZ=12; Yaw=18; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=177; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=0; dY=0; dZ=0; Yaw=13; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=25; dX=12; dY=0; dZ=247;  |
+| SERVER | EntityPosition (0x1F) | EID=27; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=31; dX=8; dY=1; dZ=6;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=35; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=14; dY=0; dZ=255;  |
+| SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=38; dX=0; dY=0; dZ=0; Yaw=44; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=40; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=253; dY=0; dZ=242;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=0; y Velocity=-303; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=2; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=255; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=4; dY=255; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=240; y Velocity=102; z Velocity=-1;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=80; dX=1; dY=1; dZ=255; Yaw=208; Pitch=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=218; y=10; z=108; Type=11; Meta=0;  |
+| SERVER | SetBlock (0x35) | x=216; y=9; z=25; Type=11; Meta=0;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=87; x Velocity=-674; y Velocity=3; z Velocity=-361;  |
+| SERVER | SetBlock (0x35) | x=209; y=8; z=-79; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=87; dX=246; dY=0; dZ=251;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=88; dX=7; dY=253; dZ=0; Yaw=216; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=89; dX=255; dY=1; dZ=250; Yaw=115; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=90; dX=254; dY=0; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=93; dX=1; dY=255; dZ=255;  |
+| SERVER | EntityVelocity (0x1C) | EID=94; x Velocity=688; y Velocity=-192; z Velocity=-1264;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=94; dX=10; dY=0; dZ=252; Yaw=87; Pitch=0;  |
+| CLIENT:59349 | PlaceBlock (0x0F) | x=68; y=71; z=-12; Face=1; Item=328; Amount=0; Damage=0;  |
+| CLIENT:59349 | Animation (0x12) | EID=46; Animation=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:59349 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=9238;  |
+| SERVER | EntityPosition (0x1F) | EID=4; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=5; dX=8; dY=0; dZ=249; Yaw=200; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=7; dX=251; dY=0; dZ=13;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=8; dX=0; dY=0; dZ=0; Yaw=187; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=9; dX=0; dY=0; dZ=0; Yaw=1; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=10; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=11; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=24; dX=0; dY=0; dZ=0; Yaw=161; Pitch=253;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=25; dX=3; dY=0; dZ=253; Yaw=154; Pitch=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=27; dX=0; dY=0; dZ=0; Yaw=236; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=28; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=31; dX=9; dY=250; dZ=6; Yaw=237; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=35; dX=0; dY=0; dZ=0; Yaw=236; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=36; dX=15; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=37; dX=0; dY=0; dZ=0; Yaw=132; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPositionAndRotation (0x21) | EID=40; dX=0; dY=0; dZ=0; Yaw=119; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=41; dX=255; dY=0; dZ=242;  |
+| SERVER | EntityPosition (0x1F) | EID=55; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=686; y Velocity=267; z Velocity=-51;  |
+| SERVER | EntityPosition (0x1F) | EID=63; dX=0; dY=254; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=-365; y Velocity=82; z Velocity=-7;  |
+| SERVER | EntityPosition (0x1F) | EID=78; dX=0; dY=1; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=79; dX=5; dY=1; dZ=1;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=255; dZ=255;  |
 | SERVER | SpawnObject (0x17) | EID=100; Type=10; x=2192; y=2299; z=-368; Owner EID=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=71; z=-12; Type=66; Meta=0;  |
 | SERVER | EntityVelocity (0x1C) | EID=100; x Velocity=0; y Velocity=0; z Velocity=0;  |
