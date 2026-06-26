@@ -15997,8 +15997,22 @@
 | SERVER | OpenContainer (0x64) | Window=1; Inventory=1; Title="Crafting"; # of Slots=9;  |
 | SERVER | SetBlock (0x35) | x=80; y=69; z=45; Type=58; Meta=0;  |
 | SERVER | FillContainer (0x68) | Window=1; Count=46; (Contents omitted);  |
-| SERVER | KeepAlive (0x00) |  |
-| SERVER | KeepAlive (0x00) |  |
+| SERVER | SetBlock (0x35) | x=81; y=69; z=45; Type=0; Meta=0;  |
+| SERVER | SetSlot (0x67) | Window=255; Slot=-1; [-1] Item=-1;  |
+| SERVER | SetSlot (0x67) | Window=1; Slot=15; [15] Item=17; Amount=6; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=1; Slot=37; [37] Item=37; Amount=1; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=1; Slot=39; [39] Item=3; Amount=8; Damage=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=120; y=8; z=98; Type=11; Meta=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=115; y=9; z=96; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
@@ -16007,21 +16021,20 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4358;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=15; Right-click=0; Action number=1; Shift=0; Item=17; Amount=6; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=144; y=8; z=32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=1; Accepted=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
@@ -16033,28 +16046,42 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=8; Right-click=1; Action number=2; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=2; Accepted=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=8; Right-click=1; Action number=3; Shift=0; Item=17; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=3; Accepted=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.59; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4378;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=14; Right-click=0; Action number=4; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=4; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=146; y=9; z=102; Type=11; Meta=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=0; Right-click=0; Action number=5; Shift=0; Item=5; Amount=4; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16842757; Amount=4;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=5; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=0; Right-click=0; Action number=6; Shift=0; Item=5; Amount=4; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16842757; Amount=8;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=6; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16062,21 +16089,32 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4398;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=5; Right-click=1; Action number=7; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=7; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=8; Right-click=1; Action number=8; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=89; y=63; z=100; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=8; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=13; Right-click=0; Action number=9; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=9; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16085,8 +16123,16 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=0; Right-click=0; Action number=10; Shift=0; Item=280; Amount=4; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16843032; Amount=4;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=10; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4418;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16097,11 +16143,14 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=5; Right-click=1; Action number=11; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=11; Accepted=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=9; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=8; Right-click=1; Action number=12; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=12; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16109,10 +16158,18 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=13; Right-click=0; Action number=13; Shift=0; Item=5; Amount=6; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=13; Accepted=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4438;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=22; y=3; z=48; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16123,28 +16180,44 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=1; Right-click=1; Action number=14; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=148; y=6; z=65; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=14; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=2; Right-click=1; Action number=15; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=15; Accepted=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=96; y=9; z=45; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | Chunk (0x33) | x=151; y=14; z=-15; sizeX=6; sizeY=19; sizeZ=14; Compressed Size=625;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=9; z=0; Array size=8;  |
+| SERVER | SetTime (0x04) | Time=4458;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=3; Right-click=1; Action number=16; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=116; y=8; z=-1; Type=11; Meta=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=16; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=40; y=3; z=27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=15; Right-click=0; Action number=17; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=17; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16153,8 +16226,33 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=0; Right-click=0; Action number=18; Shift=0; Item=270; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4478;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16843022; Amount=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=5242883; Amount=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=18; Accepted=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=142; y=7; z=28; Type=11; Meta=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=124; y=7; z=26; Type=11; Meta=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=155; y=19; z=0; Type=11; Meta=6;  |
+| SERVER | SetBlock (0x35) | x=157; y=19; z=-2; Type=11; Meta=6;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=105; y=65; z=15; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16163,19 +16261,17 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=38; Right-click=0; Action number=19; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4498;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=19; Accepted=1;  |
+| SERVER | SetBlock (0x35) | x=140; y=7; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16194,12 +16290,18 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4518;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=-999; Right-click=0; Action number=20; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=1; Action number=20; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16208,7 +16310,12 @@
 | CLIENT:38980 | CloseContainer (0x65) | Window=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=79; y=7; z=52; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=12; [12] Item=280; Amount=2; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=17; Amount=4; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=14; [14] Item=5; Amount=3; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16217,11 +16324,19 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2566.80; Pitch=53.55; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2560.80; Pitch=53.55; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2544.45; Pitch=55.35; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4538;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2543.40; Pitch=55.35; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2541.00; Pitch=55.35; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=72; y=63; z=87; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2476.95; Pitch=72.15; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=88; y=9; z=29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16237,7 +16352,13 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2367.45; Pitch=89.40; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2379.45; Pitch=86.40; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2382.75; Pitch=85.20; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.53; y=69.00; cameraY=70.62; z=44.76; Yaw=2382.75; Pitch=85.05; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4558;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.42; y=69.00; cameraY=70.62; z=44.87; Yaw=2382.60; Pitch=84.75; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.30; y=69.00; cameraY=70.62; z=45.01; Yaw=2381.85; Pitch=84.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.30; y=69.00; cameraY=70.62; z=45.15; Yaw=2381.70; Pitch=84.15; OnGround=1;  |
@@ -16261,7 +16382,13 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.30; y=69.00; cameraY=70.62; z=44.52; Yaw=2422.50; Pitch=69.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.30; y=69.00; cameraY=70.62; z=44.41; Yaw=2425.95; Pitch=69.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.20; y=69.00; cameraY=70.62; z=44.36; Yaw=2427.90; Pitch=69.60; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.05; y=69.00; cameraY=70.62; z=44.33; Yaw=2428.05; Pitch=69.60; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4578;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.87; y=69.00; cameraY=70.62; z=44.32; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.77; y=69.00; cameraY=70.62; z=44.31; Yaw=2431.05; Pitch=69.30; OnGround=1;  |
@@ -16281,12 +16408,26 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.47; y=69.00; cameraY=70.62; z=44.30; Yaw=2431.05; Pitch=66.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.46; y=69.00; cameraY=70.62; z=44.30; Yaw=2431.50; Pitch=66.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.45; y=69.00; cameraY=70.62; z=44.30; Yaw=2431.50; Pitch=66.15; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=45; y=5; z=34; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.44; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=81; y=68; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.44; y=69.00; cameraY=70.62; z=44.30; Yaw=2432.25; Pitch=65.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.44; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=81; y=68; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=81; y=68; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=61; Item=4; Amount=1; Damage=0; x=2611; y=2181; z=1426; Yaw=6; Pitch=25; Roll=12;  |
+| SERVER | EntityVelocity (0x1C) | EID=61; x Velocity=428; y Velocity=1600; z Velocity=780;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.44; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4598;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=1;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.44; y=69.00; cameraY=70.62; z=44.30; Yaw=2432.40; Pitch=65.40; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=81; y=67; z=44; Face=1;  |
@@ -16294,11 +16435,13 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.44; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.44; y=69.00; cameraY=70.62; z=44.30; Yaw=2439.30; Pitch=61.50; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.44; y=69.00; cameraY=70.62; z=44.30; Yaw=2443.50; Pitch=60.45; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=77; y=77; z=37; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.44; y=69.00; cameraY=70.62; z=44.30; Yaw=2444.85; Pitch=60.30; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.44; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.44; y=69.00; cameraY=70.62; z=44.30; Yaw=2445.60; Pitch=60.00; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.44; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=95; y=7; z=33; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.44; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.44; y=69.00; cameraY=70.62; z=44.30; Yaw=2446.05; Pitch=59.85; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -16311,9 +16454,19 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.79; y=69.00; cameraY=70.62; z=44.43; Yaw=2449.95; Pitch=59.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.81; y=69.00; cameraY=70.62; z=44.44; Yaw=2449.35; Pitch=61.20; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=61; dX=9; dY=255; dZ=10;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.83; y=69.00; cameraY=70.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.83; y=69.00; cameraY=70.62; z=44.45; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4618;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.84; y=69.00; cameraY=70.62; z=44.45; Yaw=2449.95; Pitch=60.15; OnGround=1;  |
+| SERVER | SpawnItem (0x15) | EID=62; Item=6; Amount=1; Damage=0; x=2425; y=2483; z=1255; Yaw=1; Pitch=25; Roll=5;  |
+| SERVER | SetBlock (0x35) | x=75; y=77; z=39; Type=0; Meta=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=62; x Velocity=123; y Velocity=1600; z Velocity=366;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.84; y=69.00; cameraY=70.62; z=44.45; Yaw=2450.25; Pitch=59.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.84; y=69.00; cameraY=70.62; z=44.45; Yaw=2451.60; Pitch=59.10; OnGround=1;  |
@@ -16330,14 +16483,32 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.84; y=69.00; cameraY=70.62; z=44.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.84; y=69.00; cameraY=70.62; z=44.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.84; y=69.00; cameraY=70.62; z=44.45; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=68; y=9; z=35; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.84; y=69.00; cameraY=70.62; z=44.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.84; y=69.00; cameraY=70.62; z=44.45; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.93; y=69.00; cameraY=70.62; z=44.49; Yaw=2452.80; Pitch=58.95; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=82; y=68; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.07; y=69.00; cameraY=70.62; z=44.54; Yaw=2452.05; Pitch=59.55; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=61; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.15; y=69.00; cameraY=70.62; z=44.58; Yaw=2447.55; Pitch=62.70; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=82; y=68; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=82; y=68; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=63; Item=4; Amount=1; Damage=0; x=2642; y=2197; z=1420; Yaw=0; Pitch=25; Roll=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=63; x Velocity=30; y Velocity=1600; z Velocity=-24;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.19; y=69.00; cameraY=70.62; z=44.59; Yaw=2446.95; Pitch=63.30; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4638;  |
+| SERVER | SetBlock (0x35) | x=82; y=68; z=44; Type=0; Meta=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=2;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=62; x Velocity=82; y Velocity=-4143; z Velocity=244;  |
+| SERVER | TeleportEntity (0x22) | EID=62; x=2433; y=2351; z=1280; Yaw=185; Pitch=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.24; y=69.00; cameraY=70.62; z=44.51; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=82; y=69; z=44; Face=4;  |
@@ -16353,8 +16524,14 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.30; y=68.54; cameraY=70.16; z=44.41; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.30; y=68.23; cameraY=69.85; z=44.41; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.31; y=68.00; cameraY=69.62; z=44.40; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=61; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=1; Damage=0;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=63; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=2; Damage=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.31; y=68.00; cameraY=69.62; z=44.40; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=61;  |
+| SERVER | DespawnEntity (0x1D) | EID=63;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.31; y=68.00; cameraY=69.62; z=44.40; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.31; y=68.00; cameraY=69.62; z=44.40; Yaw=2456.40; Pitch=63.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.31; y=68.00; cameraY=69.62; z=44.40; Yaw=2454.75; Pitch=59.10; OnGround=1;  |
@@ -16363,7 +16540,15 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.31; y=68.00; cameraY=69.62; z=44.40; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.31; y=68.00; cameraY=69.62; z=44.40; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.31; y=68.00; cameraY=69.62; z=44.40; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.31; y=68.00; cameraY=69.62; z=44.40; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4658;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=62; x Velocity=0; y Velocity=0; z Velocity=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=2; dY=181; dZ=5;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.31; y=68.00; cameraY=69.62; z=44.40; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.31; y=68.00; cameraY=69.62; z=44.40; Yaw=2451.90; Pitch=56.55; OnGround=1;  |
@@ -16382,14 +16567,29 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=82; y=67; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.31; y=68.00; cameraY=69.62; z=44.40; Yaw=2441.55; Pitch=51.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.40; y=68.00; cameraY=69.62; z=44.42; Yaw=2440.35; Pitch=49.50; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=82; y=67; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=82; y=67; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=64; Item=4; Amount=1; Damage=0; x=2640; y=2162; z=1426; Yaw=254; Pitch=25; Roll=10;  |
+| SERVER | EntityVelocity (0x1C) | EID=64; x Velocity=-177; y Velocity=1600; z Velocity=633;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.55; y=68.00; cameraY=69.62; z=44.45; Yaw=2440.20; Pitch=49.35; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=3;  |
+| SERVER | SetBlock (0x35) | x=82; y=67; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.63; y=68.00; cameraY=69.62; z=44.46; Yaw=2439.90; Pitch=49.05; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=82; y=69; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.68; y=68.00; cameraY=69.62; z=44.47; Yaw=2439.30; Pitch=48.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.70; y=68.00; cameraY=69.62; z=44.47; Yaw=2439.15; Pitch=48.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.70; y=68.00; cameraY=69.62; z=44.48; Yaw=2439.00; Pitch=48.15; OnGround=1;  |
+| SERVER | TeleportEntity (0x22) | EID=22; x=2183; y=2212; z=956; Yaw=112; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=60; x=2615; y=2276; z=1471; Yaw=240; Pitch=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.70; y=68.00; cameraY=69.62; z=44.48; Yaw=2438.70; Pitch=48.00; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4678;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.70; y=68.00; cameraY=69.62; z=44.48; Yaw=2438.25; Pitch=47.25; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.70; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
@@ -16406,6 +16606,7 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.70; y=68.00; cameraY=69.62; z=44.48; Yaw=2429.55; Pitch=43.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.70; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=64; dX=248; dY=242; dZ=10;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.70; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.60; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=82; y=69; z=44; Face=4;  |
@@ -16413,14 +16614,31 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=83; y=68; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.37; y=68.00; cameraY=69.62; z=44.49; Yaw=2427.15; Pitch=43.20; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=82; y=69; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777219; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=82; y=69; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=65; Item=3; Amount=1; Damage=0; x=2635; y=2212; z=1422; Yaw=12; Pitch=25; Roll=244;  |
+| SERVER | EntityVelocity (0x1C) | EID=65; x Velocity=758; y Velocity=1600; z Velocity=-797;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.32; y=68.00; cameraY=69.62; z=44.49; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=4;  |
+| SERVER | SetBlock (0x35) | x=73; y=76; z=38; Type=0; Meta=0;  |
+| SERVER | SetBlock (0x35) | x=82; y=69; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.30; y=68.00; cameraY=69.62; z=44.49; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.30; y=68.00; cameraY=69.62; z=44.49; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4698;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.30; y=68.00; cameraY=69.62; z=44.49; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.30; y=68.00; cameraY=69.62; z=44.49; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=83; y=67; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.30; y=68.00; cameraY=69.62; z=44.49; Yaw=2427.15; Pitch=43.65; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=127; y=63; z=12; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.30; y=68.00; cameraY=69.62; z=44.49; Yaw=2427.15; Pitch=44.10; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.30; y=68.00; cameraY=69.62; z=44.49; Yaw=2427.15; Pitch=44.40; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.30; y=68.00; cameraY=69.62; z=44.49; OnGround=1;  |
@@ -16434,40 +16652,72 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=83; y=68; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.45; y=68.00; cameraY=69.62; z=44.48; Yaw=2427.15; Pitch=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.48; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=64; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.50; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.51; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.51; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=65; dX=17; dY=192; dZ=246;  |
+| SERVER | SetBlock (0x35) | x=32; y=9; z=50; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.51; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.51; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.51; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4718;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetBlock (0x35) | x=157; y=7; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
-| CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=70; y=70; z=34; Type=2; Meta=0;  |
+| SERVER | SetBlock (0x35) | x=90; y=10; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.61; y=68.00; cameraY=69.62; z=44.47; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=64; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=83; y=68; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.76; y=68.00; cameraY=69.62; z=44.47; Yaw=2427.45; Pitch=46.65; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.85; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.45; Pitch=47.55; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=83; y=68; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=83; y=68; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=66; Item=4; Amount=1; Damage=0; x=2678; y=2194; z=1423; Yaw=252; Pitch=25; Roll=6;  |
+| SERVER | EntityVelocity (0x1C) | EID=66; x Velocity=-253; y Velocity=1600; z Velocity=430;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.89; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.60; Pitch=48.15; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=5;  |
+| SERVER | SetBlock (0x35) | x=55; y=8; z=22; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=65; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=83; y=68; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=83; y=67; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.92; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.60; Pitch=48.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.93; y=68.00; cameraY=69.62; z=44.46; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.94; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.75; Pitch=49.20; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.94; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.90; Pitch=49.95; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4738;  |
+| SERVER | TeleportEntity (0x22) | EID=12; x=2291; y=1188; z=860; Yaw=70; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=13; x=2276; y=1188; z=844; Yaw=21; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=14; x=2354; y=1188; z=828; Yaw=114; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.94; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.90; Pitch=50.40; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.95; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.90; Pitch=50.85; OnGround=1;  |
@@ -16484,27 +16734,54 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.95; y=68.00; cameraY=69.62; z=44.46; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.95; y=68.00; cameraY=69.62; z=44.46; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=64; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=81.95; y=68.00; cameraY=69.62; z=44.46; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=66; dX=247; dY=242; dZ=13;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.95; y=68.00; cameraY=69.62; z=44.46; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.95; y=68.00; cameraY=69.62; z=44.46; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=81.95; y=68.00; cameraY=69.62; z=44.46; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=65; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.95; y=68.00; cameraY=69.62; z=44.46; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.95; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.90; Pitch=51.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.95; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.90; Pitch=51.45; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.95; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.90; Pitch=51.90; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4758;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.04; y=68.00; cameraY=69.62; z=44.46; Yaw=2427.90; Pitch=52.35; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.20; y=68.00; cameraY=69.62; z=44.45; Yaw=2427.75; Pitch=53.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.38; y=68.00; cameraY=69.62; z=44.44; Yaw=2426.85; Pitch=55.65; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=66; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=3; Damage=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=83; y=67; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.48; y=67.92; cameraY=69.54; z=44.44; Yaw=2426.85; Pitch=56.40; OnGround=0;  |
+| SERVER | DespawnEntity (0x1D) | EID=66;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.53; y=67.77; cameraY=69.39; z=44.43; Yaw=2426.85; Pitch=57.15; OnGround=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=83; y=67; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=83; y=67; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=67; Item=4; Amount=1; Damage=0; x=2663; y=2165; z=1431; Yaw=0; Pitch=25; Roll=250;  |
+| SERVER | EntityVelocity (0x1C) | EID=67; x Velocity=13; y Velocity=1600; z Velocity=-425;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.58; y=67.54; cameraY=69.16; z=44.43; OnGround=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=6;  |
+| SERVER | SetBlock (0x35) | x=83; y=67; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=83; y=66; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.62; y=67.23; cameraY=68.85; z=44.43; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.66; y=67.00; cameraY=68.62; z=44.43; Yaw=2426.85; Pitch=57.45; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=64; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=4; Damage=0;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=65; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=38; [38] Item=3; Amount=9; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.70; y=67.00; cameraY=68.62; z=44.43; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=64;  |
+| SERVER | DespawnEntity (0x1D) | EID=65;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.72; y=67.00; cameraY=68.62; z=44.42; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.73; y=67.00; cameraY=68.62; z=44.42; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -16512,13 +16789,27 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.74; y=67.00; cameraY=68.62; z=44.42; Yaw=2426.85; Pitch=56.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.74; y=67.00; cameraY=68.62; z=44.42; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.74; y=67.00; cameraY=68.62; z=44.42; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=67; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=5; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.74; y=67.00; cameraY=68.62; z=44.42; OnGround=1;  |
+| SERVER | SpawnItem (0x15) | EID=68; Item=6; Amount=1; Damage=0; x=2316; y=2582; z=1134; Yaw=7; Pitch=25; Roll=255;  |
+| SERVER | Chunk (0x33) | x=72; y=70; z=34; sizeX=0; sizeY=13; sizeZ=1; Compressed Size=44;  |
+| SERVER | EntityVelocity (0x1C) | EID=68; x Velocity=482; y Velocity=1600; z Velocity=-112;  |
+| SERVER | DespawnEntity (0x1D) | EID=67;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.74; y=67.00; cameraY=68.62; z=44.42; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.65; y=67.00; cameraY=68.62; z=44.43; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.50; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.41; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4778;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.37; y=67.00; cameraY=68.62; z=44.44; Yaw=2427.00; Pitch=56.10; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=151; y=5; z=52; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.34; y=67.00; cameraY=68.62; z=44.45; Yaw=2427.00; Pitch=55.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.33; y=67.00; cameraY=68.62; z=44.45; OnGround=1;  |
@@ -16537,13 +16828,30 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=83; y=66; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.31; y=67.00; cameraY=68.62; z=44.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.41; y=67.00; cameraY=68.62; z=44.44; Yaw=2427.75; Pitch=54.90; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=83; y=66; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=83; y=66; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=69; Item=4; Amount=1; Damage=0; x=2665; y=2119; z=1435; Yaw=251; Pitch=25; Roll=249;  |
+| SERVER | EntityVelocity (0x1C) | EID=69; x Velocity=-353; y Velocity=1600; z Velocity=-490;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=23; dY=238; dZ=250;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.56; y=67.00; cameraY=68.62; z=44.44; Yaw=2427.90; Pitch=55.20; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=7;  |
+| SERVER | SetBlock (0x35) | x=155; y=3; z=79; Type=11; Meta=0;  |
+| SERVER | SetBlock (0x35) | x=83; y=66; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=66; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.65; y=67.00; cameraY=68.62; z=44.43; Yaw=2428.05; Pitch=55.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.69; y=67.00; cameraY=68.62; z=44.43; Yaw=2428.20; Pitch=55.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.72; y=67.00; cameraY=68.62; z=44.43; Yaw=2428.35; Pitch=56.40; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.73; y=67.00; cameraY=68.62; z=44.43; Yaw=2428.50; Pitch=56.55; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4798;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.74; y=67.00; cameraY=68.62; z=44.43; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.74; y=67.00; cameraY=68.62; z=44.43; Yaw=2429.10; Pitch=55.50; OnGround=1;  |
@@ -16551,6 +16859,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.84; y=67.00; cameraY=68.62; z=44.43; Yaw=2430.60; Pitch=50.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.99; y=67.00; cameraY=68.62; z=44.43; Yaw=2430.75; Pitch=49.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.08; y=67.00; cameraY=68.62; z=44.43; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=89; y=6; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.12; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.15; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
@@ -16562,14 +16871,24 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.17; y=67.00; cameraY=68.62; z=44.44; Yaw=2430.45; Pitch=52.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=69; dX=251; dY=253; dZ=235;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4818;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=100; y=9; z=30; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
@@ -16580,7 +16899,15 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=66; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=67; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=67; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=70; Item=4; Amount=1; Damage=0; x=2704; y=2149; z=1413; Yaw=244; Pitch=25; Roll=1;  |
+| SERVER | EntityVelocity (0x1C) | EID=70; x Velocity=-754; y Velocity=1600; z Velocity=108;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=8;  |
+| SERVER | SetBlock (0x35) | x=84; y=67; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.18; y=67.00; cameraY=68.62; z=44.44; Yaw=2430.30; Pitch=55.05; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.18; y=67.00; cameraY=68.62; z=44.44; Yaw=2430.30; Pitch=55.50; OnGround=1;  |
@@ -16588,19 +16915,32 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.18; y=67.00; cameraY=68.62; z=44.44; Yaw=2430.15; Pitch=55.80; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.18; y=67.00; cameraY=68.62; z=44.44; Yaw=2430.15; Pitch=55.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.18; y=67.00; cameraY=68.62; z=44.44; Yaw=2430.15; Pitch=56.25; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=69; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=70; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=6; Damage=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=70;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4838;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
-| CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=44; y=12; z=44; Type=10; Meta=6;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
@@ -16613,17 +16953,37 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=84; y=66; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=69; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=66; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=66; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=71; Item=4; Amount=1; Damage=0; x=2714; y=2124; z=1429; Yaw=245; Pitch=25; Roll=5;  |
+| SERVER | EntityVelocity (0x1C) | EID=71; x Velocity=-739; y Velocity=1600; z Velocity=356;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=9;  |
+| SERVER | SetBlock (0x35) | x=84; y=66; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=65; z=44; Face=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | Chunk (0x33) | x=45; y=12; z=44; sizeX=2; sizeY=7; sizeZ=2; Compressed Size=59;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=7;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4858;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.27; y=67.00; cameraY=68.62; z=44.44; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=43; y=12; z=44; Type=11; Meta=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.33; y=67.00; cameraY=68.62; z=44.44; Yaw=2430.15; Pitch=57.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.36; y=66.92; cameraY=68.54; z=44.44; Yaw=2430.30; Pitch=58.05; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.37; y=66.77; cameraY=68.39; z=44.44; Yaw=2430.30; Pitch=58.20; OnGround=0;  |
@@ -16631,7 +16991,13 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.40; y=66.23; cameraY=67.85; z=44.44; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.41; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=69; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=7; Damage=0;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=71; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=8; Damage=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.42; y=66.00; cameraY=67.62; z=44.44; Yaw=2430.30; Pitch=58.35; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=69;  |
+| SERVER | DespawnEntity (0x1D) | EID=71;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.43; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.43; y=66.00; cameraY=67.62; z=44.44; Yaw=2430.30; Pitch=58.50; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -16639,12 +17005,21 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4878;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
@@ -16656,7 +17031,15 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=84; y=65; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=65; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=65; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=72; Item=4; Amount=1; Damage=0; x=2702; y=2090; z=1428; Yaw=2; Pitch=25; Roll=250;  |
+| SERVER | EntityVelocity (0x1C) | EID=72; x Velocity=138; y Velocity=1600; z Velocity=-392;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=10;  |
+| SERVER | SetBlock (0x35) | x=84; y=65; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -16665,22 +17048,32 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.53; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.69; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.87; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.97; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4898;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.02; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=66; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.05; y=66.00; cameraY=67.62; z=44.44; Yaw=2429.70; Pitch=57.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.07; y=66.00; cameraY=67.62; z=44.44; Yaw=2429.10; Pitch=55.20; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=132; y=5; z=96; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.07; y=66.00; cameraY=67.62; z=44.44; Yaw=2428.80; Pitch=54.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2428.80; Pitch=54.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2428.80; Pitch=54.15; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=72; dX=5; dY=250; dZ=240;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
@@ -16690,12 +17083,20 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4918;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
@@ -16703,10 +17104,19 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=85; y=66; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2429.40; Pitch=55.05; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2429.55; Pitch=55.20; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=66; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=66; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=73; Item=4; Amount=1; Damage=0; x=2730; y=2137; z=1427; Yaw=7; Pitch=25; Roll=251;  |
+| SERVER | EntityVelocity (0x1C) | EID=73; x Velocity=488; y Velocity=1600; z Velocity=-374;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2429.55; Pitch=55.35; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=11;  |
+| SERVER | SetBlock (0x35) | x=85; y=66; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=65; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2429.70; Pitch=55.50; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=72; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2429.85; Pitch=56.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2430.00; Pitch=56.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
@@ -16716,21 +17126,31 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4938;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=73; dX=15; dY=235; dZ=244;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.08; y=66.00; cameraY=67.62; z=44.44; Yaw=2430.00; Pitch=56.70; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=72; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.08; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
@@ -16741,20 +17161,46 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=85; y=65; z=44; Face=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=117; y=4; z=8; Type=11; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=74; Item=4; Amount=1; Damage=0; x=2736; y=2087; z=1420; Yaw=246; Pitch=25; Roll=8;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=44; Type=0; Meta=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=74; x Velocity=-628; y Velocity=1600; z Velocity=559;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.18; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=12;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=64; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.33; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.42; y=65.92; cameraY=67.54; z=44.44; Yaw=2430.00; Pitch=57.30; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.46; y=65.77; cameraY=67.39; z=44.44; Yaw=2430.15; Pitch=57.60; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.50; y=65.54; cameraY=67.16; z=44.44; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=4958;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.54; y=65.23; cameraY=66.85; z=44.44; OnGround=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.57; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=72; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=9; Damage=0;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=73; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=10; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.61; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=72;  |
+| SERVER | DespawnEntity (0x1D) | EID=73;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.62; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.63; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=74; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=11; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=74;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
@@ -16766,12 +17212,20 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.15; Pitch=55.50; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=54.45; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4978;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
@@ -16780,9 +17234,17 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=85; y=64; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=54.30; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=75; Item=4; Amount=1; Damage=0; x=2732; y=2055; z=1430; Yaw=5; Pitch=25; Roll=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=75; x Velocity=330; y Velocity=1600; z Velocity=-48;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=86; y=64; z=44; Face=4;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=13;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=54.00; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=53.85; OnGround=1;  |
@@ -16793,18 +17255,28 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=49.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=48.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=48.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=48.00; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=47.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.64; y=65.00; cameraY=66.62; z=44.44; Yaw=2430.00; Pitch=47.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=4998;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=147; y=7; z=65; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=75; dX=13; dY=253; dZ=254;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.64; y=65.00; cameraY=66.62; z=44.44; OnGround=1;  |
@@ -16817,24 +17289,44 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2430.15; Pitch=47.70; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2430.90; Pitch=47.85; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2431.05; Pitch=46.50; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=86; y=65; z=44; Face=4;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=86; y=64; z=44; Face=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=86; y=65; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=86; y=65; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=76; Item=4; Amount=1; Damage=0; x=2761; y=2088; z=1428; Yaw=252; Pitch=25; Roll=250;  |
+| SERVER | EntityVelocity (0x1C) | EID=76; x Velocity=-269; y Velocity=1600; z Velocity=-384;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=14;  |
+| SERVER | SetBlock (0x35) | x=86; y=65; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5018;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2431.65; Pitch=46.65; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2431.80; Pitch=46.80; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2434.35; Pitch=46.95; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2437.50; Pitch=46.65; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2438.70; Pitch=46.65; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=75; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2439.00; Pitch=46.50; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2440.50; Pitch=46.65; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=76; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=12; Damage=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2442.00; Pitch=47.85; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=76;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2443.20; Pitch=49.20; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2443.80; Pitch=49.95; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2445.00; Pitch=50.70; OnGround=1;  |
@@ -16843,12 +17335,20 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2445.30; Pitch=50.85; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2445.30; Pitch=51.00; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.67; y=65.00; cameraY=66.62; z=44.35; Yaw=2445.30; Pitch=51.75; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.77; y=65.00; cameraY=66.62; z=44.30; Yaw=2445.45; Pitch=52.05; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.91; y=65.00; cameraY=66.62; z=44.30; Yaw=2445.75; Pitch=52.65; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.99; y=65.00; cameraY=66.62; z=44.30; Yaw=2446.20; Pitch=53.25; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.03; y=65.00; cameraY=66.62; z=44.30; Yaw=2446.20; Pitch=53.40; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5038;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.06; y=65.00; cameraY=66.62; z=44.30; Yaw=2446.95; Pitch=54.30; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.07; y=65.00; cameraY=66.62; z=44.30; Yaw=2447.10; Pitch=54.45; OnGround=1;  |
@@ -16856,7 +17356,16 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=86; y=64; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.08; y=65.00; cameraY=66.62; z=44.30; Yaw=2447.85; Pitch=55.50; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.08; y=65.00; cameraY=66.62; z=44.30; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908558; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=86; y=64; z=44; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=86; y=64; z=44; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=77; Item=4; Amount=1; Damage=0; x=2778; y=2057; z=1432; Yaw=249; Pitch=25; Roll=8;  |
+| SERVER | EntityVelocity (0x1C) | EID=77; x Velocity=-492; y Velocity=1600; z Velocity=500;  |
+| SERVER | EntityPosition (0x1F) | EID=75; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.08; y=65.00; cameraY=66.62; z=44.30; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=37; [37] Item=270; Amount=1; Damage=15;  |
+| SERVER | SetBlock (0x35) | x=86; y=64; z=44; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=86; y=63; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.08; y=65.00; cameraY=66.62; z=44.30; Yaw=2447.85; Pitch=55.65; OnGround=1;  |
@@ -16869,17 +17378,31 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.08; y=65.00; cameraY=66.62; z=44.30; Yaw=2448.00; Pitch=55.80; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.08; y=65.00; cameraY=66.62; z=44.30; Yaw=2448.90; Pitch=56.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.17; y=65.00; cameraY=66.62; z=44.30; Yaw=2450.55; Pitch=57.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.32; y=65.00; cameraY=66.62; z=44.30; Yaw=2455.50; Pitch=58.35; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=86; y=64; z=45; Face=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.45; y=64.92; cameraY=66.54; z=44.30; Yaw=2460.60; Pitch=58.95; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.52; y=64.77; cameraY=66.39; z=44.30; Yaw=2463.60; Pitch=59.10; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.58; y=64.54; cameraY=66.16; z=44.30; Yaw=2465.25; Pitch=59.10; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.64; y=64.23; cameraY=65.85; z=44.30; Yaw=2465.85; Pitch=58.95; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=5058;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | TeleportEntity (0x22) | EID=62; x=2435; y=2276; z=1285; Yaw=185; Pitch=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=86; y=63; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.69; y=64.00; cameraY=65.62; z=44.30; Yaw=2466.00; Pitch=58.95; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=75; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=13; Damage=0;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=77; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=4; Amount=14; Damage=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.74; y=64.00; cameraY=65.62; z=44.30; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=75;  |
+| SERVER | DespawnEntity (0x1D) | EID=77;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.77; y=64.00; cameraY=65.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.78; y=64.00; cameraY=65.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.73; y=64.00; cameraY=65.62; z=44.38; OnGround=1;  |
@@ -16898,11 +17421,19 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2861.40; Pitch=-23.85; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2913.75; Pitch=-40.05; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2912.10; Pitch=-40.50; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2911.80; Pitch=-40.50; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2910.90; Pitch=-39.75; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2908.95; Pitch=-38.55; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2908.05; Pitch=-37.35; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2905.05; Pitch=-31.65; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5078;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2888.70; Pitch=-15.90; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2874.15; Pitch=-7.80; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2859.90; Pitch=2.10; OnGround=1;  |
@@ -16918,11 +17449,19 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2752.50; Pitch=90.00; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2755.50; Pitch=90.00; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2791.80; Pitch=90.00; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2799.45; Pitch=87.30; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2802.00; Pitch=86.55; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2803.95; Pitch=85.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.42; cameraY=66.04; z=44.70; Yaw=2807.25; Pitch=82.95; OnGround=0;  |
+| SERVER | TeleportEntity (0x22) | EID=22; x=2183; y=2212; z=956; Yaw=112; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=60; x=2615; y=2276; z=1471; Yaw=240; Pitch=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.75; cameraY=66.37; z=44.70; Yaw=2811.15; Pitch=79.95; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=5098;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.29; y=65.00; cameraY=66.62; z=44.70; Yaw=2813.25; Pitch=77.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.28; y=65.17; cameraY=66.79; z=44.70; Yaw=2813.40; Pitch=77.10; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.27; y=65.20; cameraY=66.82; z=44.70; Yaw=2813.25; Pitch=75.75; OnGround=0;  |
@@ -16934,39 +17473,61 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.23; cameraY=65.85; z=44.70; Yaw=2788.20; Pitch=66.60; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.72; y=64.00; cameraY=65.62; z=44.70; Yaw=2788.20; Pitch=66.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.74; y=64.00; cameraY=65.62; z=44.70; Yaw=2788.20; Pitch=66.15; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=48; y=11; z=81; Type=10; Meta=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.75; y=64.00; cameraY=65.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.65; y=64.00; cameraY=65.62; z=44.70; Yaw=2788.20; Pitch=65.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.51; y=64.00; cameraY=65.62; z=44.70; Yaw=2788.05; Pitch=65.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.33; y=64.00; cameraY=65.62; z=44.70; Yaw=2787.90; Pitch=65.40; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.42; cameraY=66.04; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.75; cameraY=66.37; z=44.70; Yaw=2787.90; Pitch=65.25; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.28; y=65.00; cameraY=66.62; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.24; y=65.17; cameraY=66.79; z=44.70; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.19; y=65.20; cameraY=66.82; z=44.70; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=5118;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.12; y=65.12; cameraY=66.74; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.04; y=65.00; cameraY=66.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.87; y=65.20; cameraY=66.82; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.75; y=65.12; cameraY=66.74; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.63; y=65.00; cameraY=66.62; z=44.70; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=59; y=66; z=31; Type=2; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.42; y=65.42; cameraY=67.04; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.30; y=65.75; cameraY=67.37; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.28; y=66.00; cameraY=67.62; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.24; y=66.17; cameraY=67.79; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.19; y=66.20; cameraY=67.82; z=44.70; OnGround=0;  |
+| SERVER | SetBlock (0x35) | x=58; y=66; z=31; Type=9; Meta=0;  |
+| SERVER | SetBlock (0x35) | x=59; y=66; z=32; Type=9; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.12; y=66.12; cameraY=67.74; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.04; y=66.00; cameraY=67.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.87; y=66.20; cameraY=67.82; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.75; y=66.12; cameraY=67.74; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.63; y=66.00; cameraY=67.62; z=44.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.42; y=66.42; cameraY=68.04; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.30; y=66.75; cameraY=68.37; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.28; y=67.00; cameraY=68.62; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.24; y=67.17; cameraY=68.79; z=44.70; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.19; y=67.20; cameraY=68.82; z=44.70; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=5138;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.12; y=67.12; cameraY=68.74; z=44.70; OnGround=0;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=3; z=5; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.04; y=67.00; cameraY=68.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.87; y=67.20; cameraY=68.82; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.75; y=67.12; cameraY=68.74; z=44.70; OnGround=0;  |
+| SERVER | SetBlock (0x35) | x=118; y=65; z=61; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.63; y=67.00; cameraY=68.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.42; y=67.42; cameraY=69.04; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.30; y=67.75; cameraY=69.37; z=44.70; OnGround=0;  |
@@ -16978,19 +17539,31 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.87; y=68.20; cameraY=69.82; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.75; y=68.12; cameraY=69.74; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.63; y=68.00; cameraY=69.62; z=44.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.42; y=68.42; cameraY=70.04; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.30; y=68.75; cameraY=70.37; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.28; y=69.00; cameraY=70.62; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.24; y=69.17; cameraY=70.79; z=44.70; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.19; y=69.25; cameraY=70.87; z=44.70; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=5158;  |
+| SERVER | TeleportEntity (0x22) | EID=12; x=2291; y=1188; z=860; Yaw=70; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=13; x=2276; y=1188; z=844; Yaw=21; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=14; x=2354; y=1188; z=828; Yaw=114; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.25; cameraY=70.87; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.04; y=69.18; cameraY=70.80; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.95; y=69.02; cameraY=70.64; z=44.70; OnGround=0;  |
+| SERVER | SetBlock (0x35) | x=104; y=7; z=51; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.84; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.65; y=69.42; cameraY=71.04; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.52; y=69.75; cameraY=71.37; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.39; y=70.00; cameraY=71.62; z=44.70; OnGround=0;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=60; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=38; [38] Item=3; Amount=10; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.17; cameraY=71.79; z=44.70; OnGround=0;  |
+| SERVER | DespawnEntity (0x1D) | EID=60;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.25; cameraY=71.87; z=44.71; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.25; cameraY=71.87; z=44.71; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.18; cameraY=71.80; z=44.71; OnGround=0;  |
@@ -16998,11 +17571,19 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=44.72; Yaw=2787.90; Pitch=64.80; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=44.73; Yaw=2789.85; Pitch=63.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=44.83; Yaw=2790.75; Pitch=63.45; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=83; y=63; z=91; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=44.98; Yaw=2791.95; Pitch=62.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.16; Yaw=2792.10; Pitch=62.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.26; Yaw=2793.15; Pitch=61.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.31; Yaw=2797.05; Pitch=60.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.34; Yaw=2800.20; Pitch=60.00; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5178;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.36; Yaw=2811.45; Pitch=59.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.37; Yaw=2817.15; Pitch=59.10; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.37; Yaw=2817.30; Pitch=59.25; OnGround=1;  |
@@ -17018,10 +17599,33 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.38; Yaw=2818.35; Pitch=80.10; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.30; y=70.00; cameraY=71.62; z=45.38; Yaw=2816.25; Pitch=78.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | TeleportEntity (0x22) | EID=68; x=2339; y=2564; z=1128; Yaw=109; Pitch=0;  |
 | CLIENT:38980 | PlaceBlock (0x0F) | x=80; y=69; z=45; Face=1; Item=270; Amount=1; Damage=15;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | OpenContainer (0x64) | Window=2; Inventory=1; Title="Crafting"; # of Slots=9;  |
+| SERVER | SetBlock (0x35) | x=80; y=69; z=45; Type=58; Meta=0;  |
+| SERVER | FillContainer (0x68) | Window=2; Count=46; (Contents omitted);  |
+| SERVER | SetBlock (0x35) | x=80; y=70; z=45; Type=0; Meta=0;  |
+| SERVER | SetSlot (0x67) | Window=255; Slot=-1; [-1] Item=-1;  |
+| SERVER | SetSlot (0x67) | Window=2; Slot=13; [13] Item=280; Amount=2; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=2; Slot=14; [14] Item=17; Amount=4; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=2; Slot=15; [15] Item=5; Amount=3; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=2; Slot=37; [37] Item=37; Amount=1; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=2; Slot=38; [38] Item=270; Amount=1; Damage=15;  |
+| SERVER | SetSlot (0x67) | Window=2; Slot=39; [39] Item=3; Amount=10; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=2; Slot=40; [40] Item=4; Amount=14; Damage=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5198;  |
+| SERVER | SetBlock (0x35) | x=128; y=3; z=97; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
@@ -17037,37 +17641,53 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=13; Right-click=0; Action number=1; Shift=0; Item=280; Amount=2; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=1; Accepted=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5218;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=8; Right-click=1; Action number=2; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=2; Accepted=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=5; Right-click=1; Action number=3; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.30; y=70.00; cameraY=71.62; z=45.38; OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=3; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=40; Right-click=0; Action number=4; Shift=0; Item=4; Amount=14; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5238;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=4; Accepted=1;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17083,38 +17703,56 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=1; Right-click=1; Action number=5; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5258;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=5; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=2; Right-click=1; Action number=6; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=6; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=3; Right-click=1; Action number=7; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=129; y=36; z=97; Type=10; Meta=4;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=7; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5278;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=151; y=8; z=64; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17122,16 +17760,28 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=14; Right-click=0; Action number=8; Shift=0; Item=17; Amount=4; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=8; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=13; Right-click=0; Action number=9; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=9; Accepted=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5298;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=3;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17147,38 +17797,59 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=132; y=7; z=16; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5318;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=0; Right-click=0; Action number=10; Shift=0; Item=274; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16843026; Amount=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=5242889; Amount=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=10; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=112; y=64; z=60; Type=2; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=2; Slot=40; Right-click=0; Action number=11; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=2; Action number=11; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | CloseContainer (0x65) | Window=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5338;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2816.10; Pitch=78.30; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2815.50; Pitch=77.70; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=12; [12] Item=17; Amount=4; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=4; Amount=11; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2812.95; Pitch=76.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.33; y=70.00; cameraY=71.62; z=45.29; Yaw=2809.95; Pitch=75.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.44; y=70.00; cameraY=71.62; z=45.19; Yaw=2809.65; Pitch=75.15; OnGround=1;  |
@@ -17192,12 +17863,19 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.83; y=69.00; cameraY=70.62; z=44.30; Yaw=2793.60; Pitch=68.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.99; y=69.00; cameraY=70.62; z=44.31; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.17; y=69.00; cameraY=70.62; z=44.32; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | SetHotbarSlot (0x10) | Slot=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.37; y=69.00; cameraY=70.62; z=44.33; Yaw=2793.60; Pitch=67.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.57; y=68.92; cameraY=70.54; z=44.35; Yaw=2793.75; Pitch=67.65; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.70; y=68.77; cameraY=70.39; z=44.36; Yaw=2793.75; Pitch=67.35; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.70; y=68.54; cameraY=70.16; z=44.36; Yaw=2793.75; Pitch=67.20; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.70; y=68.23; cameraY=69.85; z=44.37; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=5358;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | SetHotbarSlot (0x10) | Slot=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.72; y=68.00; cameraY=69.62; z=44.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.84; y=68.00; cameraY=69.62; z=44.40; Yaw=2793.75; Pitch=67.05; OnGround=1;  |
@@ -17215,11 +17893,18 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.18; y=67.00; cameraY=68.62; z=44.54; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.38; y=67.00; cameraY=68.62; z=44.55; Yaw=2793.15; Pitch=64.05; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.59; y=66.92; cameraY=68.54; z=44.56; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.70; y=66.77; cameraY=68.39; z=44.57; Yaw=2793.15; Pitch=63.75; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.70; y=66.54; cameraY=68.16; z=44.58; Yaw=2793.00; Pitch=63.75; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.70; y=66.23; cameraY=67.85; z=44.59; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=83.72; y=66.00; cameraY=67.62; z=44.60; Yaw=2793.00; Pitch=63.60; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.84; y=66.00; cameraY=67.62; z=44.61; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5378;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.00; y=66.00; cameraY=67.62; z=44.62; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.18; y=66.00; cameraY=67.62; z=44.63; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.38; y=66.00; cameraY=67.62; z=44.64; OnGround=1;  |
@@ -17235,12 +17920,19 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.48; y=65.00; cameraY=66.62; z=44.32; Yaw=2804.25; Pitch=63.75; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.66; y=64.92; cameraY=66.54; z=44.30; Yaw=2805.75; Pitch=63.90; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.77; cameraY=66.39; z=44.30; Yaw=2806.80; Pitch=64.05; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.54; cameraY=66.16; z=44.30; Yaw=2809.50; Pitch=64.35; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.23; cameraY=65.85; z=44.30; Yaw=2811.60; Pitch=64.50; OnGround=0;  |
 | CLIENT:38980 | SetHotbarSlot (0x10) | Slot=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=44.30; Yaw=2815.05; Pitch=64.50; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2818.20; Pitch=64.50; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.65; y=64.00; cameraY=65.62; z=44.39; Yaw=2818.95; Pitch=64.50; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5398;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.57; y=64.00; cameraY=65.62; z=44.51; Yaw=2822.85; Pitch=64.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.47; y=64.00; cameraY=65.62; z=44.66; Yaw=2825.85; Pitch=63.75; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.32; y=64.00; cameraY=65.62; z=44.70; Yaw=2828.25; Pitch=63.30; OnGround=1;  |
@@ -17256,12 +17948,25 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2843.10; Pitch=63.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2843.85; Pitch=63.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2844.60; Pitch=63.15; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=64; z=45; Face=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2844.75; Pitch=63.00; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2844.75; Pitch=62.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5418;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
+| CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -17275,20 +17980,30 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
-| CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2845.50; Pitch=61.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2846.55; Pitch=60.00; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=85; y=64; z=45; Face=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2849.85; Pitch=56.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=59; y=11; z=19; Type=10; Meta=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2852.10; Pitch=54.90; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5438;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=45; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908562; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=45; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777231; Amount=1;  |
+| SERVER | SpawnItem (0x15) | EID=78; Item=15; Amount=1; Damage=0; x=2725; y=2069; z=1454; Yaw=6; Pitch=25; Roll=251;  |
+| SERVER | EntityVelocity (0x1C) | EID=78; x Velocity=425; y Velocity=1600; z Velocity=-313;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2853.15; Pitch=53.70; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=45; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=63; z=45; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2854.05; Pitch=53.10; OnGround=1;  |
@@ -17301,19 +18016,31 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2854.80; Pitch=53.10; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2856.00; Pitch=52.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2856.30; Pitch=52.80; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=78; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=40; [40] Item=15; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.00; cameraY=65.62; z=44.55; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=78;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2856.60; Pitch=52.80; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2858.10; Pitch=52.50; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=65; z=45; Face=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2859.15; Pitch=51.75; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.30; y=64.00; cameraY=65.62; z=44.55; Yaw=2859.30; Pitch=51.60; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=60; y=11; z=19; Type=11; Meta=10;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2859.60; Pitch=51.45; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2859.90; Pitch=51.15; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2860.95; Pitch=49.95; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2861.10; Pitch=49.50; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5458;  |
+| SERVER | SetBlock (0x35) | x=154; y=6; z=70; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2861.25; Pitch=49.35; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17325,8 +18052,17 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=63; z=45; Face=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908562; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=45; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=45; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=79; Item=4; Amount=1; Damage=0; x=2728; y=2086; z=1452; Yaw=1; Pitch=25; Roll=11;  |
+| SERVER | EntityVelocity (0x1C) | EID=79; x Velocity=107; y Velocity=1600; z Velocity=720;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2861.40; Pitch=49.35; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=2;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=45; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2861.70; Pitch=49.05; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=59; y=11; z=19; Type=11; Meta=2;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2862.30; Pitch=48.60; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2862.60; Pitch=48.45; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -17334,11 +18070,21 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2863.20; Pitch=48.00; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2863.65; Pitch=47.85; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2863.65; Pitch=47.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2863.95; Pitch=47.55; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2864.55; Pitch=46.95; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=79; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=4; Amount=12; Damage=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2864.70; Pitch=46.95; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=79;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2864.55; Pitch=46.95; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5478;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | TeleportEntity (0x22) | EID=62; x=2435; y=2276; z=1285; Yaw=185; Pitch=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2864.40; Pitch=46.95; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=2864.25; Pitch=46.95; OnGround=1;  |
@@ -17354,14 +18100,22 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.31; y=64.00; cameraY=65.62; z=44.65; Yaw=2875.20; Pitch=45.00; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.32; y=64.00; cameraY=65.62; z=44.80; Yaw=2874.75; Pitch=44.25; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=96; y=7; z=45; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.33; y=64.00; cameraY=65.62; z=44.88; Yaw=2874.60; Pitch=44.10; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.33; y=64.00; cameraY=65.62; z=44.93; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.96; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.97; Yaw=2876.10; Pitch=44.40; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=2878.20; Pitch=44.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=2884.80; Pitch=49.20; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5498;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=64; z=44; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3012.60; Pitch=31.95; OnGround=1;  |
@@ -17369,6 +18123,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3076.50; Pitch=23.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=123; y=19; z=-23; Type=10; Meta=4;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
@@ -17387,13 +18142,21 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=83; y=65; z=44; Face=5;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3365.40; Pitch=-0.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3364.35; Pitch=-0.45; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3356.70; Pitch=-3.75; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3349.35; Pitch=-8.40; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
+| SERVER | TeleportEntity (0x22) | EID=22; x=2183; y=2212; z=956; Yaw=112; Pitch=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3338.40; Pitch=-6.75; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5518;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3321.15; Pitch=-6.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=130; y=36; z=97; Type=10; Meta=6;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3323.85; Pitch=-6.15; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3321.75; Pitch=-5.55; OnGround=1;  |
@@ -17403,15 +18166,24 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=58; y=11; z=19; Type=10; Meta=4;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3276.45; Pitch=22.20; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3251.10; Pitch=42.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3251.55; Pitch=42.45; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3242.40; Pitch=48.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3232.80; Pitch=58.05; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5538;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
@@ -17424,15 +18196,24 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3174.15; Pitch=80.70; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=4;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3175.50; Pitch=78.75; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3182.70; Pitch=66.90; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3189.00; Pitch=63.90; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3193.20; Pitch=63.30; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3207.90; Pitch=60.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3209.85; Pitch=59.85; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5558;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3211.20; Pitch=59.10; OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3211.95; Pitch=58.65; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3214.05; Pitch=57.60; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3218.55; Pitch=55.35; OnGround=1;  |
@@ -17447,11 +18228,18 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.43; y=64.00; cameraY=65.62; z=45.00; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.54; y=64.00; cameraY=65.62; z=45.09; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.66; y=64.00; cameraY=65.62; z=45.23; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.30; Yaw=3250.20; Pitch=55.65; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.34; Yaw=3249.60; Pitch=55.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.36; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.38; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.38; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5578;  |
+| SERVER | TeleportEntity (0x22) | EID=12; x=2291; y=1188; z=860; Yaw=70; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=13; x=2276; y=1188; z=844; Yaw=21; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=14; x=2354; y=1188; z=828; Yaw=114; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=64; z=46; Face=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.39; Yaw=3249.45; Pitch=56.10; OnGround=1;  |
@@ -17471,19 +18259,34 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.39; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.39; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.39; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.60; y=64.00; cameraY=65.62; z=45.37; Yaw=3251.85; Pitch=59.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.55; y=64.00; cameraY=65.62; z=45.36; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.52; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.51; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.50; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5598;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=85; y=64; z=46; Face=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3251.85; Pitch=60.00; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908562; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=46; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777231; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=46; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=80; Item=15; Amount=1; Damage=0; x=2728; y=2072; z=1498; Yaw=2; Pitch=25; Roll=0;  |
+| SERVER | EntityVelocity (0x1C) | EID=80; x Velocity=179; y Velocity=1600; z Velocity=34;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=3;  |
+| SERVER | SetBlock (0x35) | x=85; y=64; z=46; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=63; z=46; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
@@ -17498,35 +18301,53 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
+| SERVER | TeleportEntity (0x22) | EID=68; x=2339; y=2564; z=1128; Yaw=109; Pitch=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5618;  |
+| SERVER | SetBlock (0x35) | x=18; y=7; z=73; Type=11; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3447.00; Pitch=34.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3510.90; Pitch=25.05; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3574.35; Pitch=16.05; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=6; dY=236; dZ=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3631.80; Pitch=7.05; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3688.50; Pitch=-1.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3688.20; Pitch=-1.65; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3682.95; Pitch=-0.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3678.30; Pitch=-0.90; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=111; y=64; z=60; Type=2; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3667.95; Pitch=-1.05; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3654.00; Pitch=1.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.49; y=64.00; cameraY=65.62; z=45.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3643.65; Pitch=5.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3640.35; Pitch=6.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3633.75; Pitch=10.35; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3629.70; Pitch=15.75; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3628.80; Pitch=19.05; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3630.75; Pitch=21.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3632.25; Pitch=22.65; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3632.55; Pitch=22.95; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5638;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3635.25; Pitch=25.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3637.20; Pitch=28.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3638.55; Pitch=33.75; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3638.25; Pitch=34.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.49; y=64.00; cameraY=65.62; z=45.35; Yaw=3638.10; Pitch=35.10; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3637.95; Pitch=34.80; OnGround=1;  |
@@ -17539,17 +18360,26 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3646.80; Pitch=34.80; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3645.75; Pitch=37.65; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3644.70; Pitch=40.65; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3654.90; Pitch=78.75; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3682.95; Pitch=90.00; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3685.95; Pitch=76.65; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5658;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3685.65; Pitch=74.70; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3685.65; Pitch=75.30; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3686.70; Pitch=85.50; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3686.70; Pitch=86.70; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=129; y=36; z=96; Type=10; Meta=6;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3687.00; Pitch=85.35; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3687.15; Pitch=82.50; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3685.95; Pitch=77.85; OnGround=1;  |
@@ -17559,41 +18389,69 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3682.95; Pitch=72.15; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3682.50; Pitch=71.10; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3682.35; Pitch=70.80; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3682.20; Pitch=70.50; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3681.45; Pitch=68.55; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3678.60; Pitch=65.25; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3677.10; Pitch=64.05; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3672.15; Pitch=61.95; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5678;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3661.50; Pitch=58.05; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3658.05; Pitch=56.85; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3657.60; Pitch=56.55; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=80; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3655.80; Pitch=55.95; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3652.80; Pitch=54.15; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=144; y=63; z=22; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3652.50; Pitch=54.00; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.55; y=64.00; cameraY=65.62; z=45.42; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.64; y=64.00; cameraY=65.62; z=45.54; Yaw=3652.50; Pitch=53.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.69; Yaw=3652.50; Pitch=52.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.70; Yaw=3652.35; Pitch=51.90; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=80; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=40; [40] Item=15; Amount=2; Damage=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3651.75; Pitch=49.35; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=80;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=85; y=65; z=46; Face=2;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3651.15; Pitch=48.00; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3650.55; Pitch=47.10; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=5;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5698;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=85; y=65; z=46; Face=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908562; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=46; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=46; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=81; Item=4; Amount=1; Damage=0; x=2743; y=2104; z=1479; Yaw=251; Pitch=25; Roll=254;  |
+| SERVER | EntityVelocity (0x1C) | EID=81; x Velocity=-351; y Velocity=1600; z Velocity=-131;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=4;  |
+| SERVER | SetBlock (0x35) | x=85; y=65; z=46; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=64; z=46; Face=5;  |
@@ -17605,12 +18463,22 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=81; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=4; Amount=13; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=81;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.78; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.89; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5718;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.96; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=64; z=46; Face=5;  |
@@ -17619,6 +18487,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.02; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
@@ -17631,13 +18500,28 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=84; y=64; z=46; Face=5;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908562; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=64; z=46; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=64; z=46; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=82; Item=4; Amount=1; Damage=0; x=2699; y=2060; z=1476; Yaw=244; Pitch=25; Roll=9;  |
+| SERVER | EntityVelocity (0x1C) | EID=82; x Velocity=-777; y Velocity=1600; z Velocity=585;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=5;  |
+| SERVER | SetBlock (0x35) | x=84; y=64; z=46; Type=0; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=63; z=46; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=46.03; Yaw=3652.50; Pitch=47.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=46.03; Yaw=3673.65; Pitch=50.10; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5738;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=46.03; Yaw=3693.00; Pitch=50.85; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=64; z=45; Face=5;  |
@@ -17657,21 +18541,42 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=84; y=64; z=45; Face=5;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.41; Yaw=3694.50; Pitch=50.55; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.41; Yaw=3694.20; Pitch=50.55; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908562; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=64; z=45; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=64; z=45; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=83; Item=4; Amount=1; Damage=0; x=2705; y=2064; z=1466; Yaw=3; Pitch=25; Roll=8;  |
+| SERVER | EntityVelocity (0x1C) | EID=83; x Velocity=204; y Velocity=1600; z Velocity=535;  |
+| SERVER | EntityPosition (0x1F) | EID=82; dX=249; dY=248; dZ=24;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.41; Yaw=3694.05; Pitch=50.55; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=6;  |
+| SERVER | SetBlock (0x35) | x=84; y=64; z=45; Type=0; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.41; Yaw=3693.75; Pitch=50.55; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=130; y=35; z=96; Type=11; Meta=4;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=63; z=45; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.41; Yaw=3691.35; Pitch=48.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.41; Yaw=3688.80; Pitch=44.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.40; Yaw=3687.15; Pitch=39.15; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.40; Yaw=3686.85; Pitch=38.10; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5758;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.40; Yaw=3686.55; Pitch=36.75; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=65; z=45; Face=5;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.40; OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=150; y=7; z=-19; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=45.40; Yaw=3686.55; Pitch=36.60; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.40; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=83; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=4; Amount=14; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.40; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=83;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.40; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.40; OnGround=1;  |
@@ -17684,14 +18589,30 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=84; y=65; z=45; Face=5;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.65; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.83; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908562; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=65; z=45; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=65; z=45; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=84; Item=4; Amount=1; Damage=0; x=2694; y=2102; z=1454; Yaw=6; Pitch=25; Roll=250;  |
+| SERVER | EntityVelocity (0x1C) | EID=84; x Velocity=414; y Velocity=1600; z Velocity=-421;  |
+| SERVER | EntityPosition (0x1F) | EID=82; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=7;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.24; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=84; y=65; z=46; Face=5;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=46.45; Yaw=3686.55; Pitch=36.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=46.56; Yaw=3686.25; Pitch=34.65; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=46.62; Yaw=3686.10; Pitch=33.90; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.70; y=64.00; cameraY=65.62; z=46.66; Yaw=3686.10; Pitch=33.60; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5778;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.67; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.69; OnGround=1;  |
@@ -17709,18 +18630,44 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.67; y=64.00; cameraY=65.62; z=46.27; Yaw=3686.10; Pitch=33.45; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=84; y=65; z=46; Face=5;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.66; y=64.00; cameraY=65.62; z=46.17; Yaw=3685.80; Pitch=33.00; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=84; dX=14; dY=238; dZ=242;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.66; y=64.00; cameraY=65.62; z=46.12; Yaw=3684.00; Pitch=31.50; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908562; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=65; z=46; Type=0; Meta=0;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777217; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=84; y=65; z=46; Type=0; Meta=0;  |
+| SERVER | SpawnItem (0x15) | EID=85; Item=4; Amount=1; Damage=0; x=2697; y=2101; z=1491; Yaw=248; Pitch=25; Roll=244;  |
+| SERVER | EntityVelocity (0x1C) | EID=85; x Velocity=-523; y Velocity=1600; z Velocity=-788;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=84; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=4; Amount=15; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=8;  |
+| SERVER | EntityPosition (0x1F) | EID=82; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.56; y=64.00; cameraY=65.62; z=46.10; Yaw=3683.55; Pitch=31.20; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=84;  |
+| SERVER | SetBlock (0x35) | x=84; y=65; z=46; Type=0; Meta=0;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.41; y=64.00; cameraY=65.62; z=46.10; Yaw=3683.40; Pitch=31.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.23; y=64.00; cameraY=65.62; z=46.11; Yaw=3683.25; Pitch=30.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.03; y=64.00; cameraY=65.62; z=46.13; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=82; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=4; Amount=16; Damage=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.83; y=64.00; cameraY=65.62; z=46.15; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=82;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.62; y=64.00; cameraY=65.62; z=46.17; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5798;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.41; y=64.00; cameraY=65.62; z=46.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.30; y=64.00; cameraY=65.62; z=46.22; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.30; y=64.00; cameraY=65.62; z=46.24; Yaw=3683.10; Pitch=31.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.30; y=64.00; cameraY=65.62; z=46.24; Yaw=3683.55; Pitch=33.30; OnGround=1;  |
+| SERVER | CollectItem (0x16) | EID (Collected)=85; EID (Collector)=17;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=4; Amount=17; Damage=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.30; y=64.00; cameraY=65.62; z=46.25; Yaw=3683.55; Pitch=33.75; OnGround=1;  |
+| SERVER | DespawnEntity (0x1D) | EID=85;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.40; y=64.00; cameraY=65.62; z=46.24; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.55; y=64.00; cameraY=65.62; z=46.22; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.73; y=64.00; cameraY=65.62; z=46.20; OnGround=1;  |
@@ -17731,11 +18678,18 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.02; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=45.75; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.69; y=64.00; cameraY=65.62; z=45.57; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.67; y=64.00; cameraY=65.62; z=45.38; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.65; y=64.00; cameraY=65.62; z=45.17; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.63; y=64.00; cameraY=65.62; z=44.97; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.61; y=64.00; cameraY=65.62; z=44.75; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5818;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.52; y=64.00; cameraY=65.62; z=44.58; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.37; y=64.00; cameraY=65.62; z=44.49; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.30; y=64.42; cameraY=66.04; z=44.45; OnGround=0;  |
@@ -17751,11 +18705,18 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.42; y=65.42; cameraY=67.04; z=44.43; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.30; y=65.75; cameraY=67.37; z=44.45; Yaw=3683.10; Pitch=34.05; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.28; y=66.00; cameraY=67.62; z=44.46; Yaw=3682.65; Pitch=34.80; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=84.24; y=66.17; cameraY=67.79; z=44.48; Yaw=3682.65; Pitch=34.95; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.19; y=66.20; cameraY=67.82; z=44.49; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.12; y=66.12; cameraY=67.74; z=44.51; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=84.04; y=66.00; cameraY=67.62; z=44.53; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.87; y=66.20; cameraY=67.82; z=44.56; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=5838;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.76; y=66.12; cameraY=67.74; z=44.57; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.64; y=66.00; cameraY=67.62; z=44.59; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.43; y=66.42; cameraY=68.04; z=44.62; OnGround=0;  |
@@ -17771,11 +18732,18 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.43; y=67.42; cameraY=69.04; z=44.70; Yaw=3685.50; Pitch=32.40; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.30; y=67.75; cameraY=69.37; z=44.70; Yaw=3686.70; Pitch=31.05; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.28; y=68.00; cameraY=69.62; z=44.70; Yaw=3687.00; Pitch=30.75; OnGround=0;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.24; y=68.17; cameraY=69.79; z=44.70; Yaw=3687.30; Pitch=30.75; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.19; y=68.20; cameraY=69.82; z=44.70; Yaw=3687.45; Pitch=30.75; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.12; y=68.12; cameraY=69.74; z=44.70; Yaw=3687.60; Pitch=31.05; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.04; y=68.00; cameraY=69.62; z=44.70; Yaw=3687.60; Pitch=31.95; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.87; y=68.20; cameraY=69.82; z=44.70; Yaw=3687.75; Pitch=33.15; OnGround=0;  |
+| SERVER | SetTime (0x04) | Time=5858;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.75; y=68.12; cameraY=69.74; z=44.70; Yaw=3687.60; Pitch=33.90; OnGround=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.63; y=68.00; cameraY=69.62; z=44.70; Yaw=3687.60; Pitch=34.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.42; y=68.42; cameraY=70.04; z=44.70; Yaw=3687.15; Pitch=34.50; OnGround=0;  |
@@ -17791,11 +18759,18 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.76; y=69.00; cameraY=70.62; z=44.70; Yaw=3650.55; Pitch=53.10; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.74; y=69.00; cameraY=70.62; z=44.70; Yaw=3649.35; Pitch=54.00; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.73; y=69.00; cameraY=70.62; z=44.70; Yaw=3647.55; Pitch=54.75; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.72; y=69.00; cameraY=70.62; z=44.70; Yaw=3642.90; Pitch=55.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.72; y=69.00; cameraY=70.62; z=44.70; Yaw=3640.80; Pitch=55.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.72; y=69.00; cameraY=70.62; z=44.70; Yaw=3639.45; Pitch=54.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.72; y=69.00; cameraY=70.62; z=44.70; Yaw=3634.05; Pitch=54.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.72; y=69.00; cameraY=70.62; z=44.70; Yaw=3629.10; Pitch=54.30; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5878;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.71; y=69.00; cameraY=70.62; z=44.70; Yaw=3628.50; Pitch=54.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
@@ -17804,6 +18779,40 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=80.71; y=69.00; cameraY=70.62; z=44.70; Yaw=3628.50; Pitch=54.45; OnGround=1;  |
+| SERVER | OpenContainer (0x64) | Window=3; Inventory=1; Title="Crafting"; # of Slots=9;  |
+| SERVER | SetBlock (0x35) | x=80; y=69; z=45; Type=58; Meta=0;  |
+| SERVER | FillContainer (0x68) | Window=3; Count=46; (Contents omitted);  |
+| SERVER | SetBlock (0x35) | x=80; y=70; z=45; Type=0; Meta=0;  |
+| SERVER | SetSlot (0x67) | Window=255; Slot=-1; [-1] Item=-1;  |
+| SERVER | SetSlot (0x67) | Window=3; Slot=13; [13] Item=17; Amount=4; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=3; Slot=14; [14] Item=4; Amount=17; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=3; Slot=15; [15] Item=5; Amount=3; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=3; Slot=37; [37] Item=37; Amount=1; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=3; Slot=38; [38] Item=270; Amount=1; Damage=15;  |
+| SERVER | SetSlot (0x67) | Window=3; Slot=39; [39] Item=3; Amount=10; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=3; Slot=40; [40] Item=274; Amount=1; Damage=8;  |
+| SERVER | SetSlot (0x67) | Window=3; Slot=41; [41] Item=15; Amount=2; Damage=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5898;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | TeleportEntity (0x22) | EID=62; x=2435; y=2276; z=1285; Yaw=185; Pitch=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
@@ -17819,25 +18828,18 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
-| CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5918;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=80.71; y=69.00; cameraY=70.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17845,6 +18847,7 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=14; Right-click=0; Action number=1; Shift=0; Item=4; Amount=17; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=1; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17855,19 +18858,29 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=7; Right-click=1; Action number=2; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=2; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | TeleportEntity (0x22) | EID=22; x=2183; y=2212; z=956; Yaw=112; Pitch=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=4; Right-click=1; Action number=3; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5938;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=3; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=1; Right-click=1; Action number=4; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=4; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17876,14 +18889,23 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=2; Right-click=1; Action number=5; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=5; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=3; Right-click=1; Action number=6; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5958;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=6; Accepted=1;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17891,6 +18913,7 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=6; Right-click=1; Action number=7; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=7; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17898,17 +18921,26 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=6; Right-click=1; Action number=8; Shift=0; Item=4; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=8; Accepted=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5978;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=8; Right-click=1; Action number=9; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=9; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17917,18 +18949,27 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=9; Right-click=1; Action number=10; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=10; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=14; Right-click=0; Action number=11; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=11; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=5998;  |
+| SERVER | TeleportEntity (0x22) | EID=12; x=2291; y=1188; z=860; Yaw=70; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=13; x=2276; y=1188; z=844; Yaw=21; Pitch=0;  |
+| SERVER | TeleportEntity (0x22) | EID=14; x=2354; y=1188; z=828; Yaw=114; Pitch=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17938,6 +18979,9 @@
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=0; Right-click=0; Action number=12; Shift=0; Item=61; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16842813; Amount=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=5242884; Amount=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=12; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17945,19 +18989,28 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=42; Right-click=0; Action number=13; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6018;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=13; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetBlock (0x35) | x=41; y=13; z=46; Type=10; Meta=4;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17967,15 +19020,24 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=6; Right-click=0; Action number=14; Shift=0; Item=4; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | TeleportEntity (0x22) | EID=68; x=2339; y=2564; z=1128; Yaw=109; Pitch=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=14; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6038;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=3; Slot=11; Right-click=0; Action number=15; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | ContainerTransaction (0x6A) | Window=3; Action number=15; Accepted=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -17984,17 +19046,28 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=10; [10] Item=4; Amount=1; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=13; [13] Item=4; Amount=8; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=41; [41] Item=61; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3627.60; Pitch=54.30; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3626.70; Pitch=54.00; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3625.05; Pitch=54.00; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3620.70; Pitch=53.85; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3615.15; Pitch=53.40; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3609.15; Pitch=53.10; OnGround=1;  |
+| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3605.25; Pitch=53.10; OnGround=1;  |
 | CLIENT:38980 | SetHotbarSlot (0x10) | Slot=4;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3604.65; Pitch=53.10; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6058;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3604.50; Pitch=52.95; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3604.35; Pitch=52.95; OnGround=1;  |
@@ -18011,11 +19084,18 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.13; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.14; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.14; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.14; y=69.00; cameraY=70.62; z=44.69; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.14; y=69.00; cameraY=70.62; z=44.59; Yaw=3598.35; Pitch=52.65; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.14; y=69.00; cameraY=70.62; z=44.44; Yaw=3597.45; Pitch=51.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.13; y=69.00; cameraY=70.62; z=44.30; Yaw=3597.15; Pitch=51.15; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.12; y=69.00; cameraY=70.62; z=44.30; Yaw=3597.00; Pitch=50.70; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6078;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
@@ -18034,11 +19114,23 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16908349; Amount=1;  |
+| SERVER | SetBlock (0x35) | x=81; y=68; z=45; Type=1; Meta=0;  |
+| SERVER | SetSlot (0x67) | Window=0; Slot=41; [41] Item=-1;  |
+| SERVER | SetBlock (0x35) | x=81; y=69; z=45; Type=61; Meta=2;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| SERVER | SetBlock (0x35) | x=81; y=69; z=45; Type=61; Meta=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6098;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
@@ -18053,14 +19145,38 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | OpenContainer (0x64) | Window=4; Inventory=2; Title="Furnace"; # of Slots=3;  |
+| SERVER | SetBlock (0x35) | x=81; y=69; z=45; Type=61; Meta=2;  |
+| SERVER | FillContainer (0x68) | Window=4; Count=39; (Contents omitted);  |
+| SERVER | SetBlock (0x35) | x=81; y=69; z=44; Type=0; Meta=0;  |
+| SERVER | SetSlot (0x67) | Window=255; Slot=-1; [-1] Item=-1;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=4; [4] Item=4; Amount=1; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=6; [6] Item=17; Amount=4; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=7; [7] Item=4; Amount=8; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=8; [8] Item=5; Amount=3; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=30; [30] Item=37; Amount=1; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=31; [31] Item=270; Amount=1; Damage=15;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=32; [32] Item=3; Amount=10; Damage=0;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=33; [33] Item=274; Amount=1; Damage=8;  |
+| SERVER | SetSlot (0x67) | Window=4; Slot=34; [34] Item=15; Amount=2; Damage=0;  |
+| SERVER | ContainerData (0x69) | Window=4; Bar=0; Progress=0;  |
+| SERVER | ContainerData (0x69) | Window=4; Bar=1; Progress=0;  |
+| SERVER | ContainerData (0x69) | Window=4; Bar=2; Progress=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.12; y=69.00; cameraY=70.62; z=44.30; Yaw=3598.50; Pitch=49.50; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6118;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.12; y=69.00; cameraY=70.62; z=44.30; OnGround=1;  |
@@ -18077,6 +19193,18 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6138;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -18092,6 +19220,18 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
+| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6158;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -18107,21 +19247,18 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
+| SERVER | SetTime (0x04) | Time=6178;  |
+| SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
+| SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |

@@ -247,7 +247,7 @@ class PacketParser:
             item_id = self.read_short()
             if item_id != -1:
                 amount = self.read_byte(); #self.print_property('Amount', 'Byte', amount)
-                damage = self.read_byte(); #self.print_property('Damage', 'Byte', damage)
+                damage = self.read_short(); #self.print_property('Damage', 'Short', damage)
                 if (container_contents):
                     self.print_property(f'[{slot}] Item', 'Item', (item_id, amount, damage))
             else:
