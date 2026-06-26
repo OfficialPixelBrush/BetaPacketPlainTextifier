@@ -401,9 +401,9 @@
 | CLIENT:52443 | PlayerPosition (0x0B) | x=55.21; y=76.53; cameraY=78.15; z=-48.37; OnGround=0;  |
 | CLIENT:52436 | PlayerPosition (0x0B) | x=55.59; y=77.00; cameraY=78.62; z=-49.95; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=1541; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=-5; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=-5; Array size=4;  |
 | SERVER | PlayerPositionAndRotation (0x0D) | x=55.21; y=78.61; cameraY=76.99; z=-48.37; Yaw=-167.55; Pitch=7.35; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=-5; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=-5; Array size=4;  |
 | CLIENT:52436 | PlayerPosition (0x0B) | x=55.59; y=77.00; cameraY=78.62; z=-49.95; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=1533; dX=0; dY=0; dZ=0;  |
 | CLIENT:52443 | PlayerPosition (0x0B) | x=55.21; y=76.22; cameraY=77.84; z=-48.37; OnGround=0;  |
@@ -432,7 +432,7 @@
 | CLIENT:52436 | Disconnect (0xFF) | Message="Quitting";  |
 | CLIENT:52443 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | ChatMessage (0x03) | Message="§ePixelBrushArt left the game.";  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=4;  |
 | SERVER | EntityPosition (0x1F) | EID=1533; dX=0; dY=0; dZ=0;  |
 | CLIENT:52443 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:52443 | PlayerPositionAndRotation (0x0D) | x=55.21; y=76.99; cameraY=78.61; z=-48.37; Yaw=-167.55; Pitch=7.35; OnGround=0;  |

@@ -110,7 +110,7 @@ class Packet(Enum):
     EntityMetadata = 0x28
     SetChunkVisibility = 0x32
     Chunk = 0x33
-    SetMutlipleBlocks = 0x34
+    SetMultipleBlocks = 0x34
     SetBlock = 0x35
     BlockEvent = 0x36
     Explosion = 0x3C
@@ -472,7 +472,7 @@ class PacketParser:
                 #self.print_property('Compressed Data', 'Byte[]', '(Not included)')
                 for _ in range(size):
                     self.read_byte()
-            case Packet.SetMutlipleBlocks:
+            case Packet.SetMultipleBlocks:
                 self.print_property('x', 'Integer', self.read_integer())
                 self.print_property('z', 'Integer', self.read_integer())
                 size = self.read_short()

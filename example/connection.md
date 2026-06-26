@@ -165,7 +165,7 @@
 | CLIENT:54862 | PlayerPositionAndRotation (0x0D) | x=4.98; y=73.00; cameraY=74.62; z=-15.75; Yaw=262.50; Pitch=19.35; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=-16; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2214;  |
 | SERVER | Chunk (0x33) | x=0; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2461;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=-3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=-3; z=2; Array size=3;  |
 | CLIENT:54862 | PlayerPositionAndRotation (0x0D) | x=5.20; y=73.00; cameraY=74.62; z=-15.78; Yaw=275.10; Pitch=19.35; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2246;  |
 | CLIENT:54862 | PlayerPositionAndRotation (0x0D) | x=5.42; y=73.00; cameraY=74.62; z=-15.79; Yaw=275.40; Pitch=19.35; OnGround=1;  |
@@ -225,7 +225,7 @@
 | CLIENT:54862 | PlayerAction (0x13) | EID=6; Action=1;  |
 | CLIENT:54862 | PlayerPositionAndRotation (0x0D) | x=10.12; y=73.00; cameraY=74.54; z=-14.38; Yaw=178.80; Pitch=23.10; OnGround=1;  |
 | SERVER | EntityMetadata (0x28) | EID=6;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=-2; Array size=2;  |
 | CLIENT:54862 | PlayerPosition (0x0B) | x=10.22; y=73.00; cameraY=74.54; z=-14.39; OnGround=1;  |
 | SERVER | EntityMetadata (0x28) | EID=6;  |
 | CLIENT:54862 | PlayerPosition (0x0B) | x=10.25; y=73.00; cameraY=74.54; z=-14.39; OnGround=1;  |

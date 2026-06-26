@@ -363,7 +363,7 @@
 | SERVER | Chunk (0x33) | x=48; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2786;  |
 | CLIENT:46204 | PlayerRotation (0x0C) | Yaw=-159.30; Pitch=17.70; OnGround=1;  |
 | CLIENT:40490 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=-1; z=-4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=-1; z=-4; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=6; dX=0; dY=0; dZ=0;  |
 | SERVER | Chunk (0x33) | x=48; y=0; z=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2681;  |
 | CLIENT:46204 | PlayerPosition (0x0B) | x=8.53; y=72.00; cameraY=73.62; z=8.41; OnGround=1;  |

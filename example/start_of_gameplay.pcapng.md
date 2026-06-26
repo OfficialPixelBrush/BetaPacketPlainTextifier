@@ -102,19 +102,19 @@
 | SERVER | SetBlock (0x35) | x=56; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=6; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=17; y=7; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=10; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=3; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=3; z=-32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=116; y=3; z=-51; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=43; y=2; z=49; sizeX=4; sizeY=7; sizeZ=14; Compressed Size=219;  |
 | SERVER | SetBlock (0x35) | x=46; y=2; z=64; Type=10; Meta=0;  |
@@ -127,34 +127,34 @@
 | SERVER | SetBlock (0x35) | x=101; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=19; y=7; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | Chunk (0x33) | x=88; y=2; z=55; sizeX=7; sizeY=9; sizeZ=8; Compressed Size=207;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=3; z=-39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=3; z=-16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=113; y=10; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=2; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=5; z=-31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.50; y=69.62; cameraY=71.24; z=2.50; Yaw=0.00; Pitch=0.00; OnGround=0;  |
 | SERVER | SetTime (0x04) | Time=1858;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=51; y=6; z=38; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=71; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=2; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=5; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=8; Type=11; Meta=0;  |
@@ -168,83 +168,83 @@
 | SERVER | SetBlock (0x35) | x=89; y=3; z=-31; Type=11; Meta=0;  |
 | SERVER | SetHealth (0x08) | Health=20;  |
 | SERVER | Chunk (0x33) | x=64; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3530;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=4; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=5; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=10; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=10; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=74; y=6; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=4; z=-34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=108; y=4; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=20; y=10; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=6; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=8; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=7; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=9; z=-7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=10; z=-13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=57; y=8; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=42; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=3; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=17; y=8; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=10; z=29; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=80; y=6; z=47; sizeX=9; sizeY=7; sizeZ=0; Compressed Size=57;  |
 | SERVER | SetBlock (0x35) | x=100; y=7; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=137; y=9; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=-42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=3; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=10; z=-29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=5; z=-59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=-2; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=-2; Array size=8;  |
 | SERVER | Chunk (0x33) | x=80; y=4; z=48; sizeX=6; sizeY=9; sizeZ=4; Compressed Size=135;  |
 | SERVER | Chunk (0x33) | x=79; y=4; z=48; sizeX=0; sizeY=7; sizeZ=5; Compressed Size=43;  |
 | SERVER | SetBlock (0x35) | x=47; y=4; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=9; y=7; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=10; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=9; z=23; Type=11; Meta=0;  |
@@ -253,63 +253,63 @@
 | SERVER | SetBlock (0x35) | x=76; y=9; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=8; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=7; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=9; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=-31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=8; z=-60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=43; y=7; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=27; y=4; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=8; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=70; y=9; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=7; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=2; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=5; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=4; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.50; y=69.62; cameraY=71.24; z=2.50; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.50; y=69.54; cameraY=71.16; z=2.50; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.50; y=69.39; cameraY=71.01; z=2.50; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.50; y=69.16; cameraY=70.78; z=2.50; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.50; y=68.85; cameraY=70.47; z=2.50; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=12; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=38; y=6; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=9; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=52; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=8; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=37; y=6; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=3; z=70; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=4; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=9; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=74; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=7; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=10; Type=11; Meta=0;  |
@@ -324,118 +324,118 @@
 | SERVER | Chunk (0x33) | x=64; y=0; z=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4599;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.50; y=68.03; cameraY=69.65; z=2.50; OnGround=0;  |
 | SERVER | Chunk (0x33) | x=48; y=0; z=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3763;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=15; y=3; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=26; y=3; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=10; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=18; y=6; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=2; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=7; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=136; y=8; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=2; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=-6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=-2; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=48; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2829;  |
 | SERVER | Chunk (0x33) | x=48; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2498;  |
 | SERVER | SetBlock (0x35) | x=44; y=6; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=21; y=6; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=36; y=4; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=9; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=9; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=10; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=9; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=4; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=-4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=7; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=4; z=-48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=115; y=6; z=-57; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.50; y=68.00; cameraY=69.62; z=2.50; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=33; y=6; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=54; y=8; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=97; y=4; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=16; y=8; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=9; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=9; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=-40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=9; z=-8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=-3; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=64; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2855;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | Chunk (0x33) | x=80; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4158;  |
 | SERVER | SetBlock (0x35) | x=61; y=5; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=5; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=31; y=5; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=7; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=10; z=66; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=4; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=5; z=-11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=76; y=10; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-31; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4682;  |
 | SERVER | SetBlock (0x35) | x=41; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=6; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=51; y=8; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=10; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=6; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=38; y=10; z=66; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=121; y=9; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=8; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=10; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=-35; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=10; z=-49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=5; z=-59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -443,71 +443,71 @@
 | SERVER | SetBlock (0x35) | x=27; y=6; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=3; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=4; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=-36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=106; y=6; z=-18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=116; y=5; z=-50; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4749;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=5104;  |
 | SERVER | SetBlock (0x35) | x=48; y=4; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=4; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=3; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=9; z=64; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=8; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=8; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=3; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=4; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=7; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=8; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=9; z=-6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=45; y=4; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=3; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=10; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=67; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=72; y=10; z=16; sizeX=2; sizeY=3; sizeZ=5; Compressed Size=61;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=32; y=10; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=74; y=5; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=9; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=9; z=-29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=11; z=15; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4417;  |
@@ -516,20 +516,20 @@
 | SERVER | SetBlock (0x35) | x=62; y=5; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=2; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=126; y=8; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=82; y=7; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=79; y=5; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=8; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=4; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=10; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=4; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=5; z=-55; Type=11; Meta=0;  |
@@ -538,15 +538,15 @@
 | SERVER | SetBlock (0x35) | x=10; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=9; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=53; y=8; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=2; z=10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=19; y=9; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=37; y=10; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=74; y=7; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=29; Type=11; Meta=0;  |
@@ -562,22 +562,22 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | Chunk (0x33) | x=64; y=0; z=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3332;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=46; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=7; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=66; y=9; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=8; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=7; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=120; y=4; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=10; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=8; z=-8; Type=11; Meta=0;  |
@@ -590,21 +590,21 @@
 | SERVER | SetBlock (0x35) | x=32; y=7; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=3; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=66; y=10; z=19; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=103; y=2; z=53; sizeX=3; sizeY=5; sizeZ=4; Compressed Size=88;  |
 | SERVER | SetBlock (0x35) | x=107; y=10; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=10; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=2; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=85; y=8; z=-38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=8; z=-29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=-2.10; Pitch=0.45; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3910;  |
@@ -614,24 +614,24 @@
 | SERVER | SetBlock (0x35) | x=57; y=8; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=10; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=9; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=139; y=4; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=4; z=-25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=7; z=-7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=0; Array size=2;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=-7.20; Pitch=1.95; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=-10.65; Pitch=2.55; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=1878;  |
@@ -642,8 +642,8 @@
 | SERVER | SetBlock (0x35) | x=42; y=5; z=45; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=51; y=3; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=8; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=3; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=34; Type=11; Meta=0;  |
@@ -653,50 +653,50 @@
 | SERVER | SetBlock (0x35) | x=101; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=104; y=8; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=3; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=10; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=139; y=7; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=7; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=-19; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=-11.70; Pitch=2.55; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2631;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2565;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=6; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=4; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=7; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=4; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=4; z=-37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=4; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=9; z=-54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=4; z=-39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=119; y=4; z=-50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=-3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=10; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=37; y=8; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=96; y=7; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=4; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=6; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=8; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=3; z=-9; Type=11; Meta=0;  |
@@ -717,29 +717,29 @@
 | SERVER | SetBlock (0x35) | x=98; y=10; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=8; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=7; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=8; z=-50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=7; z=-59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=-2.55; Pitch=0.75; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=48; y=0; z=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2835;  |
 | SERVER | Chunk (0x33) | x=67; y=6; z=16; sizeX=7; sizeY=17; sizeZ=4; Compressed Size=354;  |
 | SERVER | SetBlock (0x35) | x=42; y=7; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=51; y=4; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=5; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=3; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=8; z=-25; Type=11; Meta=0;  |
@@ -750,39 +750,39 @@
 | SERVER | SetBlock (0x35) | x=72; y=11; z=15; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=6.15; Pitch=-0.90; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=64; y=0; z=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2671;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=33; y=6; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | Chunk (0x33) | x=96; y=8; z=32; sizeX=4; sizeY=11; sizeZ=15; Compressed Size=379;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=127; y=9; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=7; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=10; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=10; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=8.25; Pitch=-1.95; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=86; y=6; z=35; sizeX=9; sizeY=13; sizeZ=10; Compressed Size=376;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=-36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=77; y=9; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=8; z=-52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=-41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=49; y=2; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=6; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=65; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=58; Type=11; Meta=0;  |
@@ -790,59 +790,59 @@
 | SERVER | SetBlock (0x35) | x=138; y=5; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=10; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=4; z=-19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=-57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=5; z=-57; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | Chunk (0x33) | x=80; y=0; z=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3582;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=50; y=3; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=54; y=8; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=5;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=5; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=115; y=10; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=6; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=3; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=7; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=8.55; Pitch=-2.10; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4343;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=2; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=14; y=4; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=5; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=5; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=53; y=4; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=3; z=74; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=4; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=4; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=10; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=9; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=7; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=3; z=-42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=6; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=8; z=-17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=-11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=5; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=5; z=-56; Type=11; Meta=0;  |
@@ -850,49 +850,49 @@
 | SERVER | Chunk (0x33) | x=112; y=0; z=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3841;  |
 | SERVER | Chunk (0x33) | x=65; y=8; z=16; sizeX=9; sizeY=9; sizeZ=4; Compressed Size=316;  |
 | SERVER | SetBlock (0x35) | x=20; y=2; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=53; y=6; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=2; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=7; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=77; y=4; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=10; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=6; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=121; y=4; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=10; z=-25; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=125; y=8; z=-48; sizeX=2; sizeY=5; sizeZ=2; Compressed Size=45;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=-17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=0; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3570;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=39; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=2; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=24; y=4; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=6; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=2; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=22; y=10; z=68; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=6; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=9; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=57; Type=11; Meta=0;  |
@@ -906,62 +906,62 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3914;  |
 | SERVER | SetBlock (0x35) | x=37; y=7; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=8; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=7; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=7; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=10; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=3; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=2; z=6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=3; z=-2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=118; y=10; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.49; y=68.00; cameraY=69.62; z=2.60; Yaw=7.80; Pitch=-1.65; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3837;  |
 | SERVER | SetBlock (0x35) | x=49; y=3; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=61; y=5; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=24; y=10; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=81; y=6; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=93; y=4; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=8; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=10; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=-44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=121; y=5; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=8; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=7; z=-30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.47; y=68.00; cameraY=69.62; z=2.75; Yaw=3.75; Pitch=-0.60; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3515;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=39; y=6; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=4; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=31; y=5; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=4; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=9; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=4; z=1; Type=11; Meta=0;  |
@@ -969,21 +969,21 @@
 | SERVER | SetBlock (0x35) | x=72; y=9; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=5; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=104; y=8; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=5; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=2; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=-8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=5; z=-54; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.46; y=68.00; cameraY=69.62; z=2.93; Yaw=2.55; Pitch=0.15; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4372;  |
 | SERVER | Chunk (0x33) | x=65; y=6; z=16; sizeX=5; sizeY=9; sizeZ=4; Compressed Size=211;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=61; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=8; z=41; Type=11; Meta=0;  |
@@ -991,17 +991,17 @@
 | SERVER | SetBlock (0x35) | x=80; y=6; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=10; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=68; y=10; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=79; y=4; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=5; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=2; z=5; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=104; y=6; z=-17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=7; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=4; z=-36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=-23; Type=11; Meta=0;  |
@@ -1012,50 +1012,50 @@
 | SERVER | SetBlock (0x35) | x=59; y=9; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=10; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=9; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=4; z=-44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=-33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=-59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.45; y=68.00; cameraY=69.62; z=3.33; Yaw=0.30; Pitch=1.05; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=80; y=0; z=48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3858;  |
 | SERVER | SetBlock (0x35) | x=32; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=3; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=13; y=3; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=62; y=5; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=8; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=9; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=19; y=9; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=3; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=10; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=3; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=3; z=-39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=7; z=-30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=120; y=4; z=-14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=-39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=5; z=-51; Type=11; Meta=0;  |
@@ -1063,37 +1063,37 @@
 | SERVER | Chunk (0x33) | x=64; y=0; z=48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3427;  |
 | SERVER | SetBlock (0x35) | x=43; y=5; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=9; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=26; y=8; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=8; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=9; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=133; y=8; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=7; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=9; z=-53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=8; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.45; y=68.00; cameraY=69.62; z=3.75; Yaw=-2.25; Pitch=2.10; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=48; y=0; z=48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2847;  |
 | SERVER | Chunk (0x33) | x=18; y=10; z=21; sizeX=12; sizeY=3; sizeZ=9; Compressed Size=209;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.46; y=68.00; cameraY=69.62; z=3.97; Yaw=-2.70; Pitch=2.40; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=19; y=2; z=71; sizeX=7; sizeY=9; sizeZ=6; Compressed Size=232;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=5; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=3; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=19; Type=11; Meta=0;  |
@@ -1104,26 +1104,26 @@
 | SERVER | SetBlock (0x35) | x=111; y=7; z=-50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=4; z=-50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=47; y=4; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=35; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=8; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=6; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=7; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=-39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=6;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.47; y=68.00; cameraY=69.62; z=4.18; Yaw=-3.45; Pitch=3.00; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=1898;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3596;  |
@@ -1132,50 +1132,50 @@
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=3; z=58; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=8; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=7; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=4; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=-33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=2; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=3; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.48; y=68.00; cameraY=69.62; z=4.40; Yaw=-3.90; Pitch=3.30; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3367;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=41; y=4; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=75; y=3; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=65; y=9; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=2; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=7; z=35; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=8; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=5; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=-33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=-13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=4; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=9; z=-57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-25; Type=11; Meta=0;  |
@@ -1185,21 +1185,21 @@
 | SERVER | Chunk (0x33) | x=16; y=0; z=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3662;  |
 | SERVER | SetBlock (0x35) | x=19; y=8; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=6; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=103; y=9; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=7; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=3; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=-14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=3; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=-59; Type=11; Meta=0;  |
@@ -1207,79 +1207,79 @@
 | SERVER | Chunk (0x33) | x=16; y=0; z=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3606;  |
 | SERVER | Chunk (0x33) | x=16; y=10; z=20; sizeX=6; sizeY=15; sizeZ=9; Compressed Size=350;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=23; y=3; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=6; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=9; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=4; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=120; y=9; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=8; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=7; z=-16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=2; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=-53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.52; y=68.00; cameraY=69.62; z=5.04; Yaw=-5.40; Pitch=3.90; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2808;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=40; y=4; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=7; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=74; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=133; y=7; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=8; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.54; y=68.00; cameraY=69.62; z=5.26; Yaw=-5.55; Pitch=3.90; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2729;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=59; y=10; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=2; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=5; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=6; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=10; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=96; y=3; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.56; y=68.00; cameraY=69.62; z=5.47; Yaw=-6.30; Pitch=3.75; OnGround=1;  |
 | SERVER | SpawnObject (0x17) | EID=18; Type=71; x=656; y=400; z=784; Owner EID=0;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3215;  |
 | SERVER | EntityVelocity (0x1C) | EID=18; x Velocity=0; y Velocity=0; z Velocity=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=57; y=5; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=5; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=10; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=71; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=67; y=10; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=7; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=2; z=27; Type=11; Meta=0;  |
@@ -1292,19 +1292,19 @@
 | SERVER | SetBlock (0x35) | x=20; y=12; z=24; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.59; y=68.00; cameraY=69.62; z=5.69; Yaw=-6.90; Pitch=3.75; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=-48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2679;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=12; y=6; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=40; y=4; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=8; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=83; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=42; Type=11; Meta=0;  |
@@ -1313,33 +1313,33 @@
 | SERVER | SetBlock (0x35) | x=130; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=9; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=5; z=-15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=4; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=20; y=12; z=24; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.61; y=68.00; cameraY=69.62; z=5.90; Yaw=-8.85; Pitch=3.75; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=-48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2799;  |
 | SERVER | SetBlock (0x35) | x=137; y=10; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=44; y=12; z=40; Type=9; Meta=7;  |
 | SERVER | SetBlock (0x35) | x=11; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=3; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=2; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=9; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=7; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=9; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=3; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=-27; Type=11; Meta=0;  |
@@ -1348,25 +1348,25 @@
 | SERVER | SetBlock (0x35) | x=41; y=6; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=4; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=12; y=5; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=28; y=5; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=6; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=17; y=9; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=7; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=39; y=9; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=8; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=10; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=5; z=-42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=-44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=6; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=8; z=-52; Type=11; Meta=0;  |
@@ -1378,18 +1378,18 @@
 | SERVER | SetBlock (0x35) | x=40; y=5; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=5; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=6; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=38; y=9; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=82; y=8; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=10; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=6; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=5; z=-3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=8; z=-28; Type=11; Meta=0;  |
@@ -1399,32 +1399,32 @@
 | SERVER | SetBlock (0x35) | x=43; y=4; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=4; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=6; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=23; y=4; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=43; y=5; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=2; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=17; y=7; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=94; y=5; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=77; y=5; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=8; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=7; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=3; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=2; z=-45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=83; y=9; z=-8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.76; y=68.00; cameraY=69.62; z=6.75; Yaw=-11.70; Pitch=4.05; OnGround=1;  |
 | SERVER | DespawnEntity (0x1D) | EID=18;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=-48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3445;  |
 | SERVER | SetBlock (0x35) | x=36; y=6; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=57; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=9; z=39; Type=11; Meta=0;  |
@@ -1433,69 +1433,69 @@
 | SERVER | SetBlock (0x35) | x=69; y=4; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=10; z=67; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=7; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=10; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=9; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=9; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=9; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=20; y=11; z=24; Type=13; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.81; y=68.00; cameraY=69.62; z=6.96; Yaw=-11.85; Pitch=4.35; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=-48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3775;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=5; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=80; y=9; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=20; y=11; z=24; Type=13; Meta=0;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=-48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4268;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=11; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=6; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=31; y=8; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=71; y=7; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=75; y=7; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=10; z=65; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=8; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=9; z=-11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.85; y=68.00; cameraY=69.62; z=7.17; Yaw=-12.00; Pitch=4.50; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.89; y=68.00; cameraY=69.62; z=7.38; Yaw=-12.00; Pitch=4.65; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3737;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=46; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=4; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=42; y=7; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=24; Type=11; Meta=0;  |
@@ -1505,10 +1505,10 @@
 | SERVER | SetBlock (0x35) | x=111; y=5; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=9; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=91; y=4; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=3; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=4; z=-15; Type=11; Meta=0;  |
@@ -1516,50 +1516,50 @@
 | SERVER | SetBlock (0x35) | x=94; y=8; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.94; y=68.00; cameraY=69.62; z=7.59; Yaw=-12.15; Pitch=4.95; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2685;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=14; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=60; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=6; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=4; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=4; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=80; y=67; z=13; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=8; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=129; y=4; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=5; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=4; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=-51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=6; z=-57; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.98; y=68.00; cameraY=69.62; z=7.81; Yaw=-11.70; Pitch=5.40; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2954;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=10; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=7; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=7; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=2; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=9; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=6; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=3; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=2; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-8; Type=11; Meta=0;  |
@@ -1570,19 +1570,19 @@
 | SERVER | SetBlock (0x35) | x=54; y=5; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=4; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=53; y=5; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=38; y=9; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=91; y=4; z=-45; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=121; y=2; z=-16; sizeX=6; sizeY=21; sizeZ=15; Compressed Size=692;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=10; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-19; Type=11; Meta=0;  |
@@ -1593,22 +1593,22 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.07; y=68.00; cameraY=69.62; z=8.23; Yaw=-8.25; Pitch=7.05; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3894;  |
 | SERVER | SetBlock (0x35) | x=43; y=7; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=30; y=3; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=8; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=3; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=9; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=10; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=141; y=7; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=-15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.10; y=68.00; cameraY=69.62; z=8.44; Yaw=-5.25; Pitch=8.70; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=1918;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4718;  |
@@ -1618,21 +1618,21 @@
 | SERVER | SetBlock (0x35) | x=57; y=9; z=43; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=5; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=44; y=8; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=4; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=4; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=6; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=132; y=10; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=8; z=-24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=8; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=4; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=5; z=-32; Type=11; Meta=0;  |
@@ -1640,16 +1640,16 @@
 | SERVER | Chunk (0x33) | x=128; y=0; z=64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4158;  |
 | SERVER | SetBlock (0x35) | x=36; y=7; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=7; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=53; y=7; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=5; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=5; z=-19; Type=11; Meta=0;  |
@@ -1658,77 +1658,77 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.14; y=68.00; cameraY=69.62; z=8.87; Yaw=-3.45; Pitch=10.05; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=4177;  |
 | SERVER | SetBlock (0x35) | x=19; y=8; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=58; y=3; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=8; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=9; z=77; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=9; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=3; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=6; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=5; z=-37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=3; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=-61; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.15; y=68.00; cameraY=69.62; z=9.09; Yaw=-1.80; Pitch=11.10; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3743;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=35; y=6; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=7; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=10; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=6; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=3; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=6; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=135; y=10; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=2; z=-44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=3; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=34; y=4; z=-2; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=80; y=0; z=64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3035;  |
 | SERVER | SetBlock (0x35) | x=32; y=11; z=79; Type=8; Meta=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=32; y=7; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=7; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=6; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=4; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=10; z=6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=8; z=-36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.16; y=68.00; cameraY=69.62; z=9.30; Yaw=-1.50; Pitch=11.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.17; y=68.00; cameraY=69.62; z=9.52; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=49; y=5; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=46; y=5; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=7; z=63; Type=11; Meta=0;  |
@@ -1736,14 +1736,14 @@
 | SERVER | SetBlock (0x35) | x=105; y=5; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=7; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=9; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=10; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=6; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=8; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=9; z=-21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=4; z=-16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=10; z=-51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=3; z=-43; Type=11; Meta=0;  |
@@ -1757,52 +1757,52 @@
 | SERVER | SetBlock (0x35) | x=73; y=5; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=6; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=7; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=6; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=8; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.18; y=68.00; cameraY=69.62; z=9.95; Yaw=-1.35; Pitch=11.85; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3479;  |
 | SERVER | SetBlock (0x35) | x=37; y=5; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=11; y=7; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=62; y=6; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=6; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=8; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=2; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=2; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=3; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=4; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.19; y=68.00; cameraY=69.62; z=10.17; Yaw=-1.35; Pitch=13.80; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3305;  |
 | SERVER | SetBlock (0x35) | x=11; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=7; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=10; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=2; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=8; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=10; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=5; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=45; Type=11; Meta=0;  |
@@ -1811,15 +1811,15 @@
 | SERVER | SetBlock (0x35) | x=139; y=6; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=9; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=9; z=-31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=4; z=-47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.19; y=68.00; cameraY=69.62; z=10.38; Yaw=-1.50; Pitch=14.40; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=0; y=0; z=64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2946;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=32; y=11; z=79; Type=9; Meta=2;  |
 | SERVER | SetBlock (0x35) | x=32; y=4; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=5; z=46; Type=11; Meta=0;  |
@@ -1827,40 +1827,40 @@
 | SERVER | SetBlock (0x35) | x=86; y=4; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=9; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=80; y=8; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=9; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=10; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=8; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.20; y=68.00; cameraY=69.62; z=10.50; Yaw=-1.80; Pitch=14.85; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=0; y=0; z=48; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2873;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=19; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=5; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=7; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=6; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=40; y=4; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=3; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=126; y=7; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=9; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=10; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=75; y=6; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=5; z=-38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=5; z=-50; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.56; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=0; y=0; z=32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3101;  |
@@ -1870,46 +1870,46 @@
 | SERVER | SetBlock (0x35) | x=61; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=7; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=43; y=5; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=8; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=10; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=6; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=122; y=9; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=3; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=130; y=4; z=-39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=-15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=8; z=-57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=8; z=-31; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=0; y=0; z=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2504;  |
 | SERVER | SetBlock (0x35) | x=42; y=7; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=67; y=8; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=10; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=-17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=9; z=-17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-13; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=68; y=68; z=13; Face=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.20; y=68.00; cameraY=69.62; z=10.60; Yaw=-1.95; Pitch=14.85; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=48; y=3; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=6; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=6; z=29; Type=11; Meta=0;  |
@@ -1918,8 +1918,8 @@
 | SERVER | SetBlock (0x35) | x=98; y=10; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=7; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=9; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=107; y=10; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=2; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=29; Type=11; Meta=0;  |
@@ -1931,18 +1931,18 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.63; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=68; y=68; z=13; Type=2; Meta=0;  |
 | SERVER | Chunk (0x33) | x=0; y=0; z=0; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2590;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=7;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=60; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=71; y=9; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=8; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=2; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=5; z=-35; Type=11; Meta=0;  |
@@ -1953,22 +1953,22 @@
 | SERVER | Chunk (0x33) | x=0; y=0; z=-16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2517;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.63; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=0; y=0; z=-32; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2772;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=57; y=5; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=9; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=43; y=8; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=3; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=68; y=10; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=6; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=112; y=4; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=10; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=9; z=-21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=10; z=-47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=7; z=-59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
@@ -1977,21 +1977,21 @@
 | SERVER | SetBlock (0x35) | x=25; y=10; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=73; y=4; z=16; sizeX=6; sizeY=19; sizeZ=7; Compressed Size=525;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=40; y=10; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=7; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=115; y=4; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=9; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=138; y=7; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=10; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=9; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=9; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=-41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=0; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=0; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2997;  |
@@ -2002,17 +2002,17 @@
 | SERVER | SetBlock (0x35) | x=23; y=10; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=43; y=7; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=2; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=112; y=3; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=3; z=-14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=3; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=9; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=-15; Type=11; Meta=0;  |
@@ -2020,9 +2020,9 @@
 | SERVER | SetBlock (0x35) | x=94; y=8; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2926;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=44; y=3; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=34; y=7; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=8; z=74; Type=11; Meta=0;  |
@@ -2030,7 +2030,7 @@
 | SERVER | SetBlock (0x35) | x=90; y=7; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=8; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=6; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=23; Type=11; Meta=0;  |
@@ -2038,334 +2038,334 @@
 | SERVER | SetBlock (0x35) | x=129; y=2; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=7; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=2; z=-33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=9; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3127;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=9;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=3; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=65; y=8; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=10; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=8; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=-5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=-9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=1938;  |
 | SERVER | Chunk (0x33) | x=48; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2900;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=5; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=7; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=10; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=138; y=4; z=9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=108; y=5; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=8; z=-51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=118; y=5; z=-50; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=64; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3216;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=38; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=7; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=7; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=10; z=65; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=107; y=5; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=6; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=7; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=10; z=-52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=5; z=-41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=-62; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=80; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3791;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=56; y=8; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=69; y=5; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=5; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=3; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=8; z=71; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=107; y=6; z=-18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=8; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=10; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3117;  |
 | SERVER | SetBlock (0x35) | x=51; y=3; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=5; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=4; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=6; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=8; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=8; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=9; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=3; z=-16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=6; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=9; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=9; z=-28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=3; z=-52; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3787;  |
 | SERVER | Chunk (0x33) | x=28; y=8; z=77; sizeX=3; sizeY=5; sizeZ=2; Compressed Size=86;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=3; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=3; Array size=8;  |
 | SERVER | SetBlock (0x35) | x=19; y=7; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=4; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=22; y=5; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=4; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=4; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=8; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=8; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=3; z=-19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=51; y=6; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=64; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=86; y=5; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=10; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=77; y=6; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=4; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=9; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=3; z=-6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.20; y=68.00; cameraY=69.62; z=10.64; Yaw=-2.10; Pitch=14.85; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=-64; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2829;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=39; y=8; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=40; y=7; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=3; z=74; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=98; y=7; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=9; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=3; z=-32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=9; z=-49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.20; y=68.00; cameraY=69.62; z=10.64; Yaw=-2.25; Pitch=14.85; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=42; y=3; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=10; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=43; y=7; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=74; y=10; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=104; y=9; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=3; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=7; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=5; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=108; y=9; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=5; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=4; z=-57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=42; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=29; y=9; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=125; y=5; z=71; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=6; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=6; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=4; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=3; z=-12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=68; y=68; z=13; Face=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.20; y=68.00; cameraY=69.62; z=10.64; Yaw=-2.40; Pitch=14.85; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=5;  |
 | SERVER | Chunk (0x33) | x=118; y=18; z=56; sizeX=5; sizeY=3; sizeZ=3; Compressed Size=53;  |
 | SERVER | SetBlock (0x35) | x=36; y=6; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=21; y=6; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=9; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=67; y=8; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=7; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=7; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=-41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=3; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=7; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=-42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=68; y=68; z=13; Type=2; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=40; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=2; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=10; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=3; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=4; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=6; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=7; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=5; z=-3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=10; z=-48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=44; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=6; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=7; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=21; y=10; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=6;  |
 | SERVER | Chunk (0x33) | x=98; y=10; z=44; sizeX=1; sizeY=3; sizeZ=3; Compressed Size=42;  |
 | SERVER | SetBlock (0x35) | x=66; y=8; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=3; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=111; y=5; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=68; y=68; z=13; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.20; y=68.00; cameraY=69.62; z=10.64; Yaw=-2.40; Pitch=14.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=34; y=9; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=62; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=10; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=10; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=7; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=9; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=2; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=10; z=70; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.20; y=68.00; cameraY=69.62; z=10.64; Yaw=-2.55; Pitch=14.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=68; y=68; z=13; Type=2; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=13; y=4; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=6; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=3; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=16; y=6; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=10; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=139; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=8; z=68; Type=11; Meta=0;  |
@@ -2375,63 +2375,63 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=118; y=18; z=56; sizeX=6; sizeY=3; sizeZ=4; Compressed Size=76;  |
 | SERVER | SetBlock (0x35) | x=10; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=71; y=6; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=4; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=10; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=8; z=-28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=6; z=-31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=38; y=8; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=53; y=9; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=7; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=4; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=2; z=-28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=6; z=-55; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=68.00; cameraY=69.62; z=10.64; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=3;  |
 | SERVER | Chunk (0x33) | x=96; y=6; z=38; sizeX=4; sizeY=13; sizeZ=9; Compressed Size=330;  |
 | SERVER | SetBlock (0x35) | x=55; y=9; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=2; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=5; z=24; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=93; y=6; z=40; sizeX=2; sizeY=13; sizeZ=5; Compressed Size=127;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=124; y=9; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=7; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=6; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-16; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=68.00; cameraY=69.62; z=10.74; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=39; y=5; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=7; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=51; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=4; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=16; y=7; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=7; z=30; Type=11; Meta=0;  |
@@ -2440,29 +2440,29 @@
 | SERVER | SetBlock (0x35) | x=90; y=8; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=-36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=5; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=8; z=-59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.21; y=68.00; cameraY=69.62; z=10.89; Yaw=-2.70; Pitch=14.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=40; y=5; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=8; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=50; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=10; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=9; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=6; z=10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=105; y=7; z=-3; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.22; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=117; y=18; z=56; sizeX=8; sizeY=3; sizeZ=5; Compressed Size=101;  |
@@ -2470,10 +2470,10 @@
 | SERVER | SetBlock (0x35) | x=42; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=2; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=9; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=26; y=9; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=104; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=5; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=10; z=70; Type=11; Meta=0;  |
@@ -2482,19 +2482,19 @@
 | SERVER | SetBlock (0x35) | x=87; y=7; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.27; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=1958;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=6;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=4; z=55; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=3; z=63; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=5; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=4; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=9; z=65; Type=11; Meta=0;  |
@@ -2506,10 +2506,10 @@
 | SERVER | SetBlock (0x35) | x=49; y=3; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=3; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=7; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=45; y=5; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=5; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=9; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=48; Type=11; Meta=0;  |
@@ -2517,31 +2517,31 @@
 | SERVER | SetBlock (0x35) | x=89; y=8; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=9; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=68; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=2; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=8; z=-58; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.24; y=68.00; cameraY=69.62; z=11.47; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=14; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=8; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=7; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=5; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=9;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=139; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=4; z=-41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=10; z=-8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=116; y=10; z=-59; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=68; y=68; z=13; Face=1;  |
@@ -2551,17 +2551,17 @@
 | SERVER | SetBlock (0x35) | x=34; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=6; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=7; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=3; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=107; y=5; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=-39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=8; z=-7; Type=11; Meta=0;  |
@@ -2570,18 +2570,18 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=68.00; cameraY=69.62; z=11.65; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=68; y=68; z=13; Type=2; Meta=0;  |
 | SERVER | Chunk (0x33) | x=117; y=18; z=57; sizeX=9; sizeY=3; sizeZ=5; Compressed Size=103;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=49; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=8; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=3; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=4; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=6; z=10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=8; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=-40; Type=11; Meta=0;  |
@@ -2591,41 +2591,41 @@
 | SERVER | SetBlock (0x35) | x=80; y=6; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=68; y=68; z=14; Face=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=68.00; cameraY=69.62; z=11.68; Yaw=-2.40; Pitch=14.70; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=7;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=10; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=9; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=138; y=5; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=2; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=6; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=2; z=-36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=5;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=68.00; cameraY=69.62; z=11.70; Yaw=-2.40; Pitch=14.85; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=68; y=68; z=14; Type=2; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=53; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=5; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=35; y=7; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=3; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=5; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=10; z=68; Type=11; Meta=0;  |
@@ -2634,38 +2634,38 @@
 | SERVER | SetBlock (0x35) | x=108; y=10; z=-50; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=68.00; cameraY=69.62; z=11.71; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=55; y=7; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=74; y=9; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=5; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=9; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=-12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=8; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=-4; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=68.00; cameraY=69.62; z=11.71; Yaw=-2.25; Pitch=14.85; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=23; y=4; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=6; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=20; y=9; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=68.00; cameraY=69.62; z=11.72; Yaw=-2.25; Pitch=15.00; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=4;  |
 | SERVER | Chunk (0x33) | x=117; y=18; z=57; sizeX=10; sizeY=5; sizeZ=6; Compressed Size=133;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=54; y=8; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=6; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=10; z=71; Type=11; Meta=0;  |
@@ -2673,7 +2673,7 @@
 | SERVER | SetBlock (0x35) | x=41; y=4; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=2; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=4; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=7; z=20; Type=11; Meta=0;  |
@@ -2681,12 +2681,12 @@
 | SERVER | SetBlock (0x35) | x=138; y=10; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=-16; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=68.00; cameraY=69.62; z=11.72; Yaw=-2.10; Pitch=15.00; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=50; y=3; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=26; y=7; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=4; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=29; Type=11; Meta=0;  |
@@ -2697,21 +2697,21 @@
 | SERVER | SetBlock (0x35) | x=103; y=5; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=3; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=5; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=68.00; cameraY=69.62; z=11.72; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=40; y=5; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=6; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=70; y=3; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=96; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=10; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=6; z=-31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=10; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=-16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=3; z=-49; Type=11; Meta=0;  |
@@ -2721,51 +2721,51 @@
 | SERVER | SetBlock (0x35) | x=28; y=6; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=2; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=3; z=-45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=7; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=67; z=-24; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=9; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=-50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=68.00; cameraY=69.62; z=11.72; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=42; y=6; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=51; y=4; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=9; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=10; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=8; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=4; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=9; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=7; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=114; y=7; z=-60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=-3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=4;  |
 | SERVER | Chunk (0x33) | x=117; y=16; z=57; sizeX=10; sizeY=5; sizeZ=6; Compressed Size=147;  |
 | SERVER | SetBlock (0x35) | x=59; y=7; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=55; y=9; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=9; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=22; Type=11; Meta=0;  |
@@ -2775,52 +2775,52 @@
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=7; z=-3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=68.00; cameraY=69.62; z=11.72; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=45; y=5; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=3; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=31; y=9; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=8; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=68.00; cameraY=69.62; z=11.72; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=61; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=10; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=5; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=5; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=10; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=-41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=7; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=-45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=4; z=-51; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=68.00; cameraY=69.62; z=11.72; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=59; y=8; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=74; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=8; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=10; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=7; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=-24; Type=11; Meta=0;  |
@@ -2828,17 +2828,17 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=68.00; cameraY=69.62; z=11.72; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=17; y=6; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=23; y=5; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=68; y=10; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=10; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=8; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=7; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=2; z=-19; Type=11; Meta=0;  |
@@ -2853,41 +2853,41 @@
 | SERVER | SetBlock (0x35) | x=27; y=6; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=7; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=8; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetTime (0x04) | Time=1978;  |
 | SERVER | SetBlock (0x35) | x=68; y=68; z=13; Type=2; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=4;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=54; y=10; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=8; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=3; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=2; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=16; y=7; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=8; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=8; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=4; z=-45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=7; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=9; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=8; z=-54; Type=11; Meta=0;  |
@@ -2900,28 +2900,28 @@
 | SERVER | SetBlock (0x35) | x=48; y=5; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=10; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=4; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=73; y=9; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=8; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=139; y=3; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=6; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=10; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=107; y=10; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=9; z=-52; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.19; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=63; y=4; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | Chunk (0x33) | x=85; y=8; z=20; sizeX=10; sizeY=7; sizeZ=9; Compressed Size=345;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=5;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=30; Type=11; Meta=0;  |
@@ -2930,7 +2930,7 @@
 | SERVER | SetBlock (0x35) | x=139; y=10; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=3; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=-23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.14; OnGround=1;  |
@@ -2938,15 +2938,15 @@
 | SERVER | SetBlock (0x35) | x=34; y=4; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=3; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=10; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=65; z=58; Type=2; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=10; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=-38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=3; z=-45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-14; Type=11; Meta=0;  |
@@ -2956,57 +2956,57 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.09; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=131; y=8; z=64; sizeX=11; sizeY=43; sizeZ=10; Compressed Size=1182;  |
 | SERVER | SetBlock (0x35) | x=50; y=4; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=56; y=8; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=-33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=29; y=10; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=13; y=5; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=4; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=7; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=7; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=68; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=3; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=8; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=3; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=4; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.08; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=47; y=4; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=56; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=7; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=68; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=8; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=5;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=9; z=-48; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.08; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=39; y=8; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=5; z=56; Type=11; Meta=0;  |
@@ -3014,51 +3014,51 @@
 | SERVER | SetBlock (0x35) | x=42; y=4; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=10; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=9; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=7; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=5; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=-34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.08; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=12; y=5; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=6; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=7; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=45; y=5; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=4; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=3; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=6; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=-19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=107; y=5; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=5; z=-48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=6; z=-57; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=116; y=14; z=58; sizeX=11; sizeY=5; sizeZ=5; Compressed Size=168;  |
 | SERVER | SetBlock (0x35) | x=121; y=15; z=64; Type=8; Meta=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=7;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=17; y=8; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=70; y=3; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=10; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=51; Type=11; Meta=0;  |
@@ -3068,39 +3068,39 @@
 | SERVER | SetBlock (0x35) | x=133; y=6; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=8; z=-16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=79; y=6; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | Chunk (0x33) | x=17; y=10; z=20; sizeX=3; sizeY=11; sizeZ=5; Compressed Size=142;  |
 | SERVER | SetBlock (0x35) | x=43; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=7; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=3; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=3; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=5; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=5; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=7; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=3; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=-53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=7; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=50; y=4; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=5; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=23; y=10; z=71; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=10; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=10; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=9; z=72; Type=11; Meta=0;  |
@@ -3108,117 +3108,117 @@
 | SERVER | SetBlock (0x35) | x=78; y=10; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=3; z=-50; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=14; y=2; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=55; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=6; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=10; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=38; y=10; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=6; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=138; y=4; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=134; y=4; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=-28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=120; y=8; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=4; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=39; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=8; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=26; y=2; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=3; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=6; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=2; z=-35; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=116; y=14; z=59; sizeX=5; sizeY=5; sizeZ=4; Compressed Size=121;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=9;  |
 | SERVER | SetBlock (0x35) | x=137; y=48; z=63; Type=9; Meta=5;  |
 | SERVER | SetBlock (0x35) | x=9; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=10; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=25; y=3; z=65; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=9; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=-42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=-17; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=9; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=6; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=9; z=-8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=6; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=5;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=66; y=7; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=10; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=4; z=-20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=5; z=-46; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=7; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=8; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=76; y=6; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=112; y=6; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=70; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=121; y=2; z=-16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=-7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=68; y=68; z=13; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
@@ -3226,7 +3226,7 @@
 | SERVER | SetBlock (0x35) | x=50; y=7; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=5; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=7; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=10; z=75; Type=11; Meta=0;  |
@@ -3236,13 +3236,13 @@
 | SERVER | SetBlock (0x35) | x=60; y=2; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=68; y=68; z=13; Type=2; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | Chunk (0x33) | x=116; y=8; z=59; sizeX=5; sizeY=9; sizeZ=4; Compressed Size=164;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=7;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=7;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=8; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=71; y=5; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=9; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=55; Type=11; Meta=0;  |
@@ -3251,60 +3251,60 @@
 | SERVER | SetBlock (0x35) | x=110; y=7; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=8; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=4; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-4; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=1998;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=0; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=39; y=5; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=15; y=4; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=7; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=5; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=10; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=8; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=8; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=5; z=-41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=4; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=3; z=-45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=46; y=5; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=9; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=4; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=3; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=77; y=7; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=10; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=9; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=-16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=8; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=7; z=-54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=54; y=4; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=8; z=63; Type=11; Meta=0;  |
@@ -3314,14 +3314,14 @@
 | SERVER | SetBlock (0x35) | x=95; y=8; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=9; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=80; y=10; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=5; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=4; z=-5; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=10; z=-54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=8; z=-23; Type=11; Meta=0;  |
@@ -3330,60 +3330,60 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=45; y=2; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=2; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=21; y=8; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=8; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=40; y=9; z=77; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=9; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=9; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=7; z=-12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=111; y=7; z=-51; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=68; y=68; z=13; Type=2; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=3; Array size=8;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=7;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=3; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=44; y=4; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=7; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=8; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=30; y=10; z=64; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=8; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=10; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=8; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=6; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=3; z=-3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=58; y=28; z=15; Type=9; Meta=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=10; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=3; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=8; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=-32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=4; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=3; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=10; z=-48; Type=11; Meta=0;  |
@@ -3393,31 +3393,31 @@
 | SERVER | SetBlock (0x35) | x=40; y=2; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=7; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=8; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.23; y=68.00; cameraY=69.62; z=11.07; Yaw=-1.80; Pitch=16.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=52; y=9; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=8; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=137; y=4; z=2; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=129; y=10; z=45; sizeX=8; sizeY=9; sizeZ=0; Compressed Size=90;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=-35; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=113; y=3; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=7; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=4; z=-54; Type=11; Meta=0;  |
@@ -3428,20 +3428,20 @@
 | SERVER | SetBlock (0x35) | x=62; y=7; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=4; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=3; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=9; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=5; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=3; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=5; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=8; z=-3; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=79; y=9; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=4; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=7; z=-32; Type=11; Meta=0;  |
@@ -3449,37 +3449,37 @@
 | SERVER | Chunk (0x33) | x=116; y=8; z=64; sizeX=6; sizeY=9; sizeZ=2; Compressed Size=114;  |
 | SERVER | Chunk (0x33) | x=115; y=12; z=59; sizeX=4; sizeY=7; sizeZ=4; Compressed Size=126;  |
 | SERVER | SetBlock (0x35) | x=37; y=5; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=63; y=5; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=8; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=3; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=3; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=2; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=4; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=-42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=8; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=43; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=4; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=2; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=104; y=3; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=10; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=10; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=10; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=10; z=58; Type=11; Meta=0;  |
@@ -3493,17 +3493,17 @@
 | SERVER | SetBlock (0x35) | x=47; y=5; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=5; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=6; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=7; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=10; z=65; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=94; y=4; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=6; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=-42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=8; z=-16; Type=11; Meta=0;  |
@@ -3512,12 +3512,12 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=136; y=10; z=44; sizeX=2; sizeY=7; sizeZ=2; Compressed Size=65;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=88; y=10; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=-36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=4; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=-13; Type=11; Meta=0;  |
@@ -3526,25 +3526,25 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=49; y=2; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=26; y=4; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=9; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=82; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=7; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=5; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=4; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-4; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=116; y=10; z=64; sizeX=6; sizeY=7; sizeZ=3; Compressed Size=114;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=3; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=3; Array size=8;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=4; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=10; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=2; z=25; Type=11; Meta=0;  |
@@ -3554,51 +3554,51 @@
 | SERVER | SetBlock (0x35) | x=81; y=10; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=9; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=3; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=8; z=-3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=4; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=-12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=2; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=8; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=-42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=120; y=9; z=-25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=-57; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=44; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=12; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=10; z=77; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=-36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=-58; Type=11; Meta=0;  |
@@ -3608,76 +3608,76 @@
 | SERVER | SetBlock (0x35) | x=30; y=6; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=69; y=10; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=8; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=9; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=138; y=6; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=139; y=4; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=10; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=-42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=4; z=-49; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=10; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=3; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=65; y=6; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=3; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=9; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=8; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=118; y=12; z=65; sizeX=4; sizeY=5; sizeZ=3; Compressed Size=64;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=3; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=3; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=32; y=8; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=2; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=3; z=-15; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=75; y=10; z=-48; sizeX=3; sizeY=7; sizeZ=2; Compressed Size=80;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-8; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.07; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2018;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=4; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=6; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=74; y=10; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=7; z=26; Type=11; Meta=0;  |
@@ -3690,15 +3690,15 @@
 | SERVER | SetBlock (0x35) | x=126; y=2; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=68.00; cameraY=69.62; z=11.17; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=4; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=10; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=104; y=9; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=9; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=8; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=5; z=70; Type=11; Meta=0;  |
@@ -3706,9 +3706,9 @@
 | SERVER | SetBlock (0x35) | x=135; y=7; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=-38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=-30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=8; z=-49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=34; y=3; z=-3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.24; y=68.00; cameraY=69.62; z=11.32; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.24; y=68.00; cameraY=69.62; z=11.50; Yaw=-1.80; Pitch=16.35; OnGround=1;  |
@@ -3717,36 +3717,36 @@
 | SERVER | SetBlock (0x35) | x=54; y=6; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=10; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=2; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=5; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=4; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=9; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=4; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=-15; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=114; y=10; z=16; sizeX=13; sizeY=7; sizeZ=8; Compressed Size=413;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=2; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=2; Array size=9;  |
 | SERVER | SetBlock (0x35) | x=32; y=9; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=4; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=7; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=7; z=-19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=6; z=-51; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=68.00; cameraY=69.62; z=11.70; Yaw=-0.45; Pitch=15.45; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=118; y=12; z=65; sizeX=5; sizeY=3; sizeZ=4; Compressed Size=76;  |
@@ -3756,25 +3756,25 @@
 | SERVER | SetBlock (0x35) | x=28; y=6; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=7; z=64; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=5;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=9; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=8; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=7; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=68.42; cameraY=70.04; z=11.90; Yaw=1.05; Pitch=15.00; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=5; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=7; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=4; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=4; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=6; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=-14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=6; z=-3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=68.75; cameraY=70.37; z=12.04; Yaw=1.65; Pitch=14.85; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=20; y=4; z=25; Type=11; Meta=0;  |
@@ -3784,18 +3784,18 @@
 | SERVER | SetBlock (0x35) | x=70; y=2; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=10; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=124; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=140; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=2; z=-41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=-13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.25; y=69.00; cameraY=70.62; z=12.18; Yaw=3.45; Pitch=14.55; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=2; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=19; y=2; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=4; z=55; Type=11; Meta=0;  |
@@ -3805,31 +3805,31 @@
 | SERVER | SetBlock (0x35) | x=85; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=9; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=9; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=3; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=8; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.24; y=69.17; cameraY=70.79; z=12.32; Yaw=4.05; Pitch=14.40; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=30; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=6;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=10; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=4; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=4; z=-34; Type=11; Meta=0;  |
@@ -3839,7 +3839,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.24; y=69.25; cameraY=70.87; z=12.47; Yaw=4.20; Pitch=14.40; OnGround=0;  |
 | SERVER | Chunk (0x33) | x=116; y=10; z=64; sizeX=7; sizeY=5; sizeZ=6; Compressed Size=161;  |
 | SERVER | Chunk (0x33) | x=115; y=10; z=61; sizeX=2; sizeY=7; sizeZ=2; Compressed Size=87;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=48; y=4; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=4; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=6; z=57; Type=11; Meta=0;  |
@@ -3851,12 +3851,12 @@
 | SERVER | SetBlock (0x35) | x=102; y=9; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=3; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=115; y=10; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=9; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=7; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=115; y=8; z=-58; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.23; y=69.25; cameraY=70.87; z=12.63; Yaw=4.50; Pitch=14.25; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=7; z=47; Type=11; Meta=0;  |
@@ -3864,18 +3864,18 @@
 | SERVER | SetBlock (0x35) | x=40; y=3; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=6; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=9; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=3; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=64; y=10; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=9; z=4; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=-31; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.23; y=69.18; cameraY=70.80; z=12.80; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=2; z=57; Type=11; Meta=0;  |
@@ -3883,10 +3883,10 @@
 | SERVER | SetBlock (0x35) | x=74; y=4; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=10; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=5; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=7; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=-33; Type=11; Meta=0;  |
@@ -3894,22 +3894,22 @@
 | SERVER | SetBlock (0x35) | x=123; y=6; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=3; z=-44; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.22; y=69.02; cameraY=70.64; z=12.97; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=11; z=43; Type=9; Meta=5;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=7; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=10; z=64; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=82; y=7; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=4; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=-53; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=13.14; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=48; y=3; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=71; y=3; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=3; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=47; Type=11; Meta=0;  |
@@ -3919,23 +3919,23 @@
 | SERVER | SetBlock (0x35) | x=107; y=6; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=2; z=70; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=3; z=-19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.20; y=69.00; cameraY=70.62; z=13.39; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=114; y=8; z=64; sizeX=9; sizeY=7; sizeZ=7; Compressed Size=252;  |
 | SERVER | Chunk (0x33) | x=115; y=10; z=61; sizeX=2; sizeY=5; sizeZ=2; Compressed Size=61;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=56; y=7; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=4; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=7; z=64; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=5; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=3; z=-32; Type=11; Meta=0;  |
@@ -3948,13 +3948,13 @@
 | SERVER | SetBlock (0x35) | x=81; y=6; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=9; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=2; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=9; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=10; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=8; z=-10; Type=11; Meta=0;  |
@@ -3969,34 +3969,34 @@
 | SERVER | SetBlock (0x35) | x=85; y=4; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=5; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=3; z=-37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=-21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.14; y=69.00; cameraY=70.62; z=14.08; Yaw=7.35; Pitch=13.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=18; y=9; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=2; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=54; y=6; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=7; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=93; y=6; z=9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=9; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=9; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=9; z=-25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=-3; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=-33; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.11; y=69.00; cameraY=70.62; z=14.30; Yaw=7.65; Pitch=13.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=38; y=6; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=37; y=4; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=5; z=22; Type=11; Meta=0;  |
@@ -4006,7 +4006,7 @@
 | SERVER | SetBlock (0x35) | x=106; y=6; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=9; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=3; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=2; z=-18; Type=11; Meta=0;  |
@@ -4014,38 +4014,38 @@
 | SERVER | Chunk (0x33) | x=115; y=10; z=64; sizeX=9; sizeY=5; sizeZ=8; Compressed Size=203;  |
 | SERVER | SetBlock (0x35) | x=115; y=11; z=63; Type=9; Meta=2;  |
 | SERVER | SetBlock (0x35) | x=12; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=49; y=8; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=98; y=7; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=20; z=15; Type=10; Meta=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=6; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=9; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=6; z=-59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.05; y=69.00; cameraY=70.62; z=14.73; Yaw=8.55; Pitch=13.20; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2038;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=8; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=6; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=-19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=66; z=-18; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=5; z=-57; Type=11; Meta=0;  |
@@ -4053,26 +4053,26 @@
 | SERVER | SetBlock (0x35) | x=57; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=3; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=6; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=25; y=9; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=9; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=5; z=10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.99; y=69.00; cameraY=70.62; z=15.15; Yaw=9.00; Pitch=13.05; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=41; y=6; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=10; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=3; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=20; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=10; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=0; Type=11; Meta=0;  |
@@ -4082,15 +4082,15 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.96; y=69.42; cameraY=71.04; z=15.37; Yaw=9.15; Pitch=13.05; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=15; y=4; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=38; y=5; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=9; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=5; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=6; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=3; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=4; z=-33; Type=11; Meta=0;  |
@@ -4098,16 +4098,16 @@
 | SERVER | SetBlock (0x35) | x=82; y=9; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.93; y=69.75; cameraY=71.37; z=15.50; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=5;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=50; y=4; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=6; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=4; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=3; z=58; Type=11; Meta=0;  |
@@ -4116,24 +4116,24 @@
 | SERVER | SetBlock (0x35) | x=87; y=8; z=-39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=3; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=-28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=119; y=3; z=-50; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.91; y=70.00; cameraY=71.62; z=15.65; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=10; y=7; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=4; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=10; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=5; z=-38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=4; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=2; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=8; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.89; y=70.17; cameraY=71.79; z=15.80; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=15; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=4; z=62; Type=11; Meta=0;  |
@@ -4145,20 +4145,20 @@
 | SERVER | SetBlock (0x35) | x=88; y=7; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=5; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=131; y=3; z=-39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=7; z=-18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=3; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=4; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=8; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.86; y=70.25; cameraY=71.87; z=15.95; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-3; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=31; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=31; Type=11; Meta=0;  |
@@ -4179,26 +4179,26 @@
 | SERVER | SetBlock (0x35) | x=43; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=7; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=5; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=68; y=8; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=75; y=5; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=4; z=5; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=4; z=-21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.81; y=70.18; cameraY=71.80; z=16.28; Yaw=9.60; Pitch=12.90; OnGround=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=0; z=-4; (Unload);  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=62; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=0; z=5; (Load);  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetChunkVisibility (0x32) | x=1; z=-4; (Unload);  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetChunkVisibility (0x32) | x=1; z=5; (Load);  |
 | SERVER | SetBlock (0x35) | x=42; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=2; z=-4; (Unload);  |
@@ -4206,13 +4206,13 @@
 | SERVER | SetChunkVisibility (0x32) | x=2; z=5; (Load);  |
 | SERVER | SetBlock (0x35) | x=31; y=8; z=66; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=3; z=-4; (Unload);  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetChunkVisibility (0x32) | x=3; z=5; (Load);  |
 | SERVER | SetBlock (0x35) | x=83; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=4; z=-4; (Unload);  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=1; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=4; z=5; (Load);  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetChunkVisibility (0x32) | x=5; z=-4; (Unload);  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=-34; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=5; z=5; (Load);  |
@@ -4222,7 +4222,7 @@
 | SERVER | SetChunkVisibility (0x32) | x=6; z=5; (Load);  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=-1; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=7; z=-4; (Unload);  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetChunkVisibility (0x32) | x=7; z=5; (Load);  |
 | SERVER | SetChunkVisibility (0x32) | x=8; z=-4; (Unload);  |
 | SERVER | SetChunkVisibility (0x32) | x=8; z=5; (Load);  |
@@ -4230,12 +4230,12 @@
 | SERVER | Chunk (0x33) | x=0; y=0; z=80; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3121;  |
 | SERVER | SetBlock (0x35) | x=42; y=5; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=5; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=5; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=67; y=7; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=6; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=4; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=8; z=-23; Type=11; Meta=0;  |
@@ -4243,7 +4243,7 @@
 | SERVER | SetBlock (0x35) | x=90; y=7; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.76; y=70.00; cameraY=71.62; z=16.62; Yaw=10.20; Pitch=12.75; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=16; y=0; z=80; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3369;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=49; y=5; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=9; y=6; z=30; Type=11; Meta=0;  |
@@ -4252,9 +4252,9 @@
 | SERVER | SetBlock (0x35) | x=112; y=5; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=10; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=91; Type=11; Meta=0;  |
@@ -4263,20 +4263,20 @@
 | SERVER | SetBlock (0x35) | x=95; y=2; z=-9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.71; y=70.00; cameraY=71.62; z=16.88; Yaw=10.80; Pitch=12.45; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=80; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2777;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=33; y=6; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=7; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=7; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=37; y=4; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=3; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=75; y=7; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=7; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=-43; Type=11; Meta=0;  |
@@ -4288,14 +4288,14 @@
 | SERVER | Chunk (0x33) | x=48; y=0; z=80; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2568;  |
 | SERVER | SetBlock (0x35) | x=34; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=9; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=37; y=10; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=8; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=9; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=9; z=5; Type=11; Meta=0;  |
@@ -4308,12 +4308,12 @@
 | SERVER | SetBlock (0x35) | x=78; y=10; z=-10; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.63; y=70.00; cameraY=71.62; z=17.34; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=64; y=0; z=80; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2525;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=60; y=7; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=5; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=5; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=9; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=5; z=13; Type=11; Meta=0;  |
@@ -4328,40 +4328,40 @@
 | SERVER | SetBlock (0x35) | x=30; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=5; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=3; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=5; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=4; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=2; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=6; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=5; z=-48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.55; y=70.00; cameraY=71.62; z=17.77; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=96; y=0; z=80; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3457;  |
 | SERVER | SetBlock (0x35) | x=50; y=4; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=3; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=19; y=7; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=6; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=85; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=8; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=5; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=7; z=-25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.51; y=70.00; cameraY=71.62; z=17.99; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=80; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3633;  |
 | SERVER | SetBlock (0x35) | x=47; y=6; z=53; Type=11; Meta=0;  |
@@ -4370,28 +4370,28 @@
 | SERVER | SetBlock (0x35) | x=99; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=9; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=4; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=6; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=9; z=80; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.46; y=70.00; cameraY=71.62; z=18.20; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=80; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3447;  |
 | SERVER | SetBlock (0x35) | x=18; y=8; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=53; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=5; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=5; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=5; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=2; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-1; Type=11; Meta=0;  |
@@ -4402,57 +4402,57 @@
 | SERVER | SetBlock (0x35) | x=56; y=5; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=6; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=4; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=5; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=139; y=3; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=10; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=9; z=81; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.39; y=70.00; cameraY=71.62; z=18.62; Yaw=9.90; Pitch=12.60; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2058;  |
 | SERVER | SetBlock (0x35) | x=15; y=10; z=31; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=7; z=39; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=2; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=7; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=111; y=64; z=58; Type=2; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=8; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=5; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=5; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=3; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=8; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=8; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.35; y=70.00; cameraY=71.62; z=18.84; Yaw=8.85; Pitch=12.75; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=6;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=61; y=4; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=9; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=3; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=5; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=27; Type=11; Meta=0;  |
@@ -4461,8 +4461,8 @@
 | SERVER | SetBlock (0x35) | x=133; y=4; z=-36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=-41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=10; z=-31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.32; y=70.00; cameraY=71.62; z=19.05; Yaw=8.10; Pitch=12.75; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=19; y=4; z=26; Type=11; Meta=0;  |
@@ -4470,39 +4470,39 @@
 | SERVER | SetBlock (0x35) | x=30; y=10; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=64; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=4; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=6; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=2; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=8; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=3; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=4; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-16; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.28; y=70.00; cameraY=71.62; z=19.26; Yaw=7.20; Pitch=13.05; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=61; y=6; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=4; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=6; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=6; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=7; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=5; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=2; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=-2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=6; z=-2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.26; y=70.00; cameraY=71.62; z=19.48; Yaw=6.90; Pitch=13.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=64; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=5; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=5; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=57; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=4; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=10; z=20; Type=11; Meta=0;  |
@@ -4510,32 +4510,32 @@
 | SERVER | SetBlock (0x35) | x=88; y=8; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=7; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=7; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=5; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=4; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=4; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=4; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.23; y=70.00; cameraY=71.62; z=19.69; Yaw=6.60; Pitch=13.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=19; y=2; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=92; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=8; z=83; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=71; y=9; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=10; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=89; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=7; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=3; z=-31; Type=11; Meta=0;  |
@@ -4543,10 +4543,10 @@
 | SERVER | SetBlock (0x35) | x=79; y=9; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.20; y=70.00; cameraY=71.62; z=19.91; Yaw=6.15; Pitch=13.50; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=8; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=8; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=7; z=33; Type=11; Meta=0;  |
@@ -4557,22 +4557,22 @@
 | SERVER | SetBlock (0x35) | x=141; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=6; z=68; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=91; y=7; z=-44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=8; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.18; y=70.00; cameraY=71.62; z=20.12; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=66; y=8; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=8; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=76; y=8; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=-41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=7; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=7; z=-32; Type=11; Meta=0;  |
@@ -4584,25 +4584,25 @@
 | SERVER | SetBlock (0x35) | x=123; y=5; z=87; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=5; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=10; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=134; y=4; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=9; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=8; z=93; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=-38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=8; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=5; z=-15; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.14; y=70.00; cameraY=71.62; z=20.55; Yaw=3.30; Pitch=14.10; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=5; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=5; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=94; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=6; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=2; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=8; z=68; Type=11; Meta=0;  |
@@ -4620,7 +4620,7 @@
 | SERVER | SetBlock (0x35) | x=54; y=10; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=6; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=31; y=7; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=2; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=9; z=23; Type=11; Meta=0;  |
@@ -4636,13 +4636,13 @@
 | SERVER | SetBlock (0x35) | x=122; y=3; z=-44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-19; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.12; y=70.00; cameraY=71.62; z=20.98; Yaw=1.50; Pitch=14.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=6; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=80; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=3; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=43; y=7; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=17; y=7; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=9; z=21; Type=11; Meta=0;  |
@@ -4663,17 +4663,17 @@
 | SERVER | SetBlock (0x35) | x=34; y=5; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.11; y=70.00; cameraY=71.62; z=21.20; Yaw=1.20; Pitch=14.40; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=43; y=3; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=29; y=5; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=9; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=8; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=5; z=-19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=2; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=7; z=-3; Type=11; Meta=0;  |
@@ -4693,26 +4693,26 @@
 | SERVER | SetBlock (0x35) | x=85; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=7; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=5; z=-37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=7; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=5; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=7; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.10; y=70.00; cameraY=71.62; z=21.63; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=5; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=5; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=46; y=4; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=87; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=7; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=9; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=-40; Type=11; Meta=0;  |
@@ -4722,16 +4722,16 @@
 | SERVER | SetBlock (0x35) | x=27; y=7; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=8; z=86; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=69; y=8; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=5; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=8; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=139; y=9; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=9; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=3; z=-13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=8; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.11; y=70.00; cameraY=71.62; z=22.06; Yaw=-2.85; Pitch=14.55; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=50; y=4; z=57; Type=11; Meta=0;  |
@@ -4740,13 +4740,13 @@
 | SERVER | SetBlock (0x35) | x=28; y=3; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=7; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=8; z=92; Type=11; Meta=0;  |
@@ -4762,25 +4762,25 @@
 | SERVER | SetBlock (0x35) | x=115; y=7; z=84; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=71; y=7; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=-36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=101; y=5; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.13; y=70.00; cameraY=71.62; z=22.49; Yaw=-4.20; Pitch=14.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=38; y=5; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=2; z=94; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=3; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=2; z=70; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=69; y=5; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=5; z=58; Type=11; Meta=0;  |
@@ -4792,7 +4792,7 @@
 | SERVER | SetBlock (0x35) | x=116; y=4; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=4; z=-31; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.14; y=70.00; cameraY=71.62; z=22.71; Yaw=-5.40; Pitch=14.10; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=62; y=4; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=6; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=7; z=41; Type=11; Meta=0;  |
@@ -4804,7 +4804,7 @@
 | SERVER | SetBlock (0x35) | x=89; y=4; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=9; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=6; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=3; z=-1; Type=11; Meta=0;  |
@@ -4819,53 +4819,53 @@
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=6; z=88; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=10; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=5; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=80; y=9; z=-30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=3; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=6; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=140; y=5; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=5; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.20; y=70.00; cameraY=71.62; z=23.35; Yaw=-6.15; Pitch=13.95; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=59; y=6; z=35; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=81; y=5; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=64; z=58; Type=2; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=8; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-36; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.23; y=69.92; cameraY=71.54; z=23.57; Yaw=-6.45; Pitch=13.65; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=137; y=48; z=63; Type=8; Meta=4;  |
 | SERVER | SetBlock (0x35) | x=33; y=7; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=50; y=7; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=24; y=5; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=2; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=126; y=7; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=-40; Type=11; Meta=0;  |
@@ -4874,12 +4874,12 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.24; y=69.77; cameraY=71.39; z=23.70; Yaw=-6.60; Pitch=13.50; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=10; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=2; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=70; y=6; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=4; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=10; z=49; Type=11; Meta=0;  |
@@ -4890,8 +4890,8 @@
 | SERVER | SetBlock (0x35) | x=19; y=8; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=5; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=9; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=7; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=32; Type=11; Meta=0;  |
@@ -4899,13 +4899,13 @@
 | SERVER | SetBlock (0x35) | x=123; y=3; z=-43; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.27; y=69.23; cameraY=70.85; z=24.00; Yaw=-7.80; Pitch=12.30; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=13; z=47; Type=10; Meta=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=63; y=8; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=89; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=8; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=7; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=2; z=27; Type=11; Meta=0;  |
@@ -4916,25 +4916,25 @@
 | SERVER | SetBlock (0x35) | x=118; y=6; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=6; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.29; y=69.00; cameraY=70.62; z=24.15; Yaw=-7.95; Pitch=12.30; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=92; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=6; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=6; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=3; z=91; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=-14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.32; y=69.00; cameraY=70.62; z=24.39; Yaw=-8.25; Pitch=12.00; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=18; y=3; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=7; z=32; Type=11; Meta=0;  |
@@ -4942,42 +4942,42 @@
 | SERVER | SetBlock (0x35) | x=55; y=10; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=2; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=75; y=9; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=2; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=4; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.42; y=69.00; cameraY=70.62; z=24.58; Yaw=-8.40; Pitch=12.00; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=51; y=5; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=88; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=21; y=8; z=66; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=103; y=5; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=6; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=-43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.55; y=69.00; cameraY=70.62; z=24.75; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=53; y=9; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=3; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=5; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=10; z=35; Type=11; Meta=0;  |
@@ -4987,9 +4987,9 @@
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=3; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.64; y=69.00; cameraY=70.62; z=24.93; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=4; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=24; Type=11; Meta=0;  |
@@ -4998,7 +4998,7 @@
 | SERVER | SetBlock (0x35) | x=92; y=3; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=7; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=9; z=70; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.70; y=69.00; cameraY=70.62; z=25.13; Yaw=-8.55; Pitch=12.00; OnGround=1;  |
@@ -5007,16 +5007,16 @@
 | SERVER | SetBlock (0x35) | x=57; y=6; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=4; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=8; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=8; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=108; y=5; z=-9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.75; y=69.00; cameraY=70.62; z=25.34; Yaw=-8.55; Pitch=12.30; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=5; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=54; y=9; z=21; Type=11; Meta=0;  |
@@ -5025,11 +5025,11 @@
 | SERVER | SetBlock (0x35) | x=89; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=2; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=9; z=80; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=9; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=68; y=69; z=29; Face=2;  |
@@ -5040,17 +5040,17 @@
 | SERVER | SetBlock (0x35) | x=56; y=9; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=6; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=9; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=46; y=8; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=3; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=10; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=2; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=8; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=3; z=-12; Type=11; Meta=0;  |
@@ -5063,7 +5063,7 @@
 | SERVER | SetBlock (0x35) | x=28; y=5; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=9; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=-30; Type=11; Meta=0;  |
@@ -5074,11 +5074,11 @@
 | SERVER | SetBlock (0x35) | x=45; y=3; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=5; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=8; z=85; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=5; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=6; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=-3; Type=11; Meta=0;  |
@@ -5090,7 +5090,7 @@
 | SERVER | SetBlock (0x35) | x=44; y=7; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=6; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=5; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=11; Type=11; Meta=0;  |
@@ -5099,25 +5099,25 @@
 | SERVER | SetBlock (0x35) | x=143; y=5; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=7; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.93; y=69.00; cameraY=70.62; z=26.39; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=32; y=9; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=44; y=6; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=8; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=2; z=-42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=8; z=-17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.96; y=69.00; cameraY=70.62; z=26.61; Yaw=-8.55; Pitch=14.55; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=45; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=3; z=62; Type=11; Meta=0;  |
@@ -5130,7 +5130,7 @@
 | SERVER | SetBlock (0x35) | x=70; y=10; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=2; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=19; Type=11; Meta=0;  |
@@ -5146,25 +5146,25 @@
 | SERVER | SetBlock (0x35) | x=86; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=10; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=7; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=8; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=5; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=107; y=7; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=9; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.99; y=69.00; cameraY=70.62; z=26.79; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=4; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=10; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=6; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=3; z=5; Type=11; Meta=0;  |
@@ -5179,14 +5179,14 @@
 | SERVER | SetBlock (0x35) | x=33; y=11; z=80; Type=9; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=11; z=79; Type=9; Meta=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.99; y=69.00; cameraY=70.62; z=26.82; Yaw=-8.40; Pitch=14.85; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=57; y=5; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=2; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=82; y=8; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=137; y=8; z=81; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-11; Type=11; Meta=0;  |
@@ -5205,7 +5205,7 @@
 | SERVER | SetBlock (0x35) | x=127; y=7; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=7; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=6; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=-13; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -5227,53 +5227,53 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.00; y=69.00; cameraY=70.62; z=26.86; Yaw=-8.40; Pitch=15.15; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=27; y=6; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=87; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=71; y=9; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=10; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=8; z=81; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.00; y=69.00; cameraY=70.62; z=26.86; Yaw=-8.40; Pitch=15.45; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=34; y=11; z=79; Type=9; Meta=2;  |
 | SERVER | SetBlock (0x35) | x=55; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=10; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=9; z=89; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=74; y=5; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=3; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=9; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=8; z=83; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=2; z=-46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=-16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=80; y=10; z=-11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.00; y=69.00; cameraY=70.62; z=26.86; Yaw=-8.40; Pitch=15.75; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=9; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=52; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=3; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=70; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=8; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=3; z=-18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=9; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=3; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-31; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.00; y=69.00; cameraY=70.62; z=26.86; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=46; y=3; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=24; Type=11; Meta=0;  |
@@ -5287,14 +5287,14 @@
 | SERVER | SetBlock (0x35) | x=58; y=8; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=6; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=5; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=10; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=9; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=6; z=24; Type=11; Meta=0;  |
@@ -5307,26 +5307,26 @@
 | SERVER | SetBlock (0x35) | x=29; y=9; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=4; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-37; Type=11; Meta=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=68; y=69; z=29; Face=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.00; y=69.00; cameraY=70.62; z=26.86; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=24; y=10; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=9; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=7; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=4; z=-45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=7; z=-43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.00; y=69.00; cameraY=70.62; z=26.86; OnGround=1;  |
 | SERVER | IncrementStatistic (0xC8) | IncrementStatistic=16777219; Amount=1;  |
 | SERVER | SetBlock (0x35) | x=68; y=69; z=29; Type=0; Meta=0;  |
@@ -5336,9 +5336,9 @@
 | SERVER | SetBlock (0x35) | x=37; y=8; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=4; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=3; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=104; y=4; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=10; z=17; Type=11; Meta=0;  |
@@ -5350,14 +5350,14 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.00; y=69.00; cameraY=70.62; z=26.86; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=45; y=4; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=8; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=41; y=5; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=106; y=10; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=10; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=95; Type=11; Meta=0;  |
@@ -5368,83 +5368,83 @@
 | SERVER | SetBlock (0x35) | x=92; y=10; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=6; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=9; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=7; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=7; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=4; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=9; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=10; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=68; y=69; z=30; Face=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.00; y=69.00; cameraY=70.62; z=26.86; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=56; y=2; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=8; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=5; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=2; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.00; y=69.00; cameraY=70.62; z=26.86; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.00; y=69.00; cameraY=70.62; z=26.86; Yaw=-8.55; Pitch=15.90; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=13; z=48; Type=11; Meta=10;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=93; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=88; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=4; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=107; y=3; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=-10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=7; z=-3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=4; z=-37; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.00; y=69.00; cameraY=70.62; z=26.86; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=18; y=2; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=4; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=5; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=2; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=6; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=6; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=6; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=4; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.00; y=69.00; cameraY=70.62; z=26.86; Yaw=-8.55; Pitch=16.20; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=92; y=2; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=6; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=104; y=7; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=6; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=10; z=4; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=10; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=93; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=3; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-30; Type=11; Meta=0;  |
@@ -5473,23 +5473,23 @@
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=4; z=23; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=9; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=5; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=2; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=8; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-13; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.06; y=69.00; cameraY=70.62; z=27.29; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=56; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=4; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=47; Type=11; Meta=0;  |
@@ -5509,12 +5509,12 @@
 | SERVER | SetBlock (0x35) | x=52; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=69; y=10; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=10; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=9; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=9; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.12; y=69.00; cameraY=70.62; z=27.69; OnGround=1;  |
@@ -5523,9 +5523,9 @@
 | SERVER | SetBlock (0x35) | x=70; y=9; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=4; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=9; z=9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=4; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=-37; Type=11; Meta=0;  |
@@ -5533,9 +5533,9 @@
 | SERVER | SetBlock (0x35) | x=93; y=9; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.16; y=69.00; cameraY=70.62; z=27.89; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=43; y=7; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=82; y=4; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=56; Type=11; Meta=0;  |
@@ -5546,13 +5546,13 @@
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=3; Amount=1; Damage=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=7; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=7; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=7; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=10; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=8; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=9; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=10; Type=11; Meta=0;  |
@@ -5560,7 +5560,7 @@
 | SERVER | SetBlock (0x35) | x=131; y=6; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=4; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=8; z=-29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.22; y=69.00; cameraY=70.62; z=28.32; OnGround=1;  |
 | SERVER | DespawnEntity (0x1D) | EID=20;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=35; Type=11; Meta=0;  |
@@ -5575,9 +5575,9 @@
 | SERVER | SetBlock (0x35) | x=71; y=6; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=132; y=7; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=-38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.25; y=69.00; cameraY=70.62; z=28.53; OnGround=1;  |
@@ -5585,14 +5585,14 @@
 | SERVER | SetBlock (0x35) | x=46; y=5; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=8; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=2; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=4; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=6; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=5; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=90; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=7; z=-19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=5; z=-33; Type=11; Meta=0;  |
@@ -5606,46 +5606,46 @@
 | SERVER | SetBlock (0x35) | x=24; y=8; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=5; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=9; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=3; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=79; y=8; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=10; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=7; z=-24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=5; z=-7; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.32; y=69.00; cameraY=70.62; z=28.96; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=63; y=7; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=5; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=5; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=21; y=9; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=2; z=-45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=8; z=-29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.33; y=69.00; cameraY=70.62; z=29.07; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=8; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=8; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=8; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=8; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=38; y=10; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=7; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=5; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=-15; Type=11; Meta=0;  |
@@ -5657,26 +5657,26 @@
 | SERVER | SetBlock (0x35) | x=8; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=3; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=8; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=9; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=6; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=3; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=8; z=91; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=-19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=4; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.35; y=69.00; cameraY=70.62; z=29.17; Yaw=-7.95; Pitch=15.45; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=38; y=6; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=52; y=4; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=20; y=10; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=51; Type=11; Meta=0;  |
@@ -5684,11 +5684,11 @@
 | SERVER | SetBlock (0x35) | x=123; y=4; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=8; z=68; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.35; y=69.00; cameraY=70.62; z=29.19; Yaw=-7.65; Pitch=15.00; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=18; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=4; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=8; z=66; Type=11; Meta=0;  |
@@ -5700,19 +5700,19 @@
 | SERVER | SetBlock (0x35) | x=115; y=8; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=4; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=7; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=77; y=9; z=-28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.35; y=69.00; cameraY=70.62; z=29.20; Yaw=-7.50; Pitch=14.85; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=58; y=4; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=6; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=3; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=6; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=8; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=8; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.35; y=69.00; cameraY=70.62; z=29.20; Yaw=-6.90; Pitch=14.10; OnGround=1;  |
@@ -5726,19 +5726,19 @@
 | SERVER | SetBlock (0x35) | x=103; y=9; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=8; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=120; y=3; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=8; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.35; y=69.00; cameraY=70.62; z=29.21; Yaw=-6.00; Pitch=11.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=48; y=4; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=31; y=5; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=10; z=81; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=20; y=8; z=74; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=7; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=30; Type=11; Meta=0;  |
@@ -5747,7 +5747,7 @@
 | SERVER | SetBlock (0x35) | x=109; y=9; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=4; z=-5; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.34; y=69.00; cameraY=70.62; z=29.11; Yaw=-5.40; Pitch=8.55; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=4; z=32; Type=11; Meta=0;  |
@@ -5756,7 +5756,7 @@
 | SERVER | SetBlock (0x35) | x=87; y=10; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=4; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=67; y=8; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=4; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=8; z=31; Type=11; Meta=0;  |
@@ -5775,15 +5775,15 @@
 | SERVER | SetBlock (0x35) | x=32; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=2; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=4; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=4; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=9; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=4; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=142; y=8; z=82; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=3; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-38; Type=11; Meta=0;  |
@@ -5792,37 +5792,37 @@
 | SERVER | SetBlock (0x35) | x=94; y=7; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.32; y=69.00; cameraY=70.62; z=28.78; Yaw=-4.35; Pitch=1.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=6; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=3; z=85; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=72; y=4; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=10; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=72; y=10; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=4; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=-14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.30; y=69.00; cameraY=70.62; z=28.59; Yaw=-4.20; Pitch=-1.35; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2138;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=86; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=9; z=41; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=2; z=-46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=9; z=-12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.29; y=69.00; cameraY=70.62; z=28.38; Yaw=-3.75; Pitch=-3.60; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=7;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=63; y=4; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=27; Type=11; Meta=0;  |
@@ -5836,30 +5836,30 @@
 | SERVER | SetBlock (0x35) | x=131; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=4; z=-40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=119; y=9; z=-25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.27; y=69.00; cameraY=70.62; z=28.17; Yaw=-3.75; Pitch=-4.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=55; y=6; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=4; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=108; y=6; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=8; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=6; z=-20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.26; y=69.00; cameraY=70.62; z=27.96; Yaw=-3.75; Pitch=-4.65; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=95; y=6; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=4; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=7; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=2; z=65; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=9; z=39; Type=11; Meta=0;  |
@@ -5867,23 +5867,23 @@
 | SERVER | SetBlock (0x35) | x=95; y=6; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=7; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=10; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=5; z=-19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.24; y=69.00; cameraY=70.62; z=27.75; Yaw=-3.60; Pitch=-5.55; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=5; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=121; y=6; z=88; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=5; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=3; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=9; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=5; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=8; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=-25; Type=11; Meta=0;  |
@@ -5895,25 +5895,25 @@
 | SERVER | SetBlock (0x35) | x=34; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=5; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=8; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=8; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=-36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=3; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.22; y=69.00; cameraY=70.62; z=27.41; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=7; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=8; z=64; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=4; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=-41; Type=11; Meta=0;  |
@@ -5923,10 +5923,10 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.22; y=69.00; cameraY=70.62; z=27.35; Yaw=-2.70; Pitch=-6.00; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=24; y=10; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=2; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=7; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=104; y=8; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=7; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=60; Type=11; Meta=0;  |
@@ -5948,70 +5948,70 @@
 | SERVER | SetBlock (0x35) | x=92; y=9; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=81; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=10; z=-45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.22; y=69.00; cameraY=70.62; z=27.30; Yaw=0.45; Pitch=-8.85; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=88; y=4; z=92; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=9; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=8; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=8; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=118; y=4; z=-48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.21; y=69.00; cameraY=70.62; z=27.29; Yaw=0.60; Pitch=-8.85; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=52; y=9; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=5; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=80; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=9; z=-39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=-13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=8; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.21; y=69.00; cameraY=70.62; z=27.28; Yaw=0.60; Pitch=-9.15; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=20; y=8; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=52; y=4; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=6; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=10; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=7; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=-39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=7; z=-15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=5; z=-12; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.21; y=69.00; cameraY=70.62; z=27.28; Yaw=0.75; Pitch=-9.30; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=14; y=3; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=4; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=9; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=17; z=16; Type=11; Meta=12;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=4; z=7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=4; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=3; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-13; Type=11; Meta=0;  |
@@ -6028,10 +6028,10 @@
 | SERVER | SetBlock (0x35) | x=124; y=4; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=8; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=130; y=3; z=-36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=121; y=4; z=-47; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.28; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=28; y=63; z=26; Type=3; Meta=0;  |
@@ -6041,15 +6041,15 @@
 | SERVER | SetBlock (0x35) | x=60; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=2; z=82; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=4; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=7; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=3; z=-29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=-23; Type=11; Meta=0;  |
@@ -6062,14 +6062,14 @@
 | SERVER | SetBlock (0x35) | x=66; y=7; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=7; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=9; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=119; y=10; z=5; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=3; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=56; y=4; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=9; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=23; Type=11; Meta=0;  |
@@ -6090,15 +6090,15 @@
 | SERVER | SetBlock (0x35) | x=28; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=7; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=123; y=3; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=9; z=80; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=5; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=6; z=-17; Type=11; Meta=0;  |
@@ -6107,14 +6107,14 @@
 | SERVER | SetBlock (0x35) | x=86; y=5; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=38; y=6; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=3; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=8; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=10; z=-32; Type=11; Meta=0;  |
@@ -6122,57 +6122,57 @@
 | SERVER | SetBlock (0x35) | x=84; y=7; z=-21; Type=11; Meta=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=4; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=9; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=2; z=-19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=3; z=-38; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2158;  |
 | SERVER | SetBlock (0x35) | x=32; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SpawnItem (0x15) | EID=22; Item=3; Amount=1; Damage=0; x=2182; y=2250; z=872; Yaw=0; Pitch=27; Roll=36;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | EntityVelocity (0x1C) | EID=22; x Velocity=20; y Velocity=1694; z Velocity=2274;  |
 | SERVER | SetBlock (0x35) | x=31; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=2; z=72; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=9; z=-30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=-1;  |
 | SERVER | SetBlock (0x35) | x=48; y=2; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=10; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=8; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=95; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=7; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=5; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=20; y=9; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=9; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=6; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=7; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=10; z=5; Type=11; Meta=0;  |
@@ -6180,11 +6180,11 @@
 | SERVER | SetBlock (0x35) | x=134; y=7; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=4; z=-44; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=63; y=5; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=7; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=2; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=2; z=0; Type=11; Meta=0;  |
@@ -6197,7 +6197,7 @@
 | SERVER | SetBlock (0x35) | x=61; y=7; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=5; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=9; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=8; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=9; Type=11; Meta=0;  |
@@ -6212,22 +6212,22 @@
 | SERVER | SetBlock (0x35) | x=74; y=3; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=3; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=5; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=89; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=44; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=4; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=4; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=6;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=107; y=9; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=10; z=-9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=8; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=8; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=10; Type=11; Meta=0;  |
@@ -6235,23 +6235,23 @@
 | SERVER | SetBlock (0x35) | x=110; y=2; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=10; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=7; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=-37; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=18; y=9; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=13; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=10; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=121; y=4; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=9; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=59; y=8; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=4; z=21; Type=11; Meta=0;  |
@@ -6265,7 +6265,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=19; y=9; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=10; y=8; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=3; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=37; y=4; z=20; Type=11; Meta=0;  |
@@ -6282,18 +6282,18 @@
 | SERVER | SetBlock (0x35) | x=87; y=7; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=9; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=118; y=7; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=35; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=6; z=58; Type=11; Meta=0;  |
@@ -6301,28 +6301,28 @@
 | SERVER | SetBlock (0x35) | x=142; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=2; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=9; z=-21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-3; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=21; y=6; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=10; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=64; y=9; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=7; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=8; z=-4; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=69.00; cameraY=70.62; z=27.27; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=10; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=5; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=5; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=51; y=4; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=46; y=2; z=64; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=26; Type=11; Meta=0;  |
@@ -6333,12 +6333,12 @@
 | SERVER | SetBlock (0x35) | x=35; y=6; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=2; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=92; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=60; y=8; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=5; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=2; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=4; z=-32; Type=11; Meta=0;  |
@@ -6350,26 +6350,26 @@
 | SERVER | SetBlock (0x35) | x=47; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=8; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=3; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=78; y=7; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=8; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=91; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.21; y=69.00; cameraY=70.62; z=27.27; Yaw=0.45; Pitch=-8.85; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=40; y=5; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=3; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=28; y=9; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=8; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=7; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=10; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=9; z=81; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=8; z=-6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.21; y=69.00; cameraY=70.62; z=27.27; Yaw=-0.45; Pitch=-7.05; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=43; y=4; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=83; Type=11; Meta=0;  |
@@ -6385,7 +6385,7 @@
 | SERVER | EntityPosition (0x1F) | EID=22; dX=1; dY=218; dZ=84;  |
 | SERVER | SetBlock (0x35) | x=18; y=7; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=8; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=62; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=8; z=87; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=3; z=68; Type=11; Meta=0;  |
@@ -6393,12 +6393,12 @@
 | SERVER | SetBlock (0x35) | x=126; y=8; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=9; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=10; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=9; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=4; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=3; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=-12; Type=11; Meta=0;  |
@@ -6417,9 +6417,9 @@
 | SERVER | SetBlock (0x35) | x=77; y=2; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=10; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=10; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=6; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=7; z=3; Type=11; Meta=0;  |
@@ -6429,14 +6429,14 @@
 | SERVER | SetBlock (0x35) | x=90; y=3; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.64; y=69.00; cameraY=70.62; z=27.26; Yaw=-2.55; Pitch=-3.15; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=85; y=4; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=10; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=10; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=10; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=8; z=-31; Type=11; Meta=0;  |
@@ -6459,32 +6459,32 @@
 | SERVER | SetBlock (0x35) | x=36; y=6; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=2; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=2; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=118; y=9; z=6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=-41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=3; z=-44; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.16; y=69.00; cameraY=70.62; z=27.24; Yaw=-3.75; Pitch=2.10; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=12; y=3; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=10; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=2; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=-21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.22; y=69.00; cameraY=70.62; z=27.24; Yaw=-3.45; Pitch=9.30; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=95; y=5; z=92; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=9; z=90; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=5; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=4; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=37; Type=11; Meta=0;  |
@@ -6493,26 +6493,26 @@
 | SERVER | SetBlock (0x35) | x=113; y=8; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=3; z=-46; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.25; y=69.00; cameraY=70.62; z=27.24; Yaw=-3.45; Pitch=10.65; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=10; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=8; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=7; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=4; z=-9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.27; y=69.00; cameraY=70.62; z=27.23; Yaw=-1.35; Pitch=17.40; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=62; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=54; y=9; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=4; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=64; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=9; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=9; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=-1; Type=11; Meta=0;  |
@@ -6520,11 +6520,11 @@
 | SERVER | SetBlock (0x35) | x=19; y=6; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=5; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=3; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=31; y=10; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=2; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=10; z=67; Type=11; Meta=0;  |
@@ -6535,35 +6535,35 @@
 | SERVER | SetBlock (0x35) | x=49; y=5; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=5; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=6; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=8; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=4; z=94; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=3; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=7; z=-20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=-6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.29; y=69.00; cameraY=70.62; z=27.23; Yaw=1.05; Pitch=17.25; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=6; z=91; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=28; y=6; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=7; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=8; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=121; y=10; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=6; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=4; z=-16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=3; z=-36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=69.29; y=69.00; cameraY=70.62; z=27.23; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=10; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=9; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=10; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=6; z=8; Type=11; Meta=0;  |
@@ -6576,7 +6576,7 @@
 | SERVER | SetBlock (0x35) | x=27; y=5; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=87; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=8; z=31; Type=11; Meta=0;  |
@@ -6588,16 +6588,16 @@
 | SERVER | SetBlock (0x35) | x=107; y=4; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=9; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.29; y=69.00; cameraY=70.62; z=27.23; Yaw=1.50; Pitch=16.20; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=43; y=6; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=4; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=8; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=9; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=6; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=10; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=70; Type=11; Meta=0;  |
@@ -6609,7 +6609,7 @@
 | SERVER | SetBlock (0x35) | x=27; y=10; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=5; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=9; z=40; Type=11; Meta=0;  |
@@ -6649,7 +6649,7 @@
 | SERVER | SetBlock (0x35) | x=65; y=7; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=129; y=5; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=6; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=2; z=71; Type=11; Meta=0;  |
@@ -6657,29 +6657,29 @@
 | SERVER | SetBlock (0x35) | x=136; y=8; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=4; z=-44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=-8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.29; y=69.00; cameraY=70.62; z=27.23; Yaw=-2.70; Pitch=10.65; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=20; y=7; z=74; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=9; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.29; y=69.00; cameraY=70.62; z=27.23; Yaw=-3.45; Pitch=10.35; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=6; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=2; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=10; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=5; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=139; y=8; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=5; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=3; z=-26; Type=11; Meta=0;  |
@@ -6698,24 +6698,24 @@
 | SERVER | SetBlock (0x35) | x=76; y=4; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=10; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=4; z=-34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=111; y=10; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=67; z=-31; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.29; y=69.00; cameraY=70.62; z=27.23; Yaw=-4.80; Pitch=8.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=26; y=4; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=10; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=5; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=4; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=9; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=2; z=-39; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.29; y=69.00; cameraY=70.62; z=27.23; Yaw=-5.10; Pitch=8.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=18; y=9; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=9; z=62; Type=11; Meta=0;  |
@@ -6726,44 +6726,44 @@
 | SERVER | SetBlock (0x35) | x=94; y=4; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=8; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=9; z=88; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=9; z=-25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.29; y=69.00; cameraY=70.62; z=27.23; Yaw=-5.10; Pitch=8.10; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=28; y=3; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=10; z=83; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=3; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=7; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=7; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=8; z=-19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=6; z=-13; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=69.29; y=69.00; cameraY=70.62; z=27.23; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=57; y=4; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=41; y=3; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=2; z=71; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=7; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=82; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=69; y=70; z=30; Face=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.29; y=69.00; cameraY=70.62; z=27.23; Yaw=-5.10; Pitch=7.95; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=7; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=7; z=81; Type=11; Meta=0;  |
@@ -6778,22 +6778,22 @@
 | SERVER | SpawnItem (0x15) | EID=23; Item=37; Amount=1; Damage=0; x=2219; y=2263; z=967; Yaw=10; Pitch=25; Roll=249;  |
 | SERVER | SetBlock (0x35) | x=43; y=4; z=58; Type=11; Meta=0;  |
 | SERVER | EntityVelocity (0x1C) | EID=23; x Velocity=669; y Velocity=1600; z Velocity=-463;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=33; y=10; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=10; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=4; z=-40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=7; z=-1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=69.29; y=69.00; cameraY=70.62; z=27.23; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=8;  |
 | SERVER | SetBlock (0x35) | x=33; y=8; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=4; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=4; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=8; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=8; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=5; z=-39; Type=11; Meta=0;  |
@@ -6803,7 +6803,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=69.30; y=69.00; cameraY=70.62; z=27.33; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=55; y=10; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=7; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=67; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=9; z=37; Type=11; Meta=0;  |
@@ -6811,12 +6811,12 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=69.31; y=69.00; cameraY=70.62; z=27.48; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=45; y=3; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=4; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=8; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=68; y=10; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=31; Type=11; Meta=0;  |
@@ -6833,7 +6833,7 @@
 | SERVER | SetBlock (0x35) | x=71; y=6; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=7; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=8; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=92; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=3; z=-35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=7; z=-18; Type=11; Meta=0;  |
@@ -6842,44 +6842,44 @@
 | SERVER | SetBlock (0x35) | x=8; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=6; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=51; y=6; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=8; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=7; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=4; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=10; z=81; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.37; y=69.42; cameraY=71.04; z=28.06; Yaw=-4.80; Pitch=8.55; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=9;  |
 | SERVER | SetBlock (0x35) | x=42; y=7; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=9; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=6; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=94; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=-36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=-6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.38; y=69.75; cameraY=71.37; z=28.19; Yaw=-4.65; Pitch=9.00; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=10; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=93; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=3; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=8; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=5; z=-31; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.39; y=70.00; cameraY=71.62; z=28.33; Yaw=-4.65; Pitch=9.15; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=5; z=92; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=63; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=7; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=2; z=92; Type=11; Meta=0;  |
@@ -6888,10 +6888,10 @@
 | SERVER | SetBlock (0x35) | x=118; y=2; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=4; z=-35; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=4; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=9; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.40; y=70.17; cameraY=71.79; z=28.48; Yaw=-4.05; Pitch=10.35; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=17; y=9; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=12; y=4; z=28; Type=11; Meta=0;  |
@@ -6907,7 +6907,7 @@
 | SERVER | SetBlock (0x35) | x=119; y=10; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=9; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-34; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.41; y=70.25; cameraY=71.87; z=28.63; Yaw=-3.15; Pitch=12.15; OnGround=0;  |
@@ -6917,20 +6917,20 @@
 | SERVER | SetBlock (0x35) | x=53; y=7; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=4; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=9; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=8; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=6; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.42; y=70.25; cameraY=71.87; z=28.79; Yaw=-2.70; Pitch=13.35; OnGround=0;  |
 | SERVER | DespawnEntity (0x1D) | EID=23;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=8;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=94; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=7; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=7; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=4; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=-1; Type=11; Meta=0;  |
@@ -6941,9 +6941,9 @@
 | SERVER | SetBlock (0x35) | x=33; y=7; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=5; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=7; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=8; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=8; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=-2; Type=11; Meta=0;  |
@@ -6953,14 +6953,14 @@
 | SERVER | SetBlock (0x35) | x=19; y=9; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=8; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=5; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=2; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=9; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=9; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.46; y=70.00; cameraY=71.62; z=29.30; Yaw=-1.35; Pitch=19.95; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2218;  |
 | SERVER | SetBlock (0x35) | x=31; y=5; z=51; Type=11; Meta=0;  |
@@ -6974,11 +6974,11 @@
 | SERVER | SetBlock (0x35) | x=69; y=8; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=10; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=10; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=8; z=-15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.47; y=70.00; cameraY=71.62; z=29.55; Yaw=-0.90; Pitch=20.85; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=9; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=52; y=5; z=33; Type=11; Meta=0;  |
@@ -6991,44 +6991,44 @@
 | SERVER | SetBlock (0x35) | x=105; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=2; z=-33; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.54; y=70.00; cameraY=71.62; z=29.76; Yaw=0.60; Pitch=21.75; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=38; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=4; z=60; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=66; y=6; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=-43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=-11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=75; y=10; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.65; y=70.00; cameraY=71.62; z=29.95; Yaw=4.35; Pitch=23.10; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=4; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=4; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=4; z=-3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.80; y=70.00; cameraY=71.62; z=30.08; Yaw=15.60; Pitch=25.50; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=28; y=3; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=50; y=4; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=10; z=86; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=65; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=3; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=6; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=-37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=3; z=-20; Type=11; Meta=0;  |
@@ -7042,12 +7042,12 @@
 | SERVER | SetBlock (0x35) | x=39; y=3; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=7; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=3; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=65; y=5; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=3; z=-6; Type=11; Meta=0;  |
 | SERVER | Chunk (0x33) | x=120; y=18; z=-27; sizeX=7; sizeY=9; sizeZ=8; Compressed Size=347;  |
@@ -7057,17 +7057,17 @@
 | SERVER | SetBlock (0x35) | x=34; y=7; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=6; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=6; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=8; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=5; z=-5; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.22; y=70.00; cameraY=71.62; z=30.41; Yaw=51.60; Pitch=26.70; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=28; y=5; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=4; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=9; z=21; Type=11; Meta=0;  |
@@ -7075,11 +7075,11 @@
 | SERVER | SetBlock (0x35) | x=100; y=5; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=7; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=4; z=-43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.27; y=70.00; cameraY=71.62; z=30.45; Yaw=54.75; Pitch=24.75; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=33; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=6; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=5; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=10; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=39; Type=11; Meta=0;  |
@@ -7089,10 +7089,10 @@
 | SERVER | SetBlock (0x35) | x=108; y=5; z=-3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=8; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=8; z=-8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.30; y=70.00; cameraY=71.62; z=30.47; Yaw=56.70; Pitch=22.05; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=42; y=6; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=7; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=10; z=7; Type=11; Meta=0;  |
@@ -7101,17 +7101,17 @@
 | SERVER | SetBlock (0x35) | x=89; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=7; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=91; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=4; z=-44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=5; z=-28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.31; y=70.00; cameraY=71.62; z=30.49; Yaw=57.15; Pitch=21.15; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=23; y=7; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=7; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=74; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=17; y=6; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=4; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=54; Type=11; Meta=0;  |
@@ -7128,14 +7128,14 @@
 | SERVER | SetBlock (0x35) | x=69; y=4; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=3; z=4; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=8; z=92; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=118; y=2; z=-16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=3; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.32; y=70.00; cameraY=71.62; z=30.50; Yaw=57.45; Pitch=19.65; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=50; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=9; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=51; Type=11; Meta=0;  |
@@ -7144,9 +7144,9 @@
 | SERVER | SetBlock (0x35) | x=141; y=5; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=3; z=-34; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.33; y=70.00; cameraY=71.62; z=30.50; Yaw=57.45; Pitch=19.50; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=7; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=24; y=9; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=7; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=8; z=49; Type=11; Meta=0;  |
@@ -7162,14 +7162,14 @@
 | SERVER | SetBlock (0x35) | x=72; y=7; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=10; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=10; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=-40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.33; y=70.00; cameraY=71.62; z=30.50; Yaw=57.45; Pitch=19.35; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=10; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=38; y=4; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=3; z=23; Type=11; Meta=0;  |
@@ -7196,7 +7196,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.33; y=70.00; cameraY=71.62; z=30.50; OnGround=1;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=-1;  |
 | SERVER | SetBlock (0x35) | x=60; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=7; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=10; z=7; Type=11; Meta=0;  |
@@ -7209,15 +7209,15 @@
 | SERVER | SetBlock (0x35) | x=92; y=9; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=3; z=-18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.33; y=70.00; cameraY=71.62; z=30.50; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=8; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=6; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=8; z=74; Type=11; Meta=0;  |
@@ -7228,7 +7228,7 @@
 | SERVER | SetBlock (0x35) | x=90; y=7; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.33; y=70.00; cameraY=71.62; z=30.50; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2238;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
@@ -7247,42 +7247,42 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.33; y=70.00; cameraY=71.62; z=30.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=83; y=4; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=9; z=82; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=3; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=4; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=3; z=-6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=-30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=3; z=-35; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.33; y=70.00; cameraY=71.62; z=30.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=22; y=5; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=70; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=18; y=8; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=143; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=8; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=4; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=10; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.33; y=70.00; cameraY=71.62; z=30.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=60; y=5; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=41; y=6; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=3; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=7; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=7; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=2; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=8; z=90; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=4; z=-33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=-27; Type=11; Meta=0;  |
@@ -7293,16 +7293,16 @@
 | SERVER | SetBlock (0x35) | x=75; y=3; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=3; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=5; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-17; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.33; y=70.00; cameraY=71.62; z=30.50; Yaw=56.55; Pitch=18.75; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=57; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=10; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=6; z=-36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=4; z=-19; Type=11; Meta=0;  |
@@ -7310,7 +7310,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.39; y=70.00; cameraY=71.62; z=30.58; Yaw=54.15; Pitch=18.15; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=49; y=6; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=6; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=10; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=10; z=1; Type=11; Meta=0;  |
@@ -7325,28 +7325,28 @@
 | SERVER | SetBlock (0x35) | x=36; y=10; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=132; y=7; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=10; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=4; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=4; z=-46; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.60; y=70.00; cameraY=71.62; z=30.84; Yaw=48.00; Pitch=17.25; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=7; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=3; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=2; z=-42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.73; y=70.00; cameraY=71.62; z=30.98; Yaw=43.05; Pitch=16.05; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=35; y=3; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=3; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=9; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=8; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=-19; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.88; y=70.00; cameraY=71.62; z=31.12; Yaw=40.35; Pitch=15.15; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=36; y=6; z=45; Type=11; Meta=0;  |
@@ -7367,16 +7367,16 @@
 | SERVER | SetBlock (0x35) | x=63; y=4; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=82; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=6; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=6; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=8; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.20; y=70.00; cameraY=71.62; z=31.39; Yaw=36.45; Pitch=14.10; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=38; y=6; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=4; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=6; z=8; Type=11; Meta=0;  |
@@ -7386,28 +7386,28 @@
 | SERVER | SetBlock (0x35) | x=121; y=4; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=8; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.37; y=70.00; cameraY=71.62; z=31.52; Yaw=35.55; Pitch=13.80; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=46; y=5; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=63; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=9; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=6; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=7; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=6; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=6; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=6; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=3; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.54; y=70.00; cameraY=71.62; z=31.65; Yaw=35.25; Pitch=13.50; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=49; y=5; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=6; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=5; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=8; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=-1; Type=11; Meta=0;  |
@@ -7417,11 +7417,11 @@
 | SERVER | SetBlock (0x35) | x=51; y=3; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=5; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=31; y=5; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=91; y=3; z=3; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=4; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=89; Type=11; Meta=0;  |
@@ -7429,14 +7429,14 @@
 | SERVER | Chunk (0x33) | x=128; y=8; z=-25; sizeX=6; sizeY=19; sizeZ=5; Compressed Size=265;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=-4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=5; z=-39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=-1; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=-1; Array size=9;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.84; y=70.00; cameraY=71.62; z=31.94; Yaw=33.30; Pitch=11.10; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=20; y=8; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=5; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=66; z=24; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=3; z=93; Type=11; Meta=0;  |
@@ -7452,11 +7452,11 @@
 | SERVER | SetBlock (0x35) | x=54; y=10; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=8; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=5; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=3; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=3; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=10; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=70; y=71; z=34; Face=2;  |
@@ -7464,7 +7464,7 @@
 | SERVER | SetChunkVisibility (0x32) | x=0; z=-3; (Unload);  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=0; z=6; (Load);  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetChunkVisibility (0x32) | x=1; z=-3; (Unload);  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=1; z=6; (Load);  |
@@ -7472,9 +7472,9 @@
 | SERVER | SetChunkVisibility (0x32) | x=2; z=-3; (Unload);  |
 | SERVER | SetBlock (0x35) | x=103; y=5; z=-23; Type=11; Meta=0;  |
 | SERVER | SetChunkVisibility (0x32) | x=2; z=6; (Load);  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | SERVER | SetChunkVisibility (0x32) | x=3; z=-3; (Unload);  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetChunkVisibility (0x32) | x=3; z=6; (Load);  |
 | SERVER | SetChunkVisibility (0x32) | x=4; z=-3; (Unload);  |
 | SERVER | SetChunkVisibility (0x32) | x=4; z=6; (Load);  |
@@ -7494,10 +7494,10 @@
 | SERVER | SetBlock (0x35) | x=32; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=3; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=6; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=6; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=7; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=3; z=-32; Type=11; Meta=0;  |
@@ -7518,9 +7518,9 @@
 | SERVER | SetBlock (0x35) | x=33; y=4; z=-4; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.30; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=32; y=0; z=96; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2629;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=86; y=10; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=4; z=7; Type=11; Meta=0;  |
@@ -7545,11 +7545,11 @@
 | SERVER | SetBlock (0x35) | x=134; y=6; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=5; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=7; z=-16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=33.60; Pitch=8.55; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=80; y=0; z=96; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2672;  |
 | SERVER | SetBlock (0x35) | x=29; y=4; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=11; Type=11; Meta=0;  |
@@ -7563,11 +7563,11 @@
 | SERVER | SetBlock (0x35) | x=44; y=4; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=51; y=7; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=51; y=8; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=9; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=6; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=3; z=58; Type=11; Meta=0;  |
@@ -7575,7 +7575,7 @@
 | SERVER | SetBlock (0x35) | x=133; y=6; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=99; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=8; z=-30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=34.35; Pitch=7.80; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=112; y=0; z=96; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2592;  |
@@ -7584,27 +7584,27 @@
 | SERVER | SetBlock (0x35) | x=35; y=6; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=9; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=5; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=4; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=9; z=-14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=34.65; Pitch=7.65; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=128; y=0; z=96; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=3507;  |
 | SERVER | SetBlock (0x35) | x=39; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=84; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=8; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=8; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=7; z=80; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=3; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=35.55; Pitch=6.60; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=49; Type=11; Meta=0;  |
@@ -7620,29 +7620,29 @@
 | SERVER | SetBlock (0x35) | x=99; y=7; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=8; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=65; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=36.15; Pitch=5.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=46; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=4; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=74; y=8; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=4; z=-20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=51; y=3; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=9; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=5; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=9; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=7; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=67; z=54; Type=3; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=99; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=3; z=99; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=6; z=-28; Type=11; Meta=0;  |
@@ -7663,18 +7663,18 @@
 | SERVER | SetBlock (0x35) | x=74; y=2; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=3; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=5; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=10; z=89; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=30; y=10; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=10; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=8; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=10; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=10; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=8; z=30; Type=11; Meta=0;  |
@@ -7684,11 +7684,11 @@
 | SERVER | SetBlock (0x35) | x=57; y=9; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=63; z=70; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=5; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=5; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=9; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=10; z=57; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=10; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=3; z=-32; Type=11; Meta=0;  |
@@ -7698,7 +7698,7 @@
 | SERVER | SetBlock (0x35) | x=39; y=3; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=21; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=93; y=6; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=10; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=9; z=46; Type=11; Meta=0;  |
@@ -7723,7 +7723,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=62; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=84; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=17; y=9; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=50; Type=11; Meta=0;  |
@@ -7736,13 +7736,13 @@
 | SERVER | SetBlock (0x35) | x=18; y=3; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=5; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=3; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=9; z=99; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=6; z=87; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=6; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=4; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=118; y=4; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=10; z=44; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
@@ -7755,7 +7755,7 @@
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=5; z=7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=5; z=59; Type=11; Meta=0;  |
@@ -7780,7 +7780,7 @@
 | SERVER | SetBlock (0x35) | x=138; y=7; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=10; z=-10; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=36.15; Pitch=5.55; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=9; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=4; z=18; Type=11; Meta=0;  |
@@ -7791,12 +7791,12 @@
 | SERVER | SetBlock (0x35) | x=112; y=5; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=16; y=7; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=4; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=58; y=10; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=37; y=10; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=3; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=8; z=55; Type=11; Meta=0;  |
@@ -7807,7 +7807,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=36.15; Pitch=5.25; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=9; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=57; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=5; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=7; z=26; Type=11; Meta=0;  |
@@ -7819,9 +7819,9 @@
 | SERVER | SetBlock (0x35) | x=96; y=5; z=31; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=36.15; Pitch=5.10; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=120; y=18; z=-32; sizeX=7; sizeY=11; sizeZ=13; Compressed Size=476;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=-1; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=-1; Array size=8;  |
 | SERVER | SetBlock (0x35) | x=34; y=8; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=46; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=5; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=6; z=58; Type=11; Meta=0;  |
@@ -7832,23 +7832,23 @@
 | SERVER | SetBlock (0x35) | x=123; y=5; z=98; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=4; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=9; z=-11; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=8; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-12; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=57; y=9; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=67; z=48; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=7; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=11; Type=11; Meta=0;  |
@@ -7868,7 +7868,7 @@
 | SERVER | SetBlock (0x35) | x=94; y=10; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=55; y=10; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=2; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=49; Type=11; Meta=0;  |
@@ -7881,15 +7881,15 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=17; y=7; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=9; z=96; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=25; y=9; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=9; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=8; z=-22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=45; y=5; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=80; Type=11; Meta=0;  |
@@ -7902,18 +7902,18 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=37; y=5; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=121; y=9; z=98; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=8; z=83; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=10; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=7; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=3; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=49; y=4; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=10; z=26; Type=11; Meta=0;  |
@@ -7930,7 +7930,7 @@
 | SERVER | SetBlock (0x35) | x=90; y=6; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=7; z=111; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=7; z=-18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=-2; Type=11; Meta=0;  |
@@ -7945,7 +7945,7 @@
 | SERVER | SetBlock (0x35) | x=87; y=8; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=9; z=90; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=5; z=-28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.86; y=70.00; cameraY=71.62; z=32.32; Yaw=36.15; Pitch=4.20; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=59; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=6; z=87; Type=11; Meta=0;  |
@@ -7969,7 +7969,7 @@
 | SERVER | SetBlock (0x35) | x=94; y=9; z=42; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=6; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=95; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=87; y=9; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.86; y=70.00; cameraY=71.62; z=32.32; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
@@ -7978,8 +7978,8 @@
 | SERVER | SetBlock (0x35) | x=127; y=5; z=81; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=4; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=3; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=118; y=2; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=3; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=4; z=-31; Type=11; Meta=0;  |
@@ -7993,7 +7993,7 @@
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=9; z=10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=9; z=74; Type=11; Meta=0;  |
@@ -8004,32 +8004,32 @@
 | SERVER | SetBlock (0x35) | x=94; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=10; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=10; z=-13; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.80; y=70.00; cameraY=71.62; z=32.40; Yaw=36.15; Pitch=2.40; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=36; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=5; z=97; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=4; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=7; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=8; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=66; y=10; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=10; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=10; z=91; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=4; z=103; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.71; y=70.00; cameraY=71.62; z=32.52; Yaw=36.00; Pitch=1.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=11; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=6; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=6; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=4; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=10; z=28; Type=11; Meta=0;  |
@@ -8037,9 +8037,9 @@
 | SERVER | SetBlock (0x35) | x=113; y=3; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.60; y=70.00; cameraY=71.62; z=32.67; Yaw=36.00; Pitch=1.20; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=2; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=2; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=8; z=19; Type=11; Meta=0;  |
@@ -8051,7 +8051,7 @@
 | SERVER | SetBlock (0x35) | x=62; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=3; z=81; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=6; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=61; Type=11; Meta=0;  |
@@ -8064,7 +8064,7 @@
 | SERVER | SetBlock (0x35) | x=35; y=8; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=3; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=3; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=6; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=3; z=12; Type=11; Meta=0;  |
@@ -8083,12 +8083,12 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.49; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=93; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=6; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=80; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=5; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=10; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=-24; Type=11; Meta=0;  |
@@ -8102,7 +8102,7 @@
 | SERVER | SetBlock (0x35) | x=109; y=7; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=4; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=7; z=89; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
@@ -8115,7 +8115,7 @@
 | SERVER | SetBlock (0x35) | x=106; y=5; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=10; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=3; z=104; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=4; z=-14; Type=11; Meta=0;  |
@@ -8123,7 +8123,7 @@
 | SERVER | SetBlock (0x35) | x=47; y=2; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=2; z=99; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=4; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=9; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=10; z=40; Type=11; Meta=0;  |
@@ -8135,7 +8135,7 @@
 | SERVER | SetBlock (0x35) | x=93; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=4; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=3; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=-26; Type=11; Meta=0;  |
@@ -8146,7 +8146,7 @@
 | SERVER | SetBlock (0x35) | x=46; y=4; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=3; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=5; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=4; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=7; z=57; Type=11; Meta=0;  |
@@ -8157,8 +8157,8 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=120; y=8; z=100; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=4; z=86; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=4; z=103; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=4; z=-18; Type=11; Meta=0;  |
@@ -8167,7 +8167,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
 | SERVER | Chunk (0x33) | x=122; y=18; z=-25; sizeX=5; sizeY=5; sizeZ=6; Compressed Size=165;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=-1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=-1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=39; y=4; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=7; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=5; z=100; Type=11; Meta=0;  |
@@ -8183,11 +8183,11 @@
 | SERVER | SetBlock (0x35) | x=61; y=5; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=10; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=8; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=141; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
@@ -8197,13 +8197,13 @@
 | SERVER | SetBlock (0x35) | x=30; y=8; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=9; z=19; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=70; y=71; z=34; Face=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=9; z=36; Type=11; Meta=0;  |
@@ -8221,7 +8221,7 @@
 | SERVER | EntityVelocity (0x1C) | EID=25; x Velocity=452; y Velocity=1600; z Velocity=-592;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=1; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=77; y=8; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=71; z=34; Type=0; Meta=0;  |
@@ -8231,9 +8231,9 @@
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=103; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=6; z=0; Type=11; Meta=0;  |
@@ -8246,13 +8246,13 @@
 | SERVER | SetBlock (0x35) | x=35; y=2; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=2; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=52; y=4; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=7; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=10; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=9; z=73; Type=11; Meta=0;  |
@@ -8260,12 +8260,12 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=33; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=43; y=2; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=3; z=83; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=4; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=10; z=87; Type=11; Meta=0;  |
@@ -8274,13 +8274,13 @@
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=35.25; Pitch=-3.15; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=6; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=16; y=7; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=131; y=63; z=14; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=-11; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=35.10; Pitch=-4.95; OnGround=1;  |
@@ -8289,7 +8289,7 @@
 | SERVER | SetBlock (0x35) | x=83; y=4; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=10; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=7; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=5; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-5; Type=11; Meta=0;  |
@@ -8300,15 +8300,15 @@
 | SERVER | SetBlock (0x35) | x=101; y=8; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=9; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=34.20; Pitch=-12.90; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=54; y=8; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=7; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=8; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=4; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=6; z=-19; Type=11; Meta=0;  |
@@ -8323,21 +8323,21 @@
 | SERVER | SetBlock (0x35) | x=114; y=2; z=-29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=6; z=-31; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=33.45; Pitch=-16.05; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | IncrementStatistic (0xC8) | IncrementStatistic=5242881; Amount=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | CollectItem (0x16) | EID (Collected)=25; EID (Collector)=17;  |
 | SERVER | SetBlock (0x35) | x=28; y=9; z=48; Type=11; Meta=0;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=17; Amount=1; Damage=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=10; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=5; z=4; Type=11; Meta=0;  |
@@ -8353,7 +8353,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=63; y=7; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=5; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=68; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=8; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=6; z=43; Type=11; Meta=0;  |
@@ -8380,10 +8380,10 @@
 | SERVER | SetBlock (0x35) | x=52; y=5; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=10; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=33.15; Pitch=-16.80; OnGround=1;  |
@@ -8394,7 +8394,7 @@
 | SERVER | SetBlock (0x35) | x=69; y=5; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=8; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=9; z=12; Type=11; Meta=0;  |
@@ -8417,7 +8417,7 @@
 | SERVER | SetBlock (0x35) | x=39; y=7; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=8; z=97; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=6; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=67; y=9; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=7; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=42; Type=11; Meta=0;  |
@@ -8429,7 +8429,7 @@
 | SERVER | SetBlock (0x35) | x=88; y=3; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=9; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=7; z=-28; Type=11; Meta=0;  |
@@ -8452,9 +8452,9 @@
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=11; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=7; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=2; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=97; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=-4; Type=11; Meta=0;  |
@@ -8475,15 +8475,15 @@
 | SERVER | SetBlock (0x35) | x=107; y=9; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=-12; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=70; y=9; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=7; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=3; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=9; z=-27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=31.65; Pitch=-23.40; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=30; Type=11; Meta=0;  |
@@ -8497,7 +8497,7 @@
 | SERVER | SetBlock (0x35) | x=56; y=6; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=8; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=67; y=10; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=8; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=6; z=78; Type=11; Meta=0;  |
@@ -8505,19 +8505,19 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=31.65; Pitch=-23.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=4; z=14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=10; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=-3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=31.50; Pitch=-24.60; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=122; y=18; z=-25; sizeX=5; sizeY=5; sizeZ=6; Compressed Size=177;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=46; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=59; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=25; Type=11; Meta=0;  |
@@ -8533,11 +8533,11 @@
 | SERVER | SetBlock (0x35) | x=53; y=9; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=2; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=10; z=82; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=8; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=101; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=-14; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
@@ -8546,7 +8546,7 @@
 | SERVER | SetBlock (0x35) | x=58; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=9; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=7; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=4; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=37; Type=11; Meta=0;  |
@@ -8556,11 +8556,11 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=43; y=8; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=61; y=4; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=81; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=6; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=4; z=5; Type=11; Meta=0;  |
@@ -8579,25 +8579,25 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=90; y=4; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=10; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=127; y=6; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=97; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.48; y=70.00; cameraY=71.62; z=32.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=32; y=8; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=8; z=97; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=62; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=88; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=9; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=9; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=5; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=4; z=-9; Type=11; Meta=0;  |
@@ -8608,14 +8608,14 @@
 | SERVER | SetBlock (0x35) | x=44; y=4; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=49; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=6; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=10; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=8; z=51; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=30.00; Pitch=-22.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=118; y=8; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=4; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=28; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=6; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=2; z=75; Type=11; Meta=0;  |
@@ -8627,7 +8627,7 @@
 | SERVER | SetBlock (0x35) | x=124; y=10; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.48; y=70.00; cameraY=71.62; z=32.70; Yaw=29.55; Pitch=-21.90; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=65; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=9; z=69; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -8637,16 +8637,16 @@
 | SERVER | SetBlock (0x35) | x=46; y=3; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=98; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=52; y=7; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=7; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=-6; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=49; y=2; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=3; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=97; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=5; z=-14; Type=11; Meta=0;  |
@@ -8663,7 +8663,7 @@
 | SERVER | SetBlock (0x35) | x=143; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=5; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=2; z=-20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=35; y=7; z=45; Type=11; Meta=0;  |
@@ -8675,10 +8675,10 @@
 | SERVER | SetBlock (0x35) | x=110; y=5; z=3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=18; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=82; y=5; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=3; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=60; Type=11; Meta=0;  |
@@ -8706,12 +8706,12 @@
 | SERVER | SetBlock (0x35) | x=53; y=7; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=87; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=7; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=65; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=8; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=9; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=7; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=29.25; Pitch=-22.50; OnGround=1;  |
@@ -8722,7 +8722,7 @@
 | SERVER | SetBlock (0x35) | x=92; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=10; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=8; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=5; z=-22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=8; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -8731,8 +8731,8 @@
 | SERVER | SetBlock (0x35) | x=123; y=8; z=99; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=2; z=91; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=5; z=2; Type=10; Meta=8;  |
 | SERVER | SetBlock (0x35) | x=109; y=8; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=8; z=-24; Type=11; Meta=0;  |
@@ -8740,8 +8740,8 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=29.25; Pitch=-23.40; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=118; y=6; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=4; z=74; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=9; z=-21; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=29.40; Pitch=-23.85; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=46; y=4; z=50; Type=11; Meta=0;  |
@@ -8757,7 +8757,7 @@
 | SERVER | SetBlock (0x35) | x=113; y=5; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=37; y=6; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=8; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=9; z=49; Type=11; Meta=0;  |
@@ -8778,8 +8778,8 @@
 | SERVER | SetBlock (0x35) | x=91; y=5; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=8; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=8; z=14; Type=11; Meta=0;  |
@@ -8790,8 +8790,8 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=29.40; Pitch=-24.30; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=17; y=9; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=3; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=65; y=10; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=10; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=5; z=97; Type=11; Meta=0;  |
@@ -8799,7 +8799,7 @@
 | SERVER | SetBlock (0x35) | x=122; y=2; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=10; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=7; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=41; y=7; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=72; Type=11; Meta=0;  |
@@ -8807,7 +8807,7 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=7; z=110; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=48; y=3; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=4; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=2; z=68; Type=11; Meta=0;  |
@@ -8816,15 +8816,15 @@
 | SERVER | SetBlock (0x35) | x=71; y=9; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=3; z=-14; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=40; y=5; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=6; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=30; y=9; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=4; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=8; z=80; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=9; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=10; z=-26; Type=11; Meta=0;  |
@@ -8832,12 +8832,12 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=35; y=7; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=62; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=2; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=6; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=79; y=9; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=34; y=7; z=52; Type=11; Meta=0;  |
@@ -8849,7 +8849,7 @@
 | SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
 | SERVER | Chunk (0x33) | x=122; y=18; z=-32; sizeX=5; sizeY=11; sizeZ=13; Compressed Size=382;  |
 | SERVER | SetBlock (0x35) | x=39; y=6; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=36; y=10; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=4; z=58; Type=11; Meta=0;  |
@@ -8861,11 +8861,11 @@
 | SERVER | SetBlock (0x35) | x=108; y=63; z=107; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=9; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=4;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=61; y=6; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=5; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=4; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=5; Type=11; Meta=0;  |
@@ -8875,14 +8875,14 @@
 | SERVER | SetBlock (0x35) | x=86; y=5; z=-19; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=35; y=6; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=3; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=2; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=104; y=10; z=6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=8; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=6; z=-2; Type=11; Meta=0;  |
@@ -8906,30 +8906,30 @@
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=6; z=70; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=3; z=-5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=9; z=-24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=29.40; Pitch=-24.75; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=2; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=2; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=31; y=10; z=64; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=1; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=9; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=2; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=10; z=-9; Type=11; Meta=0;  |
@@ -8949,18 +8949,18 @@
 | SERVER | SetBlock (0x35) | x=55; y=8; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=9; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=77; y=9; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-6; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=29.40; Pitch=-24.90; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=49; y=2; z=61; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=43; y=4; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=6; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=13; z=-4; Type=10; Meta=2;  |
 | SERVER | SetBlock (0x35) | x=119; y=10; z=-25; Type=11; Meta=0;  |
@@ -8975,7 +8975,7 @@
 | SERVER | SetBlock (0x35) | x=116; y=3; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=29.55; Pitch=-25.05; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=22; y=8; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=5; z=22; Type=11; Meta=0;  |
@@ -8989,7 +8989,7 @@
 | SERVER | SetBlock (0x35) | x=55; y=9; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=3; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=10; z=63; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=9; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=3; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=10; z=66; Type=11; Meta=0;  |
@@ -8998,46 +8998,46 @@
 | SERVER | SetBlock (0x35) | x=129; y=2; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=43; y=6; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=9; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=9; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=93; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=8; z=-6; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=120; y=8; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=100; y=10; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=4; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=5; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=5; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=8; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=10; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=94; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=4; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=2; z=76; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=109; y=9; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=8; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=91; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=5; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=4; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=6; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -9053,14 +9053,14 @@
 | SERVER | SetBlock (0x35) | x=112; y=5; z=84; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=5; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=3; z=74; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=5; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=10; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=7; z=91; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=9; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=9; z=-10; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=93; Type=11; Meta=0;  |
@@ -9078,19 +9078,19 @@
 | SERVER | SetBlock (0x35) | x=96; y=9; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=7; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=5; z=-12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=118; y=9; z=87; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=2; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=2; x=70; y=72; z=34; Face=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=35; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=23; y=6; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=10; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=10; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=5; z=13; Type=11; Meta=0;  |
@@ -9108,9 +9108,9 @@
 | SERVER | SetBlock (0x35) | x=89; y=5; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=9; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=9; z=78; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=9; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=5; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=72; z=34; Type=0; Meta=0;  |
@@ -9118,20 +9118,20 @@
 | SERVER | SetTime (0x04) | Time=2398;  |
 | SERVER | SetBlock (0x35) | x=0; y=25; z=50; Type=8; Meta=1;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=32; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=137; y=4; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=-26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=70; y=72; z=34; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=24; y=7; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=2; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=6; z=60; Type=11; Meta=0;  |
@@ -9149,14 +9149,14 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=55; y=10; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=4; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=4; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=7; z=28; Type=11; Meta=0;  |
@@ -9166,9 +9166,9 @@
 | SERVER | SetBlock (0x35) | x=139; y=10; z=71; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=29.55; Pitch=-24.60; OnGround=1;  |
 | SERVER | Chunk (0x33) | x=122; y=18; z=-28; sizeX=5; sizeY=11; sizeZ=9; Compressed Size=340;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=40; y=4; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=87; y=7; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=4; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=5; z=-18; Type=11; Meta=0;  |
@@ -9184,7 +9184,7 @@
 | SERVER | SetBlock (0x35) | x=96; y=9; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=7; z=97; Type=11; Meta=0;  |
@@ -9213,7 +9213,7 @@
 | SERVER | SetBlock (0x35) | x=88; y=8; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.35; y=71.00; cameraY=72.62; z=32.72; Yaw=29.25; Pitch=-24.30; OnGround=0;  |
 | SERVER | IncrementStatistic (0xC8) | IncrementStatistic=5242881; Amount=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | CollectItem (0x16) | EID (Collected)=26; EID (Collector)=17;  |
 | SERVER | SetBlock (0x35) | x=31; y=9; z=65; Type=11; Meta=0;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=17; Amount=2; Damage=0;  |
@@ -9221,8 +9221,8 @@
 | SERVER | SetBlock (0x35) | x=132; y=8; z=93; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.30; y=71.17; cameraY=72.79; z=32.75; Yaw=29.10; Pitch=-24.30; OnGround=0;  |
 | SERVER | DespawnEntity (0x1D) | EID=26;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=100; y=7; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=2; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=7; z=9; Type=11; Meta=0;  |
@@ -9232,7 +9232,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.25; y=71.25; cameraY=72.87; z=32.80; Yaw=28.65; Pitch=-24.45; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=6; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=86; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=10; z=43; Type=11; Meta=0;  |
@@ -9260,22 +9260,22 @@
 | SERVER | SetBlock (0x35) | x=75; y=10; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=-9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.07; y=71.02; cameraY=72.64; z=33.01; Yaw=27.15; Pitch=-26.10; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=43; y=6; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=4; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=97; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=4; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=2; z=102; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=106; y=10; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=9; z=-23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=-29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.00; y=71.00; cameraY=72.62; z=33.11; Yaw=27.00; Pitch=-26.25; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=28; y=4; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=48; y=5; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=4; z=47; Type=11; Meta=0;  |
@@ -9284,22 +9284,22 @@
 | SERVER | SetBlock (0x35) | x=38; y=5; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=105; y=5; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=8; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=3; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-20; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.90; y=71.00; cameraY=72.62; z=33.24; Yaw=25.80; Pitch=-29.25; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=112; y=5; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=47; y=7; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=10; z=67; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=7; z=-9; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.88; y=71.00; cameraY=72.62; z=33.26; Yaw=24.90; Pitch=-31.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=75; y=10; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=10; z=33; Type=11; Meta=0;  |
@@ -9308,7 +9308,7 @@
 | SERVER | SetBlock (0x35) | x=131; y=7; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.87; y=71.00; cameraY=72.62; z=33.28; Yaw=24.75; Pitch=-31.95; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=28; y=2; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=5; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=8; z=57; Type=11; Meta=0;  |
@@ -9316,14 +9316,14 @@
 | SERVER | SetBlock (0x35) | x=92; y=6; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.87; y=71.00; cameraY=72.62; z=33.28; Yaw=24.45; Pitch=-32.40; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2418;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=60; y=4; z=38; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=3; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=4; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=8; z=28; Type=11; Meta=0;  |
@@ -9335,7 +9335,7 @@
 | SERVER | SetBlock (0x35) | x=69; y=7; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=9; z=-27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=2; z=-7; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=121; y=2; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=6; z=44; Type=11; Meta=0;  |
@@ -9355,13 +9355,13 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=49; y=4; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=5; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=10; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=8; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=8; z=76; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=118; y=6; z=88; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=6; z=45; Type=11; Meta=0;  |
@@ -9381,7 +9381,7 @@
 | SERVER | SetBlock (0x35) | x=121; y=9; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=9; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=111; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=10; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=10; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-12; Type=11; Meta=0;  |
@@ -9398,19 +9398,19 @@
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=60; y=6; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=4; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=4; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=5; z=26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=125; y=9; z=97; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=5; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=8; z=-1; Type=11; Meta=0;  |
@@ -9439,28 +9439,28 @@
 | SERVER | SetBlock (0x35) | x=92; y=10; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=5; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=10; z=-10; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=3; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=4; z=73; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=20; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=3; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=4; z=106; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
 | SERVER | Chunk (0x33) | x=123; y=18; z=-25; sizeX=4; sizeY=9; sizeZ=6; Compressed Size=220;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=98; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=65; y=9; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=17; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=3; z=95; Type=11; Meta=0;  |
@@ -9468,9 +9468,9 @@
 | SERVER | Chunk (0x33) | x=128; y=20; z=-23; sizeX=9; sizeY=7; sizeZ=6; Compressed Size=195;  |
 | SERVER | SetBlock (0x35) | x=129; y=22; z=-16; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=7; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=6; z=98; Type=11; Meta=0;  |
@@ -9481,14 +9481,14 @@
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=67; y=7; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=139; y=10; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-31; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=47; y=8; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=8; z=75; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=76; y=5; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=111; Type=11; Meta=0;  |
@@ -9504,14 +9504,14 @@
 | SERVER | SetBlock (0x35) | x=75; y=9; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=24.15; Pitch=-33.00; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2438;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=4;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=7; z=46; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=50; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=53; y=5; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=6; z=80; Type=11; Meta=0;  |
@@ -9519,7 +9519,7 @@
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-17; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=23.85; Pitch=-33.15; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=137; y=48; z=64; Type=9; Meta=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=45; y=3; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=55; y=7; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=6; z=86; Type=11; Meta=0;  |
@@ -9533,7 +9533,7 @@
 | SERVER | SetBlock (0x35) | x=41; y=4; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=9; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=8; z=81; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=-5; Type=11; Meta=0;  |
@@ -9545,7 +9545,7 @@
 | SERVER | SetBlock (0x35) | x=29; y=10; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=7; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=7; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=106; y=10; z=22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=23.55; Pitch=-33.75; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=98; Type=11; Meta=0;  |
@@ -9555,37 +9555,37 @@
 | SERVER | SetBlock (0x35) | x=137; y=6; z=100; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=5; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=23.40; Pitch=-33.75; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=86; y=9; z=24; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=142; y=4; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=10; z=-25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=-8; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=23.40; Pitch=-33.90; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=60; y=4; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=64; y=5; z=28; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=37; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=23.10; Pitch=-34.20; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=35; y=8; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=6; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=8; z=6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=-26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=22.65; Pitch=-34.65; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=39; y=5; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=61; y=6; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=4; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=18; y=7; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=1; Type=11; Meta=0;  |
@@ -9593,10 +9593,10 @@
 | SERVER | SetBlock (0x35) | x=126; y=7; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=96; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=61; y=2; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=21.30; Pitch=-35.70; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=21; y=5; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=6; z=88; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=10; z=32; Type=11; Meta=0;  |
@@ -9607,7 +9607,7 @@
 | SERVER | SetBlock (0x35) | x=113; y=6; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=3; z=29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=21.15; Pitch=-35.85; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=118; y=4; z=97; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=5; z=28; Type=11; Meta=0;  |
@@ -9618,7 +9618,7 @@
 | SERVER | SetBlock (0x35) | x=20; y=3; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=10; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=2; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=50; Type=11; Meta=0;  |
@@ -9643,17 +9643,17 @@
 | SERVER | SetBlock (0x35) | x=76; y=9; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=11; y=7; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=9; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=10; z=-30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=9; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.86; y=71.00; cameraY=72.62; z=33.29; Yaw=20.40; Pitch=-36.30; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=55; y=6; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=2; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=9; z=17; Type=11; Meta=0;  |
@@ -9675,7 +9675,7 @@
 | SERVER | SetBlock (0x35) | x=50; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=8; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=10; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=4; z=-14; Type=11; Meta=0;  |
@@ -9687,8 +9687,8 @@
 | SERVER | SetBlock (0x35) | x=119; y=8; z=88; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=68; y=8; z=38; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=46; y=4; z=34; Type=11; Meta=0;  |
@@ -9702,7 +9702,7 @@
 | SERVER | SetBlock (0x35) | x=91; y=9; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2458;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=4; y=20; z=47; Type=8; Meta=3;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
@@ -9730,7 +9730,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=62; y=6; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=28; y=5; z=55; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=86; y=8; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=9; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=5; z=22; Type=11; Meta=0;  |
@@ -9741,11 +9741,11 @@
 | SERVER | SetBlock (0x35) | x=92; y=8; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=8; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=-32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=3; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=29; y=5; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.86; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
@@ -9754,7 +9754,7 @@
 | SERVER | SetBlock (0x35) | x=45; y=7; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=10; z=4; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=102; y=10; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=8; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=6; z=-28; Type=11; Meta=0;  |
@@ -9767,7 +9767,7 @@
 | SERVER | SetBlock (0x35) | x=138; y=9; z=80; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=3; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=6; z=0; Type=11; Meta=0;  |
@@ -9778,13 +9778,13 @@
 | SERVER | SetBlock (0x35) | x=137; y=3; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=8; z=67; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=2; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=5; y=20; z=48; Type=9; Meta=3;  |
 | SERVER | SetBlock (0x35) | x=52; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=8; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=10; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=7; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=9; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=6; z=98; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=8; z=-32; Type=11; Meta=0;  |
@@ -9796,7 +9796,7 @@
 | SERVER | SetBlock (0x35) | x=51; y=7; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=7; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=7; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=6; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=7; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=121; y=3; z=-32; Type=11; Meta=0;  |
@@ -9821,24 +9821,24 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=45; y=6; z=52; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=96; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=8; z=47; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=0; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=0; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=4; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=2; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=9; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=75; y=7; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=3; z=93; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=18; y=4; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=55; y=4; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=49; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=8; z=90; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=78; y=4; z=48; Type=11; Meta=0;  |
@@ -9847,13 +9847,13 @@
 | SERVER | SetBlock (0x35) | x=109; y=5; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=55; y=9; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=54; y=9; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=6; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=4; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=8; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=5; z=-16; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -9873,7 +9873,7 @@
 | SERVER | SetBlock (0x35) | x=87; y=3; z=29; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=9; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=-1; Type=11; Meta=0;  |
@@ -9903,14 +9903,14 @@
 | SERVER | SetBlock (0x35) | x=60; y=5; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=66; y=6; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=6; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=0; x=70; y=74; z=35; Face=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=47; y=12; z=40; Type=9; Meta=6;  |
 | SERVER | SetBlock (0x35) | x=59; y=10; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=90; y=10; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=4; z=104; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=8; z=-8; Type=11; Meta=0;  |
@@ -9939,8 +9939,8 @@
 | SERVER | SetBlock (0x35) | x=100; y=10; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=6; z=59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.71; y=71.00; cameraY=72.62; z=33.69; Yaw=21.45; Pitch=-20.70; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=9; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.64; y=71.00; cameraY=72.62; z=33.88; Yaw=24.60; Pitch=-0.75; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=32; Type=11; Meta=0;  |
@@ -9960,11 +9960,11 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.50; y=71.00; cameraY=72.62; z=34.16; Yaw=27.45; Pitch=5.25; OnGround=1;  |
 | SERVER | DespawnEntity (0x1D) | EID=27;  |
 | SERVER | SetBlock (0x35) | x=89; y=4; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.48; y=71.00; cameraY=72.62; z=34.22; Yaw=31.20; Pitch=12.30; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=17; y=3; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=59; y=4; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=73; y=8; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=7; z=25; Type=11; Meta=0;  |
@@ -9973,19 +9973,19 @@
 | SERVER | SetBlock (0x35) | x=24; y=6; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=4; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=29; y=8; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=95; y=3; z=62; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=126; y=9; z=-13; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.46; y=71.00; cameraY=72.62; z=34.27; Yaw=45.00; Pitch=22.80; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=26; y=6; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=3; z=93; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=103; y=10; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=-31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.45; y=71.00; cameraY=72.62; z=34.28; Yaw=47.85; Pitch=23.70; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=24; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=92; Type=11; Meta=0;  |
@@ -10041,7 +10041,7 @@
 | SERVER | SetBlock (0x35) | x=120; y=3; z=-31; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.96; y=71.00; cameraY=72.62; z=33.62; Yaw=53.55; Pitch=19.65; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=118; y=4; z=99; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=66; y=8; z=16; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.83; y=71.00; cameraY=72.62; z=33.45; Yaw=53.10; Pitch=18.00; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=58; y=4; z=32; Type=11; Meta=0;  |
@@ -10084,7 +10084,7 @@
 | SERVER | SetBlock (0x35) | x=130; y=3; z=-31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=10; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.47; y=71.00; cameraY=72.62; z=32.50; Yaw=47.25; Pitch=12.45; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=22; y=7; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=5; z=85; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=10; z=37; Type=11; Meta=0;  |
@@ -10110,7 +10110,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.46; y=70.54; cameraY=72.16; z=32.00; Yaw=44.10; Pitch=11.40; OnGround=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=10; z=84; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=4; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=2; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=6; z=80; Type=11; Meta=0;  |
@@ -10138,9 +10138,9 @@
 | SERVER | SetBlock (0x35) | x=24; y=5; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=8; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=9; z=23; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=10; z=41; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=69.25; y=70.00; cameraY=71.62; z=31.31; Yaw=39.30; Pitch=16.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=44; y=2; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=6; z=97; Type=11; Meta=0;  |
@@ -10158,7 +10158,7 @@
 | SERVER | SetBlock (0x35) | x=99; y=9; z=58; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=69; y=8; z=32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=138; y=7; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=3; z=103; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=6; z=-27; Type=11; Meta=0;  |
@@ -10175,7 +10175,7 @@
 | SERVER | SetBlock (0x35) | x=104; y=2; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=6; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=-31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.53; y=70.00; cameraY=71.62; z=30.52; Yaw=47.70; Pitch=15.75; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=10; z=40; Type=11; Meta=0;  |
@@ -10195,20 +10195,20 @@
 | SERVER | SetBlock (0x35) | x=71; y=2; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=3; z=65; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=5; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=9; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=10; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=6; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.24; y=70.00; cameraY=71.62; z=30.20; Yaw=50.70; Pitch=13.95; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=26; y=8; z=76; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=9; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.10; y=70.00; cameraY=71.62; z=30.03; Yaw=52.05; Pitch=13.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=58; y=5; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=2; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=6; z=-30; Type=11; Meta=0;  |
@@ -10225,10 +10225,10 @@
 | SERVER | SetBlock (0x35) | x=139; y=7; z=82; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.99; y=70.00; cameraY=71.62; z=29.89; Yaw=53.55; Pitch=12.60; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=56; y=8; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=3; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=7; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=133; y=8; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=4; z=-21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=110; y=8; z=-14; Type=11; Meta=0;  |
@@ -10246,7 +10246,7 @@
 | SERVER | SetBlock (0x35) | x=89; y=10; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=8; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=2; z=6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=8; z=109; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=9; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.95; y=70.00; cameraY=71.62; z=29.84; Yaw=63.60; Pitch=10.95; OnGround=1;  |
@@ -10256,12 +10256,12 @@
 | SERVER | SetBlock (0x35) | x=99; y=10; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=5; z=1; Type=11; Meta=8;  |
 | SERVER | SetBlock (0x35) | x=131; y=5; z=58; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=2; z=-1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=7; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.94; y=70.00; cameraY=71.62; z=29.84; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=30; y=9; z=42; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.94; y=70.00; cameraY=71.62; z=29.83; Yaw=64.20; Pitch=10.95; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=115; y=5; z=100; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=31; Type=11; Meta=0;  |
@@ -10272,7 +10272,7 @@
 | SERVER | SetBlock (0x35) | x=82; y=7; z=-8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=10; z=-17; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.94; y=70.00; cameraY=71.62; z=29.83; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=94; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=42; y=3; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=9; z=84; Type=11; Meta=0;  |
@@ -10297,11 +10297,11 @@
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.94; y=70.00; cameraY=71.62; z=29.83; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=93; y=6; z=95; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=113; y=5; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=59; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=8; z=-5; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.94; y=70.00; cameraY=71.62; z=29.83; Yaw=63.75; Pitch=11.55; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=62; y=4; z=38; Type=11; Meta=0;  |
@@ -10311,7 +10311,7 @@
 | SERVER | SetBlock (0x35) | x=113; y=4; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.98; y=70.00; cameraY=71.62; z=29.92; Yaw=63.60; Pitch=13.05; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=67; y=10; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.05; y=70.00; cameraY=71.62; z=30.05; Yaw=64.20; Pitch=14.25; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=113; y=7; z=99; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=6; z=56; Type=11; Meta=0;  |
@@ -10325,7 +10325,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.12; y=70.00; cameraY=71.62; z=30.22; Yaw=65.85; Pitch=16.20; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=118; y=6; z=100; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=31; y=9; z=51; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=20; y=8; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=8; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=6; Type=11; Meta=0;  |
@@ -10334,7 +10334,7 @@
 | SERVER | SetBlock (0x35) | x=142; y=4; z=-14; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.21; y=70.00; cameraY=71.62; z=30.40; Yaw=66.60; Pitch=16.80; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=8; z=77; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=5; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.29; y=70.00; cameraY=71.62; z=30.59; Yaw=68.40; Pitch=17.55; OnGround=1;  |
@@ -10345,7 +10345,7 @@
 | SERVER | SetBlock (0x35) | x=84; y=7; z=-20; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.23; y=70.00; cameraY=71.62; z=30.66; Yaw=194.70; Pitch=58.95; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2538;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=45; y=12; z=40; Type=9; Meta=6;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
@@ -10358,7 +10358,7 @@
 | SERVER | SetBlock (0x35) | x=96; y=3; z=-9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.21; y=70.00; cameraY=71.62; z=30.71; Yaw=386.40; Pitch=90.00; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=29; y=7; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=4; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=4; z=6; Type=11; Meta=0;  |
@@ -10366,7 +10366,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.19; y=70.00; cameraY=71.62; z=30.73; Yaw=514.20; Pitch=90.00; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=25; y=10; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=10; z=79; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=4; z=-14; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.18; y=70.00; cameraY=71.62; z=30.74; Yaw=578.10; Pitch=90.00; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=6; z=44; Type=11; Meta=0;  |
@@ -10374,7 +10374,7 @@
 | SERVER | SetBlock (0x35) | x=96; y=7; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=21; y=9; z=66; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=12; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=6; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=-11; Type=11; Meta=0;  |
@@ -10386,16 +10386,16 @@
 | SERVER | SetBlock (0x35) | x=86; y=4; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.18; y=70.00; cameraY=71.62; z=30.75; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=42; y=5; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=120; y=19; z=56; Type=9; Meta=3;  |
 | SERVER | SetBlock (0x35) | x=72; y=4; z=18; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=133; y=8; z=15; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=705.00; Pitch=90.00; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=120; y=5; z=87; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=82; y=3; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=67; y=10; z=17; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=7; z=82; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=10; z=-7; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=-26; Type=11; Meta=0;  |
@@ -10429,7 +10429,7 @@
 | SERVER | SetBlock (0x35) | x=87; y=9; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=6; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=5; z=49; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=118; y=3; z=9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=807.15; Pitch=82.05; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=29; Type=11; Meta=0;  |
@@ -10442,12 +10442,12 @@
 | SERVER | SetBlock (0x35) | x=127; y=2; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=8; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=71; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=803.85; Pitch=79.35; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=81; y=4; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=9; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=15; Type=11; Meta=0;  |
@@ -10474,17 +10474,17 @@
 | SERVER | SetBlock (0x35) | x=93; y=7; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=777.00; Pitch=58.65; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=94; y=4; z=25; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=4; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=774.90; Pitch=57.30; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=3; z=72; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=0; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=91; y=8; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=104; y=6; z=-3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=9; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=773.85; Pitch=56.55; OnGround=1;  |
@@ -10504,7 +10504,7 @@
 | SERVER | SetBlock (0x35) | x=42; y=64; z=67; Type=3; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=9; z=47; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=769.65; Pitch=53.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=68; y=4; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=10; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=4; z=-12; Type=11; Meta=0;  |
@@ -10515,8 +10515,8 @@
 | SERVER | SetBlock (0x35) | x=91; y=10; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=767.55; Pitch=49.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=84; y=5; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=139; y=6; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=768.15; Pitch=45.75; OnGround=1;  |
@@ -10578,7 +10578,7 @@
 | SERVER | SetBlock (0x35) | x=132; y=5; z=94; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=780.75; Pitch=46.20; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=66; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=94; y=8; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=83; y=7; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=2; z=26; Type=11; Meta=0;  |
@@ -10590,10 +10590,10 @@
 | SERVER | SetBlock (0x35) | x=123; y=9; z=3; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.17; y=70.00; cameraY=71.62; z=30.76; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=120; y=21; z=-23; Type=11; Meta=10;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=9; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=5; z=-30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.17; y=70.00; cameraY=71.62; z=30.76; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=125; y=5; z=69; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=5; z=12; Type=11; Meta=0;  |
@@ -10614,7 +10614,7 @@
 | SERVER | TeleportEntity (0x22) | EID=22; x=2183; y=2212; z=956; Yaw=112; Pitch=0;  |
 | SERVER | SetBlock (0x35) | x=37; y=7; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=10; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=780.90; Pitch=50.25; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2578;  |
@@ -10639,7 +10639,7 @@
 | SERVER | SetBlock (0x35) | x=88; y=8; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=21; y=8; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=8; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=10; z=70; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=7; z=-25; Type=11; Meta=0;  |
@@ -10660,15 +10660,15 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.17; y=70.00; cameraY=71.62; z=30.76; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=53; y=4; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=2; z=91; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=2; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=3; z=-16; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.17; y=70.00; cameraY=71.62; z=30.76; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=49; y=6; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=3; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=113; y=5; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=4; z=-32; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=-28; Type=11; Meta=0;  |
@@ -10692,10 +10692,10 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.17; y=70.00; cameraY=71.62; z=30.76; OnGround=1;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=17; Amount=2; Damage=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=7; z=53; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.17; y=70.00; cameraY=71.62; z=30.76; Yaw=780.90; Pitch=50.10; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=36; y=5; z=44; Type=11; Meta=0;  |
@@ -10711,7 +10711,7 @@
 | SERVER | SetBlock (0x35) | x=86; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=8; z=79; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=781.50; Pitch=48.60; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=97; y=9; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=4; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=781.50; Pitch=48.15; OnGround=1;  |
@@ -10719,7 +10719,7 @@
 | SERVER | SetBlock (0x35) | x=73; y=6; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=10; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=9; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=143; y=3; z=100; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=781.65; Pitch=47.25; OnGround=1;  |
@@ -10732,12 +10732,12 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=781.65; Pitch=46.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=33; y=5; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=3; z=56; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=4; z=15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=3; z=59; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=781.65; Pitch=46.35; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=92; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=9; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=7; z=35; Type=11; Meta=0;  |
@@ -10781,11 +10781,11 @@
 | SERVER | SetBlock (0x35) | x=45; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=6; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.39; y=70.00; cameraY=71.62; z=30.64; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=95; y=7; z=92; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=3; z=16; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=9; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=129; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=-22; Type=11; Meta=0;  |
@@ -10796,7 +10796,7 @@
 | SERVER | SetBlock (0x35) | x=116; y=5; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=10; z=-7; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.64; y=70.00; cameraY=71.62; z=30.51; Yaw=781.50; Pitch=45.15; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=8; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.69; y=70.00; cameraY=71.62; z=30.48; Yaw=781.05; Pitch=43.65; OnGround=1;  |
@@ -10804,9 +10804,9 @@
 | SERVER | SetBlock (0x35) | x=54; y=7; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=5; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=27; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.71; y=70.00; cameraY=71.62; z=30.47; Yaw=780.90; Pitch=43.05; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=78; y=7; z=-31; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.73; y=70.00; cameraY=71.62; z=30.46; Yaw=780.75; Pitch=42.75; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=28; dX=217; dY=218; dZ=21;  |
@@ -10816,7 +10816,7 @@
 | SERVER | SetBlock (0x35) | x=142; y=5; z=94; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=84; y=6; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.73; y=70.00; cameraY=71.62; z=30.46; Yaw=780.60; Pitch=42.30; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=10; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=9; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=8; z=-29; Type=11; Meta=0;  |
@@ -10831,18 +10831,18 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.74; y=70.00; cameraY=71.62; z=30.45; Yaw=780.45; Pitch=41.70; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=95; y=5; z=93; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=8; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.74; y=70.00; cameraY=71.62; z=30.45; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=65; y=8; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=100; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=117; y=9; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.74; y=70.00; cameraY=71.62; z=30.45; Yaw=780.45; Pitch=41.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=24; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=3; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=6; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-1; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.74; y=70.00; cameraY=71.62; z=30.45; Yaw=780.45; Pitch=41.25; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=99; y=9; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=6; z=-22; Type=11; Meta=0;  |
@@ -10887,7 +10887,7 @@
 | SERVER | SetTime (0x04) | Time=2618;  |
 | SERVER | SetBlock (0x35) | x=90; y=5; z=94; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=7; z=12; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
@@ -10902,7 +10902,7 @@
 | SERVER | SetBlock (0x35) | x=75; y=9; z=41; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=106; y=4; z=-6; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.21; y=70.00; cameraY=71.62; z=30.75; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=90; y=15; z=15; Type=11; Meta=11;  |
 | SERVER | SetBlock (0x35) | x=24; y=4; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=10; z=53; Type=11; Meta=0;  |
@@ -10926,7 +10926,7 @@
 | SERVER | SetBlock (0x35) | x=97; y=9; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=97; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.18; y=70.00; cameraY=71.62; z=30.77; Yaw=780.75; Pitch=41.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=25; y=10; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=40; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.18; y=70.00; cameraY=71.62; z=30.77; Yaw=781.20; Pitch=41.70; OnGround=1;  |
@@ -10956,9 +10956,9 @@
 | SERVER | SetBlock (0x35) | x=116; y=8; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.18; y=70.00; cameraY=71.62; z=30.77; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=9; z=87; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=10; z=36; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=6; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.18; y=70.00; cameraY=71.62; z=30.77; OnGround=1;  |
@@ -11006,7 +11006,7 @@
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=57; y=4; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=4; z=34; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.18; y=70.00; cameraY=71.62; z=30.77; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2638;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=92; Type=11; Meta=0;  |
@@ -11015,11 +11015,11 @@
 | SERVER | TeleportEntity (0x22) | EID=13; x=2276; y=1188; z=844; Yaw=21; Pitch=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | TeleportEntity (0x22) | EID=14; x=2354; y=1188; z=828; Yaw=114; Pitch=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=122; y=5; z=-14; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.18; y=70.00; cameraY=71.62; z=30.77; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=30; y=8; z=43; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=9; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=15; Type=11; Meta=0;  |
@@ -11044,12 +11044,12 @@
 | SERVER | SetBlock (0x35) | x=33; y=8; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=10; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=8; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=3; z=-28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.18; y=70.00; cameraY=71.62; z=30.77; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=28; y=10; z=40; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=9; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=47; Type=11; Meta=0;  |
@@ -11059,7 +11059,7 @@
 | SERVER | SetBlock (0x35) | x=55; y=8; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=8; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=5; z=-10; Type=11; Meta=0;  |
@@ -11087,9 +11087,9 @@
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.18; y=70.00; cameraY=71.62; z=30.77; Yaw=781.80; Pitch=42.30; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=88; y=5; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=-2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.18; y=70.00; cameraY=71.62; z=30.77; Yaw=781.80; Pitch=42.15; OnGround=1;  |
 | SERVER | SpawnItem (0x15) | EID=30; Item=17; Amount=1; Damage=0; x=2181; y=2282; z=984; Yaw=232; Pitch=240; Roll=12;  |
 | SERVER | SetBlock (0x35) | x=46; y=3; z=61; Type=11; Meta=0;  |
@@ -11109,14 +11109,14 @@
 | SERVER | SetBlock (0x35) | x=86; y=6; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.18; y=70.00; cameraY=71.62; z=30.77; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=69; y=9; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=8; z=9; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=4; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=10; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=5; z=-20; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.18; y=70.00; cameraY=71.62; z=30.77; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=27; y=6; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=8; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=7; z=37; Type=11; Meta=0;  |
@@ -11145,7 +11145,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.56; y=70.00; cameraY=71.62; z=30.57; Yaw=781.95; Pitch=41.55; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=38; y=6; z=22; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=72; y=7; z=16; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=71; Type=11; Meta=0;  |
@@ -11173,7 +11173,7 @@
 | SERVER | SetBlock (0x35) | x=57; y=5; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=39; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=72; y=3; z=15; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=104; y=5; z=8; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=9; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=28; Type=11; Meta=0;  |
@@ -11192,14 +11192,14 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.37; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=24; y=4; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=128; y=6; z=18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.37; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=104; y=5; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=7; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.37; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=10; y=6; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=5; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=7; z=-28; Type=11; Meta=0;  |
@@ -11223,12 +11223,12 @@
 | SERVER | SetBlock (0x35) | x=107; y=2; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=95; y=5; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=128; y=10; z=69; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.36; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=53; y=7; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=2; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=8; z=36; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.36; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=49; y=4; z=59; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=37; y=5; z=20; Type=11; Meta=0;  |
@@ -11236,7 +11236,7 @@
 | SERVER | SetBlock (0x35) | x=96; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=10; z=7; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.36; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=28; y=5; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=10; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=22; y=9; z=66; Type=11; Meta=0;  |
@@ -11246,7 +11246,7 @@
 | SERVER | SetBlock (0x35) | x=131; y=2; z=72; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=142; y=5; z=92; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=2; z=105; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=781.50; Pitch=40.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=75; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=4; z=12; Type=11; Meta=0;  |
@@ -11267,7 +11267,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=852.30; Pitch=-90.00; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=25; y=8; z=43; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=6; z=93; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=888.30; Pitch=-90.00; OnGround=1;  |
@@ -11280,7 +11280,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.36; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=84; y=3; z=31; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=8; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=2; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=10; z=53; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.36; OnGround=1;  |
@@ -11290,7 +11290,7 @@
 | SERVER | SetBlock (0x35) | x=69; y=6; z=19; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.36; OnGround=1;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=-1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=4;  |
 | SERVER | SetBlock (0x35) | x=46; y=6; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=40; y=6; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=16; Type=11; Meta=0;  |
@@ -11309,7 +11309,7 @@
 | SERVER | SetBlock (0x35) | x=119; y=10; z=98; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=22; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=93; y=9; z=5; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=959.55; Pitch=-90.00; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=62; y=4; z=43; Type=11; Meta=0;  |
@@ -11326,11 +11326,11 @@
 | SERVER | SetBlock (0x35) | x=143; y=9; z=78; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=4; z=-20; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1026.90; Pitch=-90.00; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=9; z=42; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1026.15; Pitch=-88.20; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=96; y=6; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=99; y=7; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=125; y=6; z=31; Type=11; Meta=0;  |
@@ -11341,12 +11341,12 @@
 | SERVER | EntityPosition (0x1F) | EID=30; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=44; y=4; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=35; y=6; z=20; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-16; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1022.25; Pitch=-81.60; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=29; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=54; y=5; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=45; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=118; y=2; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=-29; Type=11; Meta=0;  |
@@ -11405,7 +11405,7 @@
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=39; y=9; z=79; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=3; z=1; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=105; y=7; z=-17; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1008.45; Pitch=-53.85; OnGround=1;  |
 | SERVER | EntityVelocity (0x1C) | EID=31; x Velocity=-46; y Velocity=-2984; z Velocity=20;  |
@@ -11417,7 +11417,7 @@
 | SERVER | SetBlock (0x35) | x=142; y=10; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.94; y=70.00; cameraY=71.62; z=30.36; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=4; z=0; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1007.85; Pitch=-50.55; OnGround=1;  |
@@ -11430,7 +11430,7 @@
 | SERVER | SetBlock (0x35) | x=111; y=9; z=-14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=5; z=-28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1007.40; Pitch=-49.20; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=21; y=9; z=67; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=91; y=5; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=7; z=80; Type=11; Meta=0;  |
@@ -11438,7 +11438,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1007.25; Pitch=-48.60; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1006.65; Pitch=-47.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=116; y=8; z=-4; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1005.45; Pitch=-45.45; OnGround=1;  |
@@ -11448,7 +11448,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1004.25; Pitch=-43.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=55; y=10; z=20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=9; z=88; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1004.10; Pitch=-42.30; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=40; y=4; z=57; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=30; Type=11; Meta=0;  |
@@ -11460,13 +11460,13 @@
 | SERVER | SetBlock (0x35) | x=48; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=111; y=7; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=8; z=50; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=21; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=140; y=3; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=3; z=-14; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.94; y=70.00; cameraY=71.62; z=30.36; Yaw=1001.10; Pitch=-32.85; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=29; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=64; y=7; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=138; y=8; z=68; Type=11; Meta=0;  |
@@ -11478,7 +11478,7 @@
 | SERVER | SetBlock (0x35) | x=143; y=3; z=95; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=5; z=-10; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=128; y=6; z=23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=104; y=8; z=-1; Type=11; Meta=0;  |
@@ -11492,7 +11492,7 @@
 | SERVER | SetBlock (0x35) | x=87; y=7; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=997.65; Pitch=-33.90; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=43; y=8; z=48; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=85; y=5; z=-18; Type=11; Meta=0;  |
@@ -11503,7 +11503,7 @@
 | SERVER | SetBlock (0x35) | x=115; y=9; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=4; z=6; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=973.80; Pitch=-27.45; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=96; y=8; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=8; z=13; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=958.65; Pitch=-22.50; OnGround=1;  |
@@ -11525,7 +11525,7 @@
 | SERVER | EntityPosition (0x1F) | EID=31; dX=0; dY=246; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=109; y=8; z=11; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=99; y=4; z=-8; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | IncrementStatistic (0xC8) | IncrementStatistic=5242881; Amount=1;  |
@@ -11547,8 +11547,8 @@
 | SERVER | SetBlock (0x35) | x=123; y=9; z=4; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=5; z=-8; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=5; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=96; y=10; z=27; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=108; y=7; z=-17; Type=11; Meta=0;  |
@@ -11575,7 +11575,7 @@
 | SERVER | EntityPosition (0x1F) | EID=29; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=40; y=5; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=129; y=7; z=-20; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=4; z=24; Type=11; Meta=0;  |
@@ -11624,7 +11624,7 @@
 | SERVER | SetBlock (0x35) | x=31; y=4; z=55; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=4; z=33; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=1000.50; Pitch=-4.20; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=3; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=3; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=116; y=7; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=141; y=5; z=-27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=1000.35; Pitch=-0.45; OnGround=1;  |
@@ -11634,7 +11634,7 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=999.90; Pitch=0.60; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=39; y=4; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=5; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=5; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=4; z=104; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=8; z=-20; Type=11; Meta=0;  |
@@ -11746,7 +11746,7 @@
 | SERVER | SetBlock (0x35) | x=106; y=10; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=7; z=2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=67.37; y=70.00; cameraY=71.62; z=30.19; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=115; y=2; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=18; y=7; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=5; z=-20; Type=11; Meta=0;  |
@@ -11799,7 +11799,7 @@
 | SERVER | SetBlock (0x35) | x=92; y=9; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=65.71; y=70.00; cameraY=71.62; z=31.01; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=65.51; y=70.00; cameraY=71.62; z=30.98; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=117; y=7; z=87; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=107; y=2; z=1; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=64; y=6; z=48; Type=11; Meta=0;  |
@@ -11900,7 +11900,7 @@
 | SERVER | SetBlock (0x35) | x=31; y=9; z=45; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=67.84; y=70.00; cameraY=71.62; z=31.94; Yaw=1011.15; Pitch=4.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=37; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=68.04; y=70.00; cameraY=71.62; z=32.02; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=72; y=4; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=7; z=50; Type=11; Meta=0;  |
@@ -11916,7 +11916,7 @@
 | SERVER | SetBlock (0x35) | x=96; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=9; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=65; y=9; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=-9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.44; y=70.00; cameraY=71.62; z=32.18; Yaw=1011.30; Pitch=4.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=68.65; y=70.00; cameraY=71.62; z=32.26; Yaw=1011.45; Pitch=5.10; OnGround=1;  |
@@ -11975,12 +11975,12 @@
 | SERVER | SetBlock (0x35) | x=143; y=4; z=98; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.05; y=71.02; cameraY=72.64; z=32.84; Yaw=1012.50; Pitch=11.70; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=5; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=47; y=4; z=34; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=15; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=3; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=10; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=7; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=72; Type=11; Meta=0;  |
@@ -11996,7 +11996,7 @@
 | SERVER | SetBlock (0x35) | x=122; y=3; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=7; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.66; y=71.00; cameraY=72.62; z=33.09; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=88; y=6; z=27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.70; y=71.00; cameraY=72.62; z=33.11; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=5; z=24; Type=11; Meta=0;  |
@@ -12035,7 +12035,7 @@
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=103; y=3; z=57; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=110; y=10; z=-13; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.74; y=71.00; cameraY=72.62; z=33.13; Yaw=1012.35; Pitch=12.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.74; y=71.00; cameraY=72.62; z=33.13; OnGround=1;  |
@@ -12067,7 +12067,7 @@
 | SERVER | SetBlock (0x35) | x=125; y=10; z=10; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.74; y=71.00; cameraY=72.62; z=33.13; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=83; y=5; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=7; z=-29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.74; y=71.00; cameraY=72.62; z=33.13; OnGround=1;  |
@@ -12090,7 +12090,7 @@
 | SERVER | SetBlock (0x35) | x=23; y=6; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=19; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=79; y=9; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=3; z=-11; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.74; y=71.00; cameraY=72.62; z=33.13; Yaw=1012.05; Pitch=13.80; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=19; y=7; z=25; Type=11; Meta=0;  |
@@ -12107,7 +12107,7 @@
 | SERVER | SetBlock (0x35) | x=105; y=4; z=-7; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.74; y=71.00; cameraY=72.62; z=33.13; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=94; y=5; z=94; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.74; y=71.00; cameraY=72.62; z=33.13; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=34; y=7; z=50; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=73; y=10; z=24; Type=11; Meta=0;  |
@@ -12130,7 +12130,7 @@
 | SERVER | SetBlock (0x35) | x=116; y=9; z=96; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=24; y=6; z=53; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=5; z=8; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=124; y=8; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=77; y=10; z=38; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=3; z=-20; Type=11; Meta=0;  |
@@ -12178,7 +12178,7 @@
 | SERVER | SetBlock (0x35) | x=57; y=4; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=26; y=5; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=2; z=80; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=5; z=60; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=4; z=-20; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=18; y=8; z=25; Type=11; Meta=0;  |
@@ -12201,7 +12201,7 @@
 | SERVER | SetBlock (0x35) | x=39; y=5; z=48; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=58; y=4; z=33; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=9; z=26; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=125; y=8; z=-13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=-25; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.74; y=71.00; cameraY=72.62; z=33.13; OnGround=1;  |
@@ -12214,7 +12214,7 @@
 | SERVER | SetBlock (0x35) | x=93; y=6; z=38; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.74; y=71.00; cameraY=72.62; z=33.13; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2858;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=1; z=4; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=1; z=4; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=10; z=6; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
@@ -12223,7 +12223,7 @@
 | SERVER | SetBlock (0x35) | x=18; y=2; z=23; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=9; z=6; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=4; z=-18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.74; y=71.00; cameraY=72.62; z=33.13; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=29; y=5; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=30; y=6; z=47; Type=11; Meta=0;  |
@@ -12325,7 +12325,7 @@
 | SERVER | SetBlock (0x35) | x=125; y=5; z=-12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=74; y=71; z=34; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.14; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=4; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=4; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=93; y=10; z=11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=71; y=4; z=62; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=135; y=6; z=97; Type=11; Meta=0;  |
@@ -12349,7 +12349,7 @@
 | SERVER | SetBlock (0x35) | x=109; y=8; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.14; y=71.00; cameraY=72.62; z=33.29; Yaw=1011.45; Pitch=10.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=127; y=7; z=82; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=122; y=10; z=14; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=88; y=7; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.14; y=71.00; cameraY=72.62; z=33.29; Yaw=1011.45; Pitch=9.75; OnGround=1;  |
@@ -12396,7 +12396,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.94; y=71.00; cameraY=72.62; z=33.60; Yaw=1011.15; Pitch=5.10; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=115; y=10; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=4; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=85; y=7; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.94; y=71.00; cameraY=72.62; z=33.60; OnGround=1;  |
@@ -12439,7 +12439,7 @@
 | SERVER | SetBlock (0x35) | x=77; y=6; z=54; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=5; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.95; y=71.00; cameraY=72.62; z=33.60; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=125; y=2; z=75; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=100; y=9; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=4; z=16; Type=11; Meta=0;  |
@@ -12486,7 +12486,7 @@
 | SERVER | SetBlock (0x35) | x=127; y=4; z=26; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=132; y=7; z=95; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=8; z=-2; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.95; y=71.00; cameraY=72.62; z=33.60; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=123; y=5; z=73; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=80; y=7; z=49; Type=11; Meta=0;  |
@@ -12533,7 +12533,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.95; y=71.00; cameraY=72.62; z=33.60; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=24; y=7; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=97; y=10; z=52; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.95; y=71.00; cameraY=72.62; z=33.60; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=73; y=3; z=12; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=126; y=5; z=-13; Type=11; Meta=0;  |
@@ -12574,12 +12574,12 @@
 | SERVER | SetBlock (0x35) | x=91; y=10; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=102; y=7; z=49; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=136; y=4; z=98; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.95; y=71.00; cameraY=72.62; z=33.60; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=135; y=5; z=71; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=6; z=95; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.95; y=71.00; cameraY=72.62; z=33.60; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=134; y=10; z=74; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=143; y=4; z=-12; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -12671,7 +12671,7 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=130; y=9; z=67; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=28; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=40; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -12691,7 +12691,7 @@
 | SERVER | SetBlock (0x35) | x=82; y=6; z=3; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=6; z=35; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=115; y=2; z=4; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=125; y=7; z=96; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -12728,7 +12728,7 @@
 | SERVER | SetBlock (0x35) | x=93; y=9; z=-24; Type=11; Meta=0;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=7; z=28; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=134; y=5; z=61; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -12777,7 +12777,7 @@
 | SERVER | SetBlock (0x35) | x=92; y=9; z=-23; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=72.11; y=71.00; cameraY=72.62; z=33.67; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=29; y=7; z=44; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=76; y=76; z=38; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=72.13; y=71.00; cameraY=72.62; z=33.68; Yaw=1012.35; Pitch=-10.95; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=123; y=6; z=97; Type=11; Meta=0;  |
@@ -12795,7 +12795,7 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=72.14; y=71.00; cameraY=72.62; z=33.68; Yaw=1012.35; Pitch=-11.10; OnGround=1;  |
 | SERVER | TeleportEntity (0x22) | EID=22; x=2183; y=2212; z=956; Yaw=112; Pitch=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=133; y=9; z=74; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=72.14; y=71.00; cameraY=72.62; z=33.68; Yaw=1012.35; Pitch=-11.25; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=2998;  |
@@ -12918,7 +12918,7 @@
 | SERVER | SetBlock (0x35) | x=44; y=6; z=46; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=8; z=1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.76; y=71.00; cameraY=72.62; z=33.53; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=6; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=6; z=0; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.76; y=71.00; cameraY=72.62; z=33.53; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=81; y=9; z=45; Type=11; Meta=0;  |
@@ -12931,7 +12931,7 @@
 | SERVER | SetBlock (0x35) | x=92; y=7; z=44; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=114; y=9; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.75; y=71.00; cameraY=72.62; z=33.53; Yaw=1011.90; Pitch=-14.70; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=91; y=6; z=30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.75; y=71.00; cameraY=72.62; z=33.53; Yaw=1011.75; Pitch=-16.20; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=32; y=5; z=52; Type=11; Meta=0;  |
@@ -12955,7 +12955,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.16; y=71.00; cameraY=72.62; z=33.29; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=32; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=56; y=9; z=40; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=108; y=10; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=137; y=4; z=-18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.97; y=71.00; cameraY=72.62; z=33.22; OnGround=1;  |
@@ -12986,7 +12986,7 @@
 | SERVER | EntityPosition (0x1F) | EID=33; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=54; y=10; z=41; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=34; dX=223; dY=184; dZ=223;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=7;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.55; y=71.00; cameraY=72.62; z=33.05; Yaw=1011.45; Pitch=-17.55; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=44; y=3; z=63; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=70.54; y=71.00; cameraY=72.62; z=33.05; OnGround=1;  |
@@ -13027,7 +13027,7 @@
 | SERVER | SetBlock (0x35) | x=57; y=5; z=29; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=98; y=3; z=0; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=89; y=7; z=33; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=140; y=4; z=-2; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=119; y=3; z=-15; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=70.85; y=71.00; cameraY=72.62; z=33.17; Yaw=1011.45; Pitch=-19.65; OnGround=1;  |
@@ -13128,7 +13128,7 @@
 | SERVER | SetBlock (0x35) | x=135; y=9; z=71; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.55; y=71.00; cameraY=72.62; z=33.44; Yaw=1011.30; Pitch=-20.85; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=85; y=6; z=21; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=123; y=8; z=-11; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=81; y=5; z=-32; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=71.55; y=71.00; cameraY=72.62; z=33.44; Yaw=1011.30; Pitch=-21.30; OnGround=1;  |
@@ -13205,14 +13205,14 @@
 | SERVER | SetBlock (0x35) | x=62; y=5; z=37; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=2; z=-1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=133; y=6; z=57; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=90; y=9; z=30; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=94; y=7; z=50; Type=11; Meta=0;  |
@@ -13239,10 +13239,10 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=74; y=4; z=13; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=4; z=29; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=6;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=3;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=136; y=2; z=4; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=71.55; y=71.00; cameraY=72.62; z=33.44; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=50; y=6; z=32; Type=11; Meta=0;  |
@@ -13294,7 +13294,7 @@
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=123; y=10; z=27; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=96; y=5; z=30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -13344,7 +13344,7 @@
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=9;  |
 | SERVER | SetBlock (0x35) | x=85; y=8; z=47; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=131; y=7; z=18; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -13459,13 +13459,13 @@
 | SERVER | SetBlock (0x35) | x=106; y=9; z=27; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=74.73; y=71.00; cameraY=72.62; z=33.81; Yaw=1019.25; Pitch=13.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=61; y=6; z=32; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=8;  |
 | SERVER | SetBlock (0x35) | x=120; y=7; z=0; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=74.92; y=71.00; cameraY=72.62; z=33.92; Yaw=1019.25; Pitch=13.95; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=27; y=6; z=56; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=6; z=86; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=75.10; y=71.00; cameraY=72.62; z=34.03; Yaw=1019.55; Pitch=14.85; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=75.29; y=71.00; cameraY=72.62; z=34.13; Yaw=1019.70; Pitch=14.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=75.48; y=71.00; cameraY=72.62; z=34.24; Yaw=1020.15; Pitch=15.15; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=86; y=10; z=46; Type=11; Meta=0;  |
@@ -13504,7 +13504,7 @@
 | SERVER | SetBlock (0x35) | x=112; y=4; z=86; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=6; z=-17; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=76.51; y=71.00; cameraY=72.62; z=36.94; Yaw=1032.30; Pitch=15.75; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=128; y=10; z=63; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=124; y=6; z=-15; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=86; y=8; z=-26; Type=11; Meta=0;  |
@@ -13523,7 +13523,7 @@
 | SERVER | SetBlock (0x35) | x=77; y=75; z=31; Type=0; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.40; y=71.00; cameraY=72.62; z=37.84; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=67; y=8; z=30; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=0; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=0; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.46; y=71.00; cameraY=72.62; z=38.03; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.50; y=71.00; cameraY=72.62; z=38.24; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=16; y=8; z=74; Type=11; Meta=0;  |
@@ -13545,7 +13545,7 @@
 | SERVER | SetBlock (0x35) | x=129; y=9; z=90; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=77.41; y=71.00; cameraY=72.62; z=39.25; Yaw=1033.20; Pitch=16.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.29; y=71.00; cameraY=72.62; z=39.42; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.16; y=71.00; cameraY=72.62; z=39.58; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=93; y=3; z=61; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=113; y=5; z=-28; Type=11; Meta=0;  |
@@ -13565,7 +13565,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.72; y=71.00; cameraY=72.62; z=40.08; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=113; y=5; z=97; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=90; y=8; z=31; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=98; y=9; z=51; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=92; y=8; z=44; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.71; y=71.00; cameraY=72.62; z=40.08; OnGround=1;  |
@@ -13654,15 +13654,15 @@
 | SERVER | SetBlock (0x35) | x=84; y=5; z=2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.70; y=71.00; cameraY=72.62; z=40.09; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.70; y=71.00; cameraY=72.62; z=40.09; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=7;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.70; y=71.00; cameraY=72.62; z=40.09; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.70; y=71.00; cameraY=72.62; z=40.09; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=54; y=8; z=39; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=7;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.70; y=71.00; cameraY=72.62; z=40.09; OnGround=1;  |
 | SERVER | SpawnItem (0x15) | EID=37; Item=17; Amount=1; Damage=0; x=2454; y=2314; z=1282; Yaw=28; Pitch=0; Roll=23;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | SERVER | EntityVelocity (0x1C) | EID=37; x Velocity=1754; y Velocity=-14; z Velocity=1484;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.70; y=71.00; cameraY=72.62; z=40.09; OnGround=1;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=17; Amount=5; Damage=0;  |
@@ -13772,13 +13772,13 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=92; y=6; z=42; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=115; y=9; z=-8; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=136; y=5; z=106; Type=11; Meta=0;  |
@@ -13935,7 +13935,7 @@
 | SERVER | SetBlock (0x35) | x=104; y=8; z=50; Type=11; Meta=0;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=37; dX=0; dY=0; dZ=0;  |
@@ -13946,7 +13946,7 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=42; dX=61; dY=218; dZ=63;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.63; y=71.00; cameraY=72.62; z=40.03; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=51; y=6; z=33; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.52; y=71.00; cameraY=72.62; z=39.92; OnGround=1;  |
@@ -13982,7 +13982,7 @@
 | SERVER | SetBlock (0x35) | x=117; y=6; z=-2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.07; y=71.00; cameraY=72.62; z=39.51; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=38; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=1; Array size=2;  |
 | SERVER | SetBlock (0x35) | x=124; y=19; z=-24; Type=10; Meta=4;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.07; y=71.00; cameraY=72.62; z=39.50; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=32; y=6; z=27; Type=11; Meta=0;  |
@@ -14051,7 +14051,7 @@
 | SERVER | SetBlock (0x35) | x=84; y=5; z=-20; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=75.63; y=71.00; cameraY=72.62; z=39.66; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=75.78; y=71.00; cameraY=72.62; z=39.79; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=75.93; y=71.00; cameraY=72.62; z=39.93; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=76.09; y=71.00; cameraY=72.62; z=40.07; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=41; dX=0; dY=0; dZ=0;  |
@@ -14115,11 +14115,11 @@
 | SERVER | SetBlock (0x35) | x=93; y=5; z=25; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=120; y=21; z=-24; Type=10; Meta=2;  |
 | SERVER | SetBlock (0x35) | x=24; y=9; z=45; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=0; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=0; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.03; y=71.00; cameraY=72.62; z=41.77; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.12; y=71.00; cameraY=72.62; z=41.85; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.17; y=71.00; cameraY=72.62; z=41.89; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=8;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.19; y=71.00; cameraY=72.62; z=41.92; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.21; y=71.00; cameraY=72.62; z=41.93; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.22; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
@@ -14173,7 +14173,7 @@
 | SERVER | SetBlock (0x35) | x=22; y=67; z=102; Type=3; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=27; y=10; z=40; Type=11; Meta=0;  |
@@ -14194,7 +14194,7 @@
 | SERVER | SetBlock (0x35) | x=50; y=3; z=61; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=41; y=7; z=47; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=5;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
@@ -14205,7 +14205,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=8;  |
 | SERVER | SetBlock (0x35) | x=116; y=10; z=-26; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=33; y=8; z=47; Type=11; Meta=0;  |
@@ -14215,7 +14215,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=8;  |
 | SERVER | SetBlock (0x35) | x=101; y=7; z=1; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.23; y=71.00; cameraY=72.62; z=41.94; OnGround=1;  |
@@ -14262,8 +14262,8 @@
 | SERVER | SetBlock (0x35) | x=136; y=8; z=80; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=112; y=9; z=-30; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=8;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=86; y=8; z=33; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.15; y=71.00; cameraY=72.62; z=41.88; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=34; y=6; z=45; Type=11; Meta=0;  |
@@ -14275,14 +14275,14 @@
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.67; y=71.00; cameraY=72.62; z=41.46; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=3498;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=6;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=43; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.63; y=71.00; cameraY=72.62; z=41.42; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.61; y=71.00; cameraY=72.62; z=41.40; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=9;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.59; y=71.00; cameraY=72.62; z=41.39; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=56; y=4; z=35; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.59; y=71.00; cameraY=72.62; z=41.38; OnGround=1;  |
@@ -14334,7 +14334,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.58; y=71.00; cameraY=72.62; z=41.37; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.58; y=71.00; cameraY=72.62; z=41.37; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.58; y=71.00; cameraY=72.62; z=41.37; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=102; y=9; z=10; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=101; y=9; z=29; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.58; y=71.00; cameraY=72.62; z=41.37; OnGround=1;  |
@@ -14364,7 +14364,7 @@
 | SERVER | SetBlock (0x35) | x=74; y=8; z=19; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.68; y=71.00; cameraY=72.62; z=42.34; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=31; y=8; z=67; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=9;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.84; y=71.00; cameraY=72.62; z=42.49; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=142; y=10; z=68; Type=11; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=87; y=6; z=-12; Type=11; Meta=0;  |
@@ -14409,7 +14409,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=88; y=9; z=9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=131; y=2; z=101; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=136; y=4; z=5; Type=11; Meta=0;  |
@@ -14426,7 +14426,7 @@
 | SERVER | SetBlock (0x35) | x=80; y=4; z=28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=31; y=4; z=54; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=9;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=24; y=10; z=38; Type=11; Meta=0;  |
@@ -14476,7 +14476,7 @@
 | SERVER | EntityVelocity (0x1C) | EID=49; x Velocity=1875; y Velocity=396; z Velocity=1532;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=17; Amount=1; Damage=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
@@ -14503,7 +14503,7 @@
 | SERVER | EntityPosition (0x1F) | EID=46; dX=55; dY=218; dZ=55;  |
 | SERVER | Chunk (0x33) | x=74; y=70; z=34; sizeX=2; sizeY=13; sizeZ=0; Compressed Size=61;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.85; y=71.00; cameraY=72.62; z=43.37; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=47; dX=51; dY=218; dZ=48;  |
 | CLIENT:38980 | MineBlock (0x0E) | Status=4; x=0; y=0; z=0; Face=0;  |
@@ -14533,7 +14533,7 @@
 | SERVER | SetBlock (0x35) | x=77; y=76; z=31; Type=0; Meta=0;  |
 | SERVER | SetBlock (0x35) | x=53; y=63; z=75; Type=3; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=44; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=9;  |
 | SERVER | EntityPosition (0x1F) | EID=50; dX=59; dY=218; dZ=51;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.66; y=71.00; cameraY=72.62; z=43.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.53; y=71.00; cameraY=72.62; z=43.08; OnGround=1;  |
@@ -14677,7 +14677,7 @@
 | SERVER | EntityPosition (0x1F) | EID=46; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=70; y=9; z=33; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.52; y=71.00; cameraY=72.62; z=43.08; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=8;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=47; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -14790,7 +14790,7 @@
 | SERVER | IncrementStatistic (0xC8) | IncrementStatistic=5242881; Amount=1;  |
 | SERVER | Chunk (0x33) | x=144; y=0; z=16; sizeX=15; sizeY=127; sizeZ=15; Compressed Size=2530;  |
 | SERVER | CollectItem (0x16) | EID (Collected)=44; EID (Collector)=17;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=6;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=36; [36] Item=17; Amount=6; Damage=0;  |
 | SERVER | EntityPosition (0x1F) | EID=44; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.11; y=71.00; cameraY=72.62; z=44.49; OnGround=1;  |
@@ -14821,7 +14821,7 @@
 | SERVER | SetBlock (0x35) | x=93; y=4; z=2; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.81; y=71.00; cameraY=72.62; z=45.11; Yaw=1032.15; Pitch=16.80; OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=3718;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=9;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
@@ -14834,7 +14834,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.06; y=71.00; cameraY=72.62; z=46.17; Yaw=1051.95; Pitch=16.05; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=129; y=9; z=64; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=82.00; y=71.00; cameraY=72.62; z=46.38; Yaw=1053.90; Pitch=16.05; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | SERVER | Chunk (0x33) | x=74; y=70; z=34; sizeX=1; sizeY=13; sizeZ=0; Compressed Size=51;  |
 | SERVER | SetBlock (0x35) | x=126; y=7; z=28; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.94; y=71.00; cameraY=72.62; z=46.58; Yaw=1054.05; Pitch=16.05; OnGround=1;  |
@@ -14852,7 +14852,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.87; y=71.00; cameraY=72.62; z=48.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.88; y=71.00; cameraY=72.62; z=48.23; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=70; y=7; z=18; Type=11; Meta=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=6;  |
 | SERVER | SetBlock (0x35) | x=138; y=3; z=2; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.89; y=71.00; cameraY=72.62; z=48.25; OnGround=1;  |
@@ -14913,7 +14913,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.89; y=71.00; cameraY=72.62; z=48.27; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.89; y=71.00; cameraY=72.62; z=48.27; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.89; y=71.00; cameraY=72.62; z=48.27; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=8;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=0; Slot=2; Right-click=1; Action number=6; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.89; y=71.00; cameraY=72.62; z=48.27; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.89; y=71.00; cameraY=72.62; z=48.27; OnGround=1;  |
@@ -14961,7 +14961,7 @@
 | SERVER | SetBlock (0x35) | x=103; y=10; z=13; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=9;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=0; Slot=2; Right-click=0; Action number=9; Shift=0; Item=17; Amount=1; Damage=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | ContainerTransaction (0x6A) | Window=0; Action number=9; Accepted=1;  |
@@ -15169,7 +15169,7 @@
 | SERVER | SetBlock (0x35) | x=158; y=8; z=111; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=8;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=145; y=6; z=33; Type=11; Meta=0;  |
@@ -15269,7 +15269,7 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=144; y=7; z=105; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=6;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.80; y=71.00; cameraY=72.62; z=48.30; Yaw=1066.95; Pitch=16.35; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=81.65; y=71.00; cameraY=72.62; z=48.32; Yaw=1071.75; Pitch=16.35; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=154; y=5; z=78; Type=11; Meta=0;  |
@@ -15295,14 +15295,14 @@
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=79.59; y=71.00; cameraY=72.62; z=47.25; Yaw=1090.50; Pitch=16.35; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.39; y=71.00; cameraY=72.62; z=47.21; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.18; y=71.00; cameraY=72.62; z=47.17; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.96; y=71.00; cameraY=72.62; z=47.13; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=132; y=15; z=29; Type=10; Meta=4;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=78.75; y=71.00; cameraY=72.62; z=47.08; Yaw=1090.65; Pitch=16.20; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=78.54; y=71.00; cameraY=72.62; z=47.04; Yaw=1090.95; Pitch=16.05; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=6;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=6;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=78.33; y=71.00; cameraY=72.62; z=47.00; Yaw=1091.40; Pitch=15.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=78.30; y=71.00; cameraY=72.62; z=46.95; Yaw=1094.40; Pitch=15.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=78.30; y=71.00; cameraY=72.62; z=46.90; Yaw=1098.00; Pitch=15.75; OnGround=1;  |
@@ -15341,7 +15341,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=77.51; y=71.00; cameraY=72.62; z=44.13; Yaw=1143.45; Pitch=22.95; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=77.48; y=71.00; cameraY=72.62; z=44.12; Yaw=1207.35; Pitch=48.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.47; y=71.00; cameraY=72.62; z=44.11; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=84; y=9; z=44; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=77.46; y=71.00; cameraY=72.62; z=44.10; Yaw=1335.15; Pitch=90.00; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=77.45; y=71.00; cameraY=72.62; z=44.10; OnGround=1;  |
@@ -15360,7 +15360,7 @@
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=77.61; y=71.00; cameraY=72.62; z=44.50; Yaw=1974.15; Pitch=90.00; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=102; y=2; z=58; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=77.61; y=71.00; cameraY=72.62; z=44.51; Yaw=2098.95; Pitch=90.00; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=9; z=-1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=9; z=-1; Array size=3;  |
 | SERVER | SetBlock (0x35) | x=157; y=19; z=0; Type=11; Meta=2;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=77.61; y=71.00; cameraY=72.62; z=44.52; Yaw=2151.30; Pitch=89.25; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=77.61; y=71.00; cameraY=72.62; z=44.52; Yaw=2141.70; Pitch=86.55; OnGround=1;  |
@@ -15407,8 +15407,8 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=78.26; y=71.00; cameraY=72.62; z=44.59; Yaw=2076.90; Pitch=62.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.26; y=71.00; cameraY=72.62; z=44.59; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=9; z=-1; Array size=2;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=9; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.26; y=71.00; cameraY=72.62; z=44.59; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=78.26; y=71.00; cameraY=72.62; z=44.59; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=149; y=4; z=-27; Type=11; Meta=0;  |
@@ -15464,11 +15464,11 @@
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.03; y=71.00; cameraY=72.62; z=44.63; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=79.03; y=71.00; cameraY=72.62; z=44.63; Yaw=2079.15; Pitch=61.20; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=9;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=9;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=79.03; y=71.00; cameraY=72.62; z=44.63; Yaw=2075.10; Pitch=60.90; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=79.03; y=71.00; cameraY=72.62; z=44.63; Yaw=2074.80; Pitch=60.90; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.03; y=71.00; cameraY=72.62; z=44.63; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.03; y=71.00; cameraY=72.62; z=44.63; OnGround=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=79.03; y=71.00; cameraY=72.62; z=44.63; Yaw=2074.65; Pitch=60.90; OnGround=1;  |
@@ -15521,7 +15521,7 @@
 | SERVER | DespawnEntity (0x1D) | EID=53;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=79.83; y=70.00; cameraY=71.62; z=44.59; Yaw=2068.20; Pitch=62.70; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=1; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=1; Array size=7;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=79.83; y=70.00; cameraY=71.62; z=44.59; Yaw=2068.35; Pitch=62.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=79.83; y=70.00; cameraY=71.62; z=44.59; OnGround=1;  |
 | SERVER | SetBlock (0x35) | x=129; y=10; z=71; Type=11; Meta=0;  |
@@ -15624,7 +15624,7 @@
 | SERVER | SetBlock (0x35) | x=90; y=7; z=9; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=4158;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | SetBlock (0x35) | x=104; y=9; z=10; Type=11; Meta=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
@@ -16097,7 +16097,7 @@
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=5; Right-click=1; Action number=7; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -16144,7 +16144,7 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | ContainerTransaction (0x6A) | Window=1; Action number=11; Accepted=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=9; z=-1; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=9; z=-1; Array size=2;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=1; Slot=8; Right-click=1; Action number=12; Shift=0; Item=-1;  |
@@ -16196,7 +16196,7 @@
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | Chunk (0x33) | x=151; y=14; z=-15; sizeX=6; sizeY=19; sizeZ=14; Compressed Size=625;  |
 | SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=9; z=0; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=9; z=0; Array size=8;  |
 | SERVER | SetTime (0x04) | Time=4458;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
@@ -16680,7 +16680,7 @@
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=4; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=4; z=2; Array size=7;  |
 | SERVER | SetBlock (0x35) | x=157; y=7; z=-22; Type=11; Meta=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=81.52; y=68.00; cameraY=69.62; z=44.48; OnGround=1;  |
@@ -16970,7 +16970,7 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | Chunk (0x33) | x=45; y=12; z=44; sizeX=2; sizeY=7; sizeZ=2; Compressed Size=59;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=7;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=60; dX=0; dY=0; dZ=0;  |
@@ -17006,7 +17006,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.44; y=66.00; cameraY=67.62; z=44.44; OnGround=1;  |
@@ -17523,7 +17523,7 @@
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.12; y=67.12; cameraY=68.74; z=44.70; OnGround=0;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=5; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=5; Array size=2;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=83.04; y=67.00; cameraY=68.62; z=44.70; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.87; y=67.20; cameraY=68.82; z=44.70; OnGround=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=82.75; y=67.12; cameraY=68.74; z=44.70; OnGround=0;  |
@@ -17777,7 +17777,7 @@
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=5298;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=12; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=13; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
@@ -18170,7 +18170,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.34; y=64.00; cameraY=65.62; z=44.98; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3276.45; Pitch=22.20; OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPositionAndRotation (0x0D) | x=85.34; y=64.00; cameraY=65.62; z=44.98; Yaw=3251.10; Pitch=42.45; OnGround=1;  |
@@ -18196,7 +18196,7 @@
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3174.15; Pitch=80.70; OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=4;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3175.50; Pitch=78.75; OnGround=1;  |
@@ -18213,7 +18213,7 @@
 | SERVER | EntityPosition (0x1F) | EID=14; dX=0; dY=0; dZ=0;  |
 | SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3211.20; Pitch=59.10; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=1; Array size=3;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3211.95; Pitch=58.65; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3214.05; Pitch=57.60; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3218.55; Pitch=55.35; OnGround=1;  |
@@ -18425,7 +18425,7 @@
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=5;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -18487,7 +18487,7 @@
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.02; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=6; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=6; Array size=2;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
@@ -18598,7 +18598,7 @@
 | SERVER | EntityPosition (0x1F) | EID=82; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.03; OnGround=1;  |
 | SERVER | SetSlot (0x67) | Window=0; Slot=39; [39] Item=274; Amount=1; Damage=7;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=5; z=2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=5; z=2; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerPosition (0x0B) | x=85.70; y=64.00; cameraY=65.62; z=46.24; OnGround=1;  |
 | CLIENT:38980 | Animation (0x12) | EID=17; Animation=1;  |
@@ -19057,7 +19057,7 @@
 | SERVER | EntityPosition (0x1F) | EID=68; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3615.15; Pitch=53.40; OnGround=1;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3609.15; Pitch=53.10; OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=2; Array size=2;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=2; Array size=2;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3605.25; Pitch=53.10; OnGround=1;  |
 | CLIENT:38980 | SetHotbarSlot (0x10) | Slot=4;  |
 | CLIENT:38980 | PlayerRotation (0x0C) | Yaw=3604.65; Pitch=53.10; OnGround=1;  |

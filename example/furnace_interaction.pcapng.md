@@ -257,7 +257,7 @@
 | SERVER | EntityPosition (0x1F) | EID=22; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | SetTime (0x04) | Time=7518;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=3;  |
 | SERVER | EntityPosition (0x1F) | EID=62; dX=0; dY=0; dZ=0;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -300,7 +300,7 @@
 | SERVER | SetBlock (0x35) | x=124; y=19; z=-23; Type=10; Meta=6;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
+| SERVER | SetMultipleBlocks (0x34) | x=7; z=-2; Array size=4;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | CLIENT:38980 | ClickSlot (0x66) | Window=5; Slot=1; Right-click=0; Action number=8; Shift=0; Item=-1;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
@@ -660,9 +660,9 @@
 | SERVER | ContainerData (0x69) | Window=6; Bar=1; Progress=186;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | ContainerData (0x69) | Window=6; Bar=0; Progress=116;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=2; z=4; Array size=8;  |
+| SERVER | SetMultipleBlocks (0x34) | x=2; z=4; Array size=8;  |
 | SERVER | ContainerData (0x69) | Window=6; Bar=1; Progress=185;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=4; Array size=5;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=4; Array size=5;  |
 | SERVER | SetBlock (0x35) | x=48; y=11; z=80; Type=11; Meta=4;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | ContainerData (0x69) | Window=6; Bar=0; Progress=117;  |
@@ -927,7 +927,7 @@
 | SERVER | ContainerData (0x69) | Window=6; Bar=1; Progress=104;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | ContainerData (0x69) | Window=6; Bar=0; Progress=198;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=8; z=1; Array size=3;  |
+| SERVER | SetMultipleBlocks (0x34) | x=8; z=1; Array size=3;  |
 | SERVER | ContainerData (0x69) | Window=6; Bar=1; Progress=103;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | ContainerData (0x69) | Window=6; Bar=0; Progress=199;  |
@@ -1972,7 +1972,7 @@
 | SERVER | ContainerData (0x69) | Window=7; Bar=0; Progress=73;  |
 | SERVER | Chunk (0x33) | x=38; y=12; z=33; sizeX=9; sizeY=15; sizeZ=13; Compressed Size=776;  |
 | SERVER | ContainerData (0x69) | Window=7; Bar=1; Progress=37;  |
-| SERVER | SetMutlipleBlocks (0x34) | x=3; z=2; Array size=7;  |
+| SERVER | SetMultipleBlocks (0x34) | x=3; z=2; Array size=7;  |
 | CLIENT:38980 | PlayerMovement (0x0A) | OnGround=1;  |
 | SERVER | ContainerData (0x69) | Window=7; Bar=0; Progress=74;  |
 | SERVER | ContainerData (0x69) | Window=7; Bar=1; Progress=36;  |
