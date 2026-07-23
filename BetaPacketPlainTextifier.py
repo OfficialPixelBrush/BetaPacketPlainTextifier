@@ -209,6 +209,29 @@ class PacketParser:
         for _ in range(size):
             self.read_byte() # block meta
         return 'MB Info'
+        
+    def read_item_data(self, size):
+        if (size < 1):
+            return
+        data_type = self.read_byte()
+        if (data_type == 0): # graphics data
+            x_offset = self.read_byte()
+            y_offset = self.read_byte()
+            self.print_property('X Offset', 'Byte', x_offset)
+            self.print_property('Y Offset', 'Byte', y_offset)
+            self.out.append(f'Data=[ ')
+            for i in range(size - 3):  # minus type byte and 2 offset bytes
+                self.out.append(f'{self.read_byte()}')
+                if (i < size-3-1):
+                    self.out.append(f', ')
+                self.out.append(f' ')
+            self.out.append(f']; ')
+        elif (data_type == 1): # icon data
+            for i in range((size - 1) // 3):  # integer division, was a float bug
+                rot_icon_id = self.read_byte()
+                x_offset = self.read_byte()
+                y_offset = self.read_byte()
+                self.out.append(f'Icon={rot_icon_id & 0xF}; Rot={(rot_icon_id >> 4) & 0xF}; xOff={x_offset}; yOff={y_offset}; ')
 
     def print_text(self, text):
         self.out.append(f'{text}; ')
@@ -557,10 +580,10 @@ class PacketParser:
                 self.print_string16('Line 3')
                 self.print_string16('Line 4')
             case Packet.ItemData:
-                self.print_property('?', 'Short', self.read_short())
-                self.print_property('?', 'Short', self.read_short())
+                self.print_property('ItemId', 'Short', self.read_short())
+                self.print_property('MapId', 'Short', self.read_short())
                 length = self.read_byte(); self.print_property('Length', 'Byte', length)
-                self.i += length
+                self.read_item_data(length);
             case Packet.IncrementStatistic:
                 self.print_property('IncrementStatistic', 'Integer', self.read_integer())
                 self.print_property('Amount', 'Byte', self.read_byte())
